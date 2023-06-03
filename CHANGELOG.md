@@ -9,7 +9,7 @@ Versioning].
 
 ## [v0.1.0] - TODO
 
-[v0.1.0]: https://github.com/ghalactic/TODO/releases/v0.1.0
+[v0.1.0]: https://github.com/ghalactic/dependabot-automation/releases/v0.1.0
 
 ### Added
 

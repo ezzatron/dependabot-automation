@@ -1,14 +1,14 @@
-name: TODO
-description: TODO
+name: Dependabot Automation
+description: Automate your Dependabot busywork
 author: Ghalactic
 inputs:
   token:
     description: >-
-      The GitHub token to use when TODO.
+      The GitHub token to use.
     default: ${{ github.token }}
 branding:
-  icon: TODO
-  color: TODO
+  icon: package
+  color: blue
 runs:
   using: node16
   main: dist/main.js

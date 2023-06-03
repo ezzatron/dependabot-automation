@@ -1,9 +1,6 @@
-# Action template
+# Dependabot Automation
 
-## Usage
+A [GitHub Action] that automates your [Dependabot] busywork.
 
-1. Add a new repo to [ghalactic/repos] that uses this template.
-2. Clone the new repo.
-3. Search case-insensitively for instances of `TODO`, and replace.
-
-[ghalactic/repos]: https://github.com/ghalactic/repos
+[github action]: https://docs.github.com/actions
+[dependabot]: https://github.com/dependabot
