@@ -1,5 +1,6 @@
 import { parseBranchName } from "../../../src/parse-branch-name.js";
 import { when } from "../../helper/jest-dsl.js";
+import { wrapped } from "../../helper/wrapped.js";
 
 describe("parseBranchName()", () => {
   let dependencies: string[];
@@ -30,7 +31,10 @@ describe("parseBranchName()", () => {
 
     it("should throw", () => {
       expect(() => parseBranchName(["coffee-rails"], branch)).toThrow(
-        'Unable to parse Dependabot branch name: Branch name "non/dependabot/branch/name" must start with "dependabot".'
+        wrapped`
+          Unable to parse Dependabot branch name: Branch name
+          "non/dependabot/branch/name" must start with "dependabot".
+          `
       );
     });
   });

@@ -1,10 +1,13 @@
 import { parseCommitMessage } from "../../../src/parse-commit-message.js";
 import { indented } from "../../helper/indented.js";
 import { when } from "../../helper/jest-dsl.js";
+import { wrapped } from "../../helper/wrapped.js";
 
 const YAMLFragmentSchemaViolations = [
   [
-    "that is not an object",
+    wrapped`
+      that is not an object
+      `,
     indented`
       []
       `,
@@ -13,7 +16,9 @@ const YAMLFragmentSchemaViolations = [
       `,
   ],
   [
-    "that is missing the updated-dependencies property",
+    wrapped`
+      that is missing the updated-dependencies property
+      `,
     indented`
       {}
       `,
@@ -22,7 +27,9 @@ const YAMLFragmentSchemaViolations = [
       `,
   ],
   [
-    "with an updated-dependencies property that is not an array",
+    wrapped`
+      with an updated-dependencies property that is not an array
+      `,
     indented`
       updated-dependencies: null
       `,
@@ -31,7 +38,10 @@ const YAMLFragmentSchemaViolations = [
       `,
   ],
   [
-    "with an updated-dependencies property that contains an item that is not an object",
+    wrapped`
+      with an updated-dependencies property that contains an item that is not an
+      object
+      `,
     indented`
       updated-dependencies:
       - []
@@ -41,7 +51,10 @@ const YAMLFragmentSchemaViolations = [
       `,
   ],
   [
-    "with an updated-dependencies property that contains an item that is missing the dependency-name property",
+    wrapped`
+      with an updated-dependencies property that contains an item that is
+      missing the dependency-name property
+      `,
     indented`
       updated-dependencies:
       - dependency-type: direct:production
@@ -51,7 +64,10 @@ const YAMLFragmentSchemaViolations = [
       `,
   ],
   [
-    "with an updated-dependencies property that contains an item with a dependency-name property that is not a string",
+    wrapped`
+      with an updated-dependencies property that contains an item with a
+      dependency-name property that is not a string
+      `,
     indented`
       updated-dependencies:
       - dependency-name: {}
@@ -62,7 +78,10 @@ const YAMLFragmentSchemaViolations = [
       `,
   ],
   [
-    "with an updated-dependencies property that contains an item that is missing the dependency-type property",
+    wrapped`
+      with an updated-dependencies property that contains an item that is
+      missing the dependency-type property
+      `,
     indented`
       updated-dependencies:
       - dependency-name: coffee-rails
@@ -72,7 +91,10 @@ const YAMLFragmentSchemaViolations = [
       `,
   ],
   [
-    "with an updated-dependencies property that contains an item with a dependency-type property that is not a string",
+    wrapped`
+      with an updated-dependencies property that contains an item with a
+      dependency-type property that is not a string
+    `,
     indented`
       updated-dependencies:
       - dependency-name: coffee-rails
@@ -84,7 +106,10 @@ const YAMLFragmentSchemaViolations = [
       `,
   ],
   [
-    "with an updated-dependencies property that contains an item with a dependency-type property that is not one of the allowed values",
+    wrapped`
+      with an updated-dependencies property that contains an item with a
+      dependency-type property that is not one of the allowed values
+      `,
     indented`
       updated-dependencies:
       - dependency-name: coffee-rails
