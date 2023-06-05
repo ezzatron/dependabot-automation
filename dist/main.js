@@ -2222,15 +2222,14 @@ Support boolean input list: \`true | True | TRUE | false | False | FALSE\``);
 // src/main.ts
 var import_core = __toESM(require_core(), 1);
 
-// src/guard.ts
-function isError(value) {
-  return value instanceof Error;
+// src/error.ts
+function errorStack(error) {
+  return (error instanceof Error ? error.stack : void 0) ?? "unknown cause";
 }
 
 // src/main.ts
 main().catch((error) => {
-  const stack = isError(error) ? error.stack : void 0;
-  (0, import_core.setFailed)(stack ?? "unknown cause");
+  (0, import_core.setFailed)(errorStack(error));
 });
 async function main() {
   (0, import_core.info)("It's working");

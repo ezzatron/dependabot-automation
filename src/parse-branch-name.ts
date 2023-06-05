@@ -1,8 +1,3 @@
-type ParsedBranchName = {
-  ecosystem: string;
-  directory: string;
-};
-
 /**
  * Parse a Dependabot branch name to determine the ecosystem and directory.
  */
@@ -40,3 +35,8 @@ export function parseBranchName(
 
   return { ecosystem, directory };
 }
+
+type ParsedBranchName = {
+  ecosystem: string;
+  directory: string;
+};
