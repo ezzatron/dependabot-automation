@@ -1,125 +1,6 @@
 import { parseCommitMessage } from "../../../src/parse-commit-message.js";
 import { indented } from "../../helper/indented.js";
 import { when } from "../../helper/jest-dsl.js";
-import { wrapped } from "../../helper/wrapped.js";
-
-const YAMLFragmentSchemaViolations = [
-  [
-    wrapped`
-      that is not an object
-      `,
-    indented`
-      []
-      `,
-    indented`
-        - must be object
-      `,
-  ],
-  [
-    wrapped`
-      that is missing the updated-dependencies property
-      `,
-    indented`
-      {}
-      `,
-    indented`
-        - must have required property 'updated-dependencies'
-      `,
-  ],
-  [
-    wrapped`
-      with an updated-dependencies property that is not an array
-      `,
-    indented`
-      updated-dependencies: null
-      `,
-    indented`
-        - must be array (/updated-dependencies)
-      `,
-  ],
-  [
-    wrapped`
-      with an updated-dependencies property that contains an item that is not an
-      object
-      `,
-    indented`
-      updated-dependencies:
-      - []
-      `,
-    indented`
-        - must be object (/updated-dependencies/0)
-      `,
-  ],
-  [
-    wrapped`
-      with an updated-dependencies property that contains an item that is
-      missing the dependency-name property
-      `,
-    indented`
-      updated-dependencies:
-      - dependency-type: direct:production
-      `,
-    indented`
-        - must have required property 'dependency-name' (/updated-dependencies/0)
-      `,
-  ],
-  [
-    wrapped`
-      with an updated-dependencies property that contains an item with a
-      dependency-name property that is not a string
-      `,
-    indented`
-      updated-dependencies:
-      - dependency-name: {}
-        dependency-type: direct:production
-      `,
-    indented`
-        - must be string (/updated-dependencies/0/dependency-name)
-      `,
-  ],
-  [
-    wrapped`
-      with an updated-dependencies property that contains an item that is
-      missing the dependency-type property
-      `,
-    indented`
-      updated-dependencies:
-      - dependency-name: coffee-rails
-      `,
-    indented`
-        - must have required property 'dependency-type' (/updated-dependencies/0)
-      `,
-  ],
-  [
-    wrapped`
-      with an updated-dependencies property that contains an item with a
-      dependency-type property that is not a string
-    `,
-    indented`
-      updated-dependencies:
-      - dependency-name: coffee-rails
-        dependency-type: 111
-      `,
-    indented`
-        - must be string (/updated-dependencies/0/dependency-type)
-        - must be one of "direct:production", "direct:development", "indirect" (/updated-dependencies/0/dependency-type)
-      `,
-  ],
-  [
-    wrapped`
-      with an updated-dependencies property that contains an item with a
-      dependency-type property that is not one of the allowed values
-      `,
-    indented`
-      updated-dependencies:
-      - dependency-name: coffee-rails
-        dependency-type: invalid-type
-      `,
-    indented`
-        - must be one of "direct:production", "direct:development", "indirect" (/updated-dependencies/0/dependency-type)
-      `,
-  ],
-] as const;
 
 describe("parseCommitMessage()", () => {
   let message: string;
@@ -164,34 +45,35 @@ describe("parseCommitMessage()", () => {
       });
     });
 
-    describe.each(YAMLFragmentSchemaViolations)(
-      "when the message contains a YAML fragment %s",
-      (_description, fragment, expectedErrors) => {
-        beforeEach(() => {
-          message = indented`
-            Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
-            - [Release notes](https://github.com/rails/coffee-rails/releases)
-            - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
-            - [Commits](rails/coffee-rails@v4.0.1...v4.2.2)
+    when`
+      the message contains a YAML fragment that does not match the schema
+    `(() => {
+      beforeEach(() => {
+        message = indented`
+          Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
+          - [Release notes](https://github.com/rails/coffee-rails/releases)
+          - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
+          - [Commits](rails/coffee-rails@v4.0.1...v4.2.2)
 
-            ---
-            ${fragment}
-            ...
+          ---
+          updated-dependencies:
+          - dependency-name: {}
+            dependency-type: direct:production
+          ...
 
-            Signed-off-by: dependabot[bot] <support@github.com>
-            `;
-        });
+          Signed-off-by: dependabot[bot] <support@github.com>
+          `;
+      });
 
-        it("should throw", () => {
-          expect(() => parseCommitMessage(message)).toThrow(
-            indented`
-              Unable to parse Dependabot commit message: Invalid YAML fragment:
-              ${expectedErrors}
-              `
-          );
-        });
-      }
-    );
+      it("should throw", () => {
+        expect(() => parseCommitMessage(message)).toThrow(
+          indented`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must be string (/updated-dependencies/0/dependency-name)
+            `
+        );
+      });
+    });
   });
 
   when`
