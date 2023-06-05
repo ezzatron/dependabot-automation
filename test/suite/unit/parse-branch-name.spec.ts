@@ -1,10 +1,13 @@
 import { parseBranchName } from "../../../src/parse-branch-name.js";
+import { when } from "../../helper/jest-dsl.js";
 
 describe("parseBranchName()", () => {
   let dependencies: string[];
   let branch: string;
 
-  describe("when the dependencies are empty", () => {
+  when`
+    the dependencies are empty
+  `(() => {
     beforeEach(() => {
       dependencies = [];
     });
@@ -18,7 +21,9 @@ describe("parseBranchName()", () => {
     });
   });
 
-  describe("when the branch does not start with 'dependabot'", () => {
+  when`
+    the branch does not start with 'dependabot'
+  `(() => {
     beforeEach(() => {
       branch = "non/dependabot/branch/name";
     });
@@ -30,12 +35,16 @@ describe("parseBranchName()", () => {
     });
   });
 
-  describe("when there is a single dependency with no slashes in the name", () => {
+  when`
+    there is a single dependency with no slashes in the name
+  `(() => {
     beforeEach(() => {
       dependencies = ["coffee-rails"];
     });
 
-    describe("when the directory is the root", () => {
+    when`
+      the directory is the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/nuget/coffee-rails";
       });
@@ -48,7 +57,9 @@ describe("parseBranchName()", () => {
       });
     });
 
-    describe("when the directory is not the root", () => {
+    when`
+      the directory is not the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/nuget/api/main/coffee-rails";
       });
@@ -62,12 +73,16 @@ describe("parseBranchName()", () => {
     });
   });
 
-  describe("when there is a single dependency with slashes in the name", () => {
+  when`
+    there is a single dependency with slashes in the name
+  `(() => {
     beforeEach(() => {
       dependencies = ["rails/coffee"];
     });
 
-    describe("when the directory is the root", () => {
+    when`
+      the directory is the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/nuget/rails/coffee";
       });
@@ -80,7 +95,9 @@ describe("parseBranchName()", () => {
       });
     });
 
-    describe("when the directory is not the root", () => {
+    when`
+      the directory is not the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/nuget/api/rails/coffee";
       });
@@ -94,12 +111,17 @@ describe("parseBranchName()", () => {
     });
   });
 
-  describe("when there is a single dependency with symbols in its name which are missing from the branch name", () => {
+  when`
+    there is a single dependency with symbols in its name which are missing from
+    the branch name
+  `(() => {
     beforeEach(() => {
       dependencies = ["@types/react-dom"];
     });
 
-    describe("when the directory is the root", () => {
+    when`
+      the directory is the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/npm_and_yarn/@types/react-dom-18.0.11";
       });
@@ -112,7 +134,9 @@ describe("parseBranchName()", () => {
       });
     });
 
-    describe("when the directory is not the root", () => {
+    when`
+      the directory is not the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/npm_and_yarn/api/types/react-dom-18.0.11";
       });
@@ -126,12 +150,16 @@ describe("parseBranchName()", () => {
     });
   });
 
-  describe("when there are multiple dependencies", () => {
+  when`
+    there are multiple dependencies
+  `(() => {
     beforeEach(() => {
       dependencies = ["jest", "@types/jest"];
     });
 
-    describe("when the directory is the root", () => {
+    when`
+      the directory is the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/npm_and_yarn/jest-and-types/jest-29.4.2";
       });
@@ -144,7 +172,9 @@ describe("parseBranchName()", () => {
       });
     });
 
-    describe("when the directory is not the root", () => {
+    when`
+      the directory is not the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/npm_and_yarn/api/jest-and-types/jest-29.4.2";
       });
@@ -158,12 +188,17 @@ describe("parseBranchName()", () => {
     });
   });
 
-  describe("when there are multiple dependencies and the first has symbols in its name which are missing from the branch name", () => {
+  when`
+    there are multiple dependencies and the first has symbols in its name which
+    are missing from the branch name
+  `(() => {
     beforeEach(() => {
       dependencies = ["@types/jest", "jest"];
     });
 
-    describe("when the directory is the root", () => {
+    when`
+      the directory is the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/npm_and_yarn/jest-and-types/types/jest-29.4.2";
       });
@@ -176,7 +211,9 @@ describe("parseBranchName()", () => {
       });
     });
 
-    describe("when the directory is not the root", () => {
+    when`
+      the directory is not the root
+    `(() => {
       beforeEach(() => {
         branch = "dependabot/npm_and_yarn/api/jest-and-types/types/jest-29.4.2";
       });

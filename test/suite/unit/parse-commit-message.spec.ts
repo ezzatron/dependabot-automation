@@ -1,11 +1,14 @@
 import { parseCommitMessage } from "../../../src/parse-commit-message.js";
-import { stripIndentation } from "../../helper/strip-indentation.js";
+import { indented } from "../../helper/indented.js";
+import { when } from "../../helper/jest-dsl.js";
 
 describe("parseCommitMessage()", () => {
   let message: string;
 
   describe("validation", () => {
-    describe("when the message does not contain a YAML fragment", () => {
+    when`
+      the message does not contain a YAML fragment
+    `(() => {
       beforeEach(() => {
         message = "Bumps coffee-rails from 4.0.1 to 4.2.2.";
       });
@@ -17,9 +20,11 @@ describe("parseCommitMessage()", () => {
       });
     });
 
-    describe("when the message contains a YAML fragment that is not valid YAML", () => {
+    when`
+      the message contains a YAML fragment that is not valid YAML
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -30,7 +35,7 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
@@ -40,9 +45,11 @@ describe("parseCommitMessage()", () => {
       });
     });
 
-    describe("when the message contains a YAML fragment that is not an object", () => {
+    when`
+      the message contains a YAML fragment that is not an object
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -53,20 +60,23 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
-        stripIndentation(`
+        indented`
           Unable to parse Dependabot commit message: Invalid YAML fragment:
             - must be object
-        `);
+          `;
       });
     });
 
-    describe("when the message contains a YAML fragment that is missing the updated-dependencies property", () => {
+    when`
+      the message contains a YAML fragment that is missing the
+      updated-dependencies property
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -77,22 +87,25 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          stripIndentation(`
+          indented`
             Unable to parse Dependabot commit message: Invalid YAML fragment:
               - must have required property 'updated-dependencies'
-          `)
+            `
         );
       });
     });
 
-    describe("when the message contains a YAML fragment with an updated-dependencies property that is not an array", () => {
+    when`
+      the message contains a YAML fragment with an updated-dependencies property
+      that is not an array
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -103,22 +116,25 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          stripIndentation(`
+          indented`
             Unable to parse Dependabot commit message: Invalid YAML fragment:
               - must be array (/updated-dependencies)
-          `)
+            `
         );
       });
     });
 
-    describe("when the message contains a YAML fragment with an updated-dependencies property that contains an item that is not an object", () => {
+    when`
+      the message contains a YAML fragment with an updated-dependencies property
+      that contains an item that is not an object
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -130,22 +146,25 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          stripIndentation(`
+          indented`
             Unable to parse Dependabot commit message: Invalid YAML fragment:
               - must be object (/updated-dependencies/0)
-          `)
+            `
         );
       });
     });
 
-    describe("when the message contains a YAML fragment with an updated-dependencies property that contains an item that is missing the dependency-name property", () => {
+    when`
+      the message contains a YAML fragment with an updated-dependencies property
+      that contains an item that is missing the dependency-name property
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -157,22 +176,25 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          stripIndentation(`
+          indented`
             Unable to parse Dependabot commit message: Invalid YAML fragment:
               - must have required property 'dependency-name' (/updated-dependencies/0)
-          `)
+            `
         );
       });
     });
 
-    describe("when the message contains a YAML fragment with an updated-dependencies property that contains an item with a dependency-name property that is not a string", () => {
+    when`
+      the message contains a YAML fragment with an updated-dependencies property
+      that contains an item with a dependency-name property that is not a string
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -185,22 +207,25 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          stripIndentation(`
+          indented`
             Unable to parse Dependabot commit message: Invalid YAML fragment:
               - must be string (/updated-dependencies/0/dependency-name)
-          `)
+            `
         );
       });
     });
 
-    describe("when the message contains a YAML fragment with an updated-dependencies property that contains an item that is missing the dependency-type property", () => {
+    when`
+      the message contains a YAML fragment with an updated-dependencies property
+      that contains an item that is missing the dependency-type property
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -212,22 +237,25 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          stripIndentation(`
+          indented`
             Unable to parse Dependabot commit message: Invalid YAML fragment:
               - must have required property 'dependency-type' (/updated-dependencies/0)
-          `)
+            `
         );
       });
     });
 
-    describe("when the message contains a YAML fragment with an updated-dependencies property that contains an item with a dependency-type property that is not a string", () => {
+    when`
+      the message contains a YAML fragment with an updated-dependencies property
+      that contains an item with a dependency-type property that is not a string
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -240,23 +268,27 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          stripIndentation(`
+          indented`
             Unable to parse Dependabot commit message: Invalid YAML fragment:
               - must be string (/updated-dependencies/0/dependency-type)
               - must be one of "direct:production", "direct:development", "indirect" (/updated-dependencies/0/dependency-type)
-          `)
+            `
         );
       });
     });
 
-    describe("when the message contains a YAML fragment with an updated-dependencies property that contains an item with a dependency-type property that is not one of the allowed values", () => {
+    when`
+      the message contains a YAML fragment with an updated-dependencies property
+      that contains an item with a dependency-type property that is not one of
+      the allowed values
+    `(() => {
       beforeEach(() => {
-        message = stripIndentation(`
+        message = indented`
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
           - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -269,23 +301,25 @@ describe("parseCommitMessage()", () => {
           ...
 
           Signed-off-by: dependabot[bot] <support@github.com>
-        `);
+          `;
       });
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          stripIndentation(`
+          indented`
             Unable to parse Dependabot commit message: Invalid YAML fragment:
               - must be one of "direct:production", "direct:development", "indirect" (/updated-dependencies/0/dependency-type)
-          `)
+            `
         );
       });
     });
   });
 
-  describe("when the message contains a YAML fragment with a single dependency", () => {
+  when`
+    the message contains a YAML fragment with a single dependency
+  `(() => {
     beforeEach(() => {
-      message = stripIndentation(`
+      message = indented`
         Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
         - [Release notes](https://github.com/rails/coffee-rails/releases)
         - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -298,7 +332,7 @@ describe("parseCommitMessage()", () => {
         ...
 
         Signed-off-by: dependabot[bot] <support@github.com>
-      `);
+        `;
     });
 
     it("should parse the updated dependency", () => {
@@ -313,9 +347,11 @@ describe("parseCommitMessage()", () => {
     });
   });
 
-  describe("when the message contains a YAML fragment with multiple dependencies", () => {
+  when`
+    the message contains a YAML fragment with multiple dependencies
+  `(() => {
     beforeEach(() => {
-      message = stripIndentation(`
+      message = indented`
         Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
         - [Release notes](https://github.com/rails/coffee-rails/releases)
         - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
@@ -332,7 +368,7 @@ describe("parseCommitMessage()", () => {
         ...
 
         Signed-off-by: dependabot[bot] <support@github.com>
-      `);
+        `;
     });
 
     it("should parse the updated dependencies", () => {
