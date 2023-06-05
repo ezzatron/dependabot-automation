@@ -12,7 +12,7 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: Not found."
+          "Unable to parse Dependabot commit message: YAML fragment not found."
         );
       });
     });
@@ -35,7 +35,7 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: Unable to parse YAML:"
+          "Unable to parse Dependabot commit message: Invalid YAML fragment: Unable to parse YAML:"
         );
       });
     });
@@ -57,9 +57,10 @@ describe("parseCommitMessage()", () => {
       });
 
       it("should throw", () => {
-        expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: Must be an object. Received array."
-        );
+        stripIndentation(`
+          Unable to parse Dependabot commit message: Invalid YAML fragment:
+            - must be object
+        `);
       });
     });
 
@@ -81,7 +82,10 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: updated-dependencies is required"
+          stripIndentation(`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must have required property 'updated-dependencies'
+          `)
         );
       });
     });
@@ -104,7 +108,10 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: updated-dependencies must be an array. Received null."
+          stripIndentation(`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must be array (/updated-dependencies)
+          `)
         );
       });
     });
@@ -128,7 +135,10 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: updated-dependencies.0 must be an object. Received string."
+          stripIndentation(`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must be object (/updated-dependencies/0)
+          `)
         );
       });
     });
@@ -152,7 +162,10 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: updated-dependencies.0.dependency-name is required"
+          stripIndentation(`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must have required property 'dependency-name' (/updated-dependencies/0)
+          `)
         );
       });
     });
@@ -177,7 +190,10 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: updated-dependencies.0.dependency-name must be a string. Received object."
+          stripIndentation(`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must be string (/updated-dependencies/0/dependency-name)
+          `)
         );
       });
     });
@@ -201,7 +217,10 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: updated-dependencies.0.dependency-type is required"
+          stripIndentation(`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must have required property 'dependency-type' (/updated-dependencies/0)
+          `)
         );
       });
     });
@@ -226,7 +245,39 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment: updated-dependencies.0.dependency-type must be a string. Received number."
+          stripIndentation(`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must be string (/updated-dependencies/0/dependency-type)
+              - must be one of "direct:production", "direct:development", "indirect" (/updated-dependencies/0/dependency-type)
+          `)
+        );
+      });
+    });
+
+    describe("when the message contains a YAML fragment with an updated-dependencies property that contains an item with a dependency-type property that is not one of the allowed values", () => {
+      beforeEach(() => {
+        message = stripIndentation(`
+          Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
+          - [Release notes](https://github.com/rails/coffee-rails/releases)
+          - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
+          - [Commits](rails/coffee-rails@v4.0.1...v4.2.2)
+
+          ---
+          updated-dependencies:
+          - dependency-name: coffee-rails
+            dependency-type: invalid-type
+          ...
+
+          Signed-off-by: dependabot[bot] <support@github.com>
+        `);
+      });
+
+      it("should throw", () => {
+        expect(() => parseCommitMessage(message)).toThrow(
+          stripIndentation(`
+            Unable to parse Dependabot commit message: Invalid YAML fragment:
+              - must be one of "direct:production", "direct:development", "indirect" (/updated-dependencies/0/dependency-type)
+          `)
         );
       });
     });
