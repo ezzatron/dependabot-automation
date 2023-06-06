@@ -119,6 +119,37 @@ const schemaViolations = [
         - must be one of "direct:production", "direct:development", "indirect" (/updated-dependencies/0/dependency-type)
       `,
   ],
+  [
+    wrapped`
+      has an updated-dependencies property that contains an item with an
+      update-type property that is not a string
+    `,
+    indented`
+      updated-dependencies:
+      - dependency-name: coffee-rails
+        dependency-type: direct:production
+        update-type: null
+      `,
+    indented`
+        - must be string (/updated-dependencies/0/update-type)
+        - must be one of "version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch" (/updated-dependencies/0/update-type)
+      `,
+  ],
+  [
+    wrapped`
+      has an updated-dependencies property that contains an item with an
+      update-type property that is not one of the allowed values
+    `,
+    indented`
+      updated-dependencies:
+      - dependency-name: coffee-rails
+        dependency-type: direct:production
+        update-type: invalid-type
+      `,
+    indented`
+        - must be one of "version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch" (/updated-dependencies/0/update-type)
+      `,
+  ],
 ] as const;
 
 describe("parseCommitData()", () => {
@@ -200,10 +231,12 @@ describe("parseCommitData()", () => {
           {
             dependencyName: "coffee-rails",
             dependencyType: "direct:production",
+            updateType: "version-update:semver-minor",
           },
           {
             dependencyName: "coffeescript",
             dependencyType: "indirect",
+            updateType: "version-update:semver-patch",
           },
         ],
       });

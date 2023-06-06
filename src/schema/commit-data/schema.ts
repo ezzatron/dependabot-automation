@@ -7,6 +7,13 @@ const dependencyTypeList = dependencyTypes
   .map((t) => JSON.stringify(t))
   .join(", ");
 
+const updateTypes = [
+  "version-update:semver-major",
+  "version-update:semver-minor",
+  "version-update:semver-patch",
+];
+const updateTypeList = updateTypes.map((t) => JSON.stringify(t)).join(", ");
+
 export const schema = {
   $schema: "http://json-schema.org/draft-07/schema#",
   $id: ID,
@@ -35,6 +42,14 @@ export const schema = {
             enum: dependencyTypes,
             errorMessage: {
               enum: `must be one of ${dependencyTypeList}`,
+            },
+          },
+          "update-type": {
+            description: "The type of update which will be performed.",
+            type: "string",
+            enum: updateTypes,
+            errorMessage: {
+              enum: `must be one of ${updateTypeList}`,
             },
           },
         },

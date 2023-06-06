@@ -106,10 +106,12 @@ describe("parseCommitMessage()", () => {
           {
             dependencyName: "coffee-rails",
             dependencyType: "direct:production",
+            updateType: "version-update:semver-minor",
           },
           {
             dependencyName: "coffeescript",
             dependencyType: "indirect",
+            updateType: "version-update:semver-patch",
           },
         ],
       });

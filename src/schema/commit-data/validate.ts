@@ -7,5 +7,6 @@ export type Type = {
   ["updated-dependencies"]: {
     ["dependency-name"]: string;
     ["dependency-type"]: string;
+    ["update-type"]: string | undefined;
   }[];
 };

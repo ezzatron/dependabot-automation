@@ -20,6 +20,7 @@ export function parseCommitData(yaml: string): ParsedCommitData {
     updatedDependencies.push({
       dependencyName: dependency["dependency-name"],
       dependencyType: dependency["dependency-type"],
+      updateType: dependency["update-type"],
     });
   }
 
@@ -33,4 +34,5 @@ export type ParsedCommitData = {
 type UpdatedDependency = {
   dependencyName: string;
   dependencyType: string;
+  updateType: string | undefined;
 };
