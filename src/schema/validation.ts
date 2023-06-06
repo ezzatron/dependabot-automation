@@ -1,6 +1,6 @@
 import ajvModule, { ErrorObject } from "ajv";
 import ajvErrorsModule from "ajv-errors";
-import { schema as commitMessageYAMLFragmentSchema } from "./commit-message-yaml-fragment/schema.js";
+import { schema as commitDataSchema } from "./commit-data/schema.js";
 
 // see https://github.com/ajv-validator/ajv/issues/2132
 const Ajv = ajvModule.default;
@@ -8,7 +8,7 @@ const ajvErrors = ajvErrorsModule.default;
 
 const ajv = ajvErrors(
   new Ajv({
-    schemas: [commitMessageYAMLFragmentSchema],
+    schemas: [commitDataSchema],
     allErrors: true,
     useDefaults: true,
   })

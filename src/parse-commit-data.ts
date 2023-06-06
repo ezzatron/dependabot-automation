@@ -1,19 +1,19 @@
 import { errorMessage } from "./error.js";
 import { parseYAML } from "./parse-yaml.js";
-import { validate as validateFragment } from "./schema/commit-message-yaml-fragment/validate.js";
+import { validate as validateCommitData } from "./schema/commit-data/validate.js";
 
-export function parseCommitYAML(yaml: string): ParsedCommitYAML {
-  let yamlData: unknown;
+export function parseCommitData(yaml: string): ParsedCommitData {
+  let rawData: unknown;
 
   try {
-    yamlData = parseYAML(yaml);
+    rawData = parseYAML(yaml);
   } catch (error) {
     const message = errorMessage(error);
 
-    throw new Error(`Invalid YAML fragment: ${message}`);
+    throw new Error(`Invalid commit data: ${message}`);
   }
 
-  const data = validateFragment(yamlData);
+  const data = validateCommitData(rawData);
   const updatedDependencies = [];
 
   for (const dependency of data["updated-dependencies"]) {
@@ -26,7 +26,7 @@ export function parseCommitYAML(yaml: string): ParsedCommitYAML {
   return { updatedDependencies };
 }
 
-export type ParsedCommitYAML = {
+export type ParsedCommitData = {
   updatedDependencies: UpdatedDependency[];
 };
 

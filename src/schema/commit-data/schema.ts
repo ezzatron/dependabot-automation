@@ -1,5 +1,6 @@
-export const ID =
-  "https://ghalactic.github.io/dependabot-automation/schema/commit-message-yaml-fragment.schema.json";
+import { PREFIX } from "../id.js";
+
+export const ID = `${PREFIX}/commit-data.schema.json`;
 
 const dependencyTypes = ["direct:production", "direct:development", "indirect"];
 const dependencyTypeList = dependencyTypes
@@ -9,7 +10,7 @@ const dependencyTypeList = dependencyTypes
 export const schema = {
   $schema: "http://json-schema.org/draft-07/schema#",
   $id: ID,
-  title: "Dependabot commit message YAML fragment",
+  title: "Dependabot commit message YAML fragment data",
   description: "Details of the dependencies updated by a Dependabot commit.",
   type: "object",
   required: ["updated-dependencies"],

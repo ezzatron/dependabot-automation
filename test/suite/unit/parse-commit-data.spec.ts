@@ -1,4 +1,4 @@
-import { parseCommitYAML } from "../../../src/parse-commit-yaml.js";
+import { parseCommitData } from "../../../src/parse-commit-data.js";
 import { indented } from "../../helper/indented.js";
 import { when } from "../../helper/jest-dsl.js";
 import { wrapped } from "../../helper/wrapped.js";
@@ -121,12 +121,12 @@ const schemaViolations = [
   ],
 ] as const;
 
-describe("parseCommitYAML()", () => {
+describe("parseCommitData()", () => {
   let yaml: string;
 
   describe("validation", () => {
     when`
-      the YAML fragment is not valid YAML
+      the commit data is not valid YAML
     `(() => {
       beforeEach(() => {
         yaml = indented`
@@ -135,19 +135,19 @@ describe("parseCommitYAML()", () => {
       });
 
       it("should throw", () => {
-        expect(() => parseCommitYAML(yaml)).toThrow(
-          "Invalid YAML fragment: Unable to parse YAML:"
+        expect(() => parseCommitData(yaml)).toThrow(
+          "Invalid commit data: Unable to parse YAML:"
         );
       });
     });
 
     describe.each(schemaViolations)(
-      "when the YAML fragment %s",
+      "when the commit data %s",
       (_description, yaml, expectedErrors) => {
         it("should throw", () => {
-          expect(() => parseCommitYAML(yaml)).toThrow(
+          expect(() => parseCommitData(yaml)).toThrow(
             indented`
-              Invalid YAML fragment:
+              Invalid commit data:
               ${expectedErrors}
               `
           );
@@ -157,7 +157,7 @@ describe("parseCommitYAML()", () => {
   });
 
   when`
-    the YAML fragment has a single updated dependency
+    the commit data has a single updated dependency
   `(() => {
     beforeEach(() => {
       yaml = indented`
@@ -168,7 +168,7 @@ describe("parseCommitYAML()", () => {
     });
 
     it("should parse the updated dependency", () => {
-      expect(parseCommitYAML(yaml)).toMatchObject({
+      expect(parseCommitData(yaml)).toMatchObject({
         updatedDependencies: [
           {
             dependencyName: "coffee-rails",
@@ -180,7 +180,7 @@ describe("parseCommitYAML()", () => {
   });
 
   when`
-    the YAML fragment has multiple updated dependencies
+    the commit data has multiple updated dependencies
   `(() => {
     beforeEach(() => {
       yaml = indented`
@@ -195,7 +195,7 @@ describe("parseCommitYAML()", () => {
     });
 
     it("should parse the updated dependencies", () => {
-      expect(parseCommitYAML(yaml)).toMatchObject({
+      expect(parseCommitData(yaml)).toMatchObject({
         updatedDependencies: [
           {
             dependencyName: "coffee-rails",

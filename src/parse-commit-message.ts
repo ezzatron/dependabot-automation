@@ -1,28 +1,28 @@
 import { errorMessage } from "./error.js";
-import { ParsedCommitYAML, parseCommitYAML } from "./parse-commit-yaml.js";
+import { ParsedCommitData, parseCommitData } from "./parse-commit-data.js";
 
-const YAML_PATTERN = /^-{3}\n([\S|\s]*?)\n^\.{3}\n/m;
+const COMMIT_DATA_PATTERN = /^-{3}\n([\S|\s]*?)\n^\.{3}\n/m;
 
 export function parseCommitMessage(message: string): ParsedCommitMessage {
-  const YAMLMatch = YAML_PATTERN.exec(message);
+  const commitDataMatch = COMMIT_DATA_PATTERN.exec(message);
 
-  if (!YAMLMatch) {
+  if (!commitDataMatch) {
     throw new Error(
-      "Unable to parse Dependabot commit message: YAML fragment not found."
+      "Unable to parse Dependabot commit message: Commit data not found."
     );
   }
 
-  let parsedYAML: ParsedCommitYAML;
+  let parsedData: ParsedCommitData;
 
   try {
-    parsedYAML = parseCommitYAML(YAMLMatch[1]);
+    parsedData = parseCommitData(commitDataMatch[1]);
   } catch (error) {
     const message = errorMessage(error);
 
     throw new Error(`Unable to parse Dependabot commit message: ${message}`);
   }
 
-  const { updatedDependencies } = parsedYAML;
+  const { updatedDependencies } = parsedData;
 
   return { updatedDependencies };
 }

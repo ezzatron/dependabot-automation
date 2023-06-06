@@ -1,7 +1,7 @@
 import { createValidate } from "../validation.js";
 import { ID } from "./schema.js";
 
-export const validate = createValidate<Type>(ID, "YAML fragment");
+export const validate = createValidate<Type>(ID, "commit data");
 
 export type Type = {
   ["updated-dependencies"]: {

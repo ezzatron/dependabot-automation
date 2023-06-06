@@ -7,7 +7,7 @@ describe("parseCommitMessage()", () => {
 
   describe("validation", () => {
     when`
-      the message does not contain a YAML fragment
+      the message does not contain YAML fragment data
     `(() => {
       beforeEach(() => {
         message = "Bumps coffee-rails from 4.0.1 to 4.2.2.";
@@ -15,13 +15,13 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: YAML fragment not found."
+          "Unable to parse Dependabot commit message: Commit data not found."
         );
       });
     });
 
     when`
-      the message contains a YAML fragment that is not valid YAML
+      the message contains YAML fragment data that is not valid YAML
     `(() => {
       beforeEach(() => {
         message = indented`
@@ -40,13 +40,13 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: Invalid YAML fragment: Unable to parse YAML:"
+          "Unable to parse Dependabot commit message: Invalid commit data: Unable to parse YAML:"
         );
       });
     });
 
     when`
-      the message contains a YAML fragment that does not match the schema
+      the message contains YAML fragment data that does not match the schema
     `(() => {
       beforeEach(() => {
         message = indented`
@@ -68,7 +68,7 @@ describe("parseCommitMessage()", () => {
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
           indented`
-            Unable to parse Dependabot commit message: Invalid YAML fragment:
+            Unable to parse Dependabot commit message: Invalid commit data:
               - must be string (/updated-dependencies/0/dependency-name)
             `
         );
@@ -77,39 +77,7 @@ describe("parseCommitMessage()", () => {
   });
 
   when`
-    the message contains a YAML fragment with a single dependency
-  `(() => {
-    beforeEach(() => {
-      message = indented`
-        Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
-        - [Release notes](https://github.com/rails/coffee-rails/releases)
-        - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
-        - [Commits](rails/coffee-rails@v4.0.1...v4.2.2)
-
-        ---
-        updated-dependencies:
-        - dependency-name: coffee-rails
-          dependency-type: direct:production
-        ...
-
-        Signed-off-by: dependabot[bot] <support@github.com>
-        `;
-    });
-
-    it("should parse the updated dependency", () => {
-      expect(parseCommitMessage(message)).toMatchObject({
-        updatedDependencies: [
-          {
-            dependencyName: "coffee-rails",
-            dependencyType: "direct:production",
-          },
-        ],
-      });
-    });
-  });
-
-  when`
-    the message contains a YAML fragment with multiple dependencies
+    the message contains YAML fragment data that is valid
   `(() => {
     beforeEach(() => {
       message = indented`
