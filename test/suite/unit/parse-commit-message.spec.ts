@@ -87,19 +87,25 @@ describe("parseCommitMessage()", () => {
       message = indented`
         <commit subject line>
 
-        Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
-        - [Release notes](https://github.com/rails/coffee-rails/releases)
-        - [Changelog](https://github.com/rails/coffee-rails/blob/master/CHANGELOG.md)
-        - [Commits](rails/coffee-rails@v4.0.1...v4.2.2)
+        Bumps [jest](https://github.com/facebook/jest/tree/HEAD/packages/jest) and [@types/jest](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/jest). These dependencies needed to b>
+
+        Updates \`jest\` from 29.3.1 to 29.4.2
+        - [Release notes](https://github.com/facebook/jest/releases)
+        - [Changelog](https://github.com/facebook/jest/blob/main/CHANGELOG.md)
+        - [Commits](https://github.com/facebook/jest/commits/v29.4.2/packages/jest)
+
+        Updates \`@types/jest\` from 29.2.5 to 29.4.0
+        - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+        - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/jest)
 
         ---
         updated-dependencies:
-        - dependency-name: coffee-rails
-          dependency-type: direct:production
+        - dependency-name: jest
+          dependency-type: direct:development
           update-type: version-update:semver-minor
-        - dependency-name: coffeescript
-          dependency-type: indirect
-          update-type: version-update:semver-patch
+        - dependency-name: "@types/jest"
+          dependency-type: direct:development
+          update-type: version-update:semver-minor
         ...
 
         Signed-off-by: dependabot[bot] <support@github.com>
@@ -110,14 +116,14 @@ describe("parseCommitMessage()", () => {
       expect(parseCommitMessage(message)).toMatchObject({
         updatedDependencies: [
           {
-            dependencyName: "coffee-rails",
-            dependencyType: "direct:production",
+            dependencyName: "jest",
+            dependencyType: "direct:development",
             updateType: "version-update:semver-minor",
           },
           {
-            dependencyName: "coffeescript",
-            dependencyType: "indirect",
-            updateType: "version-update:semver-patch",
+            dependencyName: "@types/jest",
+            dependencyType: "direct:development",
+            updateType: "version-update:semver-minor",
           },
         ],
       });
