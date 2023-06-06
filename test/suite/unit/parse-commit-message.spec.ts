@@ -25,7 +25,7 @@ describe("parseCommitMessage()", () => {
     `(() => {
       beforeEach(() => {
         message = indented`
-          Bump coffee-rails from 4.0.1 to 4.2.2
+          <commit subject line>
 
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
@@ -52,7 +52,7 @@ describe("parseCommitMessage()", () => {
     `(() => {
       beforeEach(() => {
         message = indented`
-          Bump coffee-rails from 4.0.1 to 4.2.2
+          <commit subject line>
 
           Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
           - [Release notes](https://github.com/rails/coffee-rails/releases)
@@ -85,7 +85,7 @@ describe("parseCommitMessage()", () => {
   `(() => {
     beforeEach(() => {
       message = indented`
-        Bump coffee-rails from 4.0.1 to 4.2.2
+        <commit subject line>
 
         Bumps [coffee-rails](https://github.com/rails/coffee-rails) from 4.0.1 to 4.2.2.
         - [Release notes](https://github.com/rails/coffee-rails/releases)
