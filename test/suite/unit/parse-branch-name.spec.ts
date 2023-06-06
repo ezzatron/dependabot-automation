@@ -230,4 +230,19 @@ describe("parseBranchName()", () => {
       });
     });
   });
+
+  when`
+    an alternative delimiter is used
+  `(() => {
+    beforeEach(() => {
+      branch = "dependabot|nuget|coffee-rails";
+    });
+
+    it("should parse the ecosystem and directory", () => {
+      expect(parseBranchName(["coffee-rails"], branch)).toMatchObject({
+        ecosystem: "nuget",
+        directory: "/",
+      });
+    });
+  });
 });

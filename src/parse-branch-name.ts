@@ -29,7 +29,8 @@ export function parseBranchName(
   let junkCount = delimCount;
   if (dependencies.length > 1) junkCount += 1;
 
-  const parts = branch.split("/");
+  const delimiter = branch[10];
+  const parts = branch.split(delimiter);
   const ecosystem = parts[1];
   const directory = "/" + parts.slice(2, -1 - junkCount).join("/");
 
