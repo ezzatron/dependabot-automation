@@ -81,8 +81,43 @@ describe("parseCommitMessage()", () => {
   });
 
   when`
-    the message contains YAML fragment data that is valid
-  `(() => {
+      the message contains a single updated dependency
+    `(() => {
+    beforeEach(() => {
+      message = indented`
+        <commit subject line>
+
+        Bumps [@types/react-dom](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/react-dom) from 18.0.10 to 18.0.11.
+        - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+        - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/react-dom)
+
+        ---
+        updated-dependencies:
+        - dependency-name: "@types/react-dom"
+          dependency-type: direct:development
+          update-type: version-update:semver-patch
+        ...
+
+        Signed-off-by: dependabot[bot] <support@github.com>
+        `;
+    });
+
+    it("should parse the updated dependencies", () => {
+      expect(parseCommitMessage(message)).toMatchObject({
+        updatedDependencies: [
+          {
+            dependencyName: "@types/react-dom",
+            dependencyType: "direct:development",
+            updateType: "version-update:semver-patch",
+          },
+        ],
+      });
+    });
+  });
+
+  when`
+      the message contains multiple updated dependencies
+    `(() => {
     beforeEach(() => {
       message = indented`
         <commit subject line>
