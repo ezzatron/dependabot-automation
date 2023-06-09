@@ -1,0 +1,24 @@
+chore(deps): bump fast-xml-parser and @aws-sdk/credential-providers
+
+Bumps [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) to 4.2.4 and updates ancestor dependency [@aws-sdk/credential-providers](https://github.com/aws/aws-sdk-js-v3/tree/HEAD/packages/credential-providers). These dependencies need to be updated together.
+
+
+Updates `fast-xml-parser` from 4.0.11 to 4.2.4
+- [Release notes](https://github.com/NaturalIntelligence/fast-xml-parser/releases)
+- [Changelog](https://github.com/NaturalIntelligence/fast-xml-parser/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/NaturalIntelligence/fast-xml-parser/compare/v4.0.11...v4.2.4)
+
+Updates `@aws-sdk/credential-providers` from 3.241.0 to 3.348.0
+- [Release notes](https://github.com/aws/aws-sdk-js-v3/releases)
+- [Changelog](https://github.com/aws/aws-sdk-js-v3/blob/main/packages/credential-providers/CHANGELOG.md)
+- [Commits](https://github.com/aws/aws-sdk-js-v3/commits/v3.348.0/packages/credential-providers)
+
+---
+updated-dependencies:
+- dependency-name: fast-xml-parser
+  dependency-type: indirect
+- dependency-name: "@aws-sdk/credential-providers"
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

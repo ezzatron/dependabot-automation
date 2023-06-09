@@ -1,0 +1,14 @@
+build(deps): bump github.com/aws/aws-sdk-go from 1.44.223 to 1.44.279
+
+Bumps [github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) from 1.44.223 to 1.44.279.
+- [Release notes](https://github.com/aws/aws-sdk-go/releases)
+- [Commits](https://github.com/aws/aws-sdk-go/compare/v1.44.223...v1.44.279)
+
+---
+updated-dependencies:
+- dependency-name: github.com/aws/aws-sdk-go
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

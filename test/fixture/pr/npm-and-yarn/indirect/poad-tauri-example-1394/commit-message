@@ -1,0 +1,15 @@
+Bump memfs from 3.5.2 to 3.5.3
+
+Bumps [memfs](https://github.com/streamich/memfs) from 3.5.2 to 3.5.3.
+- [Release notes](https://github.com/streamich/memfs/releases)
+- [Changelog](https://github.com/streamich/memfs/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/streamich/memfs/compare/v3.5.2...v3.5.3)
+
+---
+updated-dependencies:
+- dependency-name: memfs
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

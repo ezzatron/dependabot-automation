@@ -1,0 +1,15 @@
+Bump sentry-sdk from 1.24.0 to 1.25.1
+
+Bumps [sentry-sdk](https://github.com/getsentry/sentry-python) from 1.24.0 to 1.25.1.
+- [Release notes](https://github.com/getsentry/sentry-python/releases)
+- [Changelog](https://github.com/getsentry/sentry-python/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/getsentry/sentry-python/compare/1.24.0...1.25.1)
+
+---
+updated-dependencies:
+- dependency-name: sentry-sdk
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

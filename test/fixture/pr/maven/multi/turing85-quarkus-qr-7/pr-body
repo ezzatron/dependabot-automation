@@ -1,0 +1,173 @@
+Bumps `surefire-plugin.version` from 3.0.0 to 3.1.2.
+Updates `maven-surefire-plugin` from 3.0.0 to 3.1.2
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/apache/maven-surefire/releases">maven-surefire-plugin's releases</a>.</em></p>
+<blockquote>
+<h2>3.1.2</h2>
+<h2><a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12317927&amp;version=12353294">Release Notes - Maven Surefire - Version 3.1.2</a></h2>
+<!-- raw HTML omitted -->
+<ul>
+<li>update commons compress to 1.23.0 (<a href="https://redirect.github.com/apache/maven-surefire/pull/655">#655</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>Drop unused commons-lang 2.6 from management (<a href="https://redirect.github.com/apache/maven-surefire/pull/661">#661</a>) <a href="https://github.com/elilja"><code>@​elilja</code></a></li>
+<li>Remove old junittoolbox dependency no longer used (<a href="https://redirect.github.com/apache/maven-surefire/pull/658">#658</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>update test libraries (<a href="https://redirect.github.com/apache/maven-surefire/pull/657">#657</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>update commons-io to 2.12.0 (<a href="https://redirect.github.com/apache/maven-surefire/pull/653">#653</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>remove descriptions of Maven 2.x and very old versions (<a href="https://redirect.github.com/apache/maven-surefire/pull/647">#647</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>Remove more details about Maven 2 and old versions (<a href="https://redirect.github.com/apache/maven-surefire/pull/654">#654</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>Simplify method (<a href="https://redirect.github.com/apache/maven-surefire/pull/651">#651</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li>Update Sufefire (<a href="https://redirect.github.com/apache/maven-surefire/pull/646">#646</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li>Backport (<a href="https://redirect.github.com/apache/maven-surefire/pull/635">#635</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/SUREFIRE-2166">[SUREFIRE-2166]</a> - Use ChoiceFormat to selective render percentage and elapsed time in SurefireReportRenderer (<a href="https://redirect.github.com/apache/maven-surefire/pull/639">#639</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li>Simplify serialization/deserialization of elapsed time (SUREFIRE-2164 + SUREFIRE-2167) (<a href="https://redirect.github.com/apache/maven-surefire/pull/645">#645</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/SUREFIRE-2169">[SUREFIRE-2169]</a> - Potential NPE in WrappedReportEntry when #getElapsed(… (<a href="https://redirect.github.com/apache/maven-surefire/pull/643">#643</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li>fix SAX bug (<a href="https://redirect.github.com/apache/maven-surefire/pull/642">#642</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/MNG-6829">[MNG-6829]</a> - Replace StringUtils#isEmpty(String) &amp; #isNotEmpty(String) (<a href="https://redirect.github.com/apache/maven-surefire/pull/641">#641</a>) <a href="https://github.com/timtebeek"><code>@​timtebeek</code></a></li>
+<li>Fixes (<a href="https://redirect.github.com/apache/maven-surefire/pull/636">#636</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+</ul>
+<h2>📦 Dependency updates</h2>
+<ul>
+<li>Bump animal-sniffer-maven-plugin from 1.21 to 1.23 (<a href="https://redirect.github.com/apache/maven-surefire/pull/624">#624</a>) <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+</ul>
+<h2>👻 Maintenance</h2>
+<ul>
+<li><a href="https://issues.apache.org/jira/browse/SUREFIRE-2173">[SUREFIRE-2173]</a> - Pass build and tests with Java 20 (<a href="https://redirect.github.com/apache/maven-surefire/pull/648">#648</a>) <a href="https://github.com/slachiewicz"><code>@​slachiewicz</code></a></li>
+</ul>
+<h2>3.1.0</h2>
+<h2><a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12317927&amp;version=12351273">Release Notes - Maven Surefire - Version 3.1.0
+</a>
+Sub-task</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SUREFIRE-2162">SUREFIRE-2162</a>] - Document upcoming mojo and file names change</li>
+</ul>
+<h2>Bug</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SUREFIRE-2140">SUREFIRE-2140</a>] - Cannot release Surefire on Windows</li>
+</ul>
+<h2>Improvement</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SUREFIRE-2153">SUREFIRE-2153</a>] - Replace SurefireReportGenerator with a new SurefireReportRenderer</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SUREFIRE-2160">SUREFIRE-2160</a>] - Replace LocalizedProperties with (Custom)I18N approach from MPIR</li>
+</ul>
+<p>Task</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/apache/maven-surefire/commit/5e097b58edfe8317ef043e0d2e553cb475305b67"><code>5e097b5</code></a> [maven-release-plugin] prepare release surefire-3.1.2</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/255bb51cc0cdc627d1570a073d8c38e52a6ca55d"><code>255bb51</code></a> Update commons compress to 1.23.0</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/a77dfb24f8872b44635204d8bab844c78a022cf6"><code>a77dfb2</code></a> Drop unused commons-lang 2.6 from management (<a href="https://redirect.github.com/apache/maven-surefire/issues/661">#661</a>)</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/95e8e95ee02ee0e12af70850440bd3d4c053d5db"><code>95e8e95</code></a> [SUREFIRE-2157] Upgrade junit-jupiter to 5.9.3/junit-platform to 1.9.2</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/9092b5ec59ef638a6d9d84ca940cca597594c560"><code>9092b5e</code></a> [SUREFIRE-2157] Upgrade surefire IT to 3.1.0</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/1af92f5ffe91d111278ee9b88dddcf6721885c6c"><code>1af92f5</code></a> Remove old junittoolbox dependency no longer used (<a href="https://redirect.github.com/apache/maven-surefire/issues/658">#658</a>)</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/8878ed5e5cda4e0d365bf19e1d5d15fece8a5d17"><code>8878ed5</code></a> update test libraries (<a href="https://redirect.github.com/apache/maven-surefire/issues/657">#657</a>)</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/a6613a815018c832cf0bd5fd1a7f37731a727e79"><code>a6613a8</code></a> Remove redundant space</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/e0e89e44ab78445b25cc99bf5f7f2b2b1430756b"><code>e0e89e4</code></a> update commons-io to 2.12.0</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/d8ac134c3ac8019043ce4c7f523e1eaf5b26055b"><code>d8ac134</code></a> [MNGSITE-393] remove descriptions of Maven 2.x and very old versions</li>
+<li>Additional commits viewable in <a href="https://github.com/apache/maven-surefire/compare/surefire-3.0.0...surefire-3.1.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `maven-failsafe-plugin` from 3.0.0 to 3.1.2
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/apache/maven-surefire/releases">maven-failsafe-plugin's releases</a>.</em></p>
+<blockquote>
+<h2>3.1.2</h2>
+<h2><a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12317927&amp;version=12353294">Release Notes - Maven Surefire - Version 3.1.2</a></h2>
+<!-- raw HTML omitted -->
+<ul>
+<li>update commons compress to 1.23.0 (<a href="https://redirect.github.com/apache/maven-surefire/pull/655">#655</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>Drop unused commons-lang 2.6 from management (<a href="https://redirect.github.com/apache/maven-surefire/pull/661">#661</a>) <a href="https://github.com/elilja"><code>@​elilja</code></a></li>
+<li>Remove old junittoolbox dependency no longer used (<a href="https://redirect.github.com/apache/maven-surefire/pull/658">#658</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>update test libraries (<a href="https://redirect.github.com/apache/maven-surefire/pull/657">#657</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>update commons-io to 2.12.0 (<a href="https://redirect.github.com/apache/maven-surefire/pull/653">#653</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>remove descriptions of Maven 2.x and very old versions (<a href="https://redirect.github.com/apache/maven-surefire/pull/647">#647</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>Remove more details about Maven 2 and old versions (<a href="https://redirect.github.com/apache/maven-surefire/pull/654">#654</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>Simplify method (<a href="https://redirect.github.com/apache/maven-surefire/pull/651">#651</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li>Update Sufefire (<a href="https://redirect.github.com/apache/maven-surefire/pull/646">#646</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li>Backport (<a href="https://redirect.github.com/apache/maven-surefire/pull/635">#635</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/SUREFIRE-2166">[SUREFIRE-2166]</a> - Use ChoiceFormat to selective render percentage and elapsed time in SurefireReportRenderer (<a href="https://redirect.github.com/apache/maven-surefire/pull/639">#639</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li>Simplify serialization/deserialization of elapsed time (SUREFIRE-2164 + SUREFIRE-2167) (<a href="https://redirect.github.com/apache/maven-surefire/pull/645">#645</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/SUREFIRE-2169">[SUREFIRE-2169]</a> - Potential NPE in WrappedReportEntry when #getElapsed(… (<a href="https://redirect.github.com/apache/maven-surefire/pull/643">#643</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li>fix SAX bug (<a href="https://redirect.github.com/apache/maven-surefire/pull/642">#642</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/MNG-6829">[MNG-6829]</a> - Replace StringUtils#isEmpty(String) &amp; #isNotEmpty(String) (<a href="https://redirect.github.com/apache/maven-surefire/pull/641">#641</a>) <a href="https://github.com/timtebeek"><code>@​timtebeek</code></a></li>
+<li>Fixes (<a href="https://redirect.github.com/apache/maven-surefire/pull/636">#636</a>) <a href="https://github.com/michael-o"><code>@​michael-o</code></a></li>
+</ul>
+<h2>📦 Dependency updates</h2>
+<ul>
+<li>Bump animal-sniffer-maven-plugin from 1.21 to 1.23 (<a href="https://redirect.github.com/apache/maven-surefire/pull/624">#624</a>) <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+</ul>
+<h2>👻 Maintenance</h2>
+<ul>
+<li><a href="https://issues.apache.org/jira/browse/SUREFIRE-2173">[SUREFIRE-2173]</a> - Pass build and tests with Java 20 (<a href="https://redirect.github.com/apache/maven-surefire/pull/648">#648</a>) <a href="https://github.com/slachiewicz"><code>@​slachiewicz</code></a></li>
+</ul>
+<h2>3.1.0</h2>
+<h2><a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12317927&amp;version=12351273">Release Notes - Maven Surefire - Version 3.1.0
+</a>
+Sub-task</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SUREFIRE-2162">SUREFIRE-2162</a>] - Document upcoming mojo and file names change</li>
+</ul>
+<h2>Bug</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SUREFIRE-2140">SUREFIRE-2140</a>] - Cannot release Surefire on Windows</li>
+</ul>
+<h2>Improvement</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SUREFIRE-2153">SUREFIRE-2153</a>] - Replace SurefireReportGenerator with a new SurefireReportRenderer</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SUREFIRE-2160">SUREFIRE-2160</a>] - Replace LocalizedProperties with (Custom)I18N approach from MPIR</li>
+</ul>
+<p>Task</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/apache/maven-surefire/commit/5e097b58edfe8317ef043e0d2e553cb475305b67"><code>5e097b5</code></a> [maven-release-plugin] prepare release surefire-3.1.2</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/255bb51cc0cdc627d1570a073d8c38e52a6ca55d"><code>255bb51</code></a> Update commons compress to 1.23.0</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/a77dfb24f8872b44635204d8bab844c78a022cf6"><code>a77dfb2</code></a> Drop unused commons-lang 2.6 from management (<a href="https://redirect.github.com/apache/maven-surefire/issues/661">#661</a>)</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/95e8e95ee02ee0e12af70850440bd3d4c053d5db"><code>95e8e95</code></a> [SUREFIRE-2157] Upgrade junit-jupiter to 5.9.3/junit-platform to 1.9.2</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/9092b5ec59ef638a6d9d84ca940cca597594c560"><code>9092b5e</code></a> [SUREFIRE-2157] Upgrade surefire IT to 3.1.0</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/1af92f5ffe91d111278ee9b88dddcf6721885c6c"><code>1af92f5</code></a> Remove old junittoolbox dependency no longer used (<a href="https://redirect.github.com/apache/maven-surefire/issues/658">#658</a>)</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/8878ed5e5cda4e0d365bf19e1d5d15fece8a5d17"><code>8878ed5</code></a> update test libraries (<a href="https://redirect.github.com/apache/maven-surefire/issues/657">#657</a>)</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/a6613a815018c832cf0bd5fd1a7f37731a727e79"><code>a6613a8</code></a> Remove redundant space</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/e0e89e44ab78445b25cc99bf5f7f2b2b1430756b"><code>e0e89e4</code></a> update commons-io to 2.12.0</li>
+<li><a href="https://github.com/apache/maven-surefire/commit/d8ac134c3ac8019043ce4c7f523e1eaf5b26055b"><code>d8ac134</code></a> [MNGSITE-393] remove descriptions of Maven 2.x and very old versions</li>
+<li>Additional commits viewable in <a href="https://github.com/apache/maven-surefire/compare/surefire-3.0.0...surefire-3.1.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

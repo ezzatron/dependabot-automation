@@ -1,0 +1,14 @@
+docker: bump atc0005/go-ci in /dependabot/docker/builds
+
+Bumps [atc0005/go-ci](https://github.com/atc0005/go-ci) from go-ci-oldstable-build-v0.10.5 to go-ci-oldstable-build-v0.10.6.
+- [Release notes](https://github.com/atc0005/go-ci/releases)
+- [Changelog](https://github.com/atc0005/go-ci/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/atc0005/go-ci/commits)
+
+---
+updated-dependencies:
+- dependency-name: atc0005/go-ci
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,12 @@
+Bump amazon/aws-cli from 2.11.25 to 2.11.26
+
+Bumps amazon/aws-cli from 2.11.25 to 2.11.26.
+
+---
+updated-dependencies:
+- dependency-name: amazon/aws-cli
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

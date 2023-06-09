@@ -1,0 +1,83 @@
+Bumps [phpstan/phpstan](https://github.com/phpstan/phpstan) from 1.10.16 to 1.10.18.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/phpstan/phpstan/releases">phpstan/phpstan's releases</a>.</em></p>
+<blockquote>
+<h2>1.10.18</h2>
+<p>Implicit throw point is enough to no longer mark multi-catch as dead (<a href="https://github.com/phpstan/phpstan-src/commit/c587dd1d870f7a67623e1a3bb7f2811fda688bab">https://github.com/phpstan/phpstan-src/commit/c587dd1d870f7a67623e1a3bb7f2811fda688bab</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/9406">#9406</a></p>
+<h2>1.10.17</h2>
+<h1>Improvements 🔧</h1>
+<ul>
+<li>StubValidator - add missing rules about type aliases (<a href="https://github.com/phpstan/phpstan-src/commit/8bb45376ca37a9d67a9a0362809b663cd7567e11">https://github.com/phpstan/phpstan-src/commit/8bb45376ca37a9d67a9a0362809b663cd7567e11</a>)</li>
+</ul>
+<h1>Bugfixes 🐛</h1>
+<ul>
+<li>Fix more <code>in_array</code> issues (<a href="https://redirect.github.com/phpstan/phpstan-src/pull/2432">#2432</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/6959">#6959</a>, thanks <a href="https://github.com/schlndh"><code>@​schlndh</code></a>!</li>
+<li>Fix overriding <code>__debugInfo</code> with covariant return type (<a href="https://redirect.github.com/phpstan/phpstan-src/pull/2435">#2435</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/9391">#9391</a>, thanks <a href="https://github.com/staabm"><code>@​staabm</code></a>!</li>
+<li>Improve <code>Map::remove()</code> <code>@throws</code> inference (<a href="https://redirect.github.com/phpstan/phpstan-src/pull/2434">#2434</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/9066">#9066</a>, thanks <a href="https://github.com/baci266"><code>@​baci266</code></a>!</li>
+<li><code>array_is_list</code> narrows the type even when not on Bleeding Edge (<a href="https://github.com/phpstan/phpstan-src/commit/de2566adeafe5ca36a3517f0a4e3c147d63f037a">https://github.com/phpstan/phpstan-src/commit/de2566adeafe5ca36a3517f0a4e3c147d63f037a</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/9381">#9381</a></li>
+<li>AutoloadSourceLocator - do not execute autoloader if the class already exists but is evaled (<a href="https://github.com/phpstan/phpstan-src/commit/32b889dd29202eb545d8558b1c93a6b804828d8d">https://github.com/phpstan/phpstan-src/commit/32b889dd29202eb545d8558b1c93a6b804828d8d</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/7960">#7960</a></li>
+<li>EnumSanityRule - use scope inside enum (<a href="https://github.com/phpstan/phpstan-src/commit/04af510e5649a834f2e99750007048ba686ad995">https://github.com/phpstan/phpstan-src/commit/04af510e5649a834f2e99750007048ba686ad995</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/9402">#9402</a></li>
+<li>Fix native type of array after <code>array_push()</code> (<a href="https://github.com/phpstan/phpstan-src/commit/564f79f96c6104cda479a3d0319af356d1b166ad">https://github.com/phpstan/phpstan-src/commit/564f79f96c6104cda479a3d0319af356d1b166ad</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/9403">#9403</a></li>
+<li>Refactor pieces looking for dead code for more precise detection of properties, methods, constants (<a href="https://github.com/phpstan/phpstan-src/commit/d09401df4514a16eb38334cf4187093a4e66eefb">https://github.com/phpstan/phpstan-src/commit/d09401df4514a16eb38334cf4187093a4e66eefb</a>, <a href="https://github.com/phpstan/phpstan-src/commit/ffc0495d89763b65d93256928cb95bc4b07f6138">https://github.com/phpstan/phpstan-src/commit/ffc0495d89763b65d93256928cb95bc4b07f6138</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/8412">#8412</a>, <a href="https://redirect.github.com/phpstan/phpstan/issues/8958">#8958</a>, <a href="https://redirect.github.com/phpstan/phpstan/issues/8563">#8563</a>, thanks <a href="https://github.com/takaram"><code>@​takaram</code></a>!</li>
+<li>Fix param-type specification interfering with root-expression types (<a href="https://redirect.github.com/phpstan/phpstan-src/pull/2439">#2439</a>), <a href="https://redirect.github.com/phpstan/phpstan/issues/9404">#9404</a>, thanks <a href="https://github.com/staabm"><code>@​staabm</code></a>!</li>
+</ul>
+<h1>Function signature fixes 🤖</h1>
+<ul>
+<li>More precise <code>getimagesize*</code> return type (<a href="https://redirect.github.com/phpstan/phpstan-src/pull/2438">#2438</a>), thanks <a href="https://github.com/staabm"><code>@​staabm</code></a>!</li>
+<li>base64_decode returns false only in strict mode (<a href="https://redirect.github.com/phpstan/phpstan-src/pull/2419">#2419</a>), thanks <a href="https://github.com/kamil-tekiela"><code>@​kamil-tekiela</code></a>!</li>
+</ul>
+<h1>Internals 🔍</h1>
+<ul>
+<li>Minor refinements to MutatingScope <code>empty()</code> and typehint helper (<a href="https://redirect.github.com/phpstan/phpstan-src/pull/2430">#2430</a>), thanks <a href="https://github.com/mad-briller"><code>@​mad-briller</code></a>!</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/phpstan/phpstan/commit/52b6416c579663eebdd2f1d97df21971daf3b43f"><code>52b6416</code></a> PHPStan 1.10.18</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/c587dd1375eab0ffdfd93250af9ee4ba11e04a6e"><code>c587dd1</code></a> Updated PHPStan to commit c587dd1d870f7a67623e1a3bb7f2811fda688bab</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/ed225ea24632fe3273bebe9f2353b6a695d8c624"><code>ed225ea</code></a> Print release URL</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/8aca56455b40846865e4fac9d24b010a574dc362"><code>8aca564</code></a> PHPStan 1.10.17</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/db1d37e1d002fae71b0702255145bb4ae0ff3839"><code>db1d37e</code></a> Updated PHPStan to commit db1d37e440264c05d66cf6245b2eb8fc6156dbcc</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/7bdc668ff6d616c669edec4839fd93208e2d386d"><code>7bdc668</code></a> Updated PHPStan to commit 7bdc668ce91284061f3bc11e61b77671bd2973fc</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/614c81ec8452e3a61151f5f5262383f43462e3d6"><code>614c81e</code></a> Updated PHPStan to commit 614c81e236f2ae0df8f55cb1c048c7a955ebab40</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/ffc0495d99c237ecb7e510bb6aa4ab35cd4b8680"><code>ffc0495</code></a> Updated PHPStan to commit ffc0495d89763b65d93256928cb95bc4b07f6138</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/564f79f3bc1e5e5cf64034a8bb909a338eebad0c"><code>564f79f</code></a> Updated PHPStan to commit 564f79f96c6104cda479a3d0319af356d1b166ad</li>
+<li><a href="https://github.com/phpstan/phpstan/commit/04af5101e448190e928ce229a433e0174e07a6bc"><code>04af510</code></a> Updated PHPStan to commit 04af510e5649a834f2e99750007048ba686ad995</li>
+<li>Additional commits viewable in <a href="https://github.com/phpstan/phpstan/compare/1.10.16...1.10.18">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=phpstan/phpstan&package-manager=composer&previous-version=1.10.16&new-version=1.10.18)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @cpsitgmbh.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

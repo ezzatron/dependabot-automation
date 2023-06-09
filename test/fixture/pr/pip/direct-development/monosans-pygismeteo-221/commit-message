@@ -1,0 +1,15 @@
+Bump ruff from 0.0.271 to 0.0.272
+
+Bumps [ruff](https://github.com/charliermarsh/ruff) from 0.0.271 to 0.0.272.
+- [Release notes](https://github.com/charliermarsh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/BREAKING_CHANGES.md)
+- [Commits](https://github.com/charliermarsh/ruff/compare/v0.0.271...v0.0.272)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

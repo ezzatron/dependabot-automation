@@ -1,0 +1,13 @@
+build(deps): bump composefs from `e5ab5e2` to `af8e1a7`
+
+Bumps [composefs](https://github.com/containers/composefs) from `e5ab5e2` to `af8e1a7`.
+- [Release notes](https://github.com/containers/composefs/releases)
+- [Commits](https://github.com/containers/composefs/compare/e5ab5e2dc6aa6bd2daab3052553b787efe16fc7d...af8e1a7cf6864c27e2ceac44cc145bd78734df30)
+
+---
+updated-dependencies:
+- dependency-name: composefs
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

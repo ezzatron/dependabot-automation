@@ -1,0 +1,14 @@
+Bump peter-evans/create-or-update-comment from 3.0.1 to 3.0.2
+
+Bumps [peter-evans/create-or-update-comment](https://github.com/peter-evans/create-or-update-comment) from 3.0.1 to 3.0.2.
+- [Release notes](https://github.com/peter-evans/create-or-update-comment/releases)
+- [Commits](https://github.com/peter-evans/create-or-update-comment/compare/ca08ebd5dc95aa0cd97021e9708fcd6b87138c9b...c6c9a1a66007646a28c153e2a8580a5bad27bcfa)
+
+---
+updated-dependencies:
+- dependency-name: peter-evans/create-or-update-comment
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

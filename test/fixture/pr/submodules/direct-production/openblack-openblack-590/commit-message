@@ -1,0 +1,13 @@
+build(deps): bump vcpkg from `197818b` to `638b158`
+
+Bumps [vcpkg](https://github.com/Microsoft/vcpkg) from `197818b` to `638b158`.
+- [Release notes](https://github.com/Microsoft/vcpkg/releases)
+- [Commits](https://github.com/Microsoft/vcpkg/compare/197818b248fa8d7bff3276aba5984f25b77a4b5f...638b1588be3a265a9c7ad5b212cef72a1cad336a)
+
+---
+updated-dependencies:
+- dependency-name: vcpkg
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,12 @@
+Build(deps): Bump yosys-f4pga-plugins from `8edc027` to `188555f`
+
+Bumps [yosys-f4pga-plugins](https://github.com/chipsalliance/yosys-f4pga-plugins) from `8edc027` to `188555f`.
+- [Commits](https://github.com/chipsalliance/yosys-f4pga-plugins/compare/8edc027cdc484f86c5ac8698c696c74d04e6f92e...188555fc0648c0a3623e84dd28a8cd61e169bc6d)
+
+---
+updated-dependencies:
+- dependency-name: yosys-f4pga-plugins
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

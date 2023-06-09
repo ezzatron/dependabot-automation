@@ -1,0 +1,57 @@
+Bumps [docker/metadata-action](https://github.com/docker/metadata-action) from 4.4.0 to 4.5.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/docker/metadata-action/releases">docker/metadata-action's releases</a>.</em></p>
+<blockquote>
+<h2>v4.5.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Bump <code>@​docker/actions-toolkit</code> from 0.1.0 to 0.3.0 in <a href="https://redirect.github.com/docker/metadata-action/pull/296">docker/metadata-action#296</a></li>
+<li>Bump csv-parse from 5.3.8 to 5.4.0 in <a href="https://redirect.github.com/docker/metadata-action/pull/294">docker/metadata-action#294</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/docker/metadata-action/compare/v4.4.0...v4.5.0">https://github.com/docker/metadata-action/compare/v4.4.0...v4.5.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/docker/metadata-action/commit/2c0bd771b40637d97bf205cbccdd294a32112176"><code>2c0bd77</code></a> Merge pull request <a href="https://redirect.github.com/docker/metadata-action/issues/296">#296</a> from docker/dependabot/npm_and_yarn/docker/actions-to...</li>
+<li><a href="https://github.com/docker/metadata-action/commit/b10b364e15baa3ded91bdbe07911c148aa3134c3"><code>b10b364</code></a> update generated content</li>
+<li><a href="https://github.com/docker/metadata-action/commit/40a1c6ff523982e692c3ca25150565193d52bc09"><code>40a1c6f</code></a> Bump <code>@​docker/actions-toolkit</code> from 0.1.0 to 0.3.0</li>
+<li><a href="https://github.com/docker/metadata-action/commit/be8ea87c5aac32acaf2a7c98fd1c0a6483323873"><code>be8ea87</code></a> Merge pull request <a href="https://redirect.github.com/docker/metadata-action/issues/294">#294</a> from docker/dependabot/npm_and_yarn/csv-parse-5.4.0</li>
+<li><a href="https://github.com/docker/metadata-action/commit/dbbf01822bb698575d92e1ee5b9229d58745b0c6"><code>dbbf018</code></a> Merge pull request <a href="https://redirect.github.com/docker/metadata-action/issues/287">#287</a> from docker/dependabot/github_actions/docker/bake-act...</li>
+<li><a href="https://github.com/docker/metadata-action/commit/72b4ec2b6096d1aa5720167c6af2f33d01dd350e"><code>72b4ec2</code></a> Bump csv-parse from 5.3.8 to 5.4.0</li>
+<li><a href="https://github.com/docker/metadata-action/commit/00e2c9d34e27bf51149644254039df8da6b7f99d"><code>00e2c9d</code></a> Bump docker/bake-action from 2 to 3</li>
+<li>See full diff in <a href="https://github.com/docker/metadata-action/compare/c4ee3adeed93b1fa6a762f209fb01608c1a22f1e...2c0bd771b40637d97bf205cbccdd294a32112176">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=docker/metadata-action&package-manager=github_actions&previous-version=4.4.0&new-version=4.5.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

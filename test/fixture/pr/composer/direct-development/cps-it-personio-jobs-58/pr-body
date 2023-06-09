@@ -1,0 +1,65 @@
+Bumps [brotkrueml/schema](https://github.com/brotkrueml/schema) from 2.9.0 to 2.9.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/brotkrueml/schema/releases">brotkrueml/schema's releases</a>.</em></p>
+<blockquote>
+<h2>2.9.1</h2>
+<p><strong>Fixed:</strong></p>
+<ul>
+<li>Custom page cache tags for schema page cache not considered (<a href="https://redirect.github.com/brotkrueml/schema/issues/115">#115</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/brotkrueml/schema/blob/main/CHANGELOG.md">brotkrueml/schema's changelog</a>.</em></p>
+<blockquote>
+<h2>[2.9.1] - 2023-06-06</h2>
+<h3>Fixed</h3>
+<ul>
+<li>Custom page cache tags for schema page cache not considered (<a href="https://redirect.github.com/brotkrueml/schema/issues/115">#115</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/brotkrueml/schema/commit/04c4c9563183c7130e41df535617205a0d94fe0e"><code>04c4c95</code></a> release: prepare version 2.9.1</li>
+<li><a href="https://github.com/brotkrueml/schema/commit/c257b558ae38b48f6d8aa4feb3579cb004c09eed"><code>c257b55</code></a> chore: update phpstan to 1.10.16</li>
+<li><a href="https://github.com/brotkrueml/schema/commit/83311816c31c0391ad855807d8a8708c1a1c734a"><code>8331181</code></a> fix: consider additional cache tags when storing markup in cache</li>
+<li><a href="https://github.com/brotkrueml/schema/commit/4c65c3e1f6a23bcd4ee03fe34bb14da6f5f103b2"><code>4c65c3e</code></a> version: set to 2.9.1-dev</li>
+<li>See full diff in <a href="https://github.com/brotkrueml/schema/compare/v2.9.0...v2.9.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=brotkrueml/schema&package-manager=composer&previous-version=2.9.0&new-version=2.9.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @cpsitgmbh.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

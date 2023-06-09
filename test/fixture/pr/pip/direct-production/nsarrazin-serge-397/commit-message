@@ -1,0 +1,15 @@
+Bump pydantic from 1.10.8 to 1.10.9 in /api
+
+Bumps [pydantic](https://github.com/pydantic/pydantic) from 1.10.8 to 1.10.9.
+- [Release notes](https://github.com/pydantic/pydantic/releases)
+- [Changelog](https://github.com/pydantic/pydantic/blob/main/HISTORY.md)
+- [Commits](https://github.com/pydantic/pydantic/compare/v1.10.8...v1.10.9)
+
+---
+updated-dependencies:
+- dependency-name: pydantic
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,13 @@
+Bump mods/worldedit from `9417f2b` to `5260f59`
+
+Bumps [mods/worldedit](https://github.com/Uberi/Minetest-WorldEdit) from `9417f2b` to `5260f59`.
+- [Release notes](https://github.com/Uberi/Minetest-WorldEdit/releases)
+- [Commits](https://github.com/Uberi/Minetest-WorldEdit/compare/9417f2bbf1186e61005908c61f1bc7740509381b...5260f595c616a64e1c72952b5ec026bbcb9e4c4c)
+
+---
+updated-dependencies:
+- dependency-name: mods/worldedit
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

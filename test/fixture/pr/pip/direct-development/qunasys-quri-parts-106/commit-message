@@ -1,0 +1,15 @@
+Bump sphinx from 4.5.0 to 5.3.0
+
+Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 4.5.0 to 5.3.0.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v4.5.0...v5.3.0)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

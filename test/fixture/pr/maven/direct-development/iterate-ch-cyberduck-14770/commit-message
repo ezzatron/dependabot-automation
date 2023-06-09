@@ -1,0 +1,14 @@
+Bump cryptofs from 2.6.4 to 2.6.5
+
+Bumps [cryptofs](https://github.com/cryptomator/cryptofs) from 2.6.4 to 2.6.5.
+- [Release notes](https://github.com/cryptomator/cryptofs/releases)
+- [Commits](https://github.com/cryptomator/cryptofs/compare/2.6.4...2.6.5)
+
+---
+updated-dependencies:
+- dependency-name: org.cryptomator:cryptofs
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

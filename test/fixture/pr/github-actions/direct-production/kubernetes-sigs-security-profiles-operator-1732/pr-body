@@ -1,0 +1,78 @@
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.1.2 to 2.1.3.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/ossf/scorecard-action/releases">ossf/scorecard-action's releases</a>.</em></p>
+<blockquote>
+<h2>v2.1.3</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>🌱 Bump github.com/ossf/scorecard/v4 from 4.10.2 to 4.10.5 by <a href="https://github.com/spencerschrock"><code>@​spencerschrock</code></a> in <a href="https://redirect.github.com/ossf/scorecard-action/pull/1111">ossf/scorecard-action#1111</a></li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Invalid SARIF files from a bug in scorecard
+<ul>
+<li><a href="https://redirect.github.com/ossf/scorecard-action/issues/1076">#1076</a>, <a href="https://redirect.github.com/ossf/scorecard-action/issues/1094">#1094</a></li>
+</ul>
+</li>
+<li>Vulnerabilities check crashes if a vulnerable dependency is found via OSVScanner
+<ul>
+<li><a href="https://redirect.github.com/ossf/scorecard-action/issues/1092">#1092</a></li>
+</ul>
+</li>
+<li>Scorecard action not reporting binary artifacts in the repo
+<ul>
+<li><a href="https://redirect.github.com/ossf/scorecard-action/issues/1116">#1116</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Full Scorecard Changelog</strong>: <a href="https://github.com/ossf/scorecard/compare/v4.10.2...v4.10.5">https://github.com/ossf/scorecard/compare/v4.10.2...v4.10.5</a></p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/ossf/scorecard-action/compare/v2.1.2...v2.1.3">https://github.com/ossf/scorecard-action/compare/v2.1.2...v2.1.3</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ossf/scorecard-action/commit/80e868c13c90f172d68d1f4501dee99e2479f7af"><code>80e868c</code></a> :seedling: Bump docker tag for release. (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1117">#1117</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/aed6134b530f65762d8da8171e42d5ff9108d1a1"><code>aed6134</code></a> :seedling: Bump golang.org/x/net from 0.7.0 to 0.8.0 (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1099">#1099</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/33dfbd30942d716772ffc2fa55d8ea035df8fa73"><code>33dfbd3</code></a> 🌱 Bump github.com/ossf/scorecard/v4 from 4.10.2 to 4.10.5 (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1111">#1111</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/193ae3767915e21afcbf44eff2fe6b41edb4d245"><code>193ae37</code></a> :seedling: Bump actions/dependency-review-action from 3.0.3 to 3.0.4 (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1110">#1110</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/ca9bf9578ec9f68bd1cd99bfbde41ba4f0516a50"><code>ca9bf95</code></a> :seedling: Bump actions/cache from 3.2.6 to 3.3.1 (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1103">#1103</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/fa1521272c15724b2dce74f8b1ce9bd6df33b7ae"><code>fa15212</code></a> :seedling: Bump github/codeql-action from 2.2.4 to 2.2.7 (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1105">#1105</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/136025e1eacdf84d71a9c3227f53d7c737852cd8"><code>136025e</code></a> :seedling: Bump step-security/harden-runner from 2.1.0 to 2.2.1 (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1104">#1104</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/c59c116cbead5af2de7d75f4d82cf5a2ef5b0304"><code>c59c116</code></a> :seedling: Bump actions/cache from 3.2.5 to 3.2.6 (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1097">#1097</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/7cc371152c77bfecfa34fdfb62b1630ff3682cf1"><code>7cc3711</code></a> :seedling: Bump github.com/emicklei/go-restful (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1086">#1086</a>)</li>
+<li><a href="https://github.com/ossf/scorecard-action/commit/570a953ea0770f30a8aa0a778cfc4bc955bbf9c4"><code>570a953</code></a> :seedling: Bump actions/cache from 3.2.4 to 3.2.5 (<a href="https://redirect.github.com/ossf/scorecard-action/issues/1088">#1088</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/ossf/scorecard-action/compare/e38b1902ae4f44df626f11ba0734b14fb91f8f86...80e868c13c90f172d68d1f4501dee99e2479f7af">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ossf/scorecard-action&package-manager=github_actions&previous-version=2.1.2&new-version=2.1.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

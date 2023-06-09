@@ -1,0 +1,56 @@
+Bumps [@typescript-eslint/scope-manager](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/scope-manager) from 5.59.8 to 5.59.9.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslint/scope-manager</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v5.59.9</h2>
+<h2><a href="https://github.com/typescript-eslint/typescript-eslint/compare/v5.59.8...v5.59.9">5.59.9</a> (2023-06-05)</h2>
+<p><strong>Note:</strong> Version bump only for package <code>@​typescript-eslint/typescript-eslint</code></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/scope-manager/CHANGELOG.md"><code>@​typescript-eslint/scope-manager</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/typescript-eslint/typescript-eslint/compare/v5.59.8...v5.59.9">5.59.9</a> (2023-06-05)</h2>
+<p><strong>Note:</strong> Version bump only for package <code>@​typescript-eslint/scope-manager</code></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/typescript-eslint/typescript-eslint/commit/a2b6b2e0a1ccdfbd5c76ba3fbcffd94d29f5d2b1"><code>a2b6b2e</code></a> chore: publish v5.59.9</li>
+<li><a href="https://github.com/typescript-eslint/typescript-eslint/commit/4710a226cb3e024fbc5157ab6102c9310cfbeeed"><code>4710a22</code></a> chore: update to latest nx and lerna (<a href="https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/scope-manager/issues/7019">#7019</a>)</li>
+<li>See full diff in <a href="https://github.com/typescript-eslint/typescript-eslint/commits/v5.59.9/packages/scope-manager">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@typescript-eslint/scope-manager&package-manager=npm_and_yarn&previous-version=5.59.8&new-version=5.59.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

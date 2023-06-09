@@ -1,0 +1,12 @@
+:seedling: Bump golang from 1.20.4 to 1.20.5
+
+Bumps golang from 1.20.4 to 1.20.5.
+
+---
+updated-dependencies:
+- dependency-name: golang
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

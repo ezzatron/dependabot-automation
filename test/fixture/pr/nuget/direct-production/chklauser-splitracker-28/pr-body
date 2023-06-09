@@ -1,0 +1,75 @@
+Bumps [Microsoft.Identity.Web](https://github.com/AzureAD/microsoft-identity-web) from 2.11.0 to 2.11.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/AzureAD/microsoft-identity-web/releases">Microsoft.Identity.Web's releases</a>.</em></p>
+<blockquote>
+<h1>2.11.1</h1>
+<ul>
+<li>Update to MSAL 4.54.1</li>
+</ul>
+<h3>Bug Fix:</h3>
+<ul>
+<li><strong>Fix bug with signed assertion for AKS</strong>, see issue <a href="https://redirect.github.com/AzureAD/microsoft-identity-web/pull/2252">#2252</a> for details.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/AzureAD/microsoft-identity-web/blob/master/changelog.md">Microsoft.Identity.Web's changelog</a>.</em></p>
+<blockquote>
+<h1>2.11.1</h1>
+<ul>
+<li>Update to MSAL 4.54.1</li>
+</ul>
+<h3>Bug Fix:</h3>
+<ul>
+<li><strong>Fix bug with signed assertion for AKS</strong>, see issue <a href="https://redirect.github.com/AzureAD/microsoft-identity-web/pull/2252">#2252</a> for details.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/d89b74295239543a810e7e6430ab9a42356190d3"><code>d89b742</code></a> Update changelog.md (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2261">#2261</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/2892d557be57cb3810cbf8a70ff031ab83eceb86"><code>2892d55</code></a> Update signedAssertion test to avoid resource contention (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2263">#2263</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/a2f68f91010a5413a2677f7b14706c78f9f93b41"><code>a2f68f9</code></a> Bump jQuery from 3.4.1 to 3.5.0 in /tests/DevApps/aspnet-mvc/OwinWebApp (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2259">#2259</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/a386eadf77f1dc2688d81b17dc08c4d32bfa7895"><code>a386ead</code></a> Bump jQuery.Validation in /tests/DevApps/aspnet-mvc/OwinWebApp (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2258">#2258</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/234682e92dcb12b91343fe7f36f1d14bd12408d8"><code>234682e</code></a> Bump Microsoft.Identity.Client from 4.54.0 to 4.54.1 (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2257">#2257</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/3b6e42aa5b2ba20f672730e9a383869a35f66f93"><code>3b6e42a</code></a> Updating the tool to support CIAM tenants (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2248">#2248</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/82b1bdf36f04e3ad565a99a228ef877b0f3a0de2"><code>82b1bdf</code></a> Fixes <a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2251">#2251</a> (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2252">#2252</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/eb3c0b839d2e33582d6619c0c54b4338d4dea159"><code>eb3c0b8</code></a> Bump Microsoft.Identity.Web.DownstreamApi from 2.10.0 to 2.11.0 (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2246">#2246</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/68585ccb96603e3a82d07b33ae7e08b27ef8a4ab"><code>68585cc</code></a> Bump Microsoft.Identity.Web from 2.10.0 to 2.11.0 (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2245">#2245</a>)</li>
+<li><a href="https://github.com/AzureAD/microsoft-identity-web/commit/547ed2b16e1bb237bf0581d0344a7f7836bfa8ec"><code>547ed2b</code></a> Bump Microsoft.Identity.Web.MicrosoftGraph from 2.10.0 to 2.11.0 (<a href="https://redirect.github.com/AzureAD/microsoft-identity-web/issues/2244">#2244</a>)</li>
+<li>See full diff in <a href="https://github.com/AzureAD/microsoft-identity-web/compare/2.11.0...2.11.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=Microsoft.Identity.Web&package-manager=nuget&previous-version=2.11.0&new-version=2.11.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

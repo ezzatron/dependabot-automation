@@ -1,0 +1,15 @@
+Bump Microsoft.NET.Test.Sdk from 17.4.0 to 17.6.2 in /src
+
+Bumps [Microsoft.NET.Test.Sdk](https://github.com/microsoft/vstest) from 17.4.0 to 17.6.2.
+- [Release notes](https://github.com/microsoft/vstest/releases)
+- [Changelog](https://github.com/microsoft/vstest/blob/main/docs/releases.md)
+- [Commits](https://github.com/microsoft/vstest/compare/v17.4.0...v17.6.2)
+
+---
+updated-dependencies:
+- dependency-name: Microsoft.NET.Test.Sdk
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

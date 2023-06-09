@@ -1,0 +1,14 @@
+Bump dotenv from 16.0.3 to 16.1.4
+
+Bumps [dotenv](https://github.com/motdotla/dotenv) from 16.0.3 to 16.1.4.
+- [Changelog](https://github.com/motdotla/dotenv/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/motdotla/dotenv/compare/v16.0.3...v16.1.4)
+
+---
+updated-dependencies:
+- dependency-name: dotenv
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

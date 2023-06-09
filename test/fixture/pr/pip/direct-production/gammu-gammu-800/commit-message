@@ -1,0 +1,14 @@
+Build(deps): Bump sphinx-rtd-theme from 1.2.1 to 1.2.2 in /docs/manual
+
+Bumps [sphinx-rtd-theme](https://github.com/readthedocs/sphinx_rtd_theme) from 1.2.1 to 1.2.2.
+- [Changelog](https://github.com/readthedocs/sphinx_rtd_theme/blob/master/docs/changelog.rst)
+- [Commits](https://github.com/readthedocs/sphinx_rtd_theme/compare/1.2.1...1.2.2)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-rtd-theme
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

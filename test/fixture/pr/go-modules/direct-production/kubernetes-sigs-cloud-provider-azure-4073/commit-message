@@ -1,0 +1,15 @@
+chore(deps): bump github.com/onsi/ginkgo/v2 in /pkg/azclient
+
+Bumps [github.com/onsi/ginkgo/v2](https://github.com/onsi/ginkgo) from 2.9.7 to 2.10.0.
+- [Release notes](https://github.com/onsi/ginkgo/releases)
+- [Changelog](https://github.com/onsi/ginkgo/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/onsi/ginkgo/compare/v2.9.7...v2.10.0)
+
+---
+updated-dependencies:
+- dependency-name: github.com/onsi/ginkgo/v2
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

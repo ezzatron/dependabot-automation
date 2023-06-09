@@ -1,0 +1,19 @@
+Bump license-maven-plugin-git.version from 4.1 to 4.2
+
+Bumps `license-maven-plugin-git.version` from 4.1 to 4.2.
+
+Updates `license-maven-plugin-git` from 4.1 to 4.2
+
+Updates `license-maven-plugin` from 4.1 to 4.2
+
+---
+updated-dependencies:
+- dependency-name: com.mycila:license-maven-plugin-git
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: com.mycila:license-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

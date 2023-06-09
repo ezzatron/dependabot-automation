@@ -1,0 +1,14 @@
+chore(deps): bump proc-macro2 from 1.0.59 to 1.0.60
+
+Bumps [proc-macro2](https://github.com/dtolnay/proc-macro2) from 1.0.59 to 1.0.60.
+- [Release notes](https://github.com/dtolnay/proc-macro2/releases)
+- [Commits](https://github.com/dtolnay/proc-macro2/compare/1.0.59...1.0.60)
+
+---
+updated-dependencies:
+- dependency-name: proc-macro2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

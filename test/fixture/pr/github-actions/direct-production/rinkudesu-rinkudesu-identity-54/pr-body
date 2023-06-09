@@ -1,0 +1,64 @@
+Bumps [docker/login-action](https://github.com/docker/login-action) from 2.1.0 to 2.2.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/docker/login-action/releases">docker/login-action's releases</a>.</em></p>
+<blockquote>
+<h2>v2.2.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Switch to actions-toolkit implementation by <a href="https://github.com/crazy-max"><code>@​crazy-max</code></a> in <a href="https://redirect.github.com/docker/login-action/pull/409">docker/login-action#409</a> <a href="https://redirect.github.com/docker/login-action/pull/470">docker/login-action#470</a> <a href="https://redirect.github.com/docker/login-action/pull/476">docker/login-action#476</a></li>
+<li>Bump <code>@​aws-sdk/client-ecr</code> and <code>@​aws-sdk/client-ecr-public</code> to 3.347.1 in <a href="https://redirect.github.com/docker/login-action/pull/524">docker/login-action#524</a> <a href="https://redirect.github.com/docker/login-action/pull/364">docker/login-action#364</a> <a href="https://redirect.github.com/docker/login-action/pull/363">docker/login-action#363</a></li>
+<li>Bump minimatch from 3.0.4 to 3.1.2 in <a href="https://redirect.github.com/docker/login-action/pull/354">docker/login-action#354</a></li>
+<li>Bump json5 from 2.2.0 to 2.2.3 in <a href="https://redirect.github.com/docker/login-action/pull/378">docker/login-action#378</a></li>
+<li>Bump http-proxy-agent from 5.0.0 to 7.0.0 in <a href="https://redirect.github.com/docker/login-action/pull/509">docker/login-action#509</a></li>
+<li>Bump https-proxy-agent from 5.0.1 to 7.0.0 in <a href="https://redirect.github.com/docker/login-action/pull/508">docker/login-action#508</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/docker/login-action/compare/v2.1.0...v2.2.0">https://github.com/docker/login-action/compare/v2.1.0...v2.2.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/docker/login-action/commit/465a07811f14bebb1938fbed4728c6a1ff8901fc"><code>465a078</code></a> Merge pull request <a href="https://redirect.github.com/docker/login-action/issues/524">#524</a> from crazy-max/bump-aws</li>
+<li><a href="https://github.com/docker/login-action/commit/360b4b5fefbd590a50c2ff0c234dbd9fa6b08759"><code>360b4b5</code></a> Merge pull request <a href="https://redirect.github.com/docker/login-action/issues/512">#512</a> from jhihruei/change/update-gitlab-readme</li>
+<li><a href="https://github.com/docker/login-action/commit/c156700b2346aa481b427d93907904c3d5f50f72"><code>c156700</code></a> update generated content</li>
+<li><a href="https://github.com/docker/login-action/commit/f605cf145efa455c90bb0b4759f5907b4279df40"><code>f605cf1</code></a> bump <code>@​aws-sdk/client-ecr</code> and <code>@​aws-sdk/client-ecr-public</code> to 3.347.1</li>
+<li><a href="https://github.com/docker/login-action/commit/2a93a3eddbf1aaf1b8fe1a407e435b503a11dc38"><code>2a93a3e</code></a> Merge pull request <a href="https://redirect.github.com/docker/login-action/issues/508">#508</a> from docker/dependabot/npm_and_yarn/https-proxy-agent...</li>
+<li><a href="https://github.com/docker/login-action/commit/422e90f61016a07919f20356abe3fe54a85301ff"><code>422e90f</code></a> update generated content</li>
+<li><a href="https://github.com/docker/login-action/commit/bc8c4d08b4525c19acb3460724815e0a379fa547"><code>bc8c4d0</code></a> build(deps): bump https-proxy-agent from 5.0.1 to 7.0.0</li>
+<li><a href="https://github.com/docker/login-action/commit/052c2c42688f7d00919d3d8d4f322da9896749d5"><code>052c2c4</code></a> Merge pull request <a href="https://redirect.github.com/docker/login-action/issues/509">#509</a> from docker/dependabot/npm_and_yarn/http-proxy-agent-...</li>
+<li><a href="https://github.com/docker/login-action/commit/beabccd65a41391d5831120e16e9ab294d01c78d"><code>beabccd</code></a> update generated content</li>
+<li><a href="https://github.com/docker/login-action/commit/b56ed1c88dfcaa0b6e59227cd67efd6b0ff7604c"><code>b56ed1c</code></a> build(deps): bump http-proxy-agent from 5.0.0 to 7.0.0</li>
+<li>Additional commits viewable in <a href="https://github.com/docker/login-action/compare/f4ef78c080cd8ba55a85445d5b36e214a81df20a...465a07811f14bebb1938fbed4728c6a1ff8901fc">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=docker/login-action&package-manager=github_actions&previous-version=2.1.0&new-version=2.2.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

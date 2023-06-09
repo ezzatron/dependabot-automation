@@ -1,0 +1,13 @@
+Bump rails from `552c0d9` to `55c3066`
+
+Bumps [rails](https://github.com/rails/rails) from `552c0d9` to `55c3066`.
+- [Release notes](https://github.com/rails/rails/releases)
+- [Commits](https://github.com/rails/rails/compare/552c0d99c3e548de6693ea85a4e6cf6f40f8b520...55c3066da325703ff7a9524dbdc479b860db3970)
+
+---
+updated-dependencies:
+- dependency-name: rails
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

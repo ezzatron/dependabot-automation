@@ -1,0 +1,12 @@
+Bump org.sonarqube from 4.0.0.2929 to 4.2.0.3129
+
+Bumps org.sonarqube from 4.0.0.2929 to 4.2.0.3129.
+
+---
+updated-dependencies:
+- dependency-name: org.sonarqube
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

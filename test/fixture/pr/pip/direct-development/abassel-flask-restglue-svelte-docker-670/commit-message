@@ -1,0 +1,15 @@
+:arrow_up: Bump werkzeug from 2.3.4 to 2.3.5 in /backend
+
+Bumps [werkzeug](https://github.com/pallets/werkzeug) from 2.3.4 to 2.3.5.
+- [Release notes](https://github.com/pallets/werkzeug/releases)
+- [Changelog](https://github.com/pallets/werkzeug/blob/main/CHANGES.rst)
+- [Commits](https://github.com/pallets/werkzeug/compare/2.3.4...2.3.5)
+
+---
+updated-dependencies:
+- dependency-name: werkzeug
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

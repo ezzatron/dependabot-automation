@@ -1,0 +1,99 @@
+Bumps [doctrine/doctrine-bundle](https://github.com/doctrine/DoctrineBundle) from 2.9.1 to 2.10.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/doctrine/DoctrineBundle/releases">doctrine/doctrine-bundle's releases</a>.</em></p>
+<blockquote>
+<h2>2.10.0</h2>
+<h3>Release Notes for <a href="https://github.com/doctrine/DoctrineBundle/milestone/90">2.10.0</a></h3>
+<p>Feature release (minor)</p>
+<h3>2.10.0</h3>
+<ul>
+<li>Total issues resolved: <strong>0</strong></li>
+<li>Total pull requests resolved: <strong>5</strong></li>
+<li>Total contributors: <strong>3</strong></li>
+</ul>
+<h4>Test Suite</h4>
+<ul>
+<li><a href="https://redirect.github.com/doctrine/DoctrineBundle/pull/1671">1671: Avoid indirect deprecations for the AttributeDriver in the testsuite</a> thanks to <a href="https://github.com/stof"><code>@​stof</code></a></li>
+</ul>
+<h4>Improvement</h4>
+<ul>
+<li>
+<p><a href="https://redirect.github.com/doctrine/DoctrineBundle/pull/1670">1670: Expose a setting to opt-in for the XSD validation for mapping</a> thanks to <a href="https://github.com/stof"><code>@​stof</code></a></p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/doctrine/DoctrineBundle/pull/1669">1669: Use the DsnParser to handle the url option</a> thanks to <a href="https://github.com/stof"><code>@​stof</code></a></p>
+</li>
+<li>
+<p>[1664: &amp;<a href="https://redirect.github.com/doctrine/DoctrineBundle/issues/91">#91</a>;DoctrineBundle&amp;<a href="https://redirect.github.com/doctrine/DoctrineBundle/issues/93">#93</a>; deprecate EventSubscriberInterface](<a href="https://redirect.github.com/doctrine/DoctrineBundle/pull/1664">doctrine/DoctrineBundle#1664</a>) thanks to <a href="https://github.com/alli83"><code>@​alli83</code></a></p>
+</li>
+</ul>
+<h4>Feature</h4>
+<ul>
+<li><a href="https://redirect.github.com/doctrine/DoctrineBundle/pull/1661">1661: Add a new <code>report_fields_where_declared</code> config setting</a> thanks to <a href="https://github.com/mpdude"><code>@​mpdude</code></a></li>
+</ul>
+<h2>2.9.2</h2>
+<h3>Release Notes for <a href="https://github.com/doctrine/DoctrineBundle/milestone/91">2.9.2</a></h3>
+<p>2.9.x bugfix release (patch)</p>
+<h3>2.9.2</h3>
+<ul>
+<li>Total issues resolved: <strong>0</strong></li>
+<li>Total pull requests resolved: <strong>2</strong></li>
+<li>Total contributors: <strong>2</strong></li>
+</ul>
+<h4>Documentation</h4>
+<ul>
+<li><a href="https://redirect.github.com/doctrine/DoctrineBundle/pull/1653">1653: Add documentation to integrate middleware</a> thanks to <a href="https://github.com/l-vo"><code>@​l-vo</code></a></li>
+</ul>
+<h4>Bug</h4>
+<ul>
+<li><a href="https://redirect.github.com/doctrine/DoctrineBundle/pull/1648">1648: Fix configuration inheritance to not override default connection/EM values</a> thanks to <a href="https://github.com/tucksaun"><code>@​tucksaun</code></a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/b2ec6c2668f6dc514e8bf51257d19c7c19398afe"><code>b2ec6c2</code></a> Expose a setting to opt-in for the XSD validation for mapping (<a href="https://redirect.github.com/doctrine/DoctrineBundle/issues/1670">#1670</a>)</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/6c273c9b9a63e83e015512a66816b5ab8dd9717a"><code>6c273c9</code></a> Merge pull request <a href="https://redirect.github.com/doctrine/DoctrineBundle/issues/1671">#1671</a> from stof/avoid_deprecations</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/ddb4b6f20c15bfd3b96e2b84f40a88d8d74354e3"><code>ddb4b6f</code></a> Avoid indirect deprecations for the AttributeDriver in the testsuite</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/e1f961a171b1a2aa5cd28bc167aca13faeb15a3d"><code>e1f961a</code></a> Merge pull request <a href="https://redirect.github.com/doctrine/DoctrineBundle/issues/1669">#1669</a> from stof/use_dsn_parser</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/11f270c121d1474966bec84f3b28aaccf6acc628"><code>11f270c</code></a> Use the DsnParser to handle the url option</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/94c583d2995bbf9c28c9c246764e4ca2958ab985"><code>94c583d</code></a> Merge branch '2.9.x' into 2.10.x</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/c09bfc30e18ad9ad3f5e1d967888437b916f0254"><code>c09bfc3</code></a> fix Doctrine deprecations (<a href="https://redirect.github.com/doctrine/DoctrineBundle/issues/1667">#1667</a>)</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/17eec855df54f5e9286255b68e1e875be9ddd0cf"><code>17eec85</code></a> Fix XSD for the new <code>report-fields-where-declared</code> setting from <a href="https://redirect.github.com/doctrine/DoctrineBundle/issues/1661">#1661</a> (<a href="https://redirect.github.com/doctrine/DoctrineBundle/issues/1668">#1668</a>)</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/f1d9f827f2e55ecb4e8ed590b25a0e636f768070"><code>f1d9f82</code></a> Add a new <code>report_fields_where_declared</code> config setting</li>
+<li><a href="https://github.com/doctrine/DoctrineBundle/commit/656beec9a163b44987a7e79f89f74020d0358b17"><code>656beec</code></a> [DoctrineBundle] deprecate EventSubscriberInterface</li>
+<li>Additional commits viewable in <a href="https://github.com/doctrine/DoctrineBundle/compare/2.9.1...2.10.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=doctrine/doctrine-bundle&package-manager=composer&previous-version=2.9.1&new-version=2.10.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

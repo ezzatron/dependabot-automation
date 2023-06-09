@@ -1,0 +1,240 @@
+Bumps [passport](https://github.com/jaredhanson/passport) and [@medusajs/medusa](https://github.com/medusajs/medusa/tree/HEAD/packages/medusa). These dependencies needed to be updated together.
+Updates `passport` from 0.4.1 to 0.6.0
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/jaredhanson/passport/blob/master/CHANGELOG.md">passport's changelog</a>.</em></p>
+<blockquote>
+<h2>[0.6.0] - 2022-05-20</h2>
+<h3>Added</h3>
+<ul>
+<li><code>authenticate()</code>, <code>req#login</code>, and <code>req#logout</code> accept a
+<code>keepSessionInfo: true</code> option to keep session information after regenerating
+the session.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><code>req#login()</code> and <code>req#logout()</code> regenerate the the session and clear session
+information by default.</li>
+<li><code>req#logout()</code> is now an asynchronous function and requires a callback
+function as the last argument.</li>
+</ul>
+<h3>Security</h3>
+<ul>
+<li>Improved robustness against session fixation attacks in cases where there is
+physical access to the same system or the application is susceptible to
+cross-site scripting (XSS).</li>
+</ul>
+<h2>[0.5.3] - 2022-05-16</h2>
+<h3>Fixed</h3>
+<ul>
+<li><code>initialize()</code> middleware extends request with <code>login()</code>, <code>logIn()</code>,
+<code>logout()</code>, <code>logOut()</code>, <code>isAuthenticated()</code>, and <code>isUnauthenticated()</code> functions
+again, reverting change from 0.5.1.</li>
+</ul>
+<h2>[0.5.2] - 2021-12-16</h2>
+<h3>Fixed</h3>
+<ul>
+<li>Introduced a compatibility layer for strategies that depend directly on
+<code>passport@0.4.x</code> or earlier (such as <code>passport-azure-ad</code>), which were
+broken by the removal of private variables in <code>passport@0.5.1</code>.</li>
+</ul>
+<h2>[0.5.1] - 2021-12-15</h2>
+<h3>Added</h3>
+<ul>
+<li>Informative error message in session strategy if session support is not
+available.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><code>authenticate()</code> middleware, rather than <code>initialize()</code> middleware, extends
+request with <code>login()</code>, <code>logIn()</code>, <code>logout()</code>, <code>logOut()</code>, <code>isAuthenticated()</code>,
+and <code>isUnauthenticated()</code> functions.</li>
+</ul>
+<h2>[0.5.0] - 2021-09-23</h2>
+<h3>Changed</h3>
+<ul>
+<li><code>initialize()</code> middleware extends request with <code>login()</code>, <code>logIn()</code>,
+<code>logout()</code>, <code>logOut()</code>, <code>isAuthenticated()</code>, and <code>isUnauthenticated()</code>
+functions.</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/jaredhanson/passport/commit/c33067bc5aa81a6dd827076d810bf788bb6acac7"><code>c33067b</code></a> 0.6.0</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/3052bb4717673b88a27981f6bc91a1f585889e5c"><code>3052bb4</code></a> Update changelog.</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/42630cbd1ffd44d146ff96f0a4be6f3c12f81d75"><code>42630cb</code></a> Merge pull request <a href="https://redirect.github.com/jaredhanson/passport/issues/900">#900</a> from jaredhanson/fix-fixation</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/8dd79fe5f3f414435c4e0561fc925fb7ab6c8efb"><code>8dd79fe</code></a> Use utils-merge rather than Object.assign for compatibility.</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/4f6bd5b254454d3f61c3236e8f1dd33472704fd3"><code>4f6bd5b</code></a> Change keepSessionData to keepSessionData.</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/46756e56db671a822490f3d6c103a33a6691047d"><code>46756e5</code></a> Silence verbose logging.</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/987b1918a2c5056531bbd325a2ff888a3595b2df"><code>987b191</code></a> Add tests.</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/f8a175f1145c4efdffa7e4c511a642f608e11c0f"><code>f8a175f</code></a> Add tests.</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/29a90d68dd5d4bc807bc658cfe49fba968b34d7d"><code>29a90d6</code></a> No need to guard callback existence.</li>
+<li><a href="https://github.com/jaredhanson/passport/commit/bfba8a1ab44b658f745e33e3484b389f0751cdc0"><code>bfba8a1</code></a> Add tests.</li>
+<li>Additional commits viewable in <a href="https://github.com/jaredhanson/passport/compare/v0.4.1...v0.6.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `@medusajs/medusa` from 1.5.0 to 1.12.0
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/medusajs/medusa/releases"><code>@​medusajs/medusa</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v1.12.0</h2>
+<h3>Highlights</h3>
+<p><strong>Breaking changes</strong>
+In our quest to improve performance, a public method in the PriceSelectionStrategy has been updated to support bulk calculations of variant prices. Specifically, the following signatures have changed:</p>
+<pre lang="ts"><code>// Before
+calculateVariantPrice(variantId: string, context: PriceSelectionContext): Promise&lt;PriceSelectionResult&gt;
+</code></pre>
+<pre lang="ts"><code>// Now
+calculateVariantPrice(data: { variantId: string; quantity?: number; }[], context: PriceSelectionContext): Promise&lt;Map&lt;string, PriceSelectionResult&gt;&gt;
+</code></pre>
+<p>Additionally (non-breaking), the following DB indexes have been added:</p>
+<pre lang="ts"><code>idx_money_amount_variant_id ON money_amount (variant_id);
+idx_money_amount_region_id ON money_amount (region_id);
+idx_product_option_value_variant_id ON product_option_value (variant_id);
+idx_product_option_value_option_id ON product_option_value (option_id);
+<p>idx_gin_product_title ON product USING gin (title gin_trgm_ops);
+idx_gin_product_description ON product USING gin (description gin_trgm_ops);
+idx_gin_product_variant_title ON product_variant USING gin (title gin_trgm_ops);
+idx_gin_product_variant_sku ON product_variant USING gin (sku gin_trgm_ops);
+idx_gin_product_collection ON product_collection USING gin (title gin_trgm_ops);
+</code></pre></p>
+<p>The packages <code>class-validator</code> and <code>class-transformer</code> have been removed from <code>@medusajs/utils</code>.</p>
+<p>The <code>TransactionBaseService</code> has been removed from <code>@medusajs/utils</code>. This class should be imported from <code>@medusajs/medusa</code>.</p>
+<p>The utilities <code>build-query</code>, <code>db-aware-column</code>, <code>base-entity</code>, and <code>soft-deletable-entity</code> have been removed from <code>@medusajs/medusa</code>. These should be imported from <code>@medusajs/medusa</code>.</p>
+<p><strong>Support for SQLite dropped</strong>
+SQLite support was initially added to reduce friction for developers trying Medusa for the first time. It runs on most operating systems without installation, allowing you to start a Medusa starter without preparing a Postgres database.</p>
+<p>Though, as we've added features that use more advanced database concepts, we've seen that SQLite has started to cause more harm than good. And frankly, we've not prioritized maintaining the support, as removing it was always part of our plans. SQLite still allows developers to get started very quickly. However, as soon as you start using our admin system or set up the storefront starter, issues caused by the limitations of SQLite arise. These issues are primarily centered around transaction management. A concept used extensively in our core and poorly supported by SQLite.</p>
+<p>Therefore, as of this release, SQLite is no longer supported. The pros simply do not outweigh the cons at this point.</p>
+<p><em>What does this mean for your setup?</em></p>
+<p>In the highly unlikely case that you are using SQLite, this will be a breaking change. So, you'll need to set up Postgres for your Medusa server as part of bumping to this version. You can find a <a href="https://docs.medusajs.com/development/backend/configurations#postgresql-configurations">guide in our documentation</a> on how to do this.</p>
+<p>If you are not using SQLite, these changes will not affect your setup.</p>
+<p><strong>Reservation management</strong>
+With the introduction of our Inventory Module, we added the notion of reservations. Right now, reservations are, from a store administrator perspective, limited to order items and cannot really be used outside the context of an order - unless you consume the API directly.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/medusajs/medusa/blob/develop/packages/medusa/CHANGELOG.md"><code>@​medusajs/medusa</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2>1.12.0</h2>
+<h3>Minor Changes</h3>
+<ul>
+<li><a href="https://github.com/medusajs/medusa/commit/81eeaa32942b1a7148126a7218ceb168ce8d6cac"><code>81eeaa329</code></a> Thanks <a href="https://github.com/olivermrbl"><code>@​olivermrbl</code></a>! - chore(medusa): Minor bump</li>
+</ul>
+<h3>Patch Changes</h3>
+<ul>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4154">#4154</a> <a href="https://github.com/medusajs/medusa/commit/0a35f21af7ac8b6cdc1af12a403e95f9bf6142fe"><code>0a35f21af</code></a> Thanks <a href="https://github.com/pKorsholm"><code>@​pKorsholm</code></a>! - Feat(medusa,inventory): search inventory items based on title and description</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4066">#4066</a> <a href="https://github.com/medusajs/medusa/commit/4fb443c0ea38bde3148bce059c0ee3b91dfff3d4"><code>4fb443c0e</code></a> Thanks <a href="https://github.com/pKorsholm"><code>@​pKorsholm</code></a>! - feat(medusa,client-types): add location_id filtering to list-location levels</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4071">#4071</a> <a href="https://github.com/medusajs/medusa/commit/0476f52519237c622b37d29de0718f9774b6add7"><code>0476f5251</code></a> Thanks <a href="https://github.com/pKorsholm"><code>@​pKorsholm</code></a>! - feaet(medusa): add description to reservation default fields</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4184">#4184</a> <a href="https://github.com/medusajs/medusa/commit/0f87d3d642b56bf19de8136e1f5bfedf364c5193"><code>0f87d3d64</code></a> Thanks <a href="https://github.com/olivermrbl"><code>@​olivermrbl</code></a>! - chore(medusa,admin-ui): Add reservations FF</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/3703">#3703</a> <a href="https://github.com/medusajs/medusa/commit/ed382f2ee510cbf96164991efa7ff75e3ce659ff"><code>ed382f2ee</code></a> Thanks <a href="https://github.com/adrien2p"><code>@​adrien2p</code></a>! - feat(medusa): Improve prices flow</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4174">#4174</a> <a href="https://github.com/medusajs/medusa/commit/92f01cefbc4a190defce425fb237d2d68728fa9a"><code>92f01cefb</code></a> Thanks <a href="https://github.com/fPolic"><code>@​fPolic</code></a>! - fix(medusa): fix CSV parsing issues by downgrading the version of the parsing library</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/3956">#3956</a> <a href="https://github.com/medusajs/medusa/commit/e3cfbcd4a78073c63ecd9829bc531e50d3944f07"><code>e3cfbcd4a</code></a> Thanks <a href="https://github.com/dwene"><code>@​dwene</code></a>! - fix(medusa): migrations cli should look for migrations in plugin dist folder</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4189">#4189</a> <a href="https://github.com/medusajs/medusa/commit/6998666c6edd6617ca61a8d39c26435bad1273e3"><code>6998666c6</code></a> Thanks <a href="https://github.com/olivermrbl"><code>@​olivermrbl</code></a>! - fix(medusa): Upserting tax rates</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4094">#4094</a> <a href="https://github.com/medusajs/medusa/commit/e2d29d35c4c477bc9b4a3ddce1279276fd072875"><code>e2d29d35c</code></a> Thanks <a href="https://github.com/juanzgc"><code>@​juanzgc</code></a>! - feat(plugins): Pass Config Modules to plugin</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/3979">#3979</a> <a href="https://github.com/medusajs/medusa/commit/3a38c84f88b05f74ee0a172af3e3f78b2ec8c2d2"><code>3a38c84f8</code></a> Thanks <a href="https://github.com/pKorsholm"><code>@​pKorsholm</code></a>! - feat(client-types, inventory, medusa, types): add additional filtering capabilities to list-reservations</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4081">#4081</a> <a href="https://github.com/medusajs/medusa/commit/4f3c8f5d70b5ae4a11e9d4a2fea4a8410b2daf47"><code>4f3c8f5d7</code></a> Thanks <a href="https://github.com/pKorsholm"><code>@​pKorsholm</code></a>! - feat(medusa,client-types,medusa-js,admin-ui,medusa-react): add reservation table and creation</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4026">#4026</a> <a href="https://github.com/medusajs/medusa/commit/a91987fab33745f9864eab21bd1c27e8e3e24571"><code>a91987fab</code></a> Thanks <a href="https://github.com/olivermrbl"><code>@​olivermrbl</code></a>! - feat(medusa): Remove sqlite support</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4130">#4130</a> <a href="https://github.com/medusajs/medusa/commit/bf18bd0c8a284dd0042d4c54d84acb2e7c10edd3"><code>bf18bd0c8</code></a> Thanks <a href="https://github.com/adrien2p"><code>@​adrien2p</code></a>! - feat(medusa): Revert pricing service setVariantPrices API</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/medusajs/medusa/pull/4146">#4146</a> <a href="https://github.com/medusajs/medusa/commit/db419953075e0907b8c4d27ab5188e9bd3e3d72b"><code>db4199530</code></a> Thanks <a href="https://github.com/fPolic"><code>@​fPolic</code></a>! - chore(medusa, utils, inventory, stock-location): clear deps in the utils package</p>
+</li>
+<li>
+<p>Updated dependencies [<a href="https://github.com/medusajs/medusa/commit/3a38c84f88b05f74ee0a172af3e3f78b2ec8c2d2"><code>3a38c84f8</code></a>, <a href="https://github.com/medusajs/medusa/commit/a91987fab33745f9864eab21bd1c27e8e3e24571"><code>a91987fab</code></a>, <a href="https://github.com/medusajs/medusa/commit/e73c3e51c9cd192eeae7a57b24b07bd466214145"><code>e73c3e51c</code></a>, <a href="https://github.com/medusajs/medusa/commit/db419953075e0907b8c4d27ab5188e9bd3e3d72b"><code>db4199530</code></a>, <a href="https://github.com/medusajs/medusa/commit/c0e527d6e0a67d0c53577a0b9c3d16ee8dc5740f"><code>c0e527d6e</code></a>]:</p>
+<ul>
+<li><code>@​medusajs/types</code><a href="https://github.com/1"><code>@​1</code></a>.8.7</li>
+<li><code>@​medusajs/medusa-cli</code><a href="https://github.com/1"><code>@​1</code></a>.3.15</li>
+<li><code>@​medusajs/utils</code><a href="https://github.com/1"><code>@​1</code></a>.9.0</li>
+<li><code>@​medusajs/modules-sdk</code><a href="https://github.com/1"><code>@​1</code></a>.8.7</li>
+</ul>
+</li>
+</ul>
+<h2>1.11.0</h2>
+<h3>Minor Changes</h3>
+<ul>
+<li><a href="https://github.com/medusajs/medusa/commit/26963acc0a5caa1bca97cfe4cbcee113a8d75b84"><code>26963acc0</code></a> Thanks <a href="https://github.com/olivermrbl"><code>@​olivermrbl</code></a>! - chore: Minor bump <code>@​medusajs/medusa</code></li>
+</ul>
+<h3>Patch Changes</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/medusajs/medusa/commit/8f8f6332b792b7febddd86de9a6d7d7017737f71"><code>8f8f633</code></a> chore: Version Packages (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/4114">#4114</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/0f87d3d642b56bf19de8136e1f5bfedf364c5193"><code>0f87d3d</code></a> chore(medusa,admin-ui): Add reservations FF (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/4184">#4184</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/6998666c6edd6617ca61a8d39c26435bad1273e3"><code>6998666</code></a> fix(medusa): Upserting tax rates (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/4189">#4189</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/e3cfbcd4a78073c63ecd9829bc531e50d3944f07"><code>e3cfbcd</code></a> fix(medusa): migrations cli should also pull from ${plugin}/dist (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/3956">#3956</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/db419953075e0907b8c4d27ab5188e9bd3e3d72b"><code>db41995</code></a> chore(utils): clean util package deps (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/4146">#4146</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/92f01cefbc4a190defce425fb237d2d68728fa9a"><code>92f01ce</code></a> fix(medusa): downgrade <code>papaparse</code> version (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/4174">#4174</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/0a35f21af7ac8b6cdc1af12a403e95f9bf6142fe"><code>0a35f21</code></a> feat(medusa, inventory): Search inventory items by title and description (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/4154">#4154</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/3a38c84f88b05f74ee0a172af3e3f78b2ec8c2d2"><code>3a38c84</code></a> feat(medusa,inventory,types): Expand list-reservation capabilities (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/3979">#3979</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/4f3c8f5d70b5ae4a11e9d4a2fea4a8410b2daf47"><code>4f3c8f5</code></a> feat(admin-ui,medusa): Reservations management (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/4081">#4081</a>)</li>
+<li><a href="https://github.com/medusajs/medusa/commit/0476f52519237c622b37d29de0718f9774b6add7"><code>0476f52</code></a> Feat(medusa, admin-ui): Update edit allocation modal (<a href="https://github.com/medusajs/medusa/tree/HEAD/packages/medusa/issues/4071">#4071</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/medusajs/medusa/commits/@medusajs/medusa@1.12.0/packages/medusa">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/shahednasser/medusa-source-magento/network/alerts).
+
+</details>

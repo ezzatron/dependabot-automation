@@ -1,0 +1,40 @@
+Bumps [github.com/elastic/elastic-transport-go/v8](https://github.com/elastic/elastic-transport-go) from 8.2.0 to 8.3.0.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/elastic/elastic-transport-go/commit/674f80aa3c9a28716a3808bff08db1f9ca56f6e6"><code>674f80a</code></a> Release 8.3.0</li>
+<li><a href="https://github.com/elastic/elastic-transport-go/commit/35f31931dae4e8165656c2815b861cf2eb4764d0"><code>35f3193</code></a> Fix retry with URL prefix (<a href="https://redirect.github.com/elastic/elastic-transport-go/issues/17">#17</a>)</li>
+<li><a href="https://github.com/elastic/elastic-transport-go/commit/2c5b6e3e58d54ac89a82a4d5b9e9cd4a10bb2bcd"><code>2c5b6e3</code></a> Update version to 8.3.0-SNAPSHOT</li>
+<li>See full diff in <a href="https://github.com/elastic/elastic-transport-go/compare/v8.2.0...v8.3.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/elastic/elastic-transport-go/v8&package-manager=go_modules&previous-version=8.2.0&new-version=8.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

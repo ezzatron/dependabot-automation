@@ -1,0 +1,64 @@
+Bumps [ppy.osu.Framework](https://github.com/ppy/osu-framework) from 2023.531.0 to 2023.608.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/ppy/osu-framework/releases">ppy.osu.Framework's releases</a>.</em></p>
+<blockquote>
+<h2>2023.608.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Expose truncated state of <code>SpriteText</code> by <a href="https://github.com/Joehuu"><code>@​Joehuu</code></a> in <a href="https://redirect.github.com/ppy/osu-framework/pull/5636">ppy/osu-framework#5636</a></li>
+<li>Remove redundant nullable suppression directives by <a href="https://github.com/frenzibyte"><code>@​frenzibyte</code></a> in <a href="https://redirect.github.com/ppy/osu-framework/pull/5824">ppy/osu-framework#5824</a></li>
+<li>Reduce invalidations of <code>childrenSizeDependencies</code> in edge cases by <a href="https://github.com/smoogipoo"><code>@​smoogipoo</code></a> in <a href="https://redirect.github.com/ppy/osu-framework/pull/5825">ppy/osu-framework#5825</a></li>
+<li>Update Veldrid package to revert <code>CADisplayLink</code> implementation from veldrid-side by <a href="https://github.com/frenzibyte"><code>@​frenzibyte</code></a> in <a href="https://redirect.github.com/ppy/osu-framework/pull/5826">ppy/osu-framework#5826</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/ppy/osu-framework/compare/2023.531.0...2023.608.0">https://github.com/ppy/osu-framework/compare/2023.531.0...2023.608.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ppy/osu-framework/commit/b5e8a9bca9bda6b7a9b0127f6c8696685474b34b"><code>b5e8a9b</code></a> Merge pull request <a href="https://redirect.github.com/ppy/osu-framework/issues/5826">#5826</a> from frenzibyte/fix-metal-ios</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/9f2c7c225c6bdd6cdbea1f7a6653c51815f51749"><code>9f2c7c2</code></a> Update Veldrid package</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/3ceb948b7c8e12f2625e001ef45876f5bb30dd53"><code>3ceb948</code></a> Merge pull request <a href="https://redirect.github.com/ppy/osu-framework/issues/5825">#5825</a> from smoogipoo/reduce-autosize-invalidations</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/54998b68e672e06151d341951ae3657b7b99bfe0"><code>54998b6</code></a> Merge branch 'master' into reduce-autosize-invalidations</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/711943f1c7e8720349b1f3b75cb93809586d7f6a"><code>711943f</code></a> Skip size dependencies invalidation when not autosizing</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/9d8105ba2bb6cd5f3d2a48d8346d857d5075b859"><code>9d8105b</code></a> Validate size dependencies when removing autosize</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/70cb4810a8c9cf32ba99577b4230d7ee7df568be"><code>70cb481</code></a> Initially validate size dependencies</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/689a1d5f5c29cc50725d1aed531993f1ac7fbf39"><code>689a1d5</code></a> Add failing tests</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/4f51459744d1f2e97692696b4c38a557d7c6e827"><code>4f51459</code></a> Merge pull request <a href="https://redirect.github.com/ppy/osu-framework/issues/5824">#5824</a> from frenzibyte/remove-unused-nullable-disable</li>
+<li><a href="https://github.com/ppy/osu-framework/commit/3a52a456c4194fbadb038cd958abc797a938adca"><code>3a52a45</code></a> Remove unused nullable suppression directive</li>
+<li>Additional commits viewable in <a href="https://github.com/ppy/osu-framework/compare/2023.531.0...2023.608.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ppy.osu.Framework&package-manager=nuget&previous-version=2023.531.0&new-version=2023.608.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+**Note:** Dependabot was ignoring updates to this dependency, but since you've updated it yourself we've started tracking it for you again. 🤖
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

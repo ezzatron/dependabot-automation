@@ -1,0 +1,23 @@
+build(deps): bump versions.seleniumVersion from 4.9.1 to 4.10.0
+
+Bumps `versions.seleniumVersion` from 4.9.1 to 4.10.0.
+
+Updates `org.seleniumhq.selenium:selenium-java` from 4.9.1 to 4.10.0
+- [Release notes](https://github.com/SeleniumHQ/selenium/releases)
+- [Commits](https://github.com/SeleniumHQ/selenium/compare/selenium-4.9.1...selenium-4.10.0)
+
+Updates `org.seleniumhq.selenium:selenium-http-jdk-client` from 4.9.1 to 4.10.0
+- [Release notes](https://github.com/SeleniumHQ/selenium/releases)
+- [Commits](https://github.com/SeleniumHQ/selenium/compare/selenium-4.9.1...selenium-4.10.0)
+
+---
+updated-dependencies:
+- dependency-name: org.seleniumhq.selenium:selenium-java
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: org.seleniumhq.selenium:selenium-http-jdk-client
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

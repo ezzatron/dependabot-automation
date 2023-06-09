@@ -1,0 +1,164 @@
+Bumps [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin) from 0.40.3 to 0.43.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/fabric8io/docker-maven-plugin/releases">docker-maven-plugin's releases</a>.</em></p>
+<blockquote>
+<h2>0.43.0 (2023-05-20)</h2>
+<ul>
+<li>Make buildx build single non-native platform if requested (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1665">1665</a>) <a href="https://github.com/martyvona"><code>@​martyvona</code></a></li>
+<li>Support for buildx option to disable attestations (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1661">1661</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+</ul>
+<h2>0.42.1 (2023-04-06)</h2>
+<ul>
+<li>Update Jnr Jffi dependency to v1.3.11 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1660">1660</a>) <a href="https://github.com/rohanKanojia"><code>@​rohanKanojia</code></a></li>
+<li>Update run platform documentation (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1652">1652</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>buildx should split platforms by comma as documented (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1651">1651</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+</ul>
+<h2>v0.42.0 (2023-02-28)</h2>
+<ul>
+<li>Support <code>docker run --platform</code> (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1641">1641</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>Update buildx documentation to amplify the build behavior (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1646">1646</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>Default to native platform when creating container (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1645">1645</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>JIB ignores the <code>DOCKER_REGISTRY</code> environment variable (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1617">1617</a>) <a href="https://github.com/rohanKanojia"><code>@​rohanKanojia</code></a></li>
+</ul>
+<h2>0.41.0 (2023-02-06):</h2>
+<ul>
+<li>multi-arch build should use provided repository (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1597">1597</a>) <a href="https://github.com/merikan"><code>@​merikan</code></a></li>
+<li>new property <code>docker.build.network</code> to override the network for RUN directives for docker build (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1636">1636</a>) <a href="https://github.com/tulinkry"><code>@​tulinkry</code></a></li>
+<li>Update Jib Core to v0.23.0 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1637">1637</a>) <a href="https://github.com/rohanKanojia"><code>@​rohanKanojia</code></a></li>
+<li>Update JNR UnixSocket to v0.38.19 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1638">1638</a>) <a href="https://github.com/rohanKanojia"><code>@​rohanKanojia</code></a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/fabric8io/docker-maven-plugin/blob/master/doc/changelog.md">docker-maven-plugin's changelog</a>.</em></p>
+<blockquote>
+<h1>ChangeLog</h1>
+<ul>
+<li>
+<p><strong>0.44-SNAPSHOT</strong>:</p>
+</li>
+<li>
+<p><strong>0.43.0</strong> (2023-05-20):</p>
+<ul>
+<li>Make buildx build single non-native platform if requested (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1665">1665</a>) <a href="https://github.com/martyvona"><code>@​martyvona</code></a></li>
+<li>Support for buildx option to disable attestations (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1661">1661</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+</ul>
+</li>
+<li>
+<p><strong>0.42.1</strong> (2023-04-06):</p>
+<ul>
+<li>Update Jnr Jffi dependency to v1.3.11 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1660">1660</a>) <a href="https://github.com/rohanKanojia"><code>@​rohanKanojia</code></a></li>
+<li>Update run platform documentation (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1652">1652</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>buildx should split platforms by comma as documented (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1651">1651</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+</ul>
+</li>
+<li>
+<p><strong>0.42.0</strong> (2023-02-28):</p>
+<ul>
+<li>Support <code>docker run --platform</code> (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1641">1641</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>Update buildx documentation to amplify the build behavior (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1646">1646</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>Default to native platform when creating container (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1645">1645</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>JIB ignores the <code>DOCKER_REGISTRY</code> environment variable (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1617">1617</a>) <a href="https://github.com/rohanKanojia"><code>@​rohanKanojia</code></a></li>
+</ul>
+</li>
+<li>
+<p><strong>0.41.0</strong> (2023-02-06):</p>
+<ul>
+<li>multi-arch build should use provided repository (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1597">1597</a>) <a href="https://github.com/merikan"><code>@​merikan</code></a></li>
+<li>new property docker.build.network to override the network for RUN directives for docker build (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1636">1636</a>) <a href="https://github.com/tulinkry"><code>@​tulinkry</code></a></li>
+<li>Update Jib Core to v0.23.0 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1637">1637</a>) <a href="https://github.com/rohanKanojia"><code>@​rohanKanojia</code></a></li>
+<li>Update JNR UnixSocket to v0.38.19 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1638">1638</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>0.40.3</strong> (2022-12-18):</p>
+<ul>
+<li>image/squash option is taken into account when using buildx (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1605">1605</a>) <a href="https://github.com/kevinleturc"><code>@​kevinleturc</code></a></li>
+<li>Allow having build args with same name but different value in various sources, which are overriden in the order of precedence in resulting build args map (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1407">1407</a>) <a href="https://github.com/pavelsmolensky"><code>@​pavelsmolensky</code></a></li>
+<li>Use double for <code>docker.cpus</code> property and interpret this value in the same way as Docker config option <code>--cpus</code> (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1609">1609</a>) <a href="https://github.com/vjuranek"><code>@​vjuranek</code></a></li>
+<li>NPE from Assembly plugin when POM packaging is used (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1146">1146</a>) <a href="https://github.com/slawekjaranowski"><code>@​slawekjaranowski</code></a></li>
+<li>Docker pulling progress only shown after pull has completed and not in real-time (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1598">1598</a>) <a href="https://github.com/causalnet"><code>@​causalnet</code></a></li>
+<li>Bump <code>org.yaml:snakeyaml</code> to v1.32 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1619">1619</a>) <a href="https://github.com/pen4"><code>@​pen4</code></a></li>
+<li>Bump <code>com.google.cloud.tools:jib-core</code> to v0.23.0 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1620">1620</a>) <a href="https://github.com/pen4"><code>@​pen4</code></a></li>
+<li>Bump <code>com.google.guava:guava</code> to v31.1-jre <a href="https://github.com/rohanKanojia"><code>@​rohanKanojia</code></a></li>
+</ul>
+</li>
+<li>
+<p><strong>0.40.2</strong> (2022-07-31):</p>
+<ul>
+<li>Plugin doesn't abort building an image in case Podman is used and Dockerfile can't be processed (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1512">1562</a>) <a href="https://github.com/jh-cd"><code>@​jh-cd</code></a></li>
+<li>Bump gson from 2.8.5 to 2.8.9 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1556">1556</a>) <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>Build and load native platform during build goal, build and push all platforms during push goal (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1576">1576</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>Remove buildx cache, don't delete builder instances after goal. Use builder instance to cache artifacts (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1579">1579</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>Multiple assemblies use the name &quot;maven&quot;. Please assign each assembly a unique name (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1558">1558</a>) <a href="https://github.com/tbfky"><code>@​tbfky</code></a></li>
+<li>Use <code>https://index.docker.io/v1/</code> as default buildx server registry (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1574">1574</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>When using buildx, do not force build of native platform  (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1572">1572</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+</ul>
+</li>
+<li>
+<p><strong>0.40.1</strong> (2022-06-11):</p>
+<ul>
+<li>buildx does not work when specifying Dockerfile location (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1562">1562</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+<li>Use buildx, set tag to current version fails if it contains <code>-SNAPSHOT</code> (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1566">1566</a>) <a href="https://github.com/chonton"><code>@​chonton</code></a></li>
+</ul>
+</li>
+<li>
+<p><strong>0.40.0</strong> (2022-05-29):</p>
+<ul>
+<li><code>docker:stop</code> should respect docker.skip even when <code>docker.executeStopOnVMShutdown</code> is set to <code>true</code> (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1561">1561</a>) <a href="https://github.com/doyleyoung"><code>@​doyleyoung</code></a></li>
+<li>Prevent concurrent access to secDispatcher during password decryption (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/pull/1533">1533</a>) <a href="https://github.com/joserebelo"><code>@​joserebelo</code></a></li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/94143edbfdbb59903390872846c630773752c512"><code>94143ed</code></a> [RELEASE] Update project version to v0.43.0</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/043a5698b1408e3a1a95a2e84dfed08da2ec5b24"><code>043a569</code></a> BuildX attestation configuration</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/e1a9e88898c8508118c443eeeaf1292747e3c325"><code>e1a9e88</code></a> add unit tests for buildX platforms</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/618bb36647f041b3073e36d17603a541d29931a4"><code>618bb36</code></a> wrap long line</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/f6dd969a514b79fc102301e5100c35213609dd32"><code>f6dd969</code></a> update changelog</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/47bc529076c1c0347c79b34a8928e18fb1f9515d"><code>47bc529</code></a> change buildAndLoadNativePlatform to buildAndLoadSinglePlatform</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/aa49dd4947afdb052766eae55c5f3d4c9f885a7b"><code>aa49dd4</code></a> [RELEASE] Prepare for next development iteration</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/e1ad83e9843e1a7ce736564f6acf22b7d3d22c3a"><code>e1ad83e</code></a> [RELEASE] Update project version to v0.42.1</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/630a510c4390d01f7f945754667ca5a449765a92"><code>630a510</code></a> chore : fix formatting in pom.xml</li>
+<li><a href="https://github.com/fabric8io/docker-maven-plugin/commit/b08e9328d6ed9fe0ebfa005463946d4a0902e5c9"><code>b08e932</code></a> chore (deps) : Update Jnr Jffi dependency to v1.3.11 (<a href="https://redirect.github.com/fabric8io/docker-maven-plugin/issues/1660">#1660</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/fabric8io/docker-maven-plugin/compare/v0.40.3...v0.43.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=io.fabric8:docker-maven-plugin&package-manager=maven&previous-version=0.40.3&new-version=0.43.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

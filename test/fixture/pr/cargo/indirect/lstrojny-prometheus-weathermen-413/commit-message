@@ -1,0 +1,15 @@
+Bump time from 0.3.21 to 0.3.22
+
+Bumps [time](https://github.com/time-rs/time) from 0.3.21 to 0.3.22.
+- [Release notes](https://github.com/time-rs/time/releases)
+- [Changelog](https://github.com/time-rs/time/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/time-rs/time/compare/v0.3.21...v0.3.22)
+
+---
+updated-dependencies:
+- dependency-name: time
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

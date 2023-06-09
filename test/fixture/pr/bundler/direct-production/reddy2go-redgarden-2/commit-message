@@ -1,0 +1,14 @@
+Bump nokogiri from 1.11.4 to 1.14.3
+
+Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.4 to 1.14.3.
+- [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+- [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.4...v1.14.3)
+
+---
+updated-dependencies:
+- dependency-name: nokogiri
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

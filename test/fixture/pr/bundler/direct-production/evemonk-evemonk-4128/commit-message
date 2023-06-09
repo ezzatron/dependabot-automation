@@ -1,0 +1,12 @@
+Bump eve_online from `3c4f3ef` to `da4134f`
+
+Bumps [eve_online](https://github.com/evemonk/eve_online) from `3c4f3ef` to `da4134f`.
+- [Commits](https://github.com/evemonk/eve_online/compare/3c4f3ef20d960b7016565999a97af4070bb9f17b...da4134f8c68a9f1fc4461e04e64bb67f8020e044)
+
+---
+updated-dependencies:
+- dependency-name: eve_online
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

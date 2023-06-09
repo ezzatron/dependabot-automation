@@ -1,0 +1,14 @@
+Bump lookbook from 2.0.4 to 2.0.5
+
+Bumps [lookbook](https://github.com/ViewComponent/lookbook) from 2.0.4 to 2.0.5.
+- [Release notes](https://github.com/ViewComponent/lookbook/releases)
+- [Commits](https://github.com/ViewComponent/lookbook/compare/v2.0.4...v2.0.5)
+
+---
+updated-dependencies:
+- dependency-name: lookbook
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

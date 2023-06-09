@@ -1,0 +1,15 @@
+Bump docker-maven-plugin from 0.40.3 to 0.43.0
+
+Bumps [docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin) from 0.40.3 to 0.43.0.
+- [Release notes](https://github.com/fabric8io/docker-maven-plugin/releases)
+- [Changelog](https://github.com/fabric8io/docker-maven-plugin/blob/master/doc/changelog.md)
+- [Commits](https://github.com/fabric8io/docker-maven-plugin/compare/v0.40.3...v0.43.0)
+
+---
+updated-dependencies:
+- dependency-name: io.fabric8:docker-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

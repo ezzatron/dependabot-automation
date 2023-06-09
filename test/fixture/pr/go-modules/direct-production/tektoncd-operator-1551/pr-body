@@ -1,0 +1,75 @@
+Bumps [github.com/openshift-pipelines/pipelines-as-code](https://github.com/openshift-pipelines/pipelines-as-code) from 0.19.1 to 0.19.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/openshift-pipelines/pipelines-as-code/releases">github.com/openshift-pipelines/pipelines-as-code's releases</a>.</em></p>
+<blockquote>
+<h2>v0.19.2</h2>
+<h1>Pipelines as Code version v0.19.2</h1>
+<p>OpenShift Pipelines as Code patch version v0.19.2 has been released 🥳</p>
+<p>This release fixes a crash, increase the timeout to try to update the pipelinerun annotations in case of conflicts among other fixes and documentation update.</p>
+<h2>Installation</h2>
+<p>To install this version you can install the release.yaml with <a href="https://kubernetes.io/docs/tasks/tools/#kubectl"><code>kubectl</code></a> for your platform :</p>
+<h3>Openshift</h3>
+<pre lang="shell"><code>kubectl apply -f https://github.com/openshift-pipelines/pipelines-as-code/releases/download/v0.19.2/release.yaml
+</code></pre>
+<h3>Kubernetes</h3>
+<pre lang="shell"><code>kubectl apply -f https://github.com/openshift-pipelines/pipelines-as-code/releases/download/v0.19.2/release.k8s.yaml
+</code></pre>
+<h3>Documentation</h3>
+<p>documentation is available here :</p>
+<p><a href="https://release-v0-19-2.pipelines-as-code.pages.dev">https://release-v0-19-2.pipelines-as-code.pages.dev</a></p>
+<h2>Changelog</h2>
+<ul>
+<li>8973f97d625477cf4eb6e0f9e28e1520c072284b: Fetch the hugo binary ourselves (<a href="https://github.com/chmouel"><code>@​chmouel</code></a>)</li>
+<li>9641e3929e373339bc391e86d267785a87342a61: Fix GitHub token scope issue when secret-github-app-token-scoped key is enabled and repo level as well as global configuration provided (<a href="https://github.com/savitaashture"><code>@​savitaashture</code></a>)</li>
+<li>554a3198ae20359f2de2175cf60cad9a740f019e: Fix secret on custom params documentation (<a href="https://github.com/chmouel"><code>@​chmouel</code></a>)</li>
+<li>2937e9ebf39c52da9f285716cb3f1f7ecf6440b6: disable depguard for now (<a href="https://github.com/chmouel"><code>@​chmouel</code></a>)</li>
+<li>802f08c870b32f9785be1c9c94591124da8e7f14: double default retry backoff for piplinerun patch (<a href="https://github.com/gabemontero"><code>@​gabemontero</code></a>)</li>
+<li>e77acb0e70509f6b7096e1c0048927e9d61c8d61: fix ghapp_token when we don't output jwt tokens (<a href="https://github.com/chmouel"><code>@​chmouel</code></a>)</li>
+<li>d09e3884d79a1801ad380b76679dd48b92b48e35: return original pipelinerun vs. nil on patch error (<a href="https://github.com/gabemontero"><code>@​gabemontero</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/openshift-pipelines/pipelines-as-code/commit/d09e3884d79a1801ad380b76679dd48b92b48e35"><code>d09e388</code></a> return original pipelinerun vs. nil on patch error</li>
+<li><a href="https://github.com/openshift-pipelines/pipelines-as-code/commit/802f08c870b32f9785be1c9c94591124da8e7f14"><code>802f08c</code></a> double default retry backoff for piplinerun patch</li>
+<li><a href="https://github.com/openshift-pipelines/pipelines-as-code/commit/8973f97d625477cf4eb6e0f9e28e1520c072284b"><code>8973f97</code></a> Fetch the hugo binary ourselves</li>
+<li><a href="https://github.com/openshift-pipelines/pipelines-as-code/commit/2937e9ebf39c52da9f285716cb3f1f7ecf6440b6"><code>2937e9e</code></a> disable depguard for now</li>
+<li><a href="https://github.com/openshift-pipelines/pipelines-as-code/commit/554a3198ae20359f2de2175cf60cad9a740f019e"><code>554a319</code></a> Fix secret on custom params documentation</li>
+<li><a href="https://github.com/openshift-pipelines/pipelines-as-code/commit/e77acb0e70509f6b7096e1c0048927e9d61c8d61"><code>e77acb0</code></a> fix ghapp_token when we don't output jwt tokens</li>
+<li><a href="https://github.com/openshift-pipelines/pipelines-as-code/commit/9641e3929e373339bc391e86d267785a87342a61"><code>9641e39</code></a> Fix GitHub token scope issue when secret-github-app-token-scoped key is enabl...</li>
+<li>See full diff in <a href="https://github.com/openshift-pipelines/pipelines-as-code/compare/v0.19.1...v0.19.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/openshift-pipelines/pipelines-as-code&package-manager=go_modules&previous-version=0.19.1&new-version=0.19.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

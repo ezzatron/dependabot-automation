@@ -1,0 +1,15 @@
+Bump org.jetbrains.kotlin:kotlin-serialization from 1.8.21 to 1.8.22
+
+Bumps [org.jetbrains.kotlin:kotlin-serialization](https://github.com/JetBrains/kotlin) from 1.8.21 to 1.8.22.
+- [Release notes](https://github.com/JetBrains/kotlin/releases)
+- [Changelog](https://github.com/JetBrains/kotlin/blob/v1.8.22/ChangeLog.md)
+- [Commits](https://github.com/JetBrains/kotlin/compare/v1.8.21...v1.8.22)
+
+---
+updated-dependencies:
+- dependency-name: org.jetbrains.kotlin:kotlin-serialization
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

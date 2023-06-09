@@ -1,0 +1,47 @@
+Bumps [maven-dependency-plugin](https://github.com/apache/maven-dependency-plugin) from 3.4.0 to 3.6.0.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/8e257106e7c11c280d6fd05443419c999f05370c"><code>8e25710</code></a> [maven-release-plugin] prepare release maven-dependency-plugin-3.6.0</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/6ccca01bfbf634796d243227da3b0f09ef257240"><code>6ccca01</code></a> [MDEP-867] Upgrade plugins in ITs</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/159090be4f3897ae0dbe058ba36da110ddf501af"><code>159090b</code></a> [MDEP-866] Refresh download page</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/2992497b4fdce17c55a51ee8a47419e2925d962f"><code>2992497</code></a> [MDEP-862] Get rid of plexus-container-default from dependencies</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/b4474bb9d8c003348fddb18b0c95a52ae21d8536"><code>b4474bb</code></a> [MDEP-851] Bump plexus-archiver from 4.6.3 to 4.7.1 (<a href="https://redirect.github.com/apache/maven-dependency-plugin/issues/315">#315</a>)</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/ea1a9fd9273fbac6a89898270d1bf3160d745376"><code>ea1a9fd</code></a> [MDEP-864] Replace AnalyzeReportView with a new AnalyzeReportRenderer</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/9655a1e90ff426f1ae8cfaa13774a15ee7b1f8f4"><code>9655a1e</code></a> [MDEP-854] Bump jsoup from 1.15.4 to 1.16.1 (<a href="https://redirect.github.com/apache/maven-dependency-plugin/issues/310">#310</a>)</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/4c3568ee5c7c07e5f2551bbc5855bd2f5e2302ce"><code>4c3568e</code></a> [MNG-6829] Replace any StringUtils#isEmpty(String) and #isNotEmpty(String) (#...</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/abc76b54236dadefdb20dcdb7f5af82343fa37e4"><code>abc76b5</code></a> [MDEP-860] Bump maven-dependency-analyzer from 1.13.1 to 1.13.2 (<a href="https://redirect.github.com/apache/maven-dependency-plugin/issues/312">#312</a>)</li>
+<li><a href="https://github.com/apache/maven-dependency-plugin/commit/3fb3669a30d3e56b67095018d8017da654032e4f"><code>3fb3669</code></a> [MDEP-859] Code refactor - UnpackUtil</li>
+<li>Additional commits viewable in <a href="https://github.com/apache/maven-dependency-plugin/compare/maven-dependency-plugin-3.4.0...maven-dependency-plugin-3.6.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.apache.maven.plugins:maven-dependency-plugin&package-manager=maven&previous-version=3.4.0&new-version=3.6.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

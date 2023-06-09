@@ -1,0 +1,12 @@
+chore(deps): bump golang from 1.20.4-buster to 1.20.5-buster
+
+Bumps golang from 1.20.4-buster to 1.20.5-buster.
+
+---
+updated-dependencies:
+- dependency-name: golang
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

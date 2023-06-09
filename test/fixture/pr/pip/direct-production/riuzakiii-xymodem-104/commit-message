@@ -1,0 +1,15 @@
+Bump cmake from 3.26.3 to 3.26.4
+
+Bumps [cmake](https://github.com/scikit-build/cmake-python-distributions) from 3.26.3 to 3.26.4.
+- [Release notes](https://github.com/scikit-build/cmake-python-distributions/releases)
+- [Changelog](https://github.com/scikit-build/cmake-python-distributions/blob/master/HISTORY.rst)
+- [Commits](https://github.com/scikit-build/cmake-python-distributions/compare/3.26.3...3.26.4)
+
+---
+updated-dependencies:
+- dependency-name: cmake
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

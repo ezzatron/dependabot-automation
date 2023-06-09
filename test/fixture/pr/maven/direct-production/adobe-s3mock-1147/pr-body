@@ -1,0 +1,76 @@
+Bumps [maven-javadoc-plugin](https://github.com/apache/maven-javadoc-plugin) from 3.4.1 to 3.5.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/apache/maven-javadoc-plugin/releases">maven-javadoc-plugin's releases</a>.</em></p>
+<blockquote>
+<h2>3.5.0</h2>
+<p><a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12317529&amp;version=12352256">Release Notes</a></p>
+<ul>
+<li>Clean up language and update URLs (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/172">#172</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>Assorted minor FAQ edits (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/176">#176</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/MJAVADOC-738">[MJAVADOC-738]</a> - Upgrade commons-text to 1.10.0 (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/174">#174</a>) <a href="https://github.com/cstamas"><code>@​cstamas</code></a></li>
+<li>an --&gt; a (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/171">#171</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li>Update (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/167">#167</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/MJAVADOC-685">[MJAVADOC-685]</a> - no longer document deprecated parameter stylesheet (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/165">#165</a>) <a href="https://github.com/kwin"><code>@​kwin</code></a></li>
+<li>MJAVADOC-731 update parent, get rid of legacy (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/164">#164</a>) <a href="https://github.com/kwin"><code>@​kwin</code></a></li>
+<li><a href="https://issues.apache.org/jira/browse/MJAVADOC-685">[MJAVADOC-685]</a> - Deprecate parameter &quot;stylesheet&quot; (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/162">#162</a>) <a href="https://github.com/kwin"><code>@​kwin</code></a></li>
+</ul>
+<h2>📝 Documentation updates</h2>
+<ul>
+<li>Typo in AbstractJavadocMojo (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/175">#175</a>) <a href="https://github.com/ebourg"><code>@​ebourg</code></a></li>
+<li>licenced --&gt; licensed (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/168">#168</a>) <a href="https://github.com/elharo"><code>@​elharo</code></a></li>
+</ul>
+<h2>👻 Maintenance</h2>
+<ul>
+<li><a href="https://issues.apache.org/jira/browse/MJAVADOC-729">[MJAVADOC-729]</a> - Link to Javadoc references from JDK 17 (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/161">#161</a>) <a href="https://github.com/kwin"><code>@​kwin</code></a></li>
+<li>fix link to documentation of link option (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/160">#160</a>) <a href="https://github.com/kwin"><code>@​kwin</code></a></li>
+<li>[[MJAVADOC-721] Parse stderr output and suppress informational lines (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/157">#157</a>) <a href="https://github.com/sman-81"><code>@​sman-81</code></a>]](<a href="https://issues.apache.org/jira/browse/MJAVADOC-721%5D">https://issues.apache.org/jira/browse/MJAVADOC-721]</a> Parse stderr output and suppress informational lines (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/pull/157">#157</a>) <a href="https://github.com/sman-81"><code>@​sman-81</code></a>) -</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/e41f4fda4529a20089d708471909839f123d5988"><code>e41f4fd</code></a> [maven-release-plugin] prepare release maven-javadoc-plugin-3.5.0</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/c56ec0a989b34ee7383b7f5f16e4f8fca69149f8"><code>c56ec0a</code></a> [MJAVADOC-741] Upgrade plugins and components</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/d02fd90c799e12825448ac538bf09abf2a059d82"><code>d02fd90</code></a> [MJAVADOC-740] Upgrade Parent to 39</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/41233152e19b9cf01bc3ac5a072ce36d5e911656"><code>4123315</code></a> [MJAVADOC-700] Plugin duplicates classes in Java 8 all-classes lists</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/fabff9c1ed15007f11d1644e445d766ea9e63c5d"><code>fabff9c</code></a> Clean up language and update URLs (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/issues/172">#172</a>)</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/a654cc647a06d7f36cea8918ffa05d05489bd5a1"><code>a654cc6</code></a> Assorted minor FAQ edits (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/issues/176">#176</a>)</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/73557e337eb556fb628823594cf387bf64ef22f5"><code>73557e3</code></a> Fixed a typo in AbstractJavadocMojo (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/issues/175">#175</a>)</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/96df545acc6a70f64cb2c00b2b7d7544a4f775c4"><code>96df545</code></a> [MJAVADOC-738] Upgrade commons-text to 1.10.0 (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/issues/174">#174</a>)</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/f21b24c76cbd9724c3c5777b10e696dd1ea3f3e1"><code>f21b24c</code></a> update Reproducible Builds badge link</li>
+<li><a href="https://github.com/apache/maven-javadoc-plugin/commit/5b61ee915298b51a273bd88612fb346ac639d9e0"><code>5b61ee9</code></a> an --&gt; a (<a href="https://redirect.github.com/apache/maven-javadoc-plugin/issues/171">#171</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/apache/maven-javadoc-plugin/compare/maven-javadoc-plugin-3.4.1...maven-javadoc-plugin-3.5.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.apache.maven.plugins:maven-javadoc-plugin&package-manager=maven&previous-version=3.4.1&new-version=3.5.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,14 @@
+Bump github.com/charmbracelet/bubbletea from 0.24.0 to 0.24.2
+
+Bumps [github.com/charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) from 0.24.0 to 0.24.2.
+- [Release notes](https://github.com/charmbracelet/bubbletea/releases)
+- [Commits](https://github.com/charmbracelet/bubbletea/compare/v0.24.0...v0.24.2)
+
+---
+updated-dependencies:
+- dependency-name: github.com/charmbracelet/bubbletea
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

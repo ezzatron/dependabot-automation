@@ -1,0 +1,15 @@
+build(deps): bump rack from 2.2.6.4 to 2.2.7
+
+Bumps [rack](https://github.com/rack/rack) from 2.2.6.4 to 2.2.7.
+- [Release notes](https://github.com/rack/rack/releases)
+- [Changelog](https://github.com/rack/rack/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/rack/rack/compare/v2.2.6.4...v2.2.7)
+
+---
+updated-dependencies:
+- dependency-name: rack
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

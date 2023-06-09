@@ -1,0 +1,14 @@
+Bump boto3-stubs[cloudformation] from 1.26.148 to 1.26.149
+
+Bumps [boto3-stubs[cloudformation]](https://github.com/youtype/mypy_boto3_builder) from 1.26.148 to 1.26.149.
+- [Release notes](https://github.com/youtype/mypy_boto3_builder/releases)
+- [Commits](https://github.com/youtype/mypy_boto3_builder/commits)
+
+---
+updated-dependencies:
+- dependency-name: boto3-stubs[cloudformation]
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

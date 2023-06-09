@@ -1,0 +1,13 @@
+Bump maven-source-plugin from 3.2.1 to 3.3.0
+
+Bumps [maven-source-plugin](https://github.com/apache/maven-source-plugin) from 3.2.1 to 3.3.0.
+- [Commits](https://github.com/apache/maven-source-plugin/compare/maven-source-plugin-3.2.1...maven-source-plugin-3.3.0)
+
+---
+updated-dependencies:
+- dependency-name: org.apache.maven.plugins:maven-source-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

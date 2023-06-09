@@ -1,0 +1,19 @@
+build(deps): bump nav_version from 2.5.3 to 2.6.0 in /12_sql
+
+Bumps `nav_version` from 2.5.3 to 2.6.0.
+
+Updates `androidx.navigation:navigation-fragment-ktx` from 2.5.3 to 2.6.0
+
+Updates `androidx.navigation:navigation-ui-ktx` from 2.5.3 to 2.6.0
+
+---
+updated-dependencies:
+- dependency-name: androidx.navigation:navigation-fragment-ktx
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: androidx.navigation:navigation-ui-ktx
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

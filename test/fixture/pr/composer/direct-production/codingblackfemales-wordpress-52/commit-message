@@ -1,0 +1,12 @@
+build(deps): bump wpackagist-plugin/wp-maintenance-mode
+
+Bumps wpackagist-plugin/wp-maintenance-mode from 2.6.7 to 2.6.8.
+
+---
+updated-dependencies:
+- dependency-name: wpackagist-plugin/wp-maintenance-mode
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

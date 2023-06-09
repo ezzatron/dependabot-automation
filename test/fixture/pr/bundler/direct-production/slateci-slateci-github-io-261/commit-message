@@ -1,0 +1,15 @@
+Bump faraday from 2.7.4 to 2.7.6
+
+Bumps [faraday](https://github.com/lostisland/faraday) from 2.7.4 to 2.7.6.
+- [Release notes](https://github.com/lostisland/faraday/releases)
+- [Changelog](https://github.com/lostisland/faraday/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/lostisland/faraday/compare/v2.7.4...v2.7.6)
+
+---
+updated-dependencies:
+- dependency-name: faraday
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

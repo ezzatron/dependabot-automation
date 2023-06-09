@@ -1,0 +1,13 @@
+Bump src/main/resources/bedrock-samples from `cc489c0` to `60083d4`
+
+Bumps [src/main/resources/bedrock-samples](https://github.com/Mojang/bedrock-samples) from `cc489c0` to `60083d4`.
+- [Release notes](https://github.com/Mojang/bedrock-samples/releases)
+- [Commits](https://github.com/Mojang/bedrock-samples/compare/cc489c0d7b651688cfe635c66a8a7fa2c0d34e9f...60083d4b1d4a62bc88f71636a23992b750d659d1)
+
+---
+updated-dependencies:
+- dependency-name: src/main/resources/bedrock-samples
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

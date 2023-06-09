@@ -1,0 +1,15 @@
+Bump Microsoft.Identity.Web from 2.11.0 to 2.11.1
+
+Bumps [Microsoft.Identity.Web](https://github.com/AzureAD/microsoft-identity-web) from 2.11.0 to 2.11.1.
+- [Release notes](https://github.com/AzureAD/microsoft-identity-web/releases)
+- [Changelog](https://github.com/AzureAD/microsoft-identity-web/blob/master/changelog.md)
+- [Commits](https://github.com/AzureAD/microsoft-identity-web/compare/2.11.0...2.11.1)
+
+---
+updated-dependencies:
+- dependency-name: Microsoft.Identity.Web
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

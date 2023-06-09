@@ -1,0 +1,217 @@
+Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependency [jest-transform-css](https://github.com/dferber90/jest-transform-css). These dependencies need to be updated together.
+
+Updates `json5` from 0.5.1 to 2.2.3
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/json5/json5/releases">json5's releases</a>.</em></p>
+<blockquote>
+<h2>v2.2.3</h2>
+<ul>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of v1.0.2. (<a href="https://redirect.github.com/json5/json5/issues/299">#299</a>)</li>
+</ul>
+<h2>v2.2.2</h2>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href="https://redirect.github.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href="https://redirect.github.com/json5/json5/issues/295">#295</a>).</li>
+</ul>
+<h2>v2.2.1</h2>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href="https://redirect.github.com/json5/json5/issues/266">#266</a>)</li>
+</ul>
+<h2>v2.2.0</h2>
+<ul>
+<li>New: Accurate and documented TypeScript declarations are now included. There is no need to install <code>@types/json5</code>. (<a href="https://redirect.github.com/json5/json5/issues/236">#236</a>, <a href="https://redirect.github.com/json5/json5/issues/244">#244</a>)</li>
+</ul>
+<h3>v2.1.3 [<a href="https://github.com/json5/json5/tree/v2.1.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.2...v2.1.3">diff</a>]</h3>
+<ul>
+<li>Fix: An out of memory bug when parsing numbers has been fixed. (<a href="https://redirect.github.com/json5/json5/issues/228">#228</a>, <a href="https://redirect.github.com/json5/json5/issues/229">#229</a>)</li>
+</ul>
+<h2>v2.1.2</h2>
+<ul>
+<li>Fix: Bump <code>minimist</code> to <code>v1.2.5</code>. (<a href="https://redirect.github.com/json5/json5/issues/222">#222</a>)</li>
+</ul>
+<h2>v2.1.1</h2>
+<ul>
+<li>New: <code>package.json</code> and <code>package.json5</code> include a <code>module</code> property so
+bundlers like webpack, rollup and parcel can take advantage of the ES Module
+build. (<a href="https://redirect.github.com/json5/json5/issues/208">#208</a>)</li>
+<li>Fix: <code>stringify</code> outputs <code>\0</code> as <code>\\x00</code> when followed by a digit. (<a href="https://redirect.github.com/json5/json5/issues/210">#210</a>)</li>
+<li>Fix: Spelling mistakes have been fixed. (<a href="https://redirect.github.com/json5/json5/issues/196">#196</a>)</li>
+</ul>
+<h2>v2.1.0</h2>
+<ul>
+<li>New: The <code>index.mjs</code> and <code>index.min.mjs</code> browser builds in the <code>dist</code> directory support ES6 modules. (<a href="https://redirect.github.com/json5/json5/issues/187">#187</a>)</li>
+</ul>
+<h2>v2.0.1</h2>
+<ul>
+<li>Fix: The browser builds in the <code>dist</code> directory support ES5. (<a href="https://redirect.github.com/json5/json5/issues/182">#182</a>)</li>
+</ul>
+<h2>v2.0.0</h2>
+<ul>
+<li>
+<p><strong>Major</strong>: JSON5 officially supports Node.js v6 and later. Support for Node.js
+v4 has been dropped. Since Node.js v6 supports ES5 features, the code has been
+rewritten in native ES5, and the dependence on Babel has been eliminated.</p>
+</li>
+<li>
+<p>New: Support for Unicode 10 has been added.</p>
+</li>
+<li>
+<p>New: The test framework has been migrated from Mocha to Tap.</p>
+</li>
+<li>
+<p>New: The browser build at <code>dist/index.js</code> is no longer minified by default. A
+minified version is available at <code>dist/index.min.js</code>. (<a href="https://redirect.github.com/json5/json5/issues/181">#181</a>)</p>
+</li>
+<li>
+<p>Fix: The warning has been made clearer when line and paragraph separators are</p>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/json5/json5/blob/main/CHANGELOG.md">json5's changelog</a>.</em></p>
+<blockquote>
+<h3>v2.2.3 [<a href="https://github.com/json5/json5/tree/v2.2.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.2...v2.2.3">diff</a>]</h3>
+<ul>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of
+v1.0.2. (<a href="https://redirect.github.com/json5/json5/issues/299">#299</a>)</li>
+</ul>
+<h3>v2.2.2 [<a href="https://github.com/json5/json5/tree/v2.2.2">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.1...v2.2.2">diff</a>]</h3>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href="https://redirect.github.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href="https://redirect.github.com/json5/json5/issues/295">#295</a>).</li>
+</ul>
+<h3>v2.2.1 [<a href="https://github.com/json5/json5/tree/v2.2.1">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.0...v2.2.1">diff</a>]</h3>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href="https://redirect.github.com/json5/json5/issues/266">#266</a>)</li>
+</ul>
+<h3>v2.2.0 [<a href="https://github.com/json5/json5/tree/v2.2.0">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.3...v2.2.0">diff</a>]</h3>
+<ul>
+<li>New: Accurate and documented TypeScript declarations are now included. There
+is no need to install <code>@types/json5</code>. (<a href="https://redirect.github.com/json5/json5/issues/236">#236</a>, <a href="https://redirect.github.com/json5/json5/issues/244">#244</a>)</li>
+</ul>
+<h3>v2.1.3 [<a href="https://github.com/json5/json5/tree/v2.1.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.2...v2.1.3">diff</a>]</h3>
+<ul>
+<li>Fix: An out of memory bug when parsing numbers has been fixed. (<a href="https://redirect.github.com/json5/json5/issues/228">#228</a>,
+<a href="https://redirect.github.com/json5/json5/issues/229">#229</a>)</li>
+</ul>
+<h3>v2.1.2 [<a href="https://github.com/json5/json5/tree/v2.1.2">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.1...v2.1.2">diff</a>]</h3>
+<ul>
+<li>Fix: Bump <code>minimist</code> to <code>v1.2.5</code>. (<a href="https://redirect.github.com/json5/json5/issues/222">#222</a>)</li>
+</ul>
+<h3>v2.1.1 [<a href="https://github.com/json5/json5/tree/v2.1.1">code</a>, [diff][d2.1.1]]</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/json5/json5/commit/c3a75242772a5026a49c4017a16d9b3543b62776"><code>c3a7524</code></a> 2.2.3</li>
+<li><a href="https://github.com/json5/json5/commit/94fd06d82eeed225fa172f6fb2ca27375cbd2e39"><code>94fd06d</code></a> docs: update CHANGELOG for v2.2.3</li>
+<li><a href="https://github.com/json5/json5/commit/3b8cebf0c474a8b20c78bd75c89cca0c4dce84ce"><code>3b8cebf</code></a> docs(security): use GitHub security advisories</li>
+<li><a href="https://github.com/json5/json5/commit/f0fd9e194dde282caff114a110f4fac635f3a62c"><code>f0fd9e1</code></a> docs: publish a security policy</li>
+<li><a href="https://github.com/json5/json5/commit/6a91a05fffeda16ff6b3b5008b6b340d42d31ec0"><code>6a91a05</code></a> docs(template): bug -&gt; bug report</li>
+<li><a href="https://github.com/json5/json5/commit/14f8cb186e8abdfaccf6527171da7b1224374650"><code>14f8cb1</code></a> 2.2.2</li>
+<li><a href="https://github.com/json5/json5/commit/10cc7ca9169b59c5e0f5afc03dbd870cd06bcc46"><code>10cc7ca</code></a> docs: update CHANGELOG for v2.2.2</li>
+<li><a href="https://github.com/json5/json5/commit/7774c1097993bc3ce9f0ac4b722a32bf7d6871c8"><code>7774c10</code></a> fix: add <strong>proto</strong> to objects and arrays</li>
+<li><a href="https://github.com/json5/json5/commit/edde30abd8b22facf2c06c72586b9f6edf12700d"><code>edde30a</code></a> Readme: slight tweak to intro</li>
+<li><a href="https://github.com/json5/json5/commit/97286f8bd542c89dcee096bc05dd28ed2dfc1e16"><code>97286f8</code></a> Improve example in readme</li>
+<li>Additional commits viewable in <a href="https://github.com/json5/json5/compare/v0.5.1...v2.2.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `jest-transform-css` from 2.0.0 to 6.0.1
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dferber90/jest-transform-css/releases">jest-transform-css's releases</a>.</em></p>
+<blockquote>
+<h2>v6.0.1</h2>
+<p><strong>Bug fix</strong></p>
+<ul>
+<li>escape backslashes in windows paths - thanks <a href="https://github.com/albekov"><code>@​albekov</code></a> (<a href="https://redirect.github.com/dferber90/jest-transform-css/pull/26">dferber90/jest-transform-css#26</a>)</li>
+</ul>
+<h2>v6.0.0</h2>
+<ul>
+<li>Upgraded <code>postcss-load-config</code> to latest version in <a href="https://redirect.github.com/dferber90/jest-transform-css/pull/23">dferber90/jest-transform-css#23</a>, thanks <a href="https://github.com/Yankovsky"><code>@​Yankovsky</code></a></li>
+</ul>
+<p>BREAKING CHANGE</p>
+<p>Your <code>.postcssrc</code> file might need to be adapted as <code>postcss-load-config</code> <a href="https://github.com/postcss/postcss-load-config/blob/main/CHANGELOG.md#40-2022-05-23">dropped support for the sync API and for Node.js 12 &amp; 10</a>.</p>
+<h2>v5.0.0</h2>
+<p>BREAKING CHANGE</p>
+<ul>
+<li>dropped support for <code>jesttransformcss.config.js</code> in favor of transformer config</li>
+</ul>
+<p>You no longer need a <code>jesttransformcss.config.js</code> file. Instead, configure your transform directly.</p>
+<p>See <a href="https://redirect.github.com/dferber90/jest-transform-css/pull/22">dferber90/jest-transform-css#22</a> for more information.</p>
+<p>massive thanks to <a href="https://github.com/Yankovsky"><code>@​Yankovsky</code></a> for coming up with &amp; implementing this improvement</p>
+<h2>v4.0.1</h2>
+<ul>
+<li>make compatible with Jest v28, thanks <a href="https://github.com/3c1u"><code>@​3c1u</code></a></li>
+</ul>
+<h2>v4.0.0</h2>
+<ul>
+<li>upgraded to postcss v8, thanks <a href="https://github.com/WestCornfield"><code>@​WestCornfield</code></a></li>
+</ul>
+<h2>v3.0.0</h2>
+<ul>
+<li>Remove support for Node 4 and 6. Requires Node 8+ (transitively through <a href="https://github.com/davidtheclark/cosmiconfig/blob/main/CHANGELOG.md">comsiconfig</a> and <a href="https://github.com/moxystudio/node-cross-spawn/blob/master/CHANGELOG.md#700-2019-09-03">cross-spawn</a>)</li>
+<li>add support for Jest 27, thanks <a href="https://github.com/iddan"><code>@​iddan</code></a> <a href="https://redirect.github.com/dferber90/jest-transform-css/pull/14">dferber90/jest-transform-css#14</a></li>
+</ul>
+<h2>v2.1.0</h2>
+<ul>
+<li>Added a  <code>generateScopedName</code> config option to <code>jesttransformcss.config.js</code> (<a href="https://redirect.github.com/dferber90/jest-transform-css/issues/7">#7</a>, thanks <a href="https://github.com/tomrule007"><code>@​tomrule007</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/c43633e1c8e8eb4f00d7c0c4d97ab52664981578"><code>c43633e</code></a> v6.0.1</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/b991e6802e8110954f6db488008471ebe6b4c8ea"><code>b991e68</code></a> Merge pull request <a href="https://redirect.github.com/dferber90/jest-transform-css/issues/26">#26</a> from albekov/master</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/04a97f204ed533425b889211afd73b11c67cc2ed"><code>04a97f2</code></a> Escape backslashes in Windows paths</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/00df393fc99166504bf8236660a319c8dd5457f5"><code>00df393</code></a> v6.0.0</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/d284264ef3b4017076b8b5ad372edeeb987d1996"><code>d284264</code></a> Merge pull request <a href="https://redirect.github.com/dferber90/jest-transform-css/issues/23">#23</a> from Yankovsky/master</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/ff1b941b568b2a6d28788600f6da17ed8a7d0516"><code>ff1b941</code></a> update postcss-load-config dependency to the latest version</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/4191027e8a29fff08171f3f7d687a1f25da5e47f"><code>4191027</code></a> switch back to npm</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/cb0afaf55cc65910bada026971be31c87ed9c61d"><code>cb0afaf</code></a> Merge pull request <a href="https://redirect.github.com/dferber90/jest-transform-css/issues/22">#22</a> from Yankovsky/master</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/02e71df0202e3c32bc6b66ca798e5a9a7bc7fe34"><code>02e71df</code></a> Use transformer config in jest.config.js instead of a separate jesttransformc...</li>
+<li><a href="https://github.com/dferber90/jest-transform-css/commit/411c782bee042fcbe1a39c20af71fef643c1e05a"><code>411c782</code></a> v4.0.1</li>
+<li>Additional commits viewable in <a href="https://github.com/dferber90/jest-transform-css/compare/v2.0.0...v6.0.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/WNPRC-EHR-Services/wnprc-modules/network/alerts).
+
+</details>

@@ -1,0 +1,106 @@
+Bumps [testng](https://github.com/testng-team/testng) from 7.7.1 to 7.8.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/testng-team/testng/releases">testng's releases</a>.</em></p>
+<blockquote>
+<h2>TestNG v7.8.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>XmlTest index is not set for test suites invoked with YAML by <a href="https://github.com/sbaranov-parasoft"><code>@​sbaranov-parasoft</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2859">testng-team/testng#2859</a></li>
+<li>Listener's onAfterClass is called before <a href="https://github.com/AfterClass"><code>@​AfterClass</code></a> configuration methods are executed. by <a href="https://github.com/oliver-hughes"><code>@​oliver-hughes</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2865">testng-team/testng#2865</a></li>
+<li>After upgrading to TestNG 7.5.0, setting ITestResult.status to FAILURE doesn't fail the test anymore by <a href="https://github.com/juherr"><code>@​juherr</code></a> and <a href="https://github.com/krmahadevan"><code>@​krmahadevan</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2872">testng-team/testng#2872</a> and <a href="https://redirect.github.com/testng-team/testng/pull/2864">testng-team/testng#2864</a></li>
+<li>JUnitReportReporter should capture the test case output at the test case level by <a href="https://github.com/JamesSassano"><code>@​JamesSassano</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2876">testng-team/testng#2876</a></li>
+<li>[Feature] Allow test classes to define &quot;configfailurepolicy&quot; at a per class level by <a href="https://github.com/krmahadevan"><code>@​krmahadevan</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2869">testng-team/testng#2869</a></li>
+<li>TestNG.xml doesn't honour Parallel value of a clone by <a href="https://github.com/krmahadevan"><code>@​krmahadevan</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2878">testng-team/testng#2878</a></li>
+<li>before configuration and before invocation should be 'SKIP' when beforeMethod is 'skip' <a href="https://github.com/bobshie"><code>@​bobshie</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2881">testng-team/testng#2881</a></li>
+<li>Test listeners specified in parent testng.xml file are not included in testng-failed.xml file by <a href="https://github.com/krmahadevan"><code>@​krmahadevan</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2882">testng-team/testng#2882</a></li>
+<li>Discrepancies with DataProvider and Retry of failed tests by <a href="https://github.com/krmahadevan"><code>@​krmahadevan</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2885">testng-team/testng#2885</a></li>
+<li>Skipped Tests with DataProvider appear as failed by <a href="https://github.com/jmoreira18"><code>@​jmoreira18</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2889">testng-team/testng#2889</a></li>
+<li>testng-results xml reports config skips from base classes as ignored by <a href="https://github.com/krmahadevan"><code>@​krmahadevan</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2887">testng-team/testng#2887</a></li>
+<li>Feature: Check that specific object present in List by <a href="https://github.com/dbudim"><code>@​dbudim</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2902">testng-team/testng#2902</a></li>
+<li>Upgrade snakeyaml to 2.0 by <a href="https://github.com/labianchin"><code>@​labianchin</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2903">testng-team/testng#2903</a></li>
+<li>[Feature] Not exception but warning if some (not all) of the given test names are not found in suite files. by <a href="https://github.com/wenijinew"><code>@​wenijinew</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2900">testng-team/testng#2900</a></li>
+<li>[Feature] Generate testng-results.xml per test suite by <a href="https://github.com/krmahadevan"><code>@​krmahadevan</code></a> in <a href="https://redirect.github.com/testng-team/testng/pull/2908">testng-team/testng#2908</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/sbaranov-parasoft"><code>@​sbaranov-parasoft</code></a> made their first contribution in <a href="https://redirect.github.com/testng-team/testng/pull/2859">testng-team/testng#2859</a></li>
+<li><a href="https://github.com/oliver-hughes"><code>@​oliver-hughes</code></a> made their first contribution in <a href="https://redirect.github.com/testng-team/testng/pull/2865">testng-team/testng#2865</a></li>
+<li><a href="https://github.com/jmoreira18"><code>@​jmoreira18</code></a> made their first contribution in <a href="https://redirect.github.com/testng-team/testng/pull/2889">testng-team/testng#2889</a></li>
+<li><a href="https://github.com/Iuri1012"><code>@​Iuri1012</code></a> made their first contribution in <a href="https://redirect.github.com/testng-team/testng/pull/2894">testng-team/testng#2894</a></li>
+<li><a href="https://github.com/dbudim"><code>@​dbudim</code></a> made their first contribution in <a href="https://redirect.github.com/testng-team/testng/pull/2902">testng-team/testng#2902</a></li>
+<li><a href="https://github.com/labianchin"><code>@​labianchin</code></a> made their first contribution in <a href="https://redirect.github.com/testng-team/testng/pull/2903">testng-team/testng#2903</a></li>
+<li><a href="https://github.com/wenijinew"><code>@​wenijinew</code></a> made their first contribution in <a href="https://redirect.github.com/testng-team/testng/pull/2900">testng-team/testng#2900</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/testng-team/testng/compare/7.7.1...7.8.0">https://github.com/testng-team/testng/compare/7.7.1...7.8.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/testng-team/testng/blob/master/CHANGES.txt">testng's changelog</a>.</em></p>
+<blockquote>
+<p>7.8.0
+Fixed: GITHUB-2906: Generate testng-results.xml per test suite (Krishnan Mahadevan)
+New:   GITHUB-2897: Not exception but warning if some (not all) of the given test names are not found in suite files. (Bruce Wen)
+New:   GITHUB-2907: Added assertListContains and assertListContainsObject methods to check if specific object present in List (Dmytro Budym)
+Fixed: GITHUB-2888: Skipped Tests with DataProvider appear as failed (Joaquin Moreira)
+Fixed: GITHUB-2884: Discrepancies with DataProvider and Retry of failed tests (Krishnan Mahadevan)
+Fixed: GITHUB-2879: Test listeners specified in parent testng.xml file are not included in testng-failed.xml file (Krishnan Mahadevan)
+Fixed: GITHUB-2866: TestNG.xml doesn't honour Parallel value of a clone (Krishnan Mahadevan)
+Fixed: GITHUB-2875: JUnitReportReporter should capture the test case output at the test case level
+Fixed: GITHUB-2771: After upgrading to TestNG 7.5.0, setting ITestResult.status to FAILURE doesn't fail the test anymore (Julien Herr &amp; Krishnan Mahadevan)
+Fixed: GITHUB-2862: Allow test classes to define &quot;configfailurepolicy&quot; at a per class level (Krishnan Mahadevan)
+Fixed: GITHUB-2796: Option for onAfterClass to run after <a href="https://github.com/AfterClass"><code>@​AfterClass</code></a> (Oliver Hughes)
+Fixed: GITHUB-2857: XmlTest index is not set for test suites invoked with YAML (Sergei Baranov)
+Fixed: GITHUB-2880: Before configuration and before invocation set 'SKIP' when beforeMethod is 'skip' (Bob Shi)
+Fixed: GITHUB-2886: testng-results xml reports config skips from base classes as ignored (Krishnan Mahadevan)</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/testng-team/testng/commit/c7e289b84bf8d4b0ad575bd19156cefc8bfa3125"><code>c7e289b</code></a> Update signing configuration</li>
+<li><a href="https://github.com/testng-team/testng/commit/afc97a1e9abe1faa09cd9cd7a1c006acf6745741"><code>afc97a1</code></a> Fix action secrets</li>
+<li><a href="https://github.com/testng-team/testng/commit/aee8333235663d2610c3f0cfab10464da204df27"><code>aee8333</code></a> Use Organisational secrets</li>
+<li><a href="https://github.com/testng-team/testng/commit/c32e96af795239127724c62506ee2bd1345e78da"><code>c32e96a</code></a> Generate testng-results.xml per test suite</li>
+<li><a href="https://github.com/testng-team/testng/commit/aeaa0d0de679306b708dd235c1624eef9a669e84"><code>aeaa0d0</code></a> Add GITHUB Issue details in Changes.txt</li>
+<li><a href="https://github.com/testng-team/testng/commit/4c7d9030f38621d915e18f8fde5a99f345a65ec4"><code>4c7d903</code></a> Support running partial test names from suite file</li>
+<li><a href="https://github.com/testng-team/testng/commit/a766113bf109895853843d4918d803e6bc7f8c89"><code>a766113</code></a> Upgrade snakeyaml to 2.0</li>
+<li><a href="https://github.com/testng-team/testng/commit/46d8180e90c5feb473f50ad54ad424965c2a5740"><code>46d8180</code></a> Added assertListContains and assertListContainsObject methods to check if spe...</li>
+<li><a href="https://github.com/testng-team/testng/commit/ab94cc53f83e940a14922f2df1324af5cf728657"><code>ab94cc5</code></a> Merge pull request <a href="https://redirect.github.com/testng-team/testng/issues/2894">#2894</a> from Iuri1012/update-github-actions</li>
+<li><a href="https://github.com/testng-team/testng/commit/c1b3dbd6257e6f936b105f813fcd71d5f3b66f9e"><code>c1b3dbd</code></a> Update github actions versions</li>
+<li>Additional commits viewable in <a href="https://github.com/testng-team/testng/compare/7.7.1...7.8.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.testng:testng&package-manager=maven&previous-version=7.7.1&new-version=7.8.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @afranken.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

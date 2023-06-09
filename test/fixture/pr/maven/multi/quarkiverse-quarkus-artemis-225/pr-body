@@ -1,0 +1,185 @@
+Bumps `quarkus.version` from 3.1.0.Final to 3.1.1.Final.
+Updates `quarkus-maven-plugin` from 3.1.0.Final to 3.1.1.Final
+
+Updates `quarkus-extension-maven-plugin` from 3.1.0.Final to 3.1.1.Final
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/quarkusio/quarkus/releases">quarkus-extension-maven-plugin's releases</a>.</em></p>
+<blockquote>
+<h2>3.1.1.Final</h2>
+<h3>Complete changelog</h3>
+<ul>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33846">#33846</a> - Update Jackson to 2.15.2</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33834">#33834</a> - Kafka serde discovery: handle channel names containing dot</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33821">#33821</a> - DEV UI: Prevent NPE in JsonRpc#route after Quarkus app reloaded</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33820">#33820</a> - DEV UI on reload logs NPE xception in JsonRpcRouter#route on line 200</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33815">#33815</a> - Redis Hostname provider - do not call getHosts() twice</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33811">#33811</a> - Only expose the Dev UI Routes if Vert.x HTTP is present</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33804">#33804</a> - Dev Mode fails with Quarkus 3.1 and Kafka client (no vert.x http extension on the classpath)</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33802">#33802</a> - Fix Dev UI v1 link in the guides</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33799">#33799</a> - Fix message typo in OIDCRecorder</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33769">#33769</a> - Fix detection of OpenTelemetry</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33763">#33763</a> - When using RestMulti, don't require <code>@Produces</code></li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33761">#33761</a> - Properly implement ClientRequestContext#setEntity</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33758">#33758</a> - Update security-keycloak-admin-client.adoc</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33756">#33756</a> - Prevent NPE in Jacoco report preparation when a workspace module has no sources</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33753">#33753</a> - Bump apicurio-registry.version from 2.4.2.Final to 2.4.3.Final</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33752">#33752</a> - Bump kotlinx-serialization-json from 1.5.0 to 1.5.1</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33746">#33746</a> - Quarkus 3.1 still throws an error if <code>@Produces</code> is not defined on a stream response</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33741">#33741</a> - io.quarkus:quarkus-jacoco cannot import pom module dependecy</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33738">#33738</a> - Quarkus 3.1 rest client uses wrong Messagewriter</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33735">#33735</a> - Make Elasticsearch Java Client's withJson(...) methods work in native mode</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33730">#33730</a> - Smallrye Reactive Messaging with Kafka Connector does not support channel names containing a dot</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33720">#33720</a> - Normalize podman vs. podman.exe and Podman Desktop</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33718">#33718</a> - Fix native query support in Hibernate Reactive</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33713">#33713</a> - NamedNativeQuery not working in native image</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33695">#33695</a> - Update rewrite-maven-plugin to 4.46.0</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33689">#33689</a> - DevTool-cli Clarify --errors help message</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33687">#33687</a> - Call after construct callbacks when creating outer instances/QuarkusTest</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33680">#33680</a> - Fix dropped exception on JSON stream cancellation</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33677">#33677</a> - Fix npe when vert.x delegate is called but not set yet</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33671">#33671</a> - Mark test failure in time for callbacks to know about it</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33670">#33670</a> - Guard against potential NPE in GrpcClientConfiguration</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33667">#33667</a> - Do not include the Kafka Dev UI beans during the native build</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33663">#33663</a> - Fix SSE response with legacy publisher in native mode</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33660">#33660</a> - Dev UI small fixes</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33659">#33659</a> - Add DevConsoleCORSFilter to Dev UI JsonRPC WebSocket</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33657">#33657</a> - Security JPA Reactive - catch non-unique result exception properly</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33652">#33652</a> - Endpoint with RestSseElementType doesn't produce events in native</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33651">#33651</a> - Refer to 'microprofile_jwt' scope in OIDC docs</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33649">#33649</a> - [Doc] Fix minor typo in devtool CLI</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33647">#33647</a> - Incorrect test status in QuarkusTestAfterTestExecutionCallback and QuarkusTestAfterEachCallback for failing test</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33645">#33645</a> - Ignore IndexDependencyBuildItem for missing dependencies</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33643">#33643</a> - RolesAllowed and OIDC broken in 2.16.0-Final and 3.0.4-Final with KeyCloak</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33639">#33639</a> - Upgrade to SmallRye Fault Tolerance 6.2.3</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33631">#33631</a> - Hibernate Storing multiple items with <code>@IdClass</code> in one transaction fails</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33627">#33627</a> - Do not bind the &quot;grpc&quot; container port when configured to use same server</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33623">#33623</a> - Regression - Unable to build native binary when using quarkus-kafka-client extension</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/quarkusio/quarkus/commit/481b0b765e9ec83589ab13c26a3213c530e2805b"><code>481b0b7</code></a> [RELEASE] - Bump version to 3.1.1.Final</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/d68dd00c3eb4c7cca8190db32d7410a85bbd928f"><code>d68dd00</code></a> Merge pull request <a href="https://redirect.github.com/quarkusio/quarkus/issues/33853">#33853</a> from gsmet/3.1.1-backports-2</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/6b50326072a402b1360fa1ed33cb656c2fe86076"><code>6b50326</code></a> Register PGobject subtypes for reflection</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/04b2b8e68bec1212421830d80a910c4e1ff5a02d"><code>04b2b8e</code></a> Update Jackson to 2.15.2 in independent-projects</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/15dcca8cc5dd4ff3fbd3898bf743c053d7a6c8e4"><code>15dcca8</code></a> set jackson-bom version to 2.15.2</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/cbe6b53093671a872f65b13ed31fd931cf53591b"><code>cbe6b53</code></a> Bump apicurio-registry.version from 2.4.2.Final to 2.4.3.Final</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/b3866a1151372eab7acd3531d9acce33ff7ff93c"><code>b3866a1</code></a> Bump kotlinx-serialization-json from 1.5.0 to 1.5.1</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/7552b200568a682c29368fecd9da3ba1781fe527"><code>7552b20</code></a> Redis Hostname provider - do not call getHosts() twice</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/226ff97a3222dd4905a5034eddf3b01366a85e4d"><code>226ff97</code></a> Fix Dev UI v1 link in the guides</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/1bf7e7f334f5871fef85782806f91acecf7d8e2e"><code>1bf7e7f</code></a> Only expose the Dev UI Routes if Vert.x HTTP is present</li>
+<li>Additional commits viewable in <a href="https://github.com/quarkusio/quarkus/compare/3.1.0.Final...3.1.1.Final">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `quarkus-bom` from 3.1.0.Final to 3.1.1.Final
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/quarkusio/quarkus/releases">quarkus-bom's releases</a>.</em></p>
+<blockquote>
+<h2>3.1.1.Final</h2>
+<h3>Complete changelog</h3>
+<ul>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33846">#33846</a> - Update Jackson to 2.15.2</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33834">#33834</a> - Kafka serde discovery: handle channel names containing dot</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33821">#33821</a> - DEV UI: Prevent NPE in JsonRpc#route after Quarkus app reloaded</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33820">#33820</a> - DEV UI on reload logs NPE xception in JsonRpcRouter#route on line 200</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33815">#33815</a> - Redis Hostname provider - do not call getHosts() twice</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33811">#33811</a> - Only expose the Dev UI Routes if Vert.x HTTP is present</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33804">#33804</a> - Dev Mode fails with Quarkus 3.1 and Kafka client (no vert.x http extension on the classpath)</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33802">#33802</a> - Fix Dev UI v1 link in the guides</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33799">#33799</a> - Fix message typo in OIDCRecorder</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33769">#33769</a> - Fix detection of OpenTelemetry</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33763">#33763</a> - When using RestMulti, don't require <code>@Produces</code></li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33761">#33761</a> - Properly implement ClientRequestContext#setEntity</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33758">#33758</a> - Update security-keycloak-admin-client.adoc</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33756">#33756</a> - Prevent NPE in Jacoco report preparation when a workspace module has no sources</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33753">#33753</a> - Bump apicurio-registry.version from 2.4.2.Final to 2.4.3.Final</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33752">#33752</a> - Bump kotlinx-serialization-json from 1.5.0 to 1.5.1</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33746">#33746</a> - Quarkus 3.1 still throws an error if <code>@Produces</code> is not defined on a stream response</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33741">#33741</a> - io.quarkus:quarkus-jacoco cannot import pom module dependecy</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33738">#33738</a> - Quarkus 3.1 rest client uses wrong Messagewriter</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33735">#33735</a> - Make Elasticsearch Java Client's withJson(...) methods work in native mode</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33730">#33730</a> - Smallrye Reactive Messaging with Kafka Connector does not support channel names containing a dot</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33720">#33720</a> - Normalize podman vs. podman.exe and Podman Desktop</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33718">#33718</a> - Fix native query support in Hibernate Reactive</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33713">#33713</a> - NamedNativeQuery not working in native image</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33695">#33695</a> - Update rewrite-maven-plugin to 4.46.0</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33689">#33689</a> - DevTool-cli Clarify --errors help message</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33687">#33687</a> - Call after construct callbacks when creating outer instances/QuarkusTest</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33680">#33680</a> - Fix dropped exception on JSON stream cancellation</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33677">#33677</a> - Fix npe when vert.x delegate is called but not set yet</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33671">#33671</a> - Mark test failure in time for callbacks to know about it</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33670">#33670</a> - Guard against potential NPE in GrpcClientConfiguration</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33667">#33667</a> - Do not include the Kafka Dev UI beans during the native build</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33663">#33663</a> - Fix SSE response with legacy publisher in native mode</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33660">#33660</a> - Dev UI small fixes</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33659">#33659</a> - Add DevConsoleCORSFilter to Dev UI JsonRPC WebSocket</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33657">#33657</a> - Security JPA Reactive - catch non-unique result exception properly</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33652">#33652</a> - Endpoint with RestSseElementType doesn't produce events in native</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33651">#33651</a> - Refer to 'microprofile_jwt' scope in OIDC docs</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33649">#33649</a> - [Doc] Fix minor typo in devtool CLI</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33647">#33647</a> - Incorrect test status in QuarkusTestAfterTestExecutionCallback and QuarkusTestAfterEachCallback for failing test</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33645">#33645</a> - Ignore IndexDependencyBuildItem for missing dependencies</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33643">#33643</a> - RolesAllowed and OIDC broken in 2.16.0-Final and 3.0.4-Final with KeyCloak</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33639">#33639</a> - Upgrade to SmallRye Fault Tolerance 6.2.3</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33631">#33631</a> - Hibernate Storing multiple items with <code>@IdClass</code> in one transaction fails</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/pull/33627">#33627</a> - Do not bind the &quot;grpc&quot; container port when configured to use same server</li>
+<li><a href="https://redirect.github.com/quarkusio/quarkus/issues/33623">#33623</a> - Regression - Unable to build native binary when using quarkus-kafka-client extension</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/quarkusio/quarkus/commit/481b0b765e9ec83589ab13c26a3213c530e2805b"><code>481b0b7</code></a> [RELEASE] - Bump version to 3.1.1.Final</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/d68dd00c3eb4c7cca8190db32d7410a85bbd928f"><code>d68dd00</code></a> Merge pull request <a href="https://redirect.github.com/quarkusio/quarkus/issues/33853">#33853</a> from gsmet/3.1.1-backports-2</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/6b50326072a402b1360fa1ed33cb656c2fe86076"><code>6b50326</code></a> Register PGobject subtypes for reflection</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/04b2b8e68bec1212421830d80a910c4e1ff5a02d"><code>04b2b8e</code></a> Update Jackson to 2.15.2 in independent-projects</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/15dcca8cc5dd4ff3fbd3898bf743c053d7a6c8e4"><code>15dcca8</code></a> set jackson-bom version to 2.15.2</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/cbe6b53093671a872f65b13ed31fd931cf53591b"><code>cbe6b53</code></a> Bump apicurio-registry.version from 2.4.2.Final to 2.4.3.Final</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/b3866a1151372eab7acd3531d9acce33ff7ff93c"><code>b3866a1</code></a> Bump kotlinx-serialization-json from 1.5.0 to 1.5.1</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/7552b200568a682c29368fecd9da3ba1781fe527"><code>7552b20</code></a> Redis Hostname provider - do not call getHosts() twice</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/226ff97a3222dd4905a5034eddf3b01366a85e4d"><code>226ff97</code></a> Fix Dev UI v1 link in the guides</li>
+<li><a href="https://github.com/quarkusio/quarkus/commit/1bf7e7f334f5871fef85782806f91acecf7d8e2e"><code>1bf7e7f</code></a> Only expose the Dev UI Routes if Vert.x HTTP is present</li>
+<li>Additional commits viewable in <a href="https://github.com/quarkusio/quarkus/compare/3.1.0.Final...3.1.1.Final">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `quarkus-extension-processor` from 3.1.0.Final to 3.1.1.Final
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

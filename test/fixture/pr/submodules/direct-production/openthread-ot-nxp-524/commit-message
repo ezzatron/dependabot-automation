@@ -1,0 +1,13 @@
+submodule: bump openthread from `80eb7f5` to `cc09029`
+
+Bumps [openthread](https://github.com/openthread/openthread) from `80eb7f5` to `cc09029`.
+- [Release notes](https://github.com/openthread/openthread/releases)
+- [Commits](https://github.com/openthread/openthread/compare/80eb7f512fd05f610d94d1c1c73e647f2a660e1a...cc09029188f5b4a9fc8c068b0c0b73446b99a258)
+
+---
+updated-dependencies:
+- dependency-name: openthread
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

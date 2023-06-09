@@ -1,0 +1,92 @@
+Bumps [phoenix_live_view](https://github.com/phoenixframework/phoenix_live_view) from 0.18.18 to 0.19.1.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/phoenixframework/phoenix_live_view/blob/main/CHANGELOG.md">phoenix_live_view's changelog</a>.</em></p>
+<blockquote>
+<h2>0.19.1 (2023-06-06)</h2>
+<h3>Enhancements</h3>
+<ul>
+<li>Allow <code>accept</code> attribute on <code>&lt;.live_file_input&gt;</code> to override default values</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Fix issue causing anchor clicks to disconnect LV when they were already handled via <code>preventDefault()</code> by other scripts</li>
+</ul>
+<h2>0.19.0 (2023-05-29)</h2>
+<h3>Backwards incompatible changes</h3>
+<ul>
+<li>Drop support for passing an id to the <code>phx-feedback-for</code> attribute. An input name must be passed instead.</li>
+<li>Remove previously deprecated <code>let</code> attribute. Use <code>:let</code> instead</li>
+<li>Remove previously deprecated <code>&lt;%= live_img_preview(entry) %&gt;</code>. Use <code>&lt;.live_img_preview entry={entry} /&gt;</code> instead</li>
+<li>Remove previously deprecated <code>&lt;%= live_file_input(upload) %&gt;</code>. Use <code>&lt;.live_file_input upload={upload} /&gt;</code> instead</li>
+<li>Remove previously deprecated <code>&lt;%= live_component(Component) %&gt;</code>. Use <code>&lt;.live_component module={Component} id=\&quot;hello\&quot; /&gt;</code> instead</li>
+</ul>
+<h3>Enhancements</h3>
+<ul>
+<li>Support stream resets with bulk insert operations</li>
+<li>Support ordered inputs within <code>inputs_for</code>, to pair with Ecto's new <code>sort_param</code> and <code>drop_param</code> casting</li>
+<li>Send form phx-value's on form events</li>
+</ul>
+<h3>Deprecations</h3>
+<ul>
+<li>Deprecate passing <code>:dom_id</code> to <code>stream/4</code> in favor of <code>stream_configure/3</code></li>
+<li>Deprecate <code>render_block/2</code> in favor of <code>render_slot/2</code></li>
+<li>Deprecate <code>&lt;%= live_img_preview(entry, opts) %&gt;</code>. Use <code>&lt;.live_img_preview entry={entry} {opts} /&gt;</code></li>
+<li>Deprecate <code>&lt;%= live_file_input(upload, opts) %&gt;</code>. Use <code>&lt;.live_file_input upload={upload} {opts} /&gt;</code></li>
+<li>Deprecate stateless LiveComponent in favor of function components or in favor of <code>&lt;.live_component id={...} /&gt;</code> (note the <code>id</code> is required)</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Fix LiveView disconnects when clicking a <code>download</code> link</li>
+<li>Fix stream deletes not being sent on nested for comprehensions</li>
+<li>Fix <code>phx-disconnected</code> bindings not firing on mount failures</li>
+<li>Support form recovery on forms with only hidden inputs</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/0058afeab2f2ad500b7285368c639a0d7bf8f2a0"><code>0058afe</code></a> Release 0.19.1</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/ad1a9c4ba5d7181d7320d38cc4ebde579efd1671"><code>ad1a9c4</code></a> Fix live nav error</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/99633baa342a39d798edd5352f15b90605d57eda"><code>99633ba</code></a> Bump build</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/e0edc5f96a93888bc8660e07703076dd47e7a8e5"><code>e0edc5f</code></a> Allow accept override</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/4d9d6930328b72fef35fbc6b71136c06b2990db5"><code>4d9d693</code></a> Do not treat anchors with defaultPrevented as unloadable</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/931a5cc12891768a7f85c000e5aa23d69c5ff23e"><code>931a5cc</code></a> Avoid false positive when map update is given to struct</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/19cafaa8afa9e4c3bce96be90a09bea268cf5a40"><code>19cafaa</code></a> remove if that can never match in infinite scroll guide (<a href="https://redirect.github.com/phoenixframework/phoenix_live_view/issues/2668">#2668</a>)</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/33169a0516fb9e0eaecb3873020eb6a8d473fad6"><code>33169a0</code></a> Fix Markdown syntax in bindings.md (<a href="https://redirect.github.com/phoenixframework/phoenix_live_view/issues/2669">#2669</a>)</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/03ae646bd38fc60b3bd33574b20bd14b5fc9347d"><code>03ae646</code></a> Improve upload docs, deprecate malfunctioning function</li>
+<li><a href="https://github.com/phoenixframework/phoenix_live_view/commit/fd40749e8a96c4be97627dc2fa0a49b645f1687a"><code>fd40749</code></a> Update phoenix_component.ex (<a href="https://redirect.github.com/phoenixframework/phoenix_live_view/issues/2663">#2663</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/phoenixframework/phoenix_live_view/compare/v0.18.18...v0.19.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=phoenix_live_view&package-manager=hex&previous-version=0.18.18&new-version=0.19.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

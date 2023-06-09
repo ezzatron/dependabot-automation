@@ -1,0 +1,15 @@
+Bump github.com/elastic/go-elasticsearch/v8 from 8.8.0 to 8.8.1
+
+Bumps [github.com/elastic/go-elasticsearch/v8](https://github.com/elastic/go-elasticsearch) from 8.8.0 to 8.8.1.
+- [Release notes](https://github.com/elastic/go-elasticsearch/releases)
+- [Changelog](https://github.com/elastic/go-elasticsearch/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/elastic/go-elasticsearch/compare/v8.8.0...v8.8.1)
+
+---
+updated-dependencies:
+- dependency-name: github.com/elastic/go-elasticsearch/v8
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,33 @@
+Bump quarkus.version from 3.1.0.Final to 3.1.1.Final
+
+Bumps `quarkus.version` from 3.1.0.Final to 3.1.1.Final.
+
+Updates `quarkus-maven-plugin` from 3.1.0.Final to 3.1.1.Final
+
+Updates `quarkus-extension-maven-plugin` from 3.1.0.Final to 3.1.1.Final
+- [Release notes](https://github.com/quarkusio/quarkus/releases)
+- [Commits](https://github.com/quarkusio/quarkus/compare/3.1.0.Final...3.1.1.Final)
+
+Updates `quarkus-bom` from 3.1.0.Final to 3.1.1.Final
+- [Release notes](https://github.com/quarkusio/quarkus/releases)
+- [Commits](https://github.com/quarkusio/quarkus/compare/3.1.0.Final...3.1.1.Final)
+
+Updates `quarkus-extension-processor` from 3.1.0.Final to 3.1.1.Final
+
+---
+updated-dependencies:
+- dependency-name: io.quarkus:quarkus-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+- dependency-name: io.quarkus:quarkus-extension-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+- dependency-name: io.quarkus:quarkus-bom
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+- dependency-name: io.quarkus:quarkus-extension-processor
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

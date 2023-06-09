@@ -1,0 +1,14 @@
+chore(deps): bump serde from 1.0.163 to 1.0.164
+
+Bumps [serde](https://github.com/serde-rs/serde) from 1.0.163 to 1.0.164.
+- [Release notes](https://github.com/serde-rs/serde/releases)
+- [Commits](https://github.com/serde-rs/serde/compare/v1.0.163...v1.0.164)
+
+---
+updated-dependencies:
+- dependency-name: serde
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

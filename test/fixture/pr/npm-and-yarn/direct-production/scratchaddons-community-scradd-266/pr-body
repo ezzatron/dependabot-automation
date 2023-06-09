@@ -1,0 +1,93 @@
+Bumps [dotenv](https://github.com/motdotla/dotenv) from 16.0.3 to 16.1.4.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/motdotla/dotenv/blob/master/CHANGELOG.md">dotenv's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/motdotla/dotenv/compare/v16.1.3...v16.1.4">16.1.4</a> (2023-06-04)</h2>
+<h3>Added</h3>
+<ul>
+<li>Added <code>.github/</code> to <code>.npmignore</code> <a href="https://redirect.github.com/motdotla/dotenv/pull/747">#747</a></li>
+</ul>
+<h2><a href="https://github.com/motdotla/dotenv/compare/v16.1.2...v16.1.3">16.1.3</a> (2023-05-31)</h2>
+<h3>Removed</h3>
+<ul>
+<li>Removed <code>browser</code> keys for <code>path</code>, <code>os</code>, and <code>crypto</code> in package.json. These were set to false incorrectly as of 16.1. Instead, if using dotenv on the front-end make sure to include polyfills for <code>path</code>, <code>os</code>, and <code>crypto</code>. <a href="https://github.com/Richienb/node-polyfill-webpack-plugin">node-polyfill-webpack-plugin</a> provides these.</li>
+</ul>
+<h2><a href="https://github.com/motdotla/dotenv/compare/v16.1.1...v16.1.2">16.1.2</a> (2023-05-31)</h2>
+<h3>Changed</h3>
+<ul>
+<li>Exposed private function <code>_configDotenv</code> as <code>configDotenv</code>. <a href="https://redirect.github.com/motdotla/dotenv/pull/744">#744</a></li>
+</ul>
+<h2><a href="https://github.com/motdotla/dotenv/compare/v16.1.0...v16.1.1">16.1.1</a> (2023-05-30)</h2>
+<h3>Added</h3>
+<ul>
+<li>Added type definition for <code>decrypt</code> function</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Fixed <code>{crypto: false}</code> in <code>packageJson.browser</code></li>
+</ul>
+<h2><a href="https://github.com/motdotla/dotenv/compare/v16.0.3...v16.1.0">16.1.0</a> (2023-05-30)</h2>
+<h3>Added</h3>
+<ul>
+<li>Add <code>populate</code> convenience method <a href="https://redirect.github.com/motdotla/dotenv/pull/733">#733</a></li>
+<li>Accept URL as path option <a href="https://redirect.github.com/motdotla/dotenv/pull/720">#720</a></li>
+<li>Add dotenv to <code>npm fund</code> command</li>
+<li>Spanish language README <a href="https://redirect.github.com/motdotla/dotenv/pull/698">#698</a></li>
+<li>Add <code>.env.vault</code> support. 🎉 (<a href="https://redirect.github.com/motdotla/dotenv/pull/730">#730</a>)</li>
+</ul>
+<p>ℹ️ <code>.env.vault</code> extends the <code>.env</code> file format standard with a localized encrypted vault file. Package it securely with your production code deploys. It's cloud agnostic so that you can deploy your secrets anywhere – without <a href="https://techcrunch.com/2023/01/05/circleci-breach/">risky third-party integrations</a>. <a href="https://github.com/motdotla/dotenv#-deploying">read more</a></p>
+<h3>Changed</h3>
+<ul>
+<li>Fixed &quot;cannot resolve 'fs'&quot; error on tools like Replit <a href="https://redirect.github.com/motdotla/dotenv/pull/693">#693</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/motdotla/dotenv/commit/dc1cd6c8cb276b040e196ec76918786152ede43a"><code>dc1cd6c</code></a> 16.1.4</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/be94778746ab45403593f6da41327472664a500c"><code>be94778</code></a> Update CHANGELOG</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/4443c5916eee06bf461ee144aaca6b5596d0524c"><code>4443c59</code></a> Merge pull request <a href="https://redirect.github.com/motdotla/dotenv/issues/747">#747</a> from ericcornelissen/patch-1</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/f003766a7b215c5dd88136f0d711780b83282094"><code>f003766</code></a> Add .github/ to .npmignore</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/4d255441cf3e9e7823c2da475b4c2a1b45ac5057"><code>4d25544</code></a> 16.1.3</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/1ab96d7e4a76ae1dc884d3bf69a3dce3c882738b"><code>1ab96d7</code></a> Merge pull request <a href="https://redirect.github.com/motdotla/dotenv/issues/745">#745</a> from motdotla/browser-defaults</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/080779a71aa7edf3f01f3abf13d158f6c66da79b"><code>080779a</code></a> Update CHANGELOG</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/0ab684dc0a41bccad853e3a29f699b0a6f329127"><code>0ab684d</code></a> Update README</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/bf7e6262470e62159321b15e236849b9d91eeaae"><code>bf7e626</code></a> Default fs to false as it cannot be duplicated in the browser</li>
+<li><a href="https://github.com/motdotla/dotenv/commit/ec5eef88cdadea534f452ec1355c5df5a9fe5a18"><code>ec5eef8</code></a> Update README</li>
+<li>Additional commits viewable in <a href="https://github.com/motdotla/dotenv/compare/v16.0.3...v16.1.4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=dotenv&package-manager=npm_and_yarn&previous-version=16.0.3&new-version=16.1.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @RedGuy12.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

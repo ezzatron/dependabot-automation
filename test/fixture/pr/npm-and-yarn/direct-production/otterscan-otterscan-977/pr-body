@@ -1,0 +1,157 @@
+Bumps [react-router-dom](https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom) from 6.11.2 to 6.12.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/remix-run/react-router/releases">react-router-dom's releases</a>.</em></p>
+<blockquote>
+<h2>react-router-dom-v5-compat@6.4.0-pre.15</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>Updated dependencies
+<ul>
+<li>react-router@6.4.0-pre.15</li>
+<li>react-router-dom@6.4.0-pre.15</li>
+</ul>
+</li>
+</ul>
+<h2>react-router-dom-v5-compat@6.4.0-pre.11</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>Updated dependencies
+<ul>
+<li>react-router@6.4.0-pre.11</li>
+<li>react-router-dom@6.4.0-pre.11</li>
+</ul>
+</li>
+</ul>
+<h2>react-router-dom-v5-compat@6.4.0-pre.10</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>Updated dependencies
+<ul>
+<li>react-router@6.4.0-pre.10</li>
+<li>react-router-dom@6.4.0-pre.10</li>
+</ul>
+</li>
+</ul>
+<h2>react-router-dom-v5-compat@6.4.0-pre.9</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>Updated dependencies
+<ul>
+<li>react-router@6.4.0-pre.9</li>
+<li>react-router-dom@6.4.0-pre.9</li>
+</ul>
+</li>
+</ul>
+<h2>react-router-dom-v5-compat@6.4.0-pre.8</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>Updated dependencies
+<ul>
+<li>react-router@6.4.0-pre.8</li>
+<li>react-router-dom@6.4.0-pre.8</li>
+</ul>
+</li>
+</ul>
+<h2>react-router-dom-v5-compat@6.4.0-pre.7</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>Updated dependencies
+<ul>
+<li><code>react-router@6.4.0-pre.7</code></li>
+<li><code>react-router-dom@6.4.0-pre.7</code></li>
+</ul>
+</li>
+</ul>
+<h2>react-router-dom-v5-compat@6.4.0-pre.6</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>44bce3c6: Fix <code>react-router-dom</code> peer dependency version
+<ul>
+<li>react-router@6.4.0-pre.6</li>
+<li>react-router-dom@6.4.0-pre.6</li>
+</ul>
+</li>
+</ul>
+<h2>react-router-dom-v5-compat@6.4.0-pre.5</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/CHANGELOG.md">react-router-dom's changelog</a>.</em></p>
+<blockquote>
+<h2>6.12.1</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>Adjust feature detection of <code>React.startTransition</code> to fix webpack + react 17 compilation error (<a href="https://redirect.github.com/remix-run/react-router/pull/10569">#10569</a>)</li>
+<li>Updated dependencies:
+<ul>
+<li><code>react-router@6.12.1</code></li>
+</ul>
+</li>
+</ul>
+<h2>6.12.0</h2>
+<h3>Minor Changes</h3>
+<ul>
+<li>Wrap internal router state updates with <code>React.startTransition</code> if it exists (<a href="https://redirect.github.com/remix-run/react-router/pull/10438">#10438</a>)</li>
+</ul>
+<h3>Patch Changes</h3>
+<ul>
+<li>Re-throw <code>DOMException</code> (<code>DataCloneError</code>) when attempting to perform a <code>PUSH</code> navigation with non-serializable state. (<a href="https://redirect.github.com/remix-run/react-router/pull/10427">#10427</a>)</li>
+<li>Updated dependencies:
+<ul>
+<li><code>@remix-run/router@1.6.3</code></li>
+<li><code>react-router@6.12.0</code></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/remix-run/react-router/commit/77d718245e22cf648a2b08350fb2e587a6263ef4"><code>77d7182</code></a> chore: Update version for release (<a href="https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom/issues/10577">#10577</a>)</li>
+<li><a href="https://github.com/remix-run/react-router/commit/e8d4301dfe207b7305272044a9232b10fd815eb5"><code>e8d4301</code></a> chore: Update version for release (pre) (<a href="https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom/issues/10575">#10575</a>)</li>
+<li><a href="https://github.com/remix-run/react-router/commit/c5d9e252ed332a08fcf9ad6013cf2b3c9617d4f7"><code>c5d9e25</code></a> Fix feature detection of React.startTransition (<a href="https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom/issues/10569">#10569</a>)</li>
+<li><a href="https://github.com/remix-run/react-router/commit/6c0bbb14ed638a9adcae11376b084db450b69c84"><code>6c0bbb1</code></a> chore: Update version for release (<a href="https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom/issues/10564">#10564</a>)</li>
+<li><a href="https://github.com/remix-run/react-router/commit/4cf2543b503d2f22c345a8595b8558be56ee3716"><code>4cf2543</code></a> chore: Update version for release (pre) (<a href="https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom/issues/10554">#10554</a>)</li>
+<li><a href="https://github.com/remix-run/react-router/commit/981dda76697a8fe01491b1e10fffe270b852defc"><code>981dda7</code></a> chore: Update version for release (pre) (<a href="https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom/issues/10552">#10552</a>)</li>
+<li><a href="https://github.com/remix-run/react-router/commit/e2789c1781d65f1c2d5a564e6a766bccc56f41d2"><code>e2789c1</code></a> chore: upgrade jest and jsdom (<a href="https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom/issues/10453">#10453</a>)</li>
+<li><a href="https://github.com/remix-run/react-router/commit/6dac8deb3b5aa2a1eb8b2e32329051f8724ff3ca"><code>6dac8de</code></a> Wrap internal router state updates with React.startTransition (<a href="https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom/issues/10438">#10438</a>)</li>
+<li>See full diff in <a href="https://github.com/remix-run/react-router/commits/react-router-dom@6.12.1/packages/react-router-dom">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-router-dom&package-manager=npm_and_yarn&previous-version=6.11.2&new-version=6.12.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @wmitsuda.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

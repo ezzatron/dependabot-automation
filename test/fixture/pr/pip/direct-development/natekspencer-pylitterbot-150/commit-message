@@ -1,0 +1,15 @@
+Bump tox from 3.28.0 to 4.6.0
+
+Bumps [tox](https://github.com/tox-dev/tox) from 3.28.0 to 4.6.0.
+- [Release notes](https://github.com/tox-dev/tox/releases)
+- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)
+- [Commits](https://github.com/tox-dev/tox/compare/3.28.0...4.6.0)
+
+---
+updated-dependencies:
+- dependency-name: tox
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,12 @@
+slack-msg-sender(deps): bump python
+
+Bumps python from 3.11.3-alpine3.17 to 3.12.0b2-alpine3.17.
+
+---
+updated-dependencies:
+- dependency-name: python
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

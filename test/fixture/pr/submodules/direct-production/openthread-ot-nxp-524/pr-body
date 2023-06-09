@@ -1,0 +1,45 @@
+Bumps [openthread](https://github.com/openthread/openthread) from `80eb7f5` to `cc09029`.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/openthread/openthread/commit/cc09029188f5b4a9fc8c068b0c0b73446b99a258"><code>cc09029</code></a> [posix] replace fd_sets with the mainloop context (<a href="https://redirect.github.com/openthread/openthread/issues/9127">#9127</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/439b58279b69a03d9eb1400c3a6767a27681233a"><code>439b582</code></a> [logging] fix rtt logging not using defined buffer index (<a href="https://redirect.github.com/openthread/openthread/issues/9133">#9133</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/fd46c16a5c1f09f48cf20eb09227511c3233d335"><code>fd46c16</code></a> [netif] use fix type to u8 for addr_gen_mode (<a href="https://redirect.github.com/openthread/openthread/issues/9147">#9147</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/b69dfef1ccd940cdf31aeadcca483e0e1f4da18f"><code>b69dfef</code></a> [mlr] use <code>Array\&lt;&gt;</code> to track old registered MLR addresses (<a href="https://redirect.github.com/openthread/openthread/issues/9134">#9134</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/6a549d1cdb6c264b0afd8c754953ef26faa2a2d7"><code>6a549d1</code></a> [cli] add helper <code>ProcessEnableDisable()</code> methods (<a href="https://redirect.github.com/openthread/openthread/issues/9138">#9138</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/982057e0959d32034027e80c252bef970efe4f1b"><code>982057e</code></a> [mle] simplify tracking of registered DUA address by child (<a href="https://redirect.github.com/openthread/openthread/issues/9137">#9137</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/7e8f77b55e261d170a7175946d6893aa7ca22b66"><code>7e8f77b</code></a> [posix] unify the spinel interface functions (<a href="https://redirect.github.com/openthread/openthread/issues/9107">#9107</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/98fe3f3875ce8ecacdc650ff936000ab7eb99e29"><code>98fe3f3</code></a> github-actions: bump actions/checkout from 3.3.0 to 3.5.2 (<a href="https://redirect.github.com/openthread/openthread/issues/9132">#9132</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/161a7fddcf69ff63cec08e3970d3400ad2dd4b35"><code>161a7fd</code></a> [bbr] move BBR constants to related source files (<a href="https://redirect.github.com/openthread/openthread/issues/9129">#9129</a>)</li>
+<li><a href="https://github.com/openthread/openthread/commit/41d6fc861c1f9a04a0cfb181b746fe42b059484b"><code>41d6fc8</code></a> [cli] add CLI Backbone Router (<code>Bbr</code>) sub-module (<a href="https://redirect.github.com/openthread/openthread/issues/9128">#9128</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/openthread/openthread/compare/80eb7f512fd05f610d94d1c1c73e647f2a660e1a...cc09029188f5b4a9fc8c068b0c0b73446b99a258">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+You can trigger a rebase of this PR by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,14 @@
+Bump @rushstack/eslint-patch from 1.3.0 to 1.3.1
+
+Bumps [@rushstack/eslint-patch](https://github.com/microsoft/rushstack/tree/HEAD/eslint/eslint-patch) from 1.3.0 to 1.3.1.
+- [Changelog](https://github.com/microsoft/rushstack/blob/main/eslint/eslint-patch/CHANGELOG.md)
+- [Commits](https://github.com/microsoft/rushstack/commits/@rushstack/eslint-patch_v1.3.1/eslint/eslint-patch)
+
+---
+updated-dependencies:
+- dependency-name: "@rushstack/eslint-patch"
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

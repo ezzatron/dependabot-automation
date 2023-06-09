@@ -1,0 +1,100 @@
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.4 to 2.3.6.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/github/codeql-action/blob/main/CHANGELOG.md">github/codeql-action's changelog</a>.</em></p>
+<blockquote>
+<h1>CodeQL Action Changelog</h1>
+<h2>[UNRELEASED]</h2>
+<p>No user facing changes.</p>
+<h2>2.3.6 - 01 Jun 2023</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.13.3. <a href="https://redirect.github.com/github/codeql-action/pull/1698">#1698</a></li>
+</ul>
+<h2>2.3.5 - 25 May 2023</h2>
+<ul>
+<li>Allow invalid URIs to be used as values to <code>artifactLocation.uri</code> properties. This reverses a change from <a href="https://redirect.github.com/github/codeql-action/pull/1668">#1668</a> that inadvertently led to stricter validation of some URI values. <a href="https://redirect.github.com/github/codeql-action/pull/1705">#1705</a></li>
+<li>Gracefully handle invalid URIs when fingerprinting. <a href="https://redirect.github.com/github/codeql-action/pull/1694">#1694</a></li>
+</ul>
+<h2>2.3.4 - 24 May 2023</h2>
+<ul>
+<li>Updated the SARIF 2.1.0 JSON schema file to the latest from <a href="https://github.com/oasis-tcs/sarif-spec/blob/123e95847b13fbdd4cbe2120fa5e33355d4a042b/Schemata/sarif-schema-2.1.0.json">oasis-tcs/sarif-spec</a>. <a href="https://redirect.github.com/github/codeql-action/pull/1668">#1668</a></li>
+<li>We are rolling out a feature in May 2023 that will disable Python dependency installation for new users of the CodeQL Action. This improves the speed of analysis while having only a very minor impact on results. <a href="https://redirect.github.com/github/codeql-action/pull/1676">#1676</a></li>
+<li>We are improving the way that <a href="https://github.com/github/codeql-action/releases">CodeQL bundles</a> are tagged to make it possible to easily identify bundles by their CodeQL semantic version. <a href="https://redirect.github.com/github/codeql-action/pull/1682">#1682</a>
+<ul>
+<li>As of CodeQL CLI 2.13.4, CodeQL bundles will be tagged using semantic versions, for example <code>codeql-bundle-v2.13.4</code>, instead of timestamps, like <code>codeql-bundle-20230615</code>.</li>
+<li>This change does not affect the majority of workflows, and we will not be changing tags for existing bundle releases.</li>
+<li>Some workflows with custom logic that depends on the specific format of the CodeQL bundle tag may need to be updated. For example, if your workflow matches CodeQL bundle tag names against a <code>codeql-bundle-yyyymmdd</code> pattern, you should update it to also recognize <code>codeql-bundle-vx.y.z</code> tags.</li>
+</ul>
+</li>
+<li>Remove the requirement for <code>on.push</code> and <code>on.pull_request</code> to trigger on the same branches. <a href="https://redirect.github.com/github/codeql-action/pull/1675">#1675</a></li>
+</ul>
+<h2>2.3.3 - 04 May 2023</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.13.1. <a href="https://redirect.github.com/github/codeql-action/pull/1664">#1664</a></li>
+<li>You can now configure CodeQL within your code scanning workflow by passing a <code>config</code> input to the <code>init</code> Action. See <a href="https://aka.ms/code-scanning-docs/config-file">Using a custom configuration file</a> for more information about configuring code scanning. <a href="https://redirect.github.com/github/codeql-action/pull/1590">#1590</a></li>
+</ul>
+<h2>2.3.2 - 27 Apr 2023</h2>
+<p>No user facing changes.</p>
+<h2>2.3.1 - 26 Apr 2023</h2>
+<p>No user facing changes.</p>
+<h2>2.3.0 - 21 Apr 2023</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.13.0. <a href="https://redirect.github.com/github/codeql-action/pull/1649">#1649</a></li>
+<li>Bump the minimum CodeQL bundle version to 2.8.5. <a href="https://redirect.github.com/github/codeql-action/pull/1618">#1618</a></li>
+</ul>
+<h2>2.2.12 - 13 Apr 2023</h2>
+<ul>
+<li>Include the value of the <code>GITHUB_RUN_ATTEMPT</code> environment variable in the telemetry sent to GitHub. <a href="https://redirect.github.com/github/codeql-action/pull/1640">#1640</a></li>
+<li>Improve the ease of debugging failed runs configured using <a href="https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-for-a-repository#configuring-code-scanning-automatically">default setup</a>. The CodeQL Action will now upload diagnostic information to Code Scanning from failed runs configured using default setup. You can view this diagnostic information on the <a href="https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-the-tool-status-page">tool status page</a>. <a href="https://redirect.github.com/github/codeql-action/pull/1619">#1619</a></li>
+</ul>
+<h2>2.2.11 - 06 Apr 2023</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/github/codeql-action/commit/83f0fe6c4988d98a455712a27f0255212bba9bd4"><code>83f0fe6</code></a> Merge pull request <a href="https://redirect.github.com/github/codeql-action/issues/1713">#1713</a> from github/update-v2.3.6-96f284028</li>
+<li><a href="https://github.com/github/codeql-action/commit/5c8f4be0e98de2abecc7af538676cf2384a881fc"><code>5c8f4be</code></a> Update changelog for v2.3.6</li>
+<li><a href="https://github.com/github/codeql-action/commit/96f284028262d223858647b5680642a84608cc87"><code>96f2840</code></a> Merge pull request <a href="https://redirect.github.com/github/codeql-action/issues/1711">#1711</a> from github/henrymercer/improve-supported-versions-u...</li>
+<li><a href="https://github.com/github/codeql-action/commit/89c4c9e65cd3faf5d84dba8f43bb308fae40336d"><code>89c4c9e</code></a> Merge pull request <a href="https://redirect.github.com/github/codeql-action/issues/1678">#1678</a> from github/henrymercer/default-setup-safeguarding</li>
+<li><a href="https://github.com/github/codeql-action/commit/26f16a5e63c7bebdcf17b2a6d1c7fc1861a0c611"><code>26f16a5</code></a> Rephrase the still supported calculation to make it clearer</li>
+<li><a href="https://github.com/github/codeql-action/commit/955f8596aed9d71c454c46b251302b150bc1adcb"><code>955f859</code></a> Fix sign error</li>
+<li><a href="https://github.com/github/codeql-action/commit/e7cff66ce1871fdb3b9cdf054e5550485c0b8d12"><code>e7cff66</code></a> Fix push</li>
+<li><a href="https://github.com/github/codeql-action/commit/afdba763260a797d16bcce8e498641fefd604731"><code>afdba76</code></a> Wait a week before dropping support for end of life GHES versions</li>
+<li><a href="https://github.com/github/codeql-action/commit/07e43a22080d8828875556729afa669d200b9515"><code>07e43a2</code></a> Open PR with gh CLI</li>
+<li><a href="https://github.com/github/codeql-action/commit/9632771630d75f08faa5a3b6f5afc9d44a6a65b0"><code>9632771</code></a> Address review comments</li>
+<li>Additional commits viewable in <a href="https://github.com/github/codeql-action/compare/v2.2.4...83f0fe6c4988d98a455712a27f0255212bba9bd4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github/codeql-action&package-manager=github_actions&previous-version=2.2.4&new-version=2.3.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

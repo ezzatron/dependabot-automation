@@ -1,0 +1,13 @@
+Bump com.bergerkiller.bukkit:TrainCarts from 1.19.4-v1 to 1.19.4-v2
+
+Bumps [com.bergerkiller.bukkit:TrainCarts](https://github.com/bergerhealer/traincarts) from 1.19.4-v1 to 1.19.4-v2.
+- [Commits](https://github.com/bergerhealer/traincarts/commits)
+
+---
+updated-dependencies:
+- dependency-name: com.bergerkiller.bukkit:TrainCarts
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

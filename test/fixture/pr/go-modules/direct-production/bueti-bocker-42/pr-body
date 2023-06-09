@@ -1,0 +1,72 @@
+Bumps [github.com/charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) from 0.24.0 to 0.24.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/charmbracelet/bubbletea/releases">github.com/charmbracelet/bubbletea's releases</a>.</em></p>
+<blockquote>
+<h2>v0.24.2</h2>
+<p>This point release fixes a race condition that could occur when stopping the default renderer:</p>
+<ul>
+<li>fix: stop renderer before acquiring mutex by <a href="https://github.com/muesli"><code>@​muesli</code></a> in <a href="https://redirect.github.com/charmbracelet/bubbletea/pull/757">charmbracelet/bubbletea#757</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/charmbracelet/bubbletea/compare/v0.24.1...v0.24.2">https://github.com/charmbracelet/bubbletea/compare/v0.24.1...v0.24.2</a></p>
+<hr />
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Thoughts? Questions? We love hearing from you. Feel free to reach out on <a href="https://twitter.com/charmcli">Twitter</a>, <a href="https://mastodon.social/@charmcli">The Fediverse</a>, or <a href="https://charm.sh/chat">Discord</a>.</p>
+<h2>v0.24.1</h2>
+<h1>You can pipe again</h1>
+<p>This point release fixes a regression introduced in <code>v0.24.0</code> in which keyboard and mouse input would be lost when piping and redirecting into a program with default inputs. Special thanks to <a href="https://github.com/pomdtr"><code>@​pomdtr</code></a> for…piping up about the regression.</p>
+<ul>
+<li>fix: auto-open a TTY when stdin is not a TTY (regression) by <a href="https://github.com/meowgorithm"><code>@​meowgorithm</code></a> in <a href="https://redirect.github.com/charmbracelet/bubbletea/pull/746">charmbracelet/bubbletea#746</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/charmbracelet/bubbletea/compare/v0.24.0...v0.24.1">https://github.com/charmbracelet/bubbletea/compare/v0.24.0...v0.24.1</a></p>
+<hr />
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Thoughts? Questions? We love hearing from you. Feel free to reach out on <a href="https://twitter.com/charmcli">Twitter</a>, <a href="https://mastodon.social/@charmcli">The Fediverse</a>, or <a href="https://charm.sh/chat">Discord</a>.</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/44f17fa1c0d9bf4a20d5bc89640d2ebe7a7f3a8b"><code>44f17fa</code></a> fix: stop renderer before acquiring renderer mutex</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/444e04bbb30f700e3d5d2d7323b5e60b7a2b78c5"><code>444e04b</code></a> docs(examples): filepicker AllowedTypes example (<a href="https://redirect.github.com/charmbracelet/bubbletea/issues/713">#713</a>)</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/8254e0e4721c62d7b479d1103ad24be4f2bde032"><code>8254e0e</code></a> fix(examples/file-picker): use <code>CurrentDirectory</code> instead of Path</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/5f7a07b03c73639d86343ac3df00cb698cf24832"><code>5f7a07b</code></a> chore(deps): bump bubbles to v0.16.1</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/26dc0b5b327b55a1deaece8cb57bda39564ca25f"><code>26dc0b5</code></a> chore(deps): bump bubbles to v0.16.1</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/c267762438a3b24e9138e4ec02dd43c3b99c71fd"><code>c267762</code></a> fix(regression): auto-open a TTY when stdin is not a TTY (<a href="https://redirect.github.com/charmbracelet/bubbletea/issues/746">#746</a>)</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/d1a16bd88370daba01ea34b9007e050f56adc97c"><code>d1a16bd</code></a> fix(ci): remove soft-serve workflow</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/f5a91f0a59389992f7eb24c47000d333321b50c2"><code>f5a91f0</code></a> docs: update license</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/d9df8c3de69d00cebc6ecd3fb3af4ae9d42be704"><code>d9df8c3</code></a> chore: go mod tidy</li>
+<li><a href="https://github.com/charmbracelet/bubbletea/commit/326b0b2df960cdee09bd42061b356d94a9a51b99"><code>326b0b2</code></a> chore: updates</li>
+<li>See full diff in <a href="https://github.com/charmbracelet/bubbletea/compare/v0.24.0...v0.24.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/charmbracelet/bubbletea&package-manager=go_modules&previous-version=0.24.0&new-version=0.24.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,133 @@
+Bumps [sentry-sdk](https://github.com/getsentry/sentry-python) from 1.24.0 to 1.25.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/getsentry/sentry-python/releases">sentry-sdk's releases</a>.</em></p>
+<blockquote>
+<h2>1.25.1</h2>
+<h3>Django update (ongoing)</h3>
+<p>Collections of improvements to our Django integration.</p>
+<p>By: <a href="https://github.com/mgaligniana"><code>@​mgaligniana</code></a> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1773">#1773</a>)</p>
+<h3>Various fixes &amp; improvements</h3>
+<ul>
+<li>Fix <code>parse_url</code> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2161">#2161</a>) by <a href="https://github.com/sentrivana"><code>@​sentrivana</code></a></li>
+<li>test: Fix using unittest.mock whenever available (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1926">#1926</a>) by <a href="https://github.com/mgorny"><code>@​mgorny</code></a></li>
+<li>build(deps): bump sphinx from 5.3.0 to 7.0.1 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2112">#2112</a>) by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>build(deps): bump black from 22.12.0 to 23.3.0 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1984">#1984</a>) by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>build(deps): bump mypy from 1.2.0 to 1.3.0 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2110">#2110</a>) by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>Fix 2.7 <code>common</code> tests (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2145">#2145</a>) by <a href="https://github.com/sentrivana"><code>@​sentrivana</code></a></li>
+<li>Better version parsing in integrations (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2152">#2152</a>) by <a href="https://github.com/antonpirker"><code>@​antonpirker</code></a></li>
+<li>Align HTTP status code as span data field <code>http.response.status_code</code> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2113">#2113</a>) by <a href="https://github.com/antonpirker"><code>@​antonpirker</code></a></li>
+<li>build(deps): bump actions/stale from 6 to 8 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1978">#1978</a>) by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>Do not encode cached value to determine size (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2143">#2143</a>) by <a href="https://github.com/sentrivana"><code>@​sentrivana</code></a></li>
+</ul>
+<h2>1.25.0</h2>
+<h3>Various fixes &amp; improvements</h3>
+<ul>
+<li>
+<p>Support urllib3&gt;=2.0.0 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2148">#2148</a>) by <a href="https://github.com/asottile-sentry"><code>@​asottile-sentry</code></a></p>
+<p>We're now supporting urllib3's new major version, 2.0.0. If you encounter issues (e.g. some of your dependencies not supporting the new urllib3 version yet) you might consider pinning the urllib3 version to <code>&lt;2.0.0</code> manually in your project. Check out the <a href="https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html#migrating-as-an-application-developer">the urllib3 migration guide</a> for details.</p>
+</li>
+<li>
+<p>Auto-retry tests on failure (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2134">#2134</a>) by <a href="https://github.com/sentrivana"><code>@​sentrivana</code></a></p>
+</li>
+<li>
+<p>Correct <code>importlib.metadata</code> check in <code>test_modules</code> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2149">#2149</a>) by <a href="https://github.com/asottile-sentry"><code>@​asottile-sentry</code></a></p>
+</li>
+<li>
+<p>Fix distribution name normalization (PEP-0503) (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2144">#2144</a>) by <a href="https://github.com/rominf"><code>@​rominf</code></a></p>
+</li>
+<li>
+<p>Fix <code>functions_to_trace</code> typing (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2141">#2141</a>) by <a href="https://github.com/rcmarron"><code>@​rcmarron</code></a></p>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/getsentry/sentry-python/blob/master/CHANGELOG.md">sentry-sdk's changelog</a>.</em></p>
+<blockquote>
+<h2>1.25.1</h2>
+<h3>Django update (ongoing)</h3>
+<p>Collections of improvements to our Django integration.</p>
+<p>By: <a href="https://github.com/mgaligniana"><code>@​mgaligniana</code></a> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1773">#1773</a>)</p>
+<h3>Various fixes &amp; improvements</h3>
+<ul>
+<li>Fix <code>parse_url</code> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2161">#2161</a>) by <a href="https://github.com/sentrivana"><code>@​sentrivana</code></a></li>
+<li>test: Fix using unittest.mock whenever available (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1926">#1926</a>) by <a href="https://github.com/mgorny"><code>@​mgorny</code></a></li>
+<li>build(deps): bump sphinx from 5.3.0 to 7.0.1 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2112">#2112</a>) by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>build(deps): bump black from 22.12.0 to 23.3.0 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1984">#1984</a>) by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>build(deps): bump mypy from 1.2.0 to 1.3.0 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2110">#2110</a>) by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>Fix 2.7 <code>common</code> tests (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2145">#2145</a>) by <a href="https://github.com/sentrivana"><code>@​sentrivana</code></a></li>
+<li>Better version parsing in integrations (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2152">#2152</a>) by <a href="https://github.com/antonpirker"><code>@​antonpirker</code></a></li>
+<li>Align HTTP status code as span data field <code>http.response.status_code</code> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2113">#2113</a>) by <a href="https://github.com/antonpirker"><code>@​antonpirker</code></a></li>
+<li>build(deps): bump actions/stale from 6 to 8 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1978">#1978</a>) by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+<li>Do not encode cached value to determine size (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2143">#2143</a>) by <a href="https://github.com/sentrivana"><code>@​sentrivana</code></a></li>
+</ul>
+<h2>1.25.0</h2>
+<h3>Various fixes &amp; improvements</h3>
+<ul>
+<li>
+<p>Support urllib3&gt;=2.0.0 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2148">#2148</a>) by <a href="https://github.com/asottile-sentry"><code>@​asottile-sentry</code></a></p>
+<p>We're now supporting urllib3's new major version, 2.0.0. If you encounter issues (e.g. some of your dependencies not supporting the new urllib3 version yet) you might consider pinning the urllib3 version to <code>&lt;2.0.0</code> manually in your project. Check out the <a href="https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html#migrating-as-an-application-developer">the urllib3 migration guide</a> for details.</p>
+</li>
+<li>
+<p>Auto-retry tests on failure (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2134">#2134</a>) by <a href="https://github.com/sentrivana"><code>@​sentrivana</code></a></p>
+</li>
+<li>
+<p>Correct <code>importlib.metadata</code> check in <code>test_modules</code> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2149">#2149</a>) by <a href="https://github.com/asottile-sentry"><code>@​asottile-sentry</code></a></p>
+</li>
+<li>
+<p>Fix distribution name normalization (PEP-0503) (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2144">#2144</a>) by <a href="https://github.com/rominf"><code>@​rominf</code></a></p>
+</li>
+<li>
+<p>Fix <code>functions_to_trace</code> typing (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2141">#2141</a>) by <a href="https://github.com/rcmarron"><code>@​rcmarron</code></a></p>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/getsentry/sentry-python/commit/4b1d6ceda0a61182d4d499c62fd50981c5902dea"><code>4b1d6ce</code></a> release: 1.25.1</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/dd6bbe034a75b857392c5b5933a364263626b103"><code>dd6bbe0</code></a> Fix <code>parse_url</code> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2161">#2161</a>)</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/8a6c19cbbc3167e3427e99a4d3cacc54d701a467"><code>8a6c19c</code></a> fix(integrations): support complex regex coming from DjangoCMS (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1773">#1773</a>)</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/59bf4d45a4cdca2cb19e6f75851a01cbe06d0b2c"><code>59bf4d4</code></a> test: Fix using unittest.mock whenever available (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1926">#1926</a>)</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/28b21edf54825d4819e02eebc6424c3557d027c7"><code>28b21ed</code></a> build(deps): bump sphinx from 5.3.0 to 7.0.1 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2112">#2112</a>)</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/65dd77dfc3df13b37906316f76f12a7996f90d7b"><code>65dd77d</code></a> build(deps): bump black from 22.12.0 to 23.3.0 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/1984">#1984</a>)</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/24e294067730ad02dd773a0705d9bcc68b77d074"><code>24e2940</code></a> build(deps): bump mypy from 1.2.0 to 1.3.0 (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2110">#2110</a>)</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/55e5e39dd26f72eefc58f6e311119cdd148191b8"><code>55e5e39</code></a> Fix 2.7 <code>common</code> tests (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2145">#2145</a>)</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/87eb7610206889ec05525e48284e032eb14b4125"><code>87eb761</code></a> Better version parsing in integrations (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2152">#2152</a>)</li>
+<li><a href="https://github.com/getsentry/sentry-python/commit/692d0990e060af0970eda6ae301a8d73250f138e"><code>692d099</code></a> Align HTTP status code as span data field <code>http.response.status_code</code> (<a href="https://redirect.github.com/getsentry/sentry-python/issues/2113">#2113</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/getsentry/sentry-python/compare/1.24.0...1.25.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=sentry-sdk&package-manager=pip&previous-version=1.24.0&new-version=1.25.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

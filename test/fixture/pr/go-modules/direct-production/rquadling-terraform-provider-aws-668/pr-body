@@ -1,0 +1,79 @@
+Bumps [github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2](https://github.com/hashicorp/aws-sdk-go-base) from 2.0.0-beta.25 to 2.0.0-beta.30.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/hashicorp/aws-sdk-go-base/blob/main/CHANGELOG.md">github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2's changelog</a>.</em></p>
+<blockquote>
+<!-- raw HTML omitted -->
+<h1>v2.0.0 (Unreleased)</h1>
+<h1>v2.0.0-beta.29 (2023-06-08)</h1>
+<p>ENHANCEMENT</p>
+<ul>
+<li>Enables support for Adaptive retry mode (<a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/pull/489">#489</a>)</li>
+</ul>
+<h1>v2.0.0-beta.28 (2023-06-01)</h1>
+<p>BUG FIXES</p>
+<ul>
+<li>Limits HTTP response body size in logs to 4 KB (<a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/pull/490">#490</a>)</li>
+</ul>
+<p>ENHANCEMENTS</p>
+<ul>
+<li>Updates limit of HTTP requsest body size in logs to 1 KB (<a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/pull/490">#490</a>)</li>
+</ul>
+<h1>v2.0.0-beta.27 (2023-05-24)</h1>
+<p>BUG FIXES</p>
+<ul>
+<li>Reintroduces special handling to work around very high AWS API retry counts removed in v2.0.0-beta.26 (<a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/pull/481">#481</a>)</li>
+</ul>
+<h1>v2.0.0-beta.26 (2023-05-23)</h1>
+<p>BREAKING CHANGES</p>
+<ul>
+<li>Removes special handling to work around very high AWS API retry counts. (<a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/pull/462">#462</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/82b6e9ea9f3d5e381957298490fc0bddad1517b5"><code>82b6e9e</code></a> Release <code>v2.0.0-beta.29</code> and <code>awsv1shim/v2.0.0-beta.30</code></li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/8867643ad8617bb3b962782efcc9c6440747980b"><code>8867643</code></a> Merge pull request <a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/issues/498">#498</a> from hashicorp/dependabot/go_modules/github.com/aws/a...</li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/5f42d3cc8cf08aa12bca1b8da0df45aae3101870"><code>5f42d3c</code></a> <code>go mod sync</code></li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/1a9bcedf61f0226a35fc935cd6762da866622926"><code>1a9bced</code></a> Merge pull request <a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/issues/499">#499</a> from hashicorp/dependabot/go_modules/v2/awsv1shim/git...</li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/a0b6f0e339a0ba3050ce1b93d26456e165560ec5"><code>a0b6f0e</code></a> Bump github.com/aws/aws-sdk-go in /v2/awsv1shim</li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/569148af55bf7381d26c2ada8c5f443ee86e7e1c"><code>569148a</code></a> Bump github.com/aws/aws-sdk-go-v2/service/iam from 1.19.12 to 1.20.0</li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/8f035addb9536e12ba55d82a531364046d7ed21c"><code>8f035ad</code></a> Merge pull request <a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/issues/491">#491</a> from hashicorp/dependabot/go_modules/v2/awsv1shim/git...</li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/17f9a3a21fc46d0f999476ce505bbbc3b4208adb"><code>17f9a3a</code></a> Merge pull request <a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/issues/487">#487</a> from hashicorp/dependabot/go_modules/v2/awsv1shim/git...</li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/fcef6beb8ef8c09dc413ad561b9970620c4ec667"><code>fcef6be</code></a> Updates CHANGELOG for <a href="https://redirect.github.com/hashicorp/aws-sdk-go-base/issues/489">#489</a></li>
+<li><a href="https://github.com/hashicorp/aws-sdk-go-base/commit/c301ff06f0ac9ced2857c39a22880ffd5aacb3af"><code>c301ff0</code></a> Bump github.com/hashicorp/terraform-plugin-log in /v2/awsv1shim</li>
+<li>Additional commits viewable in <a href="https://github.com/hashicorp/aws-sdk-go-base/compare/v2.0.0-beta.25...v2/awsv1shim/v2.0.0-beta.30">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2&package-manager=go_modules&previous-version=2.0.0-beta.25&new-version=2.0.0-beta.30)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,12 @@
+build(deps): bump wpackagist-plugin/myworks-woo-sync-for-quickbooks-online
+
+Bumps wpackagist-plugin/myworks-woo-sync-for-quickbooks-online from 2.7.0 to 2.8.0.
+
+---
+updated-dependencies:
+- dependency-name: wpackagist-plugin/myworks-woo-sync-for-quickbooks-online
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,12 @@
+[Dependencies]: Bump python from 3.11.3-alpine3.17 to 3.11.4-alpine3.17
+
+Bumps python from 3.11.3-alpine3.17 to 3.11.4-alpine3.17.
+
+---
+updated-dependencies:
+- dependency-name: python
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

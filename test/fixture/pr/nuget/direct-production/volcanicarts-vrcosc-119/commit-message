@@ -1,0 +1,14 @@
+Bump ppy.osu.Framework from 2023.531.0 to 2023.608.0
+
+Bumps [ppy.osu.Framework](https://github.com/ppy/osu-framework) from 2023.531.0 to 2023.608.0.
+- [Release notes](https://github.com/ppy/osu-framework/releases)
+- [Commits](https://github.com/ppy/osu-framework/compare/2023.531.0...2023.608.0)
+
+---
+updated-dependencies:
+- dependency-name: ppy.osu.Framework
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

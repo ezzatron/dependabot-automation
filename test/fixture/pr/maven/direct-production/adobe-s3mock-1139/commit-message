@@ -1,0 +1,13 @@
+Bump maven-dependency-plugin from 3.4.0 to 3.6.0
+
+Bumps [maven-dependency-plugin](https://github.com/apache/maven-dependency-plugin) from 3.4.0 to 3.6.0.
+- [Commits](https://github.com/apache/maven-dependency-plugin/compare/maven-dependency-plugin-3.4.0...maven-dependency-plugin-3.6.0)
+
+---
+updated-dependencies:
+- dependency-name: org.apache.maven.plugins:maven-dependency-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

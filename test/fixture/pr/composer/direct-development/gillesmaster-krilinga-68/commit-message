@@ -1,0 +1,15 @@
+Bump pestphp/pest from 2.6.2 to 2.6.3
+
+Bumps [pestphp/pest](https://github.com/pestphp/pest) from 2.6.2 to 2.6.3.
+- [Release notes](https://github.com/pestphp/pest/releases)
+- [Changelog](https://github.com/pestphp/pest/blob/2.x/CHANGELOG.md)
+- [Commits](https://github.com/pestphp/pest/compare/v2.6.2...v2.6.3)
+
+---
+updated-dependencies:
+- dependency-name: pestphp/pest
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

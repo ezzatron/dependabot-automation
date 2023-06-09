@@ -1,0 +1,104 @@
+Bumps [selenium](https://github.com/SeleniumHQ/Selenium) from 4.9.1 to 4.10.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/SeleniumHQ/Selenium/releases">selenium's releases</a>.</em></p>
+<blockquote>
+<h2>Selenium 4.10.0</h2>
+<h3>Changelog</h3>
+<p>For each component's detailed changelog, please check:</p>
+<ul>
+<li><a href="https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES">Ruby</a></li>
+<li><a href="https://github.com/SeleniumHQ/selenium/blob/trunk/py/CHANGES">Python</a></li>
+<li><a href="https://github.com/SeleniumHQ/selenium/blob/trunk/javascript/node/selenium-webdriver/CHANGES.md">JavaScript</a></li>
+<li><a href="https://github.com/SeleniumHQ/selenium/blob/trunk/java/CHANGELOG">Java</a></li>
+<li><a href="https://github.com/SeleniumHQ/selenium/blob/trunk/dotnet/CHANGELOG">DotNet</a></li>
+<li><a href="https://github.com/SeleniumHQ/selenium/blob/trunk/cpp/iedriverserver/CHANGELOG">IEDriverServer</a></li>
+</ul>
+<h3>Commits in this release</h3>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="http://github.com/seleniumhq/selenium/commit/4450a44e18fed42c60f3889390113c049fa42eac"><code>4450a44e18</code></a> - Update mirror info :: Selenium CI Bot</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/1ab13d9c6eca76e215f083bd3a1e16c6e5edd37c"><code>1ab13d9c6e</code></a> - [rb] Bumping Selenium version :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/4dd9e1f8ad45d626a0da1470051f8491b1804f03"><code>4dd9e1f8ad</code></a> - [rust] Include --debug flag in CLI test :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/c7e2b557d7c57d32dcb9ce383060d3722ad95f35"><code>c7e2b557d7</code></a> - [rust] Log error message as debug trace when parsing version :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/e51d1aabfddfbe64931420e147682abbdf7371d3"><code>e51d1aabfd</code></a> - [rust] Log error message as debug trace when uncompressing driver :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/9c2f47572b9710a4c8a08b71f6fbbcbdbe273ca3"><code>9c2f47572b</code></a> - [rust] Read LATEST_STABLE and then LATEST_RELEASE for msedgedriver in latest fallback :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/3893a5ed633b93dd1e2ef2b03e517c336a7bd574"><code>3893a5ed63</code></a> - [rust] Minor smell-fixes :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/dd9f306417057fe1b4f99ae3cb1f6b6fb8f3b102"><code>dd9f306417</code></a> - [rust] Change level of &quot;Trying with latest driver version&quot; log to WARN :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/cbcc6b3060098ec1e8973e4af1733ae6ce9e98ab"><code>cbcc6b3060</code></a> - [rust] Fix command to discover msedgedriver version using LOCALAPPDATA env :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/b579892869b4d68455bf37d9234cc69bd5ca9f39"><code>b579892869</code></a> - [rust] Avoid WARN trace for iexplorer version detection :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/666c3ea941c4b360bd370062989957822875384d"><code>666c3ea941</code></a> - [rust] Include assertion to assess browser version detection :: Boni Garcia</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/9105916ce8c028e9cae014748fff3d44a0f03776"><code>9105916ce8</code></a> - Update mirror info :: Selenium CI Bot</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/a4b0ddd02b3796590a6a39f09a1f6e2d07e97dce"><code>a4b0ddd02b</code></a> - [rust] Support building on Windows ARM64 :: p0deje</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/7869fdc345f3d36fa8c07374d50eeed7d3522b80"><code>7869fdc345</code></a> - [rust] Allow Bazel access Program Files environment variables :: Alex Rodionov</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/542f0a16c7a57115af4a9d1f4e3dc6d7eddf1bf3"><code>542f0a16c7</code></a> - [rb] Fix wrongly trying to load a constant (<a href="https://redirect.github.com/SeleniumHQ/Selenium/issues/11931">#11931</a>) :: Boris Petrov</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/79e3f9e6f0c2d775b6073507f543aea48529e5a4"><code>79e3f9e6f0</code></a> - [dotnet] Fallback result parsing of script execution to expected type (<a href="https://redirect.github.com/SeleniumHQ/Selenium/issues/11930">#11930</a>) :: Nikolay Borisenko</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/797b713d788fb6a91e707091c379074eed647a1d"><code>797b713d78</code></a> - Fix: typo in the &quot;addArguments&quot; method comment (<a href="https://redirect.github.com/SeleniumHQ/Selenium/issues/11945">#11945</a>) :: Maid</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/68a683f670db57ad81bb9ac84babd08bce24b75f"><code>68a683f670</code></a> - [js][bidi] fix: tests which were failing (<a href="https://redirect.github.com/SeleniumHQ/Selenium/issues/11941">#11941</a>) :: Tamsil Sajid Amani</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/98d3e26b3e35e91a7cd01c4abe70d1a5b3412db3"><code>98d3e26b3e</code></a> - [rust] Selenium Manager detects ARM architecture on Windows (<a href="https://redirect.github.com/SeleniumHQ/Selenium/issues/11939">#11939</a>) :: Boni García</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/1ea31348772593376a536511b0f6c2928a50ed8f"><code>1ea3134877</code></a> - [java] Handling case where -1 is returned as statusCode :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/dfe07841e8bebb6740d2fa9506f8b363bd14de1d"><code>dfe07841e8</code></a> - [java] Adding remote-allow-origins argument only when the Java 11 http client is not used. :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/293046106e58d52915505642b8cfae736992fbcc"><code>293046106e</code></a> - [java] Remove deprecated &quot;version&quot; JWP capability :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/3d8c6fa7a950ce129f4bd8fb347c71a2cdd4bf07"><code>3d8c6fa7a9</code></a> - [java] Remove deprecated &quot;platform&quot; JWP capability :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/b643cf793ec81ced66ee277dfc8964110defc686"><code>b643cf793e</code></a> - [java] Enabling and fixing tests in Firefox :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/41bbc5f883c21fed04cbaa142a0bfbe2c6e383b9"><code>41bbc5f883</code></a> - [java] Remove deprecated &quot;takesScreenshot&quot; JWP capability :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/940b183e3a84ce1a1fa51bb3d3c8b29bbe5368d8"><code>940b183e3a</code></a> - [java] Remove deprecated &quot;unexpectedAlertBehaviour&quot; JWP capability :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/ef69f1b05eeb7a70c1a1c8570f36160e41e7a619"><code>ef69f1b05e</code></a> - [js][bidi] Add browsing context events support  (<a href="https://redirect.github.com/SeleniumHQ/Selenium/issues/11905">#11905</a>) :: Tamsil Sajid Amani</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/590d3240d4a0c032e981103049194c12ce54fef3"><code>590d3240d4</code></a> - [java] Removing unused CapabilitiesUtils.java class :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/79c78470686bed5e45941e87385d360b62f99221"><code>79c7847068</code></a> - [java] Removing more unused classes :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/0c025325aa7b8f4ac952a7527ba2a6b0a5ed0142"><code>0c025325aa</code></a> - [grid] Displaying the real stereotype config at startup :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/46f300c374a409ed39c37060f8f74971274a899b"><code>46f300c374</code></a> - [java] Adding ventura as platform :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/5e95c8151809d665b7aa47d50b3ce65a39eb94de"><code>5e95c81518</code></a> - [java] Adding task to publish snapshots in Java :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/1947771a9385f8c2069510d8ed5b0ef42a5bc4f6"><code>1947771a93</code></a> - [java] Fixing build :: Diego Molina</li>
+<li><a href="http://github.com/seleniumhq/selenium/commit/da2e767ebe307c5221ef3fb20b3dbc404fc19ff7"><code>da2e767ebe</code></a> - [rb] allow users to direct driver process output (<a href="https://redirect.github.com/SeleniumHQ/Selenium/issues/11964">#11964</a>) :: Titus Fortner</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/c14d9678990942b93cb421c5567d0da7fb29c7bd"><code>c14d967</code></a> Bumping versions for 4.10.0 release</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/92a0a8a9c27b8c2ed1e5ddfddd6a937444b0a566"><code>92a0a8a</code></a> [py] Removing unused import to fix linter</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/02744ac57fd495958f4583cb4b44965f651808c0"><code>02744ac</code></a> [java] Fixing ChromeOptionsFunctionalTest and formatting files</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/0f0f70657d488c907b11a7141cdebe84a29e6aa6"><code>0f0f706</code></a> [py] fix broken syntax in mutation events</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/4e77adebc11ad4412fc2852f7c54d27c5801412e"><code>4e77ade</code></a> [py] fix broken syntax in mutation events</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/5af3b2de2249d3ed42826a9b9a3d78a86a485632"><code>5af3b2d</code></a> [js] change log level in Selenium Manager to reduce noise</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/3440f5ac95af18bb6c40a7b41b33c5288d70098d"><code>3440f5a</code></a> update changelogs for 4.10</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/d343d2ccb063b658b89f953a02b7266cb95ccd12"><code>d343d2c</code></a> [dotnet] add Driver Location Exception and update exception conditions</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/b30ec03ddaa6ac22b63a7fff938aca914b287234"><code>b30ec03</code></a> [dotnet] link exceptions to documentation</li>
+<li><a href="https://github.com/SeleniumHQ/selenium/commit/cb9cdc14c2becb61582a291e12e3dec541c37af1"><code>cb9cdc1</code></a> [rb] Update Ruby rules for Bazel</li>
+<li>Additional commits viewable in <a href="https://github.com/SeleniumHQ/Selenium/compare/selenium-4.9.1...selenium-4.10.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=selenium&package-manager=pip&previous-version=4.9.1&new-version=4.10.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

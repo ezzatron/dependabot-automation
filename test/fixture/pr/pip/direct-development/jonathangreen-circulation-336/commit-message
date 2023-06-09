@@ -1,0 +1,14 @@
+Bump botocore-stubs from 1.29.147 to 1.29.149
+
+Bumps [botocore-stubs](https://github.com/youtype/botocore-stubs) from 1.29.147 to 1.29.149.
+- [Release notes](https://github.com/youtype/botocore-stubs/releases)
+- [Commits](https://github.com/youtype/botocore-stubs/commits)
+
+---
+updated-dependencies:
+- dependency-name: botocore-stubs
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

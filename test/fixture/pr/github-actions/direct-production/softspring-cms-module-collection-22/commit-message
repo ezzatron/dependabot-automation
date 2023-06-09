@@ -1,0 +1,14 @@
+Bump timkrase/phpunit-coverage-badge from 1.2.0 to 1.2.1
+
+Bumps [timkrase/phpunit-coverage-badge](https://github.com/timkrase/phpunit-coverage-badge) from 1.2.0 to 1.2.1.
+- [Release notes](https://github.com/timkrase/phpunit-coverage-badge/releases)
+- [Commits](https://github.com/timkrase/phpunit-coverage-badge/compare/v1.2.0...v1.2.1)
+
+---
+updated-dependencies:
+- dependency-name: timkrase/phpunit-coverage-badge
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,14 @@
+Bump quarkiverse-parent from 14 to 15
+
+Bumps [quarkiverse-parent](https://github.com/quarkiverse/quarkiverse-parent) from 14 to 15.
+- [Release notes](https://github.com/quarkiverse/quarkiverse-parent/releases)
+- [Commits](https://github.com/quarkiverse/quarkiverse-parent/commits)
+
+---
+updated-dependencies:
+- dependency-name: io.quarkiverse:quarkiverse-parent
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

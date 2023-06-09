@@ -1,0 +1,15 @@
+build(deps): bump github.com/hashicorp/aws-sdk-go-base/v2
+
+Bumps [github.com/hashicorp/aws-sdk-go-base/v2](https://github.com/hashicorp/aws-sdk-go-base) from 2.0.0-beta.24 to 2.0.0-beta.29.
+- [Release notes](https://github.com/hashicorp/aws-sdk-go-base/releases)
+- [Changelog](https://github.com/hashicorp/aws-sdk-go-base/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/hashicorp/aws-sdk-go-base/compare/v2.0.0-beta.24...v2.0.0-beta.29)
+
+---
+updated-dependencies:
+- dependency-name: github.com/hashicorp/aws-sdk-go-base/v2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

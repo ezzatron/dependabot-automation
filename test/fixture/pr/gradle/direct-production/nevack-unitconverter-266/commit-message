@@ -1,0 +1,12 @@
+Bump org.jetbrains.kotlin.kapt from 1.8.21 to 1.8.22
+
+Bumps org.jetbrains.kotlin.kapt from 1.8.21 to 1.8.22.
+
+---
+updated-dependencies:
+- dependency-name: org.jetbrains.kotlin.kapt
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

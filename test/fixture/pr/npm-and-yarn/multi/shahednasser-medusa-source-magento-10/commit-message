@@ -1,0 +1,23 @@
+Bump class-validator and @medusajs/medusa
+
+Bumps [class-validator](https://github.com/typestack/class-validator) and [@medusajs/medusa](https://github.com/medusajs/medusa/tree/HEAD/packages/medusa). These dependencies needed to be updated together.
+
+Updates `class-validator` from 0.13.2 to 0.14.0
+- [Release notes](https://github.com/typestack/class-validator/releases)
+- [Changelog](https://github.com/typestack/class-validator/blob/develop/CHANGELOG.md)
+- [Commits](https://github.com/typestack/class-validator/compare/v0.13.2...v0.14.0)
+
+Updates `@medusajs/medusa` from 1.5.0 to 1.12.0
+- [Release notes](https://github.com/medusajs/medusa/releases)
+- [Changelog](https://github.com/medusajs/medusa/blob/develop/packages/medusa/CHANGELOG.md)
+- [Commits](https://github.com/medusajs/medusa/commits/@medusajs/medusa@1.12.0/packages/medusa)
+
+---
+updated-dependencies:
+- dependency-name: class-validator
+  dependency-type: indirect
+- dependency-name: "@medusajs/medusa"
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

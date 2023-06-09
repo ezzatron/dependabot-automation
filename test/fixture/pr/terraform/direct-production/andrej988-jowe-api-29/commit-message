@@ -1,0 +1,15 @@
+Bump hashicorp/archive from 2.3.0 to 2.4.0
+
+Bumps [hashicorp/archive](https://github.com/hashicorp/terraform-provider-archive) from 2.3.0 to 2.4.0.
+- [Release notes](https://github.com/hashicorp/terraform-provider-archive/releases)
+- [Changelog](https://github.com/hashicorp/terraform-provider-archive/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/hashicorp/terraform-provider-archive/compare/v2.3.0...v2.4.0)
+
+---
+updated-dependencies:
+- dependency-name: hashicorp/archive
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

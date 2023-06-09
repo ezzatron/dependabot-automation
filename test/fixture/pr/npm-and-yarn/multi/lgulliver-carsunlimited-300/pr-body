@@ -1,0 +1,126 @@
+Bumps [shell-quote](https://github.com/ljharb/shell-quote) to 1.8.1 and updates ancestor dependency [react-scripts](https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts). These dependencies need to be updated together.
+
+Updates `shell-quote` from 1.7.2 to 1.8.1
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/ljharb/shell-quote/blob/main/CHANGELOG.md">shell-quote's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/ljharb/shell-quote/compare/v1.8.0...v1.8.1">v1.8.1</a> - 2023-04-07</h2>
+<h3>Fixed</h3>
+<ul>
+<li>[Fix] <code>parse</code>: preserve whitespace in comments <a href="https://redirect.github.com/ljharb/shell-quote/issues/6"><code>[#6](https://github.com/ljharb/shell-quote/issues/6)</code></a></li>
+<li>[Fix] properly support the <code>escape</code> option <a href="https://redirect.github.com/ljharb/shell-quote/issues/5"><code>[#5](https://github.com/ljharb/shell-quote/issues/5)</code></a></li>
+</ul>
+<h3>Commits</h3>
+<ul>
+<li>[Refactor] <code>parse</code>: hoist <code>getVar</code> to module level <a href="https://github.com/ljharb/shell-quote/commit/b42ac73e39e566cfc355a4addc4bd2df2652556c"><code>b42ac73</code></a></li>
+<li>[Refactor] hoist some vars to module level <a href="https://github.com/ljharb/shell-quote/commit/8f0c5c3c9df3a10e32f1972636675af6fffef998"><code>8f0c5c3</code></a></li>
+<li>[Refactor] <code>parse</code>: use <code>slice</code> over <code>substr</code>, cache some values <a href="https://github.com/ljharb/shell-quote/commit/fcb2e1acd5312a1a1a4e6c66ec688aab383023b5"><code>fcb2e1a</code></a></li>
+<li>[Refactor] <code>parse</code>: a bit of cleanup <a href="https://github.com/ljharb/shell-quote/commit/6780ec5194e36e2a696bfbaaf85169682a333321"><code>6780ec5</code></a></li>
+<li>[Refactor] <code>parse</code>: tweak the regex to not match nothing <a href="https://github.com/ljharb/shell-quote/commit/227d4742a006e81ec3fde1eee103731a6f7ea920"><code>227d474</code></a></li>
+<li>[Tests] increase coverage <a href="https://github.com/ljharb/shell-quote/commit/a66de943555e49fbb1b657cbe3c5b2c703ae507d"><code>a66de94</code></a></li>
+<li>[Refactor] <code>parse</code>: avoid shadowing a function arg <a href="https://github.com/ljharb/shell-quote/commit/1d5867907ecbf553556fe6ad790b6d6658aedba3"><code>1d58679</code></a></li>
+</ul>
+<h2><a href="https://github.com/ljharb/shell-quote/compare/v1.7.4...v1.8.0">v1.8.0</a> - 2023-01-30</h2>
+<h3>Commits</h3>
+<ul>
+<li>[New] extract <code>parse</code> and <code>quote</code> to their own deep imports <a href="https://github.com/ljharb/shell-quote/commit/553fdfc32cc41b4c2f77e061b6957703958ca575"><code>553fdfc</code></a></li>
+<li>[Tests] add <code>nyc</code> coverage <a href="https://github.com/ljharb/shell-quote/commit/fd7ddcdd84bfef064c6d9a06b055a95531b26897"><code>fd7ddcd</code></a></li>
+<li>[New] Add support for here strings (<code>&amp;lt;&amp;lt;&amp;lt;</code>) <a href="https://github.com/ljharb/shell-quote/commit/9802fb37c7946e18c672b81122520dc296bde271"><code>9802fb3</code></a></li>
+<li>[New] <code>parse</code>: Add syntax support for duplicating input file descriptors <a href="https://github.com/ljharb/shell-quote/commit/216b19894f76b14d164c4c5a68f05a51b06336c4"><code>216b198</code></a></li>
+<li>[Dev Deps] update <code>@ljharb/eslint-config</code>, <code>aud</code>, <code>tape</code> <a href="https://github.com/ljharb/shell-quote/commit/85f8e31dd80e1dde63d58204b653e497a53857e6"><code>85f8e31</code></a></li>
+<li>[Tests] add <code>evalmd</code> <a href="https://github.com/ljharb/shell-quote/commit/c5549fcd82d70046bdc2b1c34184ae9f9d0191f9"><code>c5549fc</code></a></li>
+<li>[actions] update checkout action <a href="https://github.com/ljharb/shell-quote/commit/62e9b4958cfa2f9009b7069076612fe33528c1fb"><code>62e9b49</code></a></li>
+</ul>
+<h2><a href="https://github.com/ljharb/shell-quote/compare/1.7.3...v1.7.4">v1.7.4</a> - 2022-10-12</h2>
+<h3>Merged</h3>
+<ul>
+<li>Add node_modules to .gitignore <a href="https://redirect.github.com/ljharb/shell-quote/pull/48"><code>[#48](https://github.com/ljharb/shell-quote/issues/48)</code></a></li>
+</ul>
+<h3>Commits</h3>
+<ul>
+<li>[eslint] fix indentation and whitespace <a href="https://github.com/ljharb/shell-quote/commit/aaa9d1f65bf3445e6af1efaa4a8f8c13a21aa593"><code>aaa9d1f</code></a></li>
+<li>[eslint] additional cleanup <a href="https://github.com/ljharb/shell-quote/commit/397cb628f3d96e4e47763147c0d6074997a13880"><code>397cb62</code></a></li>
+<li>[meta] add <code>auto-changelog</code> <a href="https://github.com/ljharb/shell-quote/commit/497fca509af3b7d6daaba459bad1f45ac0af3ff1"><code>497fca5</code></a></li>
+<li>[actions] add reusable workflows <a href="https://github.com/ljharb/shell-quote/commit/4763c36274c5881a2d141ce9f2b17b7d1d95e8cd"><code>4763c36</code></a></li>
+<li>[eslint] add eslint <a href="https://github.com/ljharb/shell-quote/commit/6ee1437df1b10a79bdf2aaa04f2bacc9f420dc15"><code>6ee1437</code></a></li>
+<li>[readme] rename, add badges <a href="https://github.com/ljharb/shell-quote/commit/7eb513483d931602452ec572ed456714148acd2b"><code>7eb5134</code></a></li>
+<li>[meta] update URLs <a href="https://github.com/ljharb/shell-quote/commit/67381b61fa95e57819333463f491428747893186"><code>67381b6</code></a></li>
+<li>[meta] create FUNDING.yml; add <code>funding</code> in package.json <a href="https://github.com/ljharb/shell-quote/commit/86415722d875578adf1f95f9e649ba42c805bc32"><code>8641572</code></a></li>
+<li>[meta] use <code>npmignore</code> to autogenerate an npmignore file <a href="https://github.com/ljharb/shell-quote/commit/2e2007a393f90bf079fc556a921120b3508c4fc3"><code>2e2007a</code></a></li>
+<li>Only apps should have lockfiles <a href="https://github.com/ljharb/shell-quote/commit/f97411ef4d2f183200fc8a28beca9faf9b08a640"><code>f97411e</code></a></li>
+<li>[Dev Deps] update <code>tape</code> <a href="https://github.com/ljharb/shell-quote/commit/051f60857ad5035280208abdc348bf5ba42a6254"><code>051f608</code></a></li>
+<li>[meta] add <code>safe-publish-latest</code> <a href="https://github.com/ljharb/shell-quote/commit/18cadf95357392fcd78ea8619956fd41eed62649"><code>18cadf9</code></a></li>
+<li>[Tests] add <code>aud</code> in <code>posttest</code> <a href="https://github.com/ljharb/shell-quote/commit/dc1cc12b956ccd93d58aaaad263bee7d50576d27"><code>dc1cc12</code></a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ljharb/shell-quote/commit/da8a3abb4b2754dd9c1d3203142133e253c515a4"><code>da8a3ab</code></a> v1.8.1</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/a66de943555e49fbb1b657cbe3c5b2c703ae507d"><code>a66de94</code></a> [Tests] increase coverage</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/b42ac73e39e566cfc355a4addc4bd2df2652556c"><code>b42ac73</code></a> [Refactor] <code>parse</code>: hoist <code>getVar</code> to module level</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/fcb2e1acd5312a1a1a4e6c66ec688aab383023b5"><code>fcb2e1a</code></a> [Refactor] <code>parse</code>: use <code>slice</code> over <code>substr</code>, cache some values</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/ecf2a60d84f9c9aa333021a51fa076a3ce567d18"><code>ecf2a60</code></a> [Fix] <code>parse</code>: preserve whitespace in comments</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/1d5867907ecbf553556fe6ad790b6d6658aedba3"><code>1d58679</code></a> [Refactor] <code>parse</code>: avoid shadowing a function arg</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/6780ec5194e36e2a696bfbaaf85169682a333321"><code>6780ec5</code></a> [Refactor] <code>parse</code>: a bit of cleanup</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/227d4742a006e81ec3fde1eee103731a6f7ea920"><code>227d474</code></a> [Refactor] <code>parse</code>: tweak the regex to not match nothing</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/7bcd90e222eb0ec046d5fbf4eb16f323bd1f8e16"><code>7bcd90e</code></a> [Fix] properly support the <code>escape</code> option</li>
+<li><a href="https://github.com/ljharb/shell-quote/commit/8f0c5c3c9df3a10e32f1972636675af6fffef998"><code>8f0c5c3</code></a> [Refactor] hoist some vars to module level</li>
+<li>Additional commits viewable in <a href="https://github.com/ljharb/shell-quote/compare/v1.7.2...v1.8.1">compare view</a></li>
+</ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~ljharb">ljharb</a>, a new releaser for shell-quote since your current version.</p>
+</details>
+<br />
+
+Updates `react-scripts` from 4.0.3 to 5.0.1
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/facebook/create-react-app/commit/19fa58d527ae74f2b6baa0867463eea1d290f9a5"><code>19fa58d</code></a> Publish</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/9802941ff049a28da2682801bc182a29761b71f4"><code>9802941</code></a> fix: webpack noise printed only if error or warning (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/12245">#12245</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/2eef1d0a1db2e84cdcd6e7ca941c85a48cc7cc65"><code>2eef1d0</code></a> Update templates to use React 18 <code>createRoot</code> (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/12220">#12220</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/221e511730ca51c036c6954a9d2ee7659ff860f9"><code>221e511</code></a> Publish</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/5614c87bfbaae0ce52ac15aedd2cd0f91ffd420d"><code>5614c87</code></a> Add support for Tailwind (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11717">#11717</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/20edab4894b301f6b90dad0f90a2f82c52a7ac66"><code>20edab4</code></a> fix(webpackDevServer): disable overlay for warnings (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11413">#11413</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/3afbbc0ab922fb982bb275ccb3fe5beecdf5f889"><code>3afbbc0</code></a> Update all dependencies (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11624">#11624</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/f5467d5e77d51a3f23dd5fa70697dbab79832489"><code>f5467d5</code></a> feat(eslint-config-react-app): support ESLint 8.x (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11375">#11375</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/c7627ce96c4674f327081f101dd0e2771be4d045"><code>c7627ce</code></a> Update webpack and dev server (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11646">#11646</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/544befeb536a89b0ff95792df70bb037b17f55b9"><code>544befe</code></a> Update package.json (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11597">#11597</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/facebook/create-react-app/commits/react-scripts@5.0.1/packages/react-scripts">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/lgulliver/CarsUnlimited/network/alerts).
+
+</details>

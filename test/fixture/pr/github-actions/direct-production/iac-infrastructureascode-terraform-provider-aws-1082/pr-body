@@ -1,0 +1,95 @@
+Bumps [peter-evans/create-or-update-comment](https://github.com/peter-evans/create-or-update-comment) from 2.1.1 to 3.0.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/peter-evans/create-or-update-comment/releases">peter-evans/create-or-update-comment's releases</a>.</em></p>
+<blockquote>
+<h2>Create or Update Comment v3.0.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Truncate long comment bodies during comment update too by <a href="https://github.com/Dermah"><code>@​Dermah</code></a> in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/205">peter-evans/create-or-update-comment#205</a></li>
+<li>Update distribution by <a href="https://github.com/actions-bot"><code>@​actions-bot</code></a> in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/210">peter-evans/create-or-update-comment#210</a></li>
+<li>23 dependency updates by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/Dermah"><code>@​Dermah</code></a> made their first contribution in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/205">peter-evans/create-or-update-comment#205</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/peter-evans/create-or-update-comment/compare/v3.0.1...v3.0.2">https://github.com/peter-evans/create-or-update-comment/compare/v3.0.1...v3.0.2</a></p>
+<h2>Create or Update Comment v3.0.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix: find-comment version by <a href="https://github.com/ematipico"><code>@​ematipico</code></a> in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/164">peter-evans/create-or-update-comment#164</a></li>
+<li>fix: truncate body when it exceeds the max length by <a href="https://github.com/peter-evans"><code>@​peter-evans</code></a> in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/182">peter-evans/create-or-update-comment#182</a></li>
+<li>12 dependency updates by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/ematipico"><code>@​ematipico</code></a> made their first contribution in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/164">peter-evans/create-or-update-comment#164</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/peter-evans/create-or-update-comment/compare/v3.0.0...v3.0.1">https://github.com/peter-evans/create-or-update-comment/compare/v3.0.0...v3.0.1</a></p>
+<h2>Create or Update Comment v3.0.0</h2>
+<h2>What's new</h2>
+<ul>
+<li>Now supports replacing reactions on a comment by setting input <code>reactions-edit-mode</code> to <code>replace</code>. The default behaviour has not changed and will <code>append</code> reactions.</li>
+<li>Chose how the action should append the comment body with input <code>append-separator</code>. The default behaviour is to add a <code>newline</code>. Other options are <code>space</code> and <code>none</code>.</li>
+<li><code>body-file</code> is deprecated in favour of <code>body-path</code>. The behaviour is unchanged.</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>v3 by <a href="https://github.com/peter-evans"><code>@​peter-evans</code></a> in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/161">peter-evans/create-or-update-comment#161</a></li>
+<li>Update some links in the README by <a href="https://github.com/Kurt-von-Laven"><code>@​Kurt-von-Laven</code></a> in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/152">peter-evans/create-or-update-comment#152</a></li>
+<li>9 dependency updates by <a href="https://github.com/dependabot"><code>@​dependabot</code></a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/Kurt-von-Laven"><code>@​Kurt-von-Laven</code></a> made their first contribution in <a href="https://redirect.github.com/peter-evans/create-or-update-comment/pull/152">peter-evans/create-or-update-comment#152</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/peter-evans/create-or-update-comment/compare/v2.1.1...v3.0.0">https://github.com/peter-evans/create-or-update-comment/compare/v2.1.1...v3.0.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/c6c9a1a66007646a28c153e2a8580a5bad27bcfa"><code>c6c9a1a</code></a> Update distribution (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/210">#210</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/ce3fa353c4b456c533f86e14c3343f301d2fe5ed"><code>ce3fa35</code></a> fix: truncate long comment bodies during comment update too (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/205">#205</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/5825e577e369343190925b317e13e821c7993725"><code>5825e57</code></a> Bump eslint from 8.41.0 to 8.42.0 (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/209">#209</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/507508615ae00f3329ff2ab18f528a647a2b330e"><code>5075086</code></a> Bump <code>@​typescript-eslint/parser</code> from 5.59.8 to 5.59.9 (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/208">#208</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/33041066d94dc85c0d9e16531ee36b8b32bfdb4b"><code>3304106</code></a> Bump <code>@​typescript-eslint/eslint-plugin</code> from 5.59.8 to 5.59.9 (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/207">#207</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/84d3b3509737d8ac885a7d1a4a7b9135da61aed0"><code>84d3b35</code></a> Bump eslint-plugin-github from 4.7.0 to 4.8.0 (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/206">#206</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/542d5c2467125bf0a74bd75f1ec2cf9b7eda44bb"><code>542d5c2</code></a> Bump <code>@​typescript-eslint/eslint-plugin</code> from 5.59.7 to 5.59.8 (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/203">#203</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/580d37cf7c654133aa5a8cf5e5999a11ae6bef30"><code>580d37c</code></a> Bump <code>@​typescript-eslint/parser</code> from 5.59.7 to 5.59.8 (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/204">#204</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/f8a0c20f6940378149e03b1d508b907c9f4b5b24"><code>f8a0c20</code></a> Bump <code>@​types/node</code> from 18.16.14 to 18.16.16 (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/202">#202</a>)</li>
+<li><a href="https://github.com/peter-evans/create-or-update-comment/commit/6534843181fc2aeb7f9f1cd3cd4a7b956cada2db"><code>6534843</code></a> Bump <code>@​typescript-eslint/eslint-plugin</code> from 5.59.6 to 5.59.7 (<a href="https://redirect.github.com/peter-evans/create-or-update-comment/issues/201">#201</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/peter-evans/create-or-update-comment/compare/67dcc547d311b736a8e6c5c236542148a47adc3d...c6c9a1a66007646a28c153e2a8580a5bad27bcfa">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=peter-evans/create-or-update-comment&package-manager=github_actions&previous-version=2.1.1&new-version=3.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,19 @@
+Bump clothConfigVersion from 10.0.96 to 11.0.99
+
+Bumps `clothConfigVersion` from 10.0.96 to 11.0.99.
+
+Updates `me.shedaniel.cloth:cloth-config-fabric` from 10.0.96 to 11.0.99
+
+Updates `me.shedaniel.cloth:cloth-config-forge` from 10.0.96 to 11.0.99
+
+---
+updated-dependencies:
+- dependency-name: me.shedaniel.cloth:cloth-config-fabric
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+- dependency-name: me.shedaniel.cloth:cloth-config-forge
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,15 @@
+Bump github.com/openshift-pipelines/pipelines-as-code
+
+Bumps [github.com/openshift-pipelines/pipelines-as-code](https://github.com/openshift-pipelines/pipelines-as-code) from 0.19.1 to 0.19.2.
+- [Release notes](https://github.com/openshift-pipelines/pipelines-as-code/releases)
+- [Changelog](https://github.com/openshift-pipelines/pipelines-as-code/blob/main/.goreleaser.yml)
+- [Commits](https://github.com/openshift-pipelines/pipelines-as-code/compare/v0.19.1...v0.19.2)
+
+---
+updated-dependencies:
+- dependency-name: github.com/openshift-pipelines/pipelines-as-code
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

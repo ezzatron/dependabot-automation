@@ -1,0 +1,14 @@
+Bump TheDragonCode/codestyler from 3.0.4 to 3.1.4
+
+Bumps [TheDragonCode/codestyler](https://github.com/TheDragonCode/codestyler) from 3.0.4 to 3.1.4.
+- [Release notes](https://github.com/TheDragonCode/codestyler/releases)
+- [Commits](https://github.com/TheDragonCode/codestyler/compare/v3.0.4...v3.1.4)
+
+---
+updated-dependencies:
+- dependency-name: TheDragonCode/codestyler
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

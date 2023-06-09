@@ -1,0 +1,14 @@
+Bump socket.io-parser from 4.2.2 to 4.2.4
+
+Bumps [socket.io-parser](https://github.com/socketio/socket.io-parser) from 4.2.2 to 4.2.4.
+- [Release notes](https://github.com/socketio/socket.io-parser/releases)
+- [Changelog](https://github.com/socketio/socket.io-parser/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/socketio/socket.io-parser/compare/4.2.2...4.2.4)
+
+---
+updated-dependencies:
+- dependency-name: socket.io-parser
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

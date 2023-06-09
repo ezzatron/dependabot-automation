@@ -1,0 +1,23 @@
+Bump shell-quote and react-scripts in /src/carsunlimited-web-ui
+
+Bumps [shell-quote](https://github.com/ljharb/shell-quote) to 1.8.1 and updates ancestor dependency [react-scripts](https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts). These dependencies need to be updated together.
+
+
+Updates `shell-quote` from 1.7.2 to 1.8.1
+- [Changelog](https://github.com/ljharb/shell-quote/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ljharb/shell-quote/compare/v1.7.2...v1.8.1)
+
+Updates `react-scripts` from 4.0.3 to 5.0.1
+- [Release notes](https://github.com/facebook/create-react-app/releases)
+- [Changelog](https://github.com/facebook/create-react-app/blob/main/CHANGELOG-4.x.md)
+- [Commits](https://github.com/facebook/create-react-app/commits/react-scripts@5.0.1/packages/react-scripts)
+
+---
+updated-dependencies:
+- dependency-name: shell-quote
+  dependency-type: indirect
+- dependency-name: react-scripts
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,63 @@
+Bumps [cryptofs](https://github.com/cryptomator/cryptofs) from 2.6.4 to 2.6.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/cryptomator/cryptofs/releases">cryptofs's releases</a>.</em></p>
+<blockquote>
+<h2>Release 2.6.5</h2>
+<h1>Changes</h1>
+<ul>
+<li>Fixed writing cached data not completely (<a href="https://redirect.github.com/cryptomator/cryptofs/issues/173">#173</a>)</li>
+<li>Updated dependencies:
+<ul>
+<li>Google Guava to 32.0.0</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/6f462dddd8ef36db0b6e7200e8e8286ad38b0f5f"><code>6f462dd</code></a> Merge branch 'release/2.6.5'</li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/c494ac622a68dd632d9be9076afd55af333fa5d0"><code>c494ac6</code></a> prepare 2.6.5</li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/34056de905c2801f98e5ebe63f8709f25514f7d4"><code>34056de</code></a> Merge pull request <a href="https://redirect.github.com/cryptomator/cryptofs/issues/174">#174</a> from cryptomator/feature/173-use-data-directly</li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/3e6fe77e2b047502a198aabfa535d2fab637985e"><code>3e6fe77</code></a> improve unit test</li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/a0464924908b2505079a2e53dee350334c25d3f5"><code>a046492</code></a> improve unit test</li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/119687e674aa5de6356308950bfe4ec7582a6d29"><code>119687e</code></a> Merge branch 'develop' into feature/173-use-data-directly</li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/798becdc5ed86764114bfee088a5c77def91a5ed"><code>798becd</code></a> bump guava to fix CVE</li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/dd19b7045e3464005495fc67b9ed788ecfd74534"><code>dd19b70</code></a> create static mock of Files class after all other mocks are instantiated</li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/46df24765a5a2bea1eb1affbef795f7127aaf59c"><code>46df247</code></a> fixes <a href="https://redirect.github.com/cryptomator/cryptofs/issues/173">#173</a></li>
+<li><a href="https://github.com/cryptomator/cryptofs/commit/faa2ac32be827c824cdb02557cad797a8f79c190"><code>faa2ac3</code></a> Merge branch 'main' into develop</li>
+<li>See full diff in <a href="https://github.com/cryptomator/cryptofs/compare/2.6.4...2.6.5">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.cryptomator:cryptofs&package-manager=maven&previous-version=2.6.4&new-version=2.6.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,47 @@
+Bumps [cmake](https://github.com/scikit-build/cmake-python-distributions) from 3.26.3 to 3.26.4.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/ee82fde553526ea7556733ea9b2f5f60bd6530eb"><code>ee82fde</code></a> fix(cross-compile): Fix download of arm64 CMake binaries</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/b13c95e69deb873bca0b4c90126d1801ccd97a8b"><code>b13c95e</code></a> Update to OpenSSL 3.0.9 (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/370">#370</a>)</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/79c65e0b556ab002b14df7a6a1c63cc34bdc334c"><code>79c65e0</code></a> chore(deps): bump pypa/cibuildwheel from 2.12.3 to 2.13.0 (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/368">#368</a>)</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/a71b44cfd0c9fa18bac27d3b9fe99e8af4fa1d05"><code>a71b44c</code></a> chore(deps): update pre-commit hooks (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/367">#367</a>)</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/6763b33995f16852210ae86d6ffab15eaecc4bc9"><code>6763b33</code></a> chore: use trusted publisher deployment (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/366">#366</a>)</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/ddbb57d5d1a91da2bdcff31376a1aac87e8acb69"><code>ddbb57d</code></a> Update to CMake 3.26.4 (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/365">#365</a>)</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/778d6e20161df2ca0bac98682a00508c2c6902fb"><code>778d6e2</code></a> chore: only bump OpenSSL to 3.0.x (current LTS version) (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/358">#358</a>)</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/a3eb391155cc00e046f4fba166d7a9e9cf27027f"><code>a3eb391</code></a> chore(deps): bump pypa/gh-action-pypi-publish from 1.8.5 to release/v1 (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/363">#363</a>)</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/07664551a9e917a3a4051f25653b474c219c33da"><code>0766455</code></a> chore(deps): update pre-commit hooks (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/364">#364</a>)</li>
+<li><a href="https://github.com/scikit-build/cmake-python-distributions/commit/1dd7b3981bfe0b8b658f78aa94649a1bb8bf762b"><code>1dd7b39</code></a> chore(deps): update pre-commit hooks (<a href="https://redirect.github.com/scikit-build/cmake-python-distributions/issues/362">#362</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/scikit-build/cmake-python-distributions/compare/3.26.3...3.26.4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cmake&package-manager=pip&previous-version=3.26.3&new-version=3.26.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

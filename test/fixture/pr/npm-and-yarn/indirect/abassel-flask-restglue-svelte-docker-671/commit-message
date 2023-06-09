@@ -1,0 +1,15 @@
+:arrow_up: Bump @babel/helper-validator-identifier in /frontend
+
+Bumps [@babel/helper-validator-identifier](https://github.com/babel/babel/tree/HEAD/packages/babel-helper-validator-identifier) from 7.19.1 to 7.22.5.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.22.5/packages/babel-helper-validator-identifier)
+
+---
+updated-dependencies:
+- dependency-name: "@babel/helper-validator-identifier"
+  dependency-type: indirect
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

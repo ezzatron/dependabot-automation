@@ -1,0 +1,13 @@
+Bump terser from 5.12.1 to 5.17.7
+
+Bumps [terser](https://github.com/terser/terser) from 5.12.1 to 5.17.7.
+- [Changelog](https://github.com/terser/terser/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/terser/terser/compare/v5.12.1...v5.17.7)
+
+---
+updated-dependencies:
+- dependency-name: terser
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

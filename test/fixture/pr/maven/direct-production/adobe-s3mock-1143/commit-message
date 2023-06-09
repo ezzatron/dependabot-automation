@@ -1,0 +1,14 @@
+Bump maven-install-plugin from 3.1.0 to 3.1.1
+
+Bumps [maven-install-plugin](https://github.com/apache/maven-install-plugin) from 3.1.0 to 3.1.1.
+- [Release notes](https://github.com/apache/maven-install-plugin/releases)
+- [Commits](https://github.com/apache/maven-install-plugin/compare/maven-install-plugin-3.1.0...maven-install-plugin-3.1.1)
+
+---
+updated-dependencies:
+- dependency-name: org.apache.maven.plugins:maven-install-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

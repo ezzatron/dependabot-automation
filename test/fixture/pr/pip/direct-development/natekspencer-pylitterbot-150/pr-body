@@ -1,0 +1,157 @@
+Bumps [tox](https://github.com/tox-dev/tox) from 3.28.0 to 4.6.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/tox-dev/tox/releases">tox's releases</a>.</em></p>
+<blockquote>
+<h2>4.6.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Remove unnecessary Future usage by <a href="https://github.com/living180"><code>@​living180</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/3020">tox-dev/tox#3020</a></li>
+<li>Test against 3.12.0-beta.1 by <a href="https://github.com/gaborbernat"><code>@​gaborbernat</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/3022">tox-dev/tox#3022</a></li>
+<li>Add --list-dependencies options by <a href="https://github.com/lengau"><code>@​lengau</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/3024">tox-dev/tox#3024</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/living180"><code>@​living180</code></a> made their first contribution in <a href="https://redirect.github.com/tox-dev/tox/pull/3020">tox-dev/tox#3020</a></li>
+<li><a href="https://github.com/lengau"><code>@​lengau</code></a> made their first contribution in <a href="https://redirect.github.com/tox-dev/tox/pull/3024">tox-dev/tox#3024</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/tox-dev/tox/compare/4.5.2...4.6.0">https://github.com/tox-dev/tox/compare/4.5.2...4.6.0</a></p>
+<h2>4.5.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add 3.12 support by <a href="https://github.com/gaborbernat"><code>@​gaborbernat</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/2998">tox-dev/tox#2998</a></li>
+<li>Bump pypa/gh-action-pypi-publish from 1.8.5 to 1.8.6 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/3003">tox-dev/tox#3003</a></li>
+<li>Update list of maintainers by <a href="https://github.com/jugmac00"><code>@​jugmac00</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/3008">tox-dev/tox#3008</a></li>
+<li>fix legacy <code>tox --devenv venv</code> by <a href="https://github.com/asottile"><code>@​asottile</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/3013">tox-dev/tox#3013</a></li>
+<li>Fix legacy devenv by <a href="https://github.com/gaborbernat"><code>@​gaborbernat</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/3019">tox-dev/tox#3019</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/tox-dev/tox/compare/4.5.1...4.5.2">https://github.com/tox-dev/tox/compare/4.5.1...4.5.2</a></p>
+<h2>Test Trusted Publisher</h2>
+<p>No release notes provided.</p>
+<h2>4.5.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Bump deps and tools by <a href="https://github.com/gaborbernat"><code>@​gaborbernat</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/2987">tox-dev/tox#2987</a></li>
+<li>git: Ignore the .lock file for demo_pkg_inline by <a href="https://github.com/hroncok"><code>@​hroncok</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/2988">tox-dev/tox#2988</a></li>
+<li>Add FAQ entry on how to test against EOL Python versions by <a href="https://github.com/jugmac00"><code>@​jugmac00</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/2991">tox-dev/tox#2991</a></li>
+<li>Feature: suppress step timings for verbosity=1 <a href="https://redirect.github.com/tox-dev/tox/issues/2891">#2891</a> by <a href="https://github.com/nedbat"><code>@​nedbat</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/2992">tox-dev/tox#2992</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/tox-dev/tox/compare/4.4.12...4.5.0">https://github.com/tox-dev/tox/compare/4.4.12...4.5.0</a></p>
+<h2>4.4.12</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Avoid race conditions in tests using the demo_pkg_inline fixture by <a href="https://github.com/hroncok"><code>@​hroncok</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/2986">tox-dev/tox#2986</a></li>
+<li>Bump deps and tools by <a href="https://github.com/gaborbernat"><code>@​gaborbernat</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/2981">tox-dev/tox#2981</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/tox-dev/tox/compare/4.4.11...4.4.12">https://github.com/tox-dev/tox/compare/4.4.11...4.4.12</a></p>
+<h2>4.4.11</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Allow plugins to set <code>tox_root</code> by <a href="https://github.com/kdestin"><code>@​kdestin</code></a> in <a href="https://redirect.github.com/tox-dev/tox/pull/2978">tox-dev/tox#2978</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/kdestin"><code>@​kdestin</code></a> made their first contribution in <a href="https://redirect.github.com/tox-dev/tox/pull/2978">tox-dev/tox#2978</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/tox-dev/tox/blob/main/docs/changelog.rst">tox's changelog</a>.</em></p>
+<blockquote>
+<h2>v4.6.0 (2023-06-05)</h2>
+<p>Features - 4.6.0</p>
+<pre><code>- Addded ``--list-dependencies`` and ``--no-list-dependencies`` CLI parameters.
+  If unspecified, defaults to listing when in CI, but not otherwise. (:issue:`3024`)
+<p>Misc - 4.6.0</p>
+<pre><code>- :issue:`3020`
+
+
+v4.5.1 (2023-05-25)
+-------------------
+
+Bugfixes - 4.5.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix &lt;code&gt;tox --devenv venv&lt;/code&gt; invocation without &lt;code&gt;-e&lt;/code&gt; - by :user:&lt;code&gt;asottile&lt;/code&gt;. (:issue:&lt;code&gt;2925&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;v4.5.0 (2023-04-24)&lt;/h2&gt;
+&lt;p&gt;Features - 4.5.0&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- When run with verbosity=1, the per-step timing summaries are suppressed at the
+  end of the run.  Thanks to :user:`nedbat` at the PyCon 2023 sprints. (:issue:`2891`)
+
+Improved Documentation - 4.5.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Add FAQ entry on how to test EOL Python versions by :user:&lt;code&gt;jugmac00&lt;/code&gt;. (:issue:&lt;code&gt;2989&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;v4.4.12 (2023-04-13)&lt;/h2&gt;
+&lt;p&gt;Bugfixes - 4.4.12&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Avoid race conditions in tests using the ``demo_pkg_inline`` fixture. (:issue:`2985`)
+
+
+v4.4.11 (2023-04-05)
+--------------------
+
+Bugfixes - 4.4.11
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue where a tox plugin couldn't change the value of &lt;code&gt;tox_root&lt;/code&gt;. (:issue:&lt;code&gt;2966&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;... (truncated)&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Commits&lt;/summary&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/6d4967225e39af2efd0fac0ca2f7cb873c443df3&quot;&gt;&lt;code&gt;6d49672&lt;/code&gt;&lt;/a&gt; release 4.6.0&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/9591fc2d9ec6d4a3a984c165d3be9125ad7027a0&quot;&gt;&lt;code&gt;9591fc2&lt;/code&gt;&lt;/a&gt; Add --list-dependencies options (&lt;a href=&quot;https://redirect.github.com/tox-dev/tox/issues/3024&quot;&gt;#3024&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/716564208c1853f3256d20bf3c508652f1df70b8&quot;&gt;&lt;code&gt;7165642&lt;/code&gt;&lt;/a&gt; Test against 3.12.0-beta.1 (&lt;a href=&quot;https://redirect.github.com/tox-dev/tox/issues/3022&quot;&gt;#3022&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/55cc1ea8316ee72694ca9b6d6dad0a4dcb4fbc75&quot;&gt;&lt;code&gt;55cc1ea&lt;/code&gt;&lt;/a&gt; Remove unnecessary Future usage (&lt;a href=&quot;https://redirect.github.com/tox-dev/tox/issues/3020&quot;&gt;#3020&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/accbc844ecc1ef5085193d8a150522736431da1a&quot;&gt;&lt;code&gt;accbc84&lt;/code&gt;&lt;/a&gt; Fix legacy devenv (&lt;a href=&quot;https://redirect.github.com/tox-dev/tox/issues/3019&quot;&gt;#3019&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/1c2601b93ec781f948f5c64c16e111436f9f3b5c&quot;&gt;&lt;code&gt;1c2601b&lt;/code&gt;&lt;/a&gt; release 4.5.1&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/5ad66c1f86c19f10dd59cbe3b2132d59d2fd3e86&quot;&gt;&lt;code&gt;5ad66c1&lt;/code&gt;&lt;/a&gt; fix legacy &lt;code&gt;tox --devenv venv&lt;/code&gt; (&lt;a href=&quot;https://redirect.github.com/tox-dev/tox/issues/3013&quot;&gt;#3013&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/3238abf7e95fa7c5c041554452f4cee055f6c0d7&quot;&gt;&lt;code&gt;3238abf&lt;/code&gt;&lt;/a&gt; Update list of maintainers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/211d9ec621f7a1f93af2a0e7c7261712a53d5183&quot;&gt;&lt;code&gt;211d9ec&lt;/code&gt;&lt;/a&gt; Bump pypa/gh-action-pypi-publish from 1.8.5 to 1.8.6 (&lt;a href=&quot;https://redirect.github.com/tox-dev/tox/issues/3003&quot;&gt;#3003&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tox-dev/tox/commit/8126c5c56930607500f1924d7ed35c994a1c4f00&quot;&gt;&lt;code&gt;8126c5c&lt;/code&gt;&lt;/a&gt; Add 3.12 support (&lt;a href=&quot;https://redirect.github.com/tox-dev/tox/issues/2998&quot;&gt;#2998&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Additional commits viewable in &lt;a href=&quot;https://github.com/tox-dev/tox/compare/3.28.0...4.6.0&quot;&gt;compare view&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+
+&lt;br /&gt;
+</code></pre>
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tox&package-manager=pip&previous-version=3.28.0&new-version=4.6.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @natekspencer.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

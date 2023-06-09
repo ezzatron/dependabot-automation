@@ -1,0 +1,65 @@
+Bumps [moka](https://github.com/moka-rs/moka) from 0.11.1 to 0.11.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/moka-rs/moka/blob/master/CHANGELOG.md">moka's changelog</a>.</em></p>
+<blockquote>
+<h2>Version 0.11.2</h2>
+<p>Bumped the minimum supported Rust version (MSRV) to 1.65 (Nov 3, 2022).
+(<a href="https://redirect.github.com/moka-rs/moka/issues/275">#275</a>[gh-pull-0275])</p>
+<h3>Removed</h3>
+<ul>
+<li>Removed <code>num_cpus</code> crate from the dependency. (<a href="https://redirect.github.com/moka-rs/moka/issues/277">#277</a>[gh-pull-0277])</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Refactored internal methods of the concurrent hash table to reduce compile times.
+(<a href="https://redirect.github.com/moka-rs/moka/issues/265">#265</a>[gh-pull-0265], by [<a href="https://github.com/Swatinem"><code>@​Swatinem</code></a>][gh-Swatinem])</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/moka-rs/moka/commit/d74d1e3c7cd922577767c8c2f9a8bdf7b7018e69"><code>d74d1e3</code></a> Merge pull request <a href="https://redirect.github.com/moka-rs/moka/issues/278">#278</a> from moka-rs/probe-iter-3</li>
+<li><a href="https://github.com/moka-rs/moka/commit/4143cc0a68469fc42a304ff22930bacd443d77a0"><code>4143cc0</code></a> Update the change log and source code comments</li>
+<li><a href="https://github.com/moka-rs/moka/commit/90fa8478e01d685f6a701b485a1724f7b69a4c4e"><code>90fa847</code></a> Merge pull request <a href="https://redirect.github.com/moka-rs/moka/issues/265">#265</a> from Swatinem/probe-iter</li>
+<li><a href="https://github.com/moka-rs/moka/commit/0c04d555120af52d767f2579aefdfbd87992bf35"><code>0c04d55</code></a> Merge pull request <a href="https://redirect.github.com/moka-rs/moka/issues/277">#277</a> from moka-rs/remove-num-cpus</li>
+<li><a href="https://github.com/moka-rs/moka/commit/6d9b2192812ba71407695473ce9613a7e2256282"><code>6d9b219</code></a> Update the change log</li>
+<li><a href="https://github.com/moka-rs/moka/commit/785701ef92944d396dbb2442257c18fc288678ac"><code>785701e</code></a> Remove <code>num_cpus</code> crate from the dependency</li>
+<li><a href="https://github.com/moka-rs/moka/commit/e5690f8932b5d22ea65cd5d11584ccaf4a72049e"><code>e5690f8</code></a> Merge pull request <a href="https://redirect.github.com/moka-rs/moka/issues/275">#275</a> from moka-rs/msrv-1.65</li>
+<li><a href="https://github.com/moka-rs/moka/commit/b17f54db6765e66a3e34f13434bad9db05a1bd79"><code>b17f54d</code></a> Merge pull request <a href="https://redirect.github.com/moka-rs/moka/issues/276">#276</a> from moka-rs/disable-some-cirrus-jobs</li>
+<li><a href="https://github.com/moka-rs/moka/commit/03aa98a3fcf5b25c28678bcac14a2f57248374f3"><code>03aa98a</code></a> Disable some Cirrus CI jobs</li>
+<li><a href="https://github.com/moka-rs/moka/commit/ec0f8d1c2e653eb0784234cbc9476ac822535864"><code>ec0f8d1</code></a> Update the change log</li>
+<li>Additional commits viewable in <a href="https://github.com/moka-rs/moka/compare/v0.11.1...v0.11.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=moka&package-manager=cargo&previous-version=0.11.1&new-version=0.11.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

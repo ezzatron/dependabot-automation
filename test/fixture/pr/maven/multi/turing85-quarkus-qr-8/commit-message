@@ -1,0 +1,25 @@
+Bump zxing.version from 3.3.0 to 3.5.1
+
+Bumps `zxing.version` from 3.3.0 to 3.5.1.
+
+Updates `core` from 3.3.0 to 3.5.1
+- [Release notes](https://github.com/zxing/zxing/releases)
+- [Changelog](https://github.com/zxing/zxing/blob/master/CHANGES)
+- [Commits](https://github.com/zxing/zxing/compare/zxing-3.3.0...zxing-3.5.1)
+
+Updates `javase` from 3.3.0 to 3.5.1
+- [Release notes](https://github.com/zxing/zxing/releases)
+- [Changelog](https://github.com/zxing/zxing/blob/master/CHANGES)
+- [Commits](https://github.com/zxing/zxing/compare/zxing-3.3.0...zxing-3.5.1)
+
+---
+updated-dependencies:
+- dependency-name: com.google.zxing:core
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: com.google.zxing:javase
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

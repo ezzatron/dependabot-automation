@@ -1,0 +1,14 @@
+Bump moka from 0.11.1 to 0.11.2
+
+Bumps [moka](https://github.com/moka-rs/moka) from 0.11.1 to 0.11.2.
+- [Changelog](https://github.com/moka-rs/moka/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/moka-rs/moka/compare/v0.11.1...v0.11.2)
+
+---
+updated-dependencies:
+- dependency-name: moka
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

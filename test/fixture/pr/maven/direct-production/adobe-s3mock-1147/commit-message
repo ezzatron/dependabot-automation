@@ -1,0 +1,14 @@
+Bump maven-javadoc-plugin from 3.4.1 to 3.5.0
+
+Bumps [maven-javadoc-plugin](https://github.com/apache/maven-javadoc-plugin) from 3.4.1 to 3.5.0.
+- [Release notes](https://github.com/apache/maven-javadoc-plugin/releases)
+- [Commits](https://github.com/apache/maven-javadoc-plugin/compare/maven-javadoc-plugin-3.4.1...maven-javadoc-plugin-3.5.0)
+
+---
+updated-dependencies:
+- dependency-name: org.apache.maven.plugins:maven-javadoc-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

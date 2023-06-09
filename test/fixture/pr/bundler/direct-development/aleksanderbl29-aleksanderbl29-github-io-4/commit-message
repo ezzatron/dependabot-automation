@@ -1,0 +1,14 @@
+Update html-proofer requirement from ~> 3.18 to ~> 5.0
+
+Updates the requirements on [html-proofer](https://github.com/gjtorikian/html-proofer) to permit the latest version.
+- [Release notes](https://github.com/gjtorikian/html-proofer/releases)
+- [Changelog](https://github.com/gjtorikian/html-proofer/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/gjtorikian/html-proofer/compare/v3.18.0...v5.0.7)
+
+---
+updated-dependencies:
+- dependency-name: html-proofer
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

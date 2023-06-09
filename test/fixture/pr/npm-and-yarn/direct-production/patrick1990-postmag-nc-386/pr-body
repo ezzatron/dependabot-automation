@@ -1,0 +1,130 @@
+Bumps [sass](https://github.com/sass/dart-sass) from 1.62.1 to 1.63.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/sass/dart-sass/releases">sass's releases</a>.</em></p>
+<blockquote>
+<h2>Dart Sass 1.63.2</h2>
+<p>To install Sass 1.63.2, download one of the packages below and <a href="https://katiek2.github.io/path-doc/">add it to your PATH</a>, or see <a href="https://sass-lang.com/install">the Sass website</a> for full installation instructions.</p>
+<h1>Changes</h1>
+<ul>
+<li>No user-visible changes.</li>
+</ul>
+<p>See the <a href="https://github.com/sass/dart-sass/blob/master/CHANGELOG.md#1632">full changelog</a> for changes in earlier releases.</p>
+<h2>Dart Sass 1.63.1</h2>
+<p>To install Sass 1.63.1, download one of the packages below and <a href="https://katiek2.github.io/path-doc/">add it to your PATH</a>, or see <a href="https://sass-lang.com/install">the Sass website</a> for full installation instructions.</p>
+<h1>Changes</h1>
+<ul>
+<li>No user-visible changes.</li>
+</ul>
+<p>See the <a href="https://github.com/sass/dart-sass/blob/master/CHANGELOG.md#1631">full changelog</a> for changes in earlier releases.</p>
+<h2>Dart Sass 1.63.0</h2>
+<p>To install Sass 1.63.0, download one of the packages below and <a href="https://katiek2.github.io/path-doc/">add it to your PATH</a>, or see <a href="https://sass-lang.com/install">the Sass website</a> for full installation instructions.</p>
+<h1>Changes</h1>
+<h3>JavaScript API</h3>
+<ul>
+<li>Dart Sass's JS API now supports running in the browser. Further details and instructions for use are in <a href="https://github.com/sass/dart-sass/blob/HEAD/README.md#dart-sass-in-the-browser">the README</a>.</li>
+</ul>
+<h3>Embedded Sass</h3>
+<ul>
+<li>
+<p>The Dart Sass embedded compiler is now included as part of the primary Dart Sass distribution, rather than a separate executable. To use the embedded compiler, just run <code>sass --embedded</code> from any Sass executable (other than the pure JS executable).</p>
+<p>The Node.js embedded host will still be distributed as the <code>sass-embedded</code> package on npm. The only change is that it will now provide direct access to a <code>sass</code> executable with the same CLI as the <code>sass</code> package.</p>
+</li>
+<li>
+<p>The Dart Sass embedded compiler now uses version 2.0.0 of the Sass embedded protocol. See <a href="https://github.com/sass/sass/blob/main/spec/embedded-protocol.md">the spec</a> for a full description of the protocol, and <a href="https://github.com/sass/sass/blob/main/EMBEDDED_PROTOCOL_CHANGELOG.md">the changelog</a> for a summary of changes since version 1.2.0.</p>
+</li>
+<li>
+<p>The Dart Sass embedded compiler now runs multiple simultaneous compilations in parallel, rather than serially.</p>
+</li>
+</ul>
+<p>See the <a href="https://github.com/sass/dart-sass/blob/master/CHANGELOG.md#1630">full changelog</a> for changes in earlier releases.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/sass/dart-sass/blob/main/CHANGELOG.md">sass's changelog</a>.</em></p>
+<blockquote>
+<h2>1.63.2</h2>
+<ul>
+<li>No user-visible changes.</li>
+</ul>
+<h2>1.63.1</h2>
+<ul>
+<li>No user-visible changes.</li>
+</ul>
+<h2>1.63.0</h2>
+<h3>JavaScript API</h3>
+<ul>
+<li>Dart Sass's JS API now supports running in the browser. Further details and
+instructions for use are in <a href="https://github.com/sass/dart-sass/blob/main/README.md#dart-sass-in-the-browser">the README</a>.</li>
+</ul>
+<h3>Embedded Sass</h3>
+<ul>
+<li>
+<p>The Dart Sass embedded compiler is now included as part of the primary Dart
+Sass distribution, rather than a separate executable. To use the embedded
+compiler, just run <code>sass --embedded</code> from any Sass executable (other than the
+pure JS executable).</p>
+<p>The Node.js embedded host will still be distributed as the <code>sass-embedded</code>
+package on npm. The only change is that it will now provide direct access to a
+<code>sass</code> executable with the same CLI as the <code>sass</code> package.</p>
+</li>
+<li>
+<p>The Dart Sass embedded compiler now uses version 2.0.0 of the Sass embedded
+protocol. See <a href="https://github.com/sass/sass/blob/main/spec/embedded-protocol.md">the spec</a> for a full description of the
+protocol, and <a href="https://github.com/sass/sass/blob/main/EMBEDDED_PROTOCOL_CHANGELOG.md">the changelog</a> for a summary of
+changes since version 1.2.0.</p>
+</li>
+<li>
+<p>The Dart Sass embedded compiler now runs multiple simultaneous compilations in
+parallel, rather than serially.</p>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/sass/dart-sass/commit/eb09d75ea3f3403141148df14d42dc394a9bd706"><code>eb09d75</code></a> Fix a few more deployment issues (<a href="https://redirect.github.com/sass/dart-sass/issues/1998">#1998</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/ce909e454d31c451747019baf6aeaa96ea7664ff"><code>ce909e4</code></a> Use the correct pub credential location for deploying sub-packages (<a href="https://redirect.github.com/sass/dart-sass/issues/1997">#1997</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/eea0717ad3afcd7c88aa4dabf12fa2d6d368f819"><code>eea0717</code></a> Block release on all tests (<a href="https://redirect.github.com/sass/dart-sass/issues/1996">#1996</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/d82654bc3aba2fa3bc0edf13d96255613f76d35f"><code>d82654b</code></a> Fix deploy configuration (<a href="https://redirect.github.com/sass/dart-sass/issues/1994">#1994</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/c3ed5479321aaf7dfaa3b6285085a2aed2fa3de5"><code>c3ed547</code></a> Release 1.63.0 (<a href="https://redirect.github.com/sass/dart-sass/issues/1987">#1987</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/a88318f5a90aae74955c2faebedd0a30fb4aaead"><code>a88318f</code></a> Run embedded compilations across multiple isolates (<a href="https://redirect.github.com/sass/dart-sass/issues/1981">#1981</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/b0efcb00b9a68c84dd530b8b214f04e3afcca6b4"><code>b0efcb0</code></a> Fix README Docker example (<a href="https://redirect.github.com/sass/dart-sass/issues/1982">#1982</a>) (<a href="https://redirect.github.com/sass/dart-sass/issues/1983">#1983</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/44a3caf232f3dca7ff614992d8f344456fe6adc5"><code>44a3caf</code></a> Update README.md (<a href="https://redirect.github.com/sass/dart-sass/issues/1979">#1979</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/21f98c658628a470065634b594ec5e24b14527e3"><code>21f98c6</code></a> Fix the syntax for browser examples in the README (<a href="https://redirect.github.com/sass/dart-sass/issues/1975">#1975</a>)</li>
+<li><a href="https://github.com/sass/dart-sass/commit/9e1d18a60eba811d1ff854678880dadd2ffb27dd"><code>9e1d18a</code></a> Upgrade the analyzer package (<a href="https://redirect.github.com/sass/dart-sass/issues/1974">#1974</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/sass/dart-sass/compare/1.62.1...1.63.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=sass&package-manager=npm_and_yarn&previous-version=1.62.1&new-version=1.63.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+You can trigger a rebase of this PR by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

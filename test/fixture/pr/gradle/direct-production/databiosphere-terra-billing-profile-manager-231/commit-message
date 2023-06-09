@@ -1,0 +1,15 @@
+[No Ticket]: Bump au.com.dius.pact.provider:junit5spring
+
+Bumps [au.com.dius.pact.provider:junit5spring](https://github.com/DiUS/pact-jvm) from 4.1.7 to 4.1.41.
+- [Release notes](https://github.com/DiUS/pact-jvm/releases)
+- [Changelog](https://github.com/pact-foundation/pact-jvm/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/DiUS/pact-jvm/commits)
+
+---
+updated-dependencies:
+- dependency-name: au.com.dius.pact.provider:junit5spring
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

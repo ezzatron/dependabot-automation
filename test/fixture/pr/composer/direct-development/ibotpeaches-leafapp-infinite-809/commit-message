@@ -1,0 +1,15 @@
+Build(deps-dev): Bump mockery/mockery from 1.6.1 to 1.6.2
+
+Bumps [mockery/mockery](https://github.com/mockery/mockery) from 1.6.1 to 1.6.2.
+- [Release notes](https://github.com/mockery/mockery/releases)
+- [Changelog](https://github.com/mockery/mockery/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/mockery/mockery/compare/1.6.1...1.6.2)
+
+---
+updated-dependencies:
+- dependency-name: mockery/mockery
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,15 @@
+Bump testng from 7.7.1 to 7.8.0
+
+Bumps [testng](https://github.com/testng-team/testng) from 7.7.1 to 7.8.0.
+- [Release notes](https://github.com/testng-team/testng/releases)
+- [Changelog](https://github.com/testng-team/testng/blob/master/CHANGES.txt)
+- [Commits](https://github.com/testng-team/testng/compare/7.7.1...7.8.0)
+
+---
+updated-dependencies:
+- dependency-name: org.testng:testng
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

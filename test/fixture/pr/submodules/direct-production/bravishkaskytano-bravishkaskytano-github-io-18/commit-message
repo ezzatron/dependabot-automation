@@ -1,0 +1,12 @@
+Bump content/diary from `6274358` to `9162c1b`
+
+Bumps [content/diary](https://github.com/BravishkaSkytano/diary) from `6274358` to `9162c1b`.
+- [Commits](https://github.com/BravishkaSkytano/diary/compare/6274358c8d4942177f24f2ad0fcafa6838b4fb0c...9162c1b9a8ddc931935686cec74f0837cf3765e6)
+
+---
+updated-dependencies:
+- dependency-name: content/diary
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,41 @@
+Bumps [proc-macro2](https://github.com/dtolnay/proc-macro2) from 1.0.59 to 1.0.60.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/549377bc50460274d55aa1fd022f05c1d5d8472f"><code>549377b</code></a> Release 1.0.60</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/bbb6bb888663b94f639ab1d0d53b9e63c9d788f0"><code>bbb6bb8</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/proc-macro2/issues/391">#391</a> from dtolnay/nobeforeafter</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/e31d61910049e097afdd3d27c37786309082bdcb"><code>e31d619</code></a> Delete use of proc_macro::Span::before/after</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/528e7610eb1e3a1b4f829897f6ab019c8c88d7db"><code>528e761</code></a> Ignore missing_fields_in_debug clippy lint for Ident</li>
+<li>See full diff in <a href="https://github.com/dtolnay/proc-macro2/compare/1.0.59...1.0.60">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=proc-macro2&package-manager=cargo&previous-version=1.0.59&new-version=1.0.60)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,14 @@
+Bump botocore in /lambda/lambda-examples/lambda/python
+
+Bumps [botocore](https://github.com/boto/botocore) from 1.29.148 to 1.29.149.
+- [Changelog](https://github.com/boto/botocore/blob/develop/CHANGELOG.rst)
+- [Commits](https://github.com/boto/botocore/compare/1.29.148...1.29.149)
+
+---
+updated-dependencies:
+- dependency-name: botocore
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

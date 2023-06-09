@@ -1,0 +1,14 @@
+Bump docker/metadata-action from 4.4.0 to 4.5.0
+
+Bumps [docker/metadata-action](https://github.com/docker/metadata-action) from 4.4.0 to 4.5.0.
+- [Release notes](https://github.com/docker/metadata-action/releases)
+- [Commits](https://github.com/docker/metadata-action/compare/c4ee3adeed93b1fa6a762f209fb01608c1a22f1e...2c0bd771b40637d97bf205cbccdd294a32112176)
+
+---
+updated-dependencies:
+- dependency-name: docker/metadata-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

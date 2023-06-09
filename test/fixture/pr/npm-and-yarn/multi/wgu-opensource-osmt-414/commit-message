@@ -1,0 +1,21 @@
+Bump vite and @angular-devkit/build-angular in /ui
+
+Removes [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite). It's no longer used after updating ancestor dependency [@angular-devkit/build-angular](https://github.com/angular/angular-cli). These dependencies need to be updated together.
+
+
+Removes `vite`
+
+Updates `@angular-devkit/build-angular` from 16.0.4 to 16.0.5
+- [Release notes](https://github.com/angular/angular-cli/releases)
+- [Changelog](https://github.com/angular/angular-cli/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/angular/angular-cli/compare/16.0.4...16.0.5)
+
+---
+updated-dependencies:
+- dependency-name: vite
+  dependency-type: indirect
+- dependency-name: "@angular-devkit/build-angular"
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,51 @@
+Bumps [pestphp/pest](https://github.com/pestphp/pest) from 2.6.2 to 2.6.3.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pestphp/pest/blob/2.x/CHANGELOG.md">pestphp/pest's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/pestphp/pest/compare/v2.6.2...v2.6.3">v2.6.3 (2023-06-07)</a></h2>
+<h3>Chore</h3>
+<ul>
+<li>Bumps PHPUnit to <code>^10.2.1</code> (<a href="https://github.com/pestphp/pest/commit/73a859ee563fe96944ba39b191dceca28ef703c2">73a859e</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pestphp/pest/commit/3c20e8114e5d2f5e39cf013f0f9b8ebc0ac1a6fa"><code>3c20e81</code></a> release: v2.6.3</li>
+<li><a href="https://github.com/pestphp/pest/commit/73a859ee563fe96944ba39b191dceca28ef703c2"><code>73a859e</code></a> chore: bumps phpunit dependency</li>
+<li><a href="https://github.com/pestphp/pest/commit/4196579a3d37bfc1bbea82355e0139c8ba2d8357"><code>4196579</code></a> chore: bumps arch plugin</li>
+<li>See full diff in <a href="https://github.com/pestphp/pest/compare/v2.6.2...v2.6.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pestphp/pest&package-manager=composer&previous-version=2.6.2&new-version=2.6.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

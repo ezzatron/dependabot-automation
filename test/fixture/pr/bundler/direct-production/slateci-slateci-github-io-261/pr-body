@@ -1,0 +1,77 @@
+Bumps [faraday](https://github.com/lostisland/faraday) from 2.7.4 to 2.7.6.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/lostisland/faraday/releases">faraday's releases</a>.</em></p>
+<blockquote>
+<h2>v2.7.6</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Fix &quot;method redefined&quot; warnings introduced in Faraday 2.7.5 by <a href="https://github.com/mattbrictson"><code>@​mattbrictson</code></a> in <a href="https://redirect.github.com/lostisland/faraday/pull/1506">lostisland/faraday#1506</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/lostisland/faraday/compare/v2.7.5...v2.7.6">https://github.com/lostisland/faraday/compare/v2.7.5...v2.7.6</a></p>
+<h2>v2.7.5</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Subclass Options structs using a block by <a href="https://github.com/bdewater"><code>@​bdewater</code></a> in <a href="https://redirect.github.com/lostisland/faraday/pull/1489">lostisland/faraday#1489</a></li>
+<li>Remove direct struct subclassing by <a href="https://github.com/bdewater"><code>@​bdewater</code></a> in <a href="https://redirect.github.com/lostisland/faraday/pull/1491">lostisland/faraday#1491</a></li>
+<li>Fix incorrect use of logger middleware in docs by <a href="https://github.com/mattbrictson"><code>@​mattbrictson</code></a> in <a href="https://redirect.github.com/lostisland/faraday/pull/1497">lostisland/faraday#1497</a></li>
+<li>Always assume the existence of <code>URI::Generic#find_proxy</code> by <a href="https://github.com/yykamei"><code>@​yykamei</code></a> in <a href="https://redirect.github.com/lostisland/faraday/pull/1502">lostisland/faraday#1502</a></li>
+<li>Encode <code>false</code> to <code>&quot;false&quot;</code> in <code>Faraday::Request::Json</code> by <a href="https://github.com/yykamei"><code>@​yykamei</code></a> in <a href="https://redirect.github.com/lostisland/faraday/pull/1504">lostisland/faraday#1504</a></li>
+<li>ProxyOptions should treat empty string as nil by <a href="https://github.com/exoego"><code>@​exoego</code></a> in <a href="https://redirect.github.com/lostisland/faraday/pull/1493">lostisland/faraday#1493</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/mattbrictson"><code>@​mattbrictson</code></a> made their first contribution in <a href="https://redirect.github.com/lostisland/faraday/pull/1497">lostisland/faraday#1497</a></li>
+<li><a href="https://github.com/exoego"><code>@​exoego</code></a> made their first contribution in <a href="https://redirect.github.com/lostisland/faraday/pull/1493">lostisland/faraday#1493</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/lostisland/faraday/compare/v2.7.4...v2.7.5">https://github.com/lostisland/faraday/compare/v2.7.4...v2.7.5</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/lostisland/faraday/commit/e0ce4a4d7919981181ef44eec6c966a82b65e06e"><code>e0ce4a4</code></a> Bump version to 2.7.6</li>
+<li><a href="https://github.com/lostisland/faraday/commit/86298d0c45fab60189e89a1be260a066951ea199"><code>86298d0</code></a> Fix &quot;method redefined&quot; warnings introduced in Faraday 2.7.5 (<a href="https://redirect.github.com/lostisland/faraday/issues/1506">#1506</a>)</li>
+<li><a href="https://github.com/lostisland/faraday/commit/d40f3dbb997bc12d8f89978f68eee3262b791fba"><code>d40f3db</code></a> Add blog post link to README</li>
+<li><a href="https://github.com/lostisland/faraday/commit/819cfe7f2477eefac5fd1029e5443b15043c24c2"><code>819cfe7</code></a> Version bump to 2.7.5</li>
+<li><a href="https://github.com/lostisland/faraday/commit/98947e685341bb713f03f11037229aa65755fa85"><code>98947e6</code></a> ProxyOptions should treat empty string as nil (<a href="https://redirect.github.com/lostisland/faraday/issues/1493">#1493</a>)</li>
+<li><a href="https://github.com/lostisland/faraday/commit/6d37ef7e3c9414e142551857eefa4f59d1f06b73"><code>6d37ef7</code></a> Encode <code>false</code> to <code>&quot;false&quot;</code> in <code>Faraday::Request::Json</code> (<a href="https://redirect.github.com/lostisland/faraday/issues/1504">#1504</a>)</li>
+<li><a href="https://github.com/lostisland/faraday/commit/111d354b7f232f6bc3292e4cde6d08d2b983e9ae"><code>111d354</code></a> Always assume the existence of <code>URI::Generic#find_proxy</code> (<a href="https://redirect.github.com/lostisland/faraday/issues/1502">#1502</a>)</li>
+<li><a href="https://github.com/lostisland/faraday/commit/75dfbd62754ea2af7f5b6595b9c732be48e4aa14"><code>75dfbd6</code></a> Fix incorrect use of logger middleware in docs (<a href="https://redirect.github.com/lostisland/faraday/issues/1497">#1497</a>)</li>
+<li><a href="https://github.com/lostisland/faraday/commit/450b0d9ff88f54f97295580760a163454fc33c77"><code>450b0d9</code></a> Remove direct struct subclassing (<a href="https://redirect.github.com/lostisland/faraday/issues/1491">#1491</a>)</li>
+<li><a href="https://github.com/lostisland/faraday/commit/39f1b35db671fbf9d55c1ef9cea61514a1a4d64d"><code>39f1b35</code></a> Subclass Options structs using a block (<a href="https://redirect.github.com/lostisland/faraday/issues/1489">#1489</a>)</li>
+<li>See full diff in <a href="https://github.com/lostisland/faraday/compare/v2.7.4...v2.7.6">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faraday&package-manager=bundler&previous-version=2.7.4&new-version=2.7.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @polinaLyubavina.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

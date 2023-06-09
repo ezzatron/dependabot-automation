@@ -1,0 +1,15 @@
+Bump @typescript-eslint/scope-manager from 5.59.8 to 5.59.9
+
+Bumps [@typescript-eslint/scope-manager](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/scope-manager) from 5.59.8 to 5.59.9.
+- [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+- [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/scope-manager/CHANGELOG.md)
+- [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v5.59.9/packages/scope-manager)
+
+---
+updated-dependencies:
+- dependency-name: "@typescript-eslint/scope-manager"
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

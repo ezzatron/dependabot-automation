@@ -1,0 +1,130 @@
+Updates the requirements on [oracle/oci](https://github.com/oracle/terraform-provider-oci) to permit the latest version.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/oracle/terraform-provider-oci/releases">oracle/oci's releases</a>.</em></p>
+<blockquote>
+<h2>v5.0.0</h2>
+<h2>5.0.0 (June 06, 2023)</h2>
+<h3>Added</h3>
+<ul>
+<li>Support for Capacity Availability API</li>
+<li>Support for Datalake/Lakehouse Feature for MySQL HeatWave</li>
+<li>Support for Bulk include/exclude of migration objects enhancement. DatabaseMigration service</li>
+<li>Support for region override in resource principal</li>
+<li>Changes to README.md, License.txt, security.md and CONTRIBUTING.md for Github Audit Compliance.</li>
+</ul>
+<h3>Deprecation</h3>
+<ul>
+<li>Removed oci_identity_swift_password resource and datasource</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/oracle/terraform-provider-oci/blob/master/CHANGELOG.md">oracle/oci's changelog</a>.</em></p>
+<blockquote>
+<h2>5.0.0 (June 06, 2023)</h2>
+<h3>Added</h3>
+<ul>
+<li>Support for Capacity Availability API</li>
+<li>Support for Datalake/Lakehouse Feature for MySQL HeatWave</li>
+<li>Support for Bulk include/exclude of migration objects enhancement. DatabaseMigration service</li>
+<li>Support for region override in resource principal</li>
+<li>Changes to README.md, License.txt, security.md and CONTRIBUTING.md for Github Audit Compliance.</li>
+</ul>
+<h3>Deprecation</h3>
+<ul>
+<li>Removed oci_identity_swift_password resource and datasource</li>
+</ul>
+<h2>4.123.0 (May 31, 2023)</h2>
+<h3>Added</h3>
+<ul>
+<li>Support for move db operation</li>
+<li>Support for DBM Service: External Exadata Infrastructure Monitoring</li>
+<li>Support for FSS Policy-Based Snapshots</li>
+<li>Support for Instance Configuration feature parity improvement March 2021 Compute: Instance Configuration feature parity with downstream APIs</li>
+<li>support for string to float32 conversion</li>
+</ul>
+<h3>Bug Fix</h3>
+<ul>
+<li>Add polling for PDB resources.</li>
+<li>trigger recreation while change subnet_id for endpoint config and ignore order in configurations for addons</li>
+</ul>
+<h2>4.122.0 (May 24, 2023)</h2>
+<h3>Added</h3>
+<ul>
+<li>Remove hardcoded passwords from golden_gate integration test codes</li>
+<li>ExaDB-C@C (EXACC) Data Plane Guest VMs (API/UI Only)</li>
+<li>Support for Node Subsetting | ADB-D</li>
+<li>Support for DNS Secondary Egress and creating DNS zones from zone files</li>
+<li>Support for unified agent config CRI parser</li>
+<li>Support for Create oci_dns_rrsets data source</li>
+<li>Changes for setting resource ID in state file before workrequest completion</li>
+</ul>
+<h3>Bug Fix</h3>
+<ul>
+<li>Populate user resource optional fields only if they arent empty</li>
+<li>Remove system tags from SZ requests</li>
+<li>adding fix for cloudguard detector rule condition paramter unmarshalling issue</li>
+</ul>
+<h2>4.121.0 (May 17, 2023)</h2>
+<h3>Added</h3>
+<ul>
+<li>Support for FAaaS - Fusion Analytics Warehouse Integration</li>
+<li>Support for Scheduler for full and incremental backup</li>
+</ul>
+<h3>Bug Fix</h3>
+<ul>
+<li>Data Safe - ExaCS DB registration issue</li>
+<li>Fix APM Synthetic service example documentation</li>
+</ul>
+<h2>4.120.0 (May 10, 2023)</h2>
+<h3>Added</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/a9a44cb6b51477236a93f5834dfe9310339db934"><code>a9a44cb</code></a> Releasing version v5.0.0</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/af96ed4c429df802b8cf238d6133f4505cb5d1be"><code>af96ed4</code></a> Added - README.md of service examples with magic button</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/1a824c3805a644709a4aea1a48f3f4efd8bc44cf"><code>1a824c3</code></a> Added - Release for v5.0.0</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/cf3fb6514a384d0a38b4c0ca088033c90805d7d4"><code>cf3fb65</code></a> Exempted - Fix for changelog</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/ee2974b8818a7e44dceeaceb256875a6b76ed763"><code>ee2974b</code></a> Vendored - oci-go-sdk for release version v65</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/28845dadf88c596ce83f0bebacf0dffb77745386"><code>28845da</code></a> Finalize changelog and release for version v5.0.0</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/20398ec493e9ac577f5ef056e7e7f5593a961e4e"><code>20398ec</code></a> Vendored - oci-go-sdk v65.40.1 changes for existing &amp; new services</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/172ac330e745bf0ca268d220daa2f01796c2e0e4"><code>172ac33</code></a> Added - Support for Capacity Availability API</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/dca52127381833c185753da625d9d286b93d9b38"><code>dca5212</code></a> Added - Support for Datalake/Lakehouse Feature for MySQL HeatWave</li>
+<li><a href="https://github.com/oracle/terraform-provider-oci/commit/971d81722267475107bea1a42dbd6f91bd55da80"><code>971d817</code></a> Added - Support for Bulk include/exclude of migration objects enhancement. Da...</li>
+<li>Additional commits viewable in <a href="https://github.com/oracle/terraform-provider-oci/compare/v4.74.0...v5.0.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

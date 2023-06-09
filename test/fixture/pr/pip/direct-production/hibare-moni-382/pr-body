@@ -1,0 +1,73 @@
+Bumps [urllib3](https://github.com/urllib3/urllib3) from 2.0.2 to 2.0.3.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/urllib3/urllib3/releases">urllib3's releases</a>.</em></p>
+<blockquote>
+<h2>2.0.3</h2>
+<ul>
+<li>Allowed alternative SSL libraries such as LibreSSL, while still issuing a warning as we cannot help users facing issues with implementations other than OpenSSL. <a href="https://redirect.github.com/urllib3/urllib3/issues/3020">#3020</a></li>
+<li>Deprecated URLs which don't have an explicit scheme <a href="https://redirect.github.com/urllib3/urllib3/pull/2950">#2950</a></li>
+<li>Fixed response decoding with Zstandard when compressed data is made of several frames. <a href="https://redirect.github.com/urllib3/urllib3/issues/3008">#3008</a></li>
+<li>Fixed <code>assert_hostname=False</code> to correctly skip hostname check. <a href="https://redirect.github.com/urllib3/urllib3/issues/3051">#3051</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/urllib3/urllib3/blob/main/CHANGES.rst">urllib3's changelog</a>.</em></p>
+<blockquote>
+<h1>2.0.3 (2023-06-07)</h1>
+<ul>
+<li>Allowed alternative SSL libraries such as LibreSSL, while still issuing a warning as we cannot help users facing issues with implementations other than OpenSSL. (<code>[#3020](https://github.com/urllib3/urllib3/issues/3020) &lt;https://github.com/urllib3/urllib3/issues/3020&gt;</code>__)</li>
+<li>Deprecated URLs which don't have an explicit scheme (<code>[#2950](https://github.com/urllib3/urllib3/issues/2950) &lt;https://github.com/urllib3/urllib3/pull/2950&gt;</code>_)</li>
+<li>Fixed response decoding with Zstandard when compressed data is made of several frames. (<code>[#3008](https://github.com/urllib3/urllib3/issues/3008) &lt;https://github.com/urllib3/urllib3/issues/3008&gt;</code>__)</li>
+<li>Fixed <code>assert_hostname=False</code> to correctly skip hostname check. (<code>[#3051](https://github.com/urllib3/urllib3/issues/3051) &lt;https://github.com/urllib3/urllib3/issues/3051&gt;</code>__)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/urllib3/urllib3/commit/92196a0f08b2c2139117546ccfbdd3429eb72469"><code>92196a0</code></a> Release 2.0.3</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/52d2eb1d19cc23b14043591b7d7904c6e5311fa5"><code>52d2eb1</code></a> Fix assert_hostname=False (<a href="https://redirect.github.com/urllib3/urllib3/issues/3055">#3055</a>)</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/bfbd47e3da75702f14d124b64ce877a0e0cd331a"><code>bfbd47e</code></a> Fix Python 3.12 CI</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/b63cc4c4868dadf1545ad9c5c189096532148a7d"><code>b63cc4c</code></a> Correct docstring for Retry backoff factor (<a href="https://redirect.github.com/urllib3/urllib3/issues/3037">#3037</a>)</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/7e3884d973c56267c32e0dacf19804afd8a00175"><code>7e3884d</code></a> Allow non-OpenSSL TLS libaries with a warning</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/e67f13c44fa4aada1954df96eb8cccbb5f2dbd2a"><code>e67f13c</code></a> Add 1.26.16 release to CHANGES.rst on main</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/ffa2b634392a389da7033834fa485fd648d37e42"><code>ffa2b63</code></a> Deprecate URLs without an explicit scheme</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/4e9060bfa03af9d6057423b3a54f67e0cd2e7892"><code>4e9060b</code></a> Added OpenGraph information to the documentation</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/8e94754f85c59d826ac0604d0dd2a0b41874bb36"><code>8e94754</code></a> Remove outdated reference in LICENSE.txt</li>
+<li><a href="https://github.com/urllib3/urllib3/commit/5dbc8e23488862aadab0706128d387af2f406b51"><code>5dbc8e2</code></a> Bump slsa-framework/slsa-github-generator from 1.5.0 to 1.6.0</li>
+<li>Additional commits viewable in <a href="https://github.com/urllib3/urllib3/compare/2.0.2...2.0.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=urllib3&package-manager=pip&previous-version=2.0.2&new-version=2.0.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

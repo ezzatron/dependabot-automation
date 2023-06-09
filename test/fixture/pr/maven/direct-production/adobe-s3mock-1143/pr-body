@@ -1,0 +1,62 @@
+Bumps [maven-install-plugin](https://github.com/apache/maven-install-plugin) from 3.1.0 to 3.1.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/apache/maven-install-plugin/releases">maven-install-plugin's releases</a>.</em></p>
+<blockquote>
+<h2>3.1.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>[MINSTALL-186] Use proper repositorySystemSession by <a href="https://github.com/rbioteau"><code>@​rbioteau</code></a> in <a href="https://redirect.github.com/apache/maven-install-plugin/pull/49">apache/maven-install-plugin#49</a></li>
+<li>[MINSTALL-188] Upgrade Parent to 39 by <a href="https://github.com/slawekjaranowski"><code>@​slawekjaranowski</code></a> in <a href="https://redirect.github.com/apache/maven-install-plugin/pull/53">apache/maven-install-plugin#53</a></li>
+<li>[MINSTALL-189] Add parameter to lax project validation by <a href="https://github.com/cstamas"><code>@​cstamas</code></a> in <a href="https://redirect.github.com/apache/maven-install-plugin/pull/57">apache/maven-install-plugin#57</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/rbioteau"><code>@​rbioteau</code></a> made their first contribution in <a href="https://redirect.github.com/apache/maven-install-plugin/pull/49">apache/maven-install-plugin#49</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/apache/maven-install-plugin/compare/maven-install-plugin-3.1.0...maven-install-plugin-3.1.1">https://github.com/apache/maven-install-plugin/compare/maven-install-plugin-3.1.0...maven-install-plugin-3.1.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/apache/maven-install-plugin/commit/2a366ed910b119360c49330d533c2b00972e034e"><code>2a366ed</code></a> [maven-release-plugin] prepare release maven-install-plugin-3.1.1</li>
+<li><a href="https://github.com/apache/maven-install-plugin/commit/0d0df3560139841641da3ec6823730f797bd1862"><code>0d0df35</code></a> [MINSTALL-189] Add parameter to lax project validation (<a href="https://redirect.github.com/apache/maven-install-plugin/issues/57">#57</a>)</li>
+<li><a href="https://github.com/apache/maven-install-plugin/commit/ba4cdf27f42ac9c1fa8cba60ec2ee812934d9547"><code>ba4cdf2</code></a> [MINSTALL-188] Upgrade Parent to 39 - code reformat</li>
+<li><a href="https://github.com/apache/maven-install-plugin/commit/1f9c6df7f8f3e962c65cf4434faf86ade8820640"><code>1f9c6df</code></a> [MINSTALL-188] Upgrade Parent to 39</li>
+<li><a href="https://github.com/apache/maven-install-plugin/commit/508a3cd11402ebd3f009828d9110f1010bc5e2f2"><code>508a3cd</code></a> Disable merge button and add jira autolink</li>
+<li><a href="https://github.com/apache/maven-install-plugin/commit/4cbbc08d5114539f81519db392ad1b4e401e394c"><code>4cbbc08</code></a> [MINSTALL-186] Use proper repositorySystemSession</li>
+<li><a href="https://github.com/apache/maven-install-plugin/commit/bb5360974ceedce3cc05d94c3e0b01525b60f696"><code>bb53609</code></a> [maven-release-plugin] prepare for next development iteration</li>
+<li>See full diff in <a href="https://github.com/apache/maven-install-plugin/compare/maven-install-plugin-3.1.0...maven-install-plugin-3.1.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.apache.maven.plugins:maven-install-plugin&package-manager=maven&previous-version=3.1.0&new-version=3.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

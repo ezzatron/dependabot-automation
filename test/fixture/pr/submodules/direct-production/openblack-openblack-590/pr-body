@@ -1,0 +1,47 @@
+Bumps [vcpkg](https://github.com/Microsoft/vcpkg) from `197818b` to `638b158`.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/microsoft/vcpkg/commit/638b1588be3a265a9c7ad5b212cef72a1cad336a"><code>638b158</code></a> Update vcpkg-tool to 2023-06-07 + xbox triplets cleanup (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/31723">#31723</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/db2071b44938c0fb7943a94c8ab912e4e182a60b"><code>db2071b</code></a> [nanomsg] Remove nanomsg_BINDIR check as needed (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/31553">#31553</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/431dcee14571a8daa0e66e543717ecb90cffea0e"><code>431dcee</code></a> [libmicrohttpd] update and various fixes (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/31740">#31740</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/faac1ea237c6fd433c3b09574099c2cfd67b9d46"><code>faac1ea</code></a> [flashlight-text] New port (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/31859">#31859</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/282e4f61d49709bcad1ff88a3c41582f815b1711"><code>282e4f6</code></a> [imgui] Fix deps of feature allegro5-binding  (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/31871">#31871</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/44eab3705d0209b3486f7fbdfa9e4afec6cbbe4b"><code>44eab37</code></a> nghttp2: update to 1.54.0 (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/31877">#31877</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/2e43a34b443df7f1783b27cd54db296af421c81a"><code>2e43a34</code></a> [qt5] Update to 5.15.10 (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/31878">#31878</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/1ce35e99be83cb63da85c40ab17b13735bd51073"><code>1ce35e9</code></a> Update stale.yml (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/31886">#31886</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/1e334d770ac71a89d1c36d51019e60dd08b68f76"><code>1e334d7</code></a> [ngtcp2] enable arm with uwp and update to 0.16.0 (<a href="https://redirect.github.com/Microsoft/vcpkg/issues/30593">#30593</a>)</li>
+<li><a href="https://github.com/microsoft/vcpkg/commit/037ef821daeb028882c8e73edb198dc2eb02758f"><code>037ef82</code></a> [rubberband] Update to 3.2.1 and use recommended sleef dependecy where suppor...</li>
+<li>Additional commits viewable in <a href="https://github.com/Microsoft/vcpkg/compare/197818b248fa8d7bff3276aba5984f25b77a4b5f...638b1588be3a265a9c7ad5b212cef72a1cad336a">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @bwrsandman.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

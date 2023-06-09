@@ -1,0 +1,13 @@
+Bump k8s.io/api from 0.25.9 to 0.25.10
+
+Bumps [k8s.io/api](https://github.com/kubernetes/api) from 0.25.9 to 0.25.10.
+- [Commits](https://github.com/kubernetes/api/compare/v0.25.9...v0.25.10)
+
+---
+updated-dependencies:
+- dependency-name: k8s.io/api
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,14 @@
+Bump i18next-browser-languagedetector from 7.0.1 to 7.0.2
+
+Bumps [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) from 7.0.1 to 7.0.2.
+- [Changelog](https://github.com/i18next/i18next-browser-languageDetector/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/i18next/i18next-browser-languageDetector/compare/v7.0.1...v7.0.2)
+
+---
+updated-dependencies:
+- dependency-name: i18next-browser-languagedetector
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
