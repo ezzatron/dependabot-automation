@@ -1,3 +1,4 @@
 /.makefiles/
 /artifacts/
 /dist/
+/test/fixture/
