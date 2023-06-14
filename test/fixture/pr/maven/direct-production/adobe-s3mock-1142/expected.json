@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.testng:testng",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

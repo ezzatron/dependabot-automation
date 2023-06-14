@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "@rushstack/eslint-patch",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

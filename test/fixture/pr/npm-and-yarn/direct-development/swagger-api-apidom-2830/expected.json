@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "sass",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

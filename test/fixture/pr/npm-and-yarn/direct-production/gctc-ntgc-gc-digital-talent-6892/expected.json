@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "react-router-dom",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

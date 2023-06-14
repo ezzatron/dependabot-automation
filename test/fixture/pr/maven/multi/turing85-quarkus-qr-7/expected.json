@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.apache.maven.plugins:maven-surefire-plugin",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "org.apache.maven.plugins:maven-failsafe-plugin",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

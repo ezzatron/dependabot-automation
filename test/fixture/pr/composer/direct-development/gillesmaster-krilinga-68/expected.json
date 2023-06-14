@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "pestphp/pest",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

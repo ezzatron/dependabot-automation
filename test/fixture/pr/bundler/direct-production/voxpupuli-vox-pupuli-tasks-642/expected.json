@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "puppet_forge",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

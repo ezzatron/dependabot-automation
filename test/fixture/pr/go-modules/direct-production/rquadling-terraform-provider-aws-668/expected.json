@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

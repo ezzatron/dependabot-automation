@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-stdlib",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-maven-plugin",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

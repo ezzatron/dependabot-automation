@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "oracle/oci",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

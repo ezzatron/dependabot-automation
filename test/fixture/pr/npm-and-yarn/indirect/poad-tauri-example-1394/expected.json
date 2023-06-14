@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "memfs",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

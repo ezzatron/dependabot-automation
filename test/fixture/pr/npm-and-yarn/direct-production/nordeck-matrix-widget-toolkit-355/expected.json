@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "i18next-browser-languagedetector",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

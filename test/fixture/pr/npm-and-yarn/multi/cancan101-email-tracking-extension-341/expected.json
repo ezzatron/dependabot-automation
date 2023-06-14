@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "jquery",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "@types/jquery",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

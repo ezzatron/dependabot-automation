@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "phpstan/phpstan",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

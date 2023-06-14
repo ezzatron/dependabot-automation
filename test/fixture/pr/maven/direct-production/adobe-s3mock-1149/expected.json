@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.apache.maven.plugins:maven-source-plugin",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "Microsoft.NET.Test.Sdk",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

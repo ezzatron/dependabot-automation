@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "vcpkg",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-serialization",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

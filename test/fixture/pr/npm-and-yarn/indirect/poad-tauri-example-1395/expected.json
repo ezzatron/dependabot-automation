@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "@typescript-eslint/scope-manager",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

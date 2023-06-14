@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "botocore-stubs",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

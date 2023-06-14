@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "@babel/highlight",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

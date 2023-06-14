@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "time",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

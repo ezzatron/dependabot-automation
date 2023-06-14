@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "selenium-webdriver",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

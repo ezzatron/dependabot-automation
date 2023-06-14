@@ -1,0 +1,19 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-gradle-plugin",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-serialization",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-test",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

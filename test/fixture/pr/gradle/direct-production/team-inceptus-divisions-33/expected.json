@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.sonarqube",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

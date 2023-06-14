@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "content/diary",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

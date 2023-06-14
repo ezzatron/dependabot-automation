@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "androidx.navigation:navigation-fragment-ktx",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "androidx.navigation:navigation-ui-ktx",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

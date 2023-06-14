@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "io.quarkiverse:quarkiverse-parent",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

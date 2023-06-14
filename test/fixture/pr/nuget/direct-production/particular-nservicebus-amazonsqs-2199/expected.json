@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "Particular.Packaging",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "fast-xml-parser",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "@aws-sdk/credential-providers",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "Microsoft.IdentityModel.Tokens",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "System.IdentityModel.Tokens.Jwt",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

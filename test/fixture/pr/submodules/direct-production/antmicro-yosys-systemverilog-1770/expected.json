@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "yosys-f4pga-plugins",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

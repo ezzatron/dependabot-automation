@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "html-proofer",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

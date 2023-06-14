@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "terser",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "atc0005/go-ci",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

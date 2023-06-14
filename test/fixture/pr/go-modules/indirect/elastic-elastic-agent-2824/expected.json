@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "github.com/elastic/elastic-transport-go/v8",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

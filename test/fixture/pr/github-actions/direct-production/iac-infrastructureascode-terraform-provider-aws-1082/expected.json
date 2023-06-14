@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "peter-evans/create-or-update-comment",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

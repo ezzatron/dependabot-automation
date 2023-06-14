@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "vite",
+      "dependencyType": "indirect",
+      "updateType": "removal"
+    },
+    {
+      "dependencyName": "@angular-devkit/build-angular",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

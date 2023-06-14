@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "passport",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "@medusajs/medusa",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

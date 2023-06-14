@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "webpack",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

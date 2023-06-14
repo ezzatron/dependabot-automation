@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "@babel/plugin-transform-modules-commonjs",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "rails",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

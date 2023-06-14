@@ -1,0 +1,24 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "io.quarkus:quarkus-maven-plugin",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "io.quarkus:quarkus-extension-maven-plugin",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "io.quarkus:quarkus-bom",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "io.quarkus:quarkus-extension-processor",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

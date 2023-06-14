@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "jasmine-core",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    },
+    {
+      "dependencyName": "jasmine-browser-runner",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

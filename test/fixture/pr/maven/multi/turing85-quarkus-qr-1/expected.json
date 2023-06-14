@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "com.google.zxing:core",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "com.google.zxing:javase",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

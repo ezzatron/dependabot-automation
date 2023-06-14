@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "shell-quote",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "react-scripts",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

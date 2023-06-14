@@ -1,0 +1,19 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "jvm",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "plugin.spring",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "plugin.jpa",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

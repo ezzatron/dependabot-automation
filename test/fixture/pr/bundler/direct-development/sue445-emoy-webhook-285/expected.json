@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "coveralls",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

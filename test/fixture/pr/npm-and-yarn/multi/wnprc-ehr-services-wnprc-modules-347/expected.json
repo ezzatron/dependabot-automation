@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "json5",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-major"
+    },
+    {
+      "dependencyName": "jest-transform-css",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "eve_online",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

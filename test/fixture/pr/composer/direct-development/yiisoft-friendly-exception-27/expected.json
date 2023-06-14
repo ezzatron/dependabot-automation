@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "phpunit/phpunit",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

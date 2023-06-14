@@ -1,18 +1,24 @@
+import {
+  DIRECT_DEVELOPMENT,
+  DIRECT_PRODUCTION,
+  INDIRECT,
+} from "../../constant/dependency-type.js";
+import {
+  SEMVER_MAJOR,
+  SEMVER_MINOR,
+  SEMVER_PATCH,
+} from "../../constant/update-type.js";
 import { PREFIX } from "../id.js";
 
 export const ID = `${PREFIX}/commit-data.schema.json`;
 
-const dependencyTypes = ["direct:production", "direct:development", "indirect"];
-const dependencyTypeList = dependencyTypes
+const dependencyType = [DIRECT_PRODUCTION, DIRECT_DEVELOPMENT, INDIRECT];
+const dependencyTypeList = dependencyType
   .map((t) => JSON.stringify(t))
   .join(", ");
 
-const updateTypes = [
-  "version-update:semver-major",
-  "version-update:semver-minor",
-  "version-update:semver-patch",
-];
-const updateTypeList = updateTypes.map((t) => JSON.stringify(t)).join(", ");
+const updateType = [SEMVER_MAJOR, SEMVER_MINOR, SEMVER_PATCH];
+const updateTypeList = updateType.map((t) => JSON.stringify(t)).join(", ");
 
 export const schema = {
   $schema: "http://json-schema.org/draft-07/schema#",
@@ -39,7 +45,7 @@ export const schema = {
           "dependency-type": {
             description: "The type of the dependency.",
             type: "string",
-            enum: dependencyTypes,
+            enum: dependencyType,
             errorMessage: {
               enum: `must be one of ${dependencyTypeList}`,
             },
@@ -47,7 +53,7 @@ export const schema = {
           "update-type": {
             description: "The type of update which will be performed.",
             type: "string",
-            enum: updateTypes,
+            enum: updateType,
             errorMessage: {
               enum: `must be one of ${updateTypeList}`,
             },

@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "openthread",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

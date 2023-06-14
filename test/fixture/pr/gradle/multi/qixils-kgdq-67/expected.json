@@ -1,0 +1,19 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-stdlib",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-test-junit",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

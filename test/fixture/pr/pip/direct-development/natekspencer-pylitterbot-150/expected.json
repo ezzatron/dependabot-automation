@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "tox",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

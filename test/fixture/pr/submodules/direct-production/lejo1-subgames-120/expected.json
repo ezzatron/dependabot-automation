@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "mods/worldedit",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

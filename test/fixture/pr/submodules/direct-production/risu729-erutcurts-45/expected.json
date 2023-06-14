@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "src/main/resources/bedrock-samples",
+      "dependencyType": "direct:production"
+    }
+  ]
+}
