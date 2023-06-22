@@ -1,0 +1,14 @@
+build(deps): bump hibernate-validator from 8.0.0.Final to 8.0.1.Final
+
+Bumps [hibernate-validator](https://github.com/hibernate/hibernate-validator) from 8.0.0.Final to 8.0.1.Final.
+- [Changelog](https://github.com/hibernate/hibernate-validator/blob/main/changelog.txt)
+- [Commits](https://github.com/hibernate/hibernate-validator/compare/8.0.0.Final...8.0.1.Final)
+
+---
+updated-dependencies:
+- dependency-name: org.hibernate.validator:hibernate-validator
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

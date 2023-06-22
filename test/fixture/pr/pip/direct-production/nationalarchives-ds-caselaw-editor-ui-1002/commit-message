@@ -1,0 +1,14 @@
+Update boto3 requirement from ~=1.26.153 to ~=1.26.157
+
+Updates the requirements on [boto3](https://github.com/boto/boto3) to permit the latest version.
+- [Release notes](https://github.com/boto/boto3/releases)
+- [Changelog](https://github.com/boto/boto3/blob/develop/CHANGELOG.rst)
+- [Commits](https://github.com/boto/boto3/compare/1.26.153...1.26.157)
+
+---
+updated-dependencies:
+- dependency-name: boto3
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

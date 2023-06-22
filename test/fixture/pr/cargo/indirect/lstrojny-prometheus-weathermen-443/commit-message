@@ -1,0 +1,13 @@
+Bump anstyle from 1.0.0 to 1.0.1
+
+Bumps [anstyle](https://github.com/rust-cli/anstyle) from 1.0.0 to 1.0.1.
+- [Commits](https://github.com/rust-cli/anstyle/compare/anstyle-ls-v1.0.0...anstyle-ls-v1.0.1)
+
+---
+updated-dependencies:
+- dependency-name: anstyle
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

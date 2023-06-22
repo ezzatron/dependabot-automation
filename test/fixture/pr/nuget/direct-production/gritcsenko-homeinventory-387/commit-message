@@ -1,0 +1,13 @@
+Bump OneOf.SourceGenerator from 3.0.243 to 3.0.255 in /src/HomeInventory
+
+Bumps [OneOf.SourceGenerator](https://github.com/mcintyre321/OneOf) from 3.0.243 to 3.0.255.
+- [Commits](https://github.com/mcintyre321/OneOf/commits)
+
+---
+updated-dependencies:
+- dependency-name: OneOf.SourceGenerator
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

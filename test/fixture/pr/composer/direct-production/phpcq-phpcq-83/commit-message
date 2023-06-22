@@ -1,0 +1,15 @@
+composer(deps): bump symfony/process from 5.4.23 to 5.4.24
+
+Bumps [symfony/process](https://github.com/symfony/process) from 5.4.23 to 5.4.24.
+- [Release notes](https://github.com/symfony/process/releases)
+- [Changelog](https://github.com/symfony/process/blob/6.3/CHANGELOG.md)
+- [Commits](https://github.com/symfony/process/compare/v5.4.23...v5.4.24)
+
+---
+updated-dependencies:
+- dependency-name: symfony/process
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,69 @@
+Bumps [maven-clean-plugin](https://github.com/apache/maven-clean-plugin) from 3.2.0 to 3.3.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/apache/maven-clean-plugin/releases">maven-clean-plugin's releases</a>.</em></p>
+<blockquote>
+<h2>maven-clean-plugin-3.3.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>[MCLEAN-104] Prevent NPE in fast mode and quiet build by <a href="https://github.com/famod"><code>@​famod</code></a> in <a href="https://redirect.github.com/apache/maven-clean-plugin/pull/23">apache/maven-clean-plugin#23</a></li>
+<li>[MCLEAN-105] Bump maven-plugins from 38 to 39 by <a href="https://github.com/slachiewicz"><code>@​slachiewicz</code></a> in <a href="https://redirect.github.com/apache/maven-clean-plugin/pull/25">apache/maven-clean-plugin#25</a></li>
+<li>[MCLEAN-93] Support junctions on NTFS by <a href="https://github.com/gnodet"><code>@​gnodet</code></a> in <a href="https://redirect.github.com/apache/maven-clean-plugin/pull/10">apache/maven-clean-plugin#10</a></li>
+<li>[MCLEAN-107] Upgrade to plexus-utils 4.0.0 and plexus-xml 4.0.0 by <a href="https://github.com/gnodet"><code>@​gnodet</code></a> in <a href="https://redirect.github.com/apache/maven-clean-plugin/pull/26">apache/maven-clean-plugin#26</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/famod"><code>@​famod</code></a> made their first contribution in <a href="https://redirect.github.com/apache/maven-clean-plugin/pull/23">apache/maven-clean-plugin#23</a></li>
+<li><a href="https://github.com/slachiewicz"><code>@​slachiewicz</code></a> made their first contribution in <a href="https://redirect.github.com/apache/maven-clean-plugin/pull/25">apache/maven-clean-plugin#25</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/apache/maven-clean-plugin/compare/maven-clean-plugin-3.2.0...maven-clean-plugin-3.3.1">https://github.com/apache/maven-clean-plugin/compare/maven-clean-plugin-3.2.0...maven-clean-plugin-3.3.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/9a76f97b0f5ab7a3c0d3cd3c204169c58f8d65f8"><code>9a76f97</code></a> [maven-release-plugin] prepare release maven-clean-plugin-3.3.1</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/91e81a2e8d3c99c11e26d04f0fca35895e32903e"><code>91e81a2</code></a> Move plexus-xml to the provided scope</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/c83dfcb1d07fa551ac361168c217d1f5bce91e2a"><code>c83dfcb</code></a> [maven-release-plugin] prepare for next development iteration</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/a4ad88ff8bdf234af59c72485099b51f4bb05590"><code>a4ad88f</code></a> [maven-release-plugin] prepare release maven-clean-plugin-3.3.0</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/13c5a244fd7392353b045a01ebddfef810d41a4c"><code>13c5a24</code></a> [MCLEAN-101] Fix wrong Jenkins URL</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/14b375ee9b85adbb87f57ae708ba4732884ed84f"><code>14b375e</code></a> [MCLEAN-107] Upgrade to plexus-utils 4.0.0 and plexus-xml 4.0.0 (<a href="https://redirect.github.com/apache/maven-clean-plugin/issues/26">#26</a>)</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/735046490f33a75378fc3810b2a87c5bac613697"><code>7350464</code></a> [MCLEAN-93] Support junctions on NTFS (<a href="https://redirect.github.com/apache/maven-clean-plugin/issues/10">#10</a>)</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/c185ad14d959fe7e7cbb2a7eba64d19da24bca2b"><code>c185ad1</code></a> [MCLEAN-105] Ignore reformat</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/7b053970f4b9443651fa5dffe42c8b025c596dff"><code>7b05397</code></a> [MCLEAN-105] Reformat</li>
+<li><a href="https://github.com/apache/maven-clean-plugin/commit/64b8b2ed89dede154989315b10a6b9c00154a588"><code>64b8b2e</code></a> [MCLEAN-105] Bump maven-plugins from 38 to 39</li>
+<li>Additional commits viewable in <a href="https://github.com/apache/maven-clean-plugin/compare/maven-clean-plugin-3.2.0...maven-clean-plugin-3.3.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.apache.maven.plugins:maven-clean-plugin&package-manager=maven&previous-version=3.2.0&new-version=3.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @nothub.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

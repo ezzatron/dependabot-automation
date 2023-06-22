@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "pluggy",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

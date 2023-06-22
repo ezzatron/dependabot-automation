@@ -1,0 +1,139 @@
+Bumps [guzzlehttp/guzzle](https://github.com/guzzle/guzzle) from 6.5.8 to 7.7.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/guzzle/guzzle/releases">guzzlehttp/guzzle's releases</a>.</em></p>
+<blockquote>
+<h2>Release 7.7.0</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.6.1</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.6.0</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.5.3</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.5.2</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.5.1</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.5.0</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.4.5</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.4.4</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.4.3</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.4.2</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.4.1</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.4.0</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.3.0</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.2.0</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.1.1</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<h2>Release 7.1.0</h2>
+<p>See <a href="https://github.com/guzzle/guzzle/blob/HEAD/CHANGELOG.md">change log</a> for changes.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/guzzle/guzzle/blob/7.7/CHANGELOG.md">guzzlehttp/guzzle's changelog</a>.</em></p>
+<blockquote>
+<h2>7.7.0 - 2023-05-21</h2>
+<h3>Added</h3>
+<ul>
+<li>Support <code>guzzlehttp/promises</code> v2</li>
+</ul>
+<h2>7.6.1 - 2023-05-15</h2>
+<h3>Fixed</h3>
+<ul>
+<li>Fix <code>SetCookie::fromString</code> MaxAge deprecation warning and skip invalid MaxAge values</li>
+</ul>
+<h2>7.6.0 - 2023-05-14</h2>
+<h3>Added</h3>
+<ul>
+<li>Support for setting the minimum TLS version in a unified way</li>
+<li>Apply on request the version set in options parameters</li>
+</ul>
+<h2>7.5.2 - 2023-05-14</h2>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed set cookie constructor validation</li>
+<li>Fixed handling of files with <code>'0'</code> body</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Corrected docs and default connect timeout value to 300 seconds</li>
+</ul>
+<h2>7.5.1 - 2023-04-17</h2>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed <code>NO_PROXY</code> settings so that setting the <code>proxy</code> option to <code>no</code> overrides the env variable</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Adjusted <code>guzzlehttp/psr7</code> version constraint to <code>^1.9.1 || ^2.4.5</code></li>
+</ul>
+<h2>7.5.0 - 2022-08-28</h2>
+<h3>Added</h3>
+<ul>
+<li>Support PHP 8.2</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/guzzle/guzzle/commit/fb7566caccf22d74d1ab270de3551f72a58399f5"><code>fb7566c</code></a> Release 7.7.0</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/7936fe9e180ce969680b21c40b221b3c2c661369"><code>7936fe9</code></a> Support <code>guzzlehttp/promises</code> v2 (<a href="https://redirect.github.com/guzzle/guzzle/issues/3142">#3142</a>)</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/925b5ede29169ada89a7c7b2199b7c6f61ed7218"><code>925b5ed</code></a> Tweaked version guidance</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/aff112895ebd2c59585f5ba3adce0a51c105e164"><code>aff1128</code></a> Fixed tests</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/201f3e86acfb249664cc778b7f029a8540b8ea74"><code>201f3e8</code></a> Use symfony code style</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/8444a2bacf1960bc6a2b62ed86b8e72e11eebe51"><code>8444a2b</code></a> Merge branch '7.5' into 7.6</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/584d1f06b5caa07b0587f5054d551ed65460ce5d"><code>584d1f0</code></a> Release 7.5.3</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/0d06ef537e4260f2fab49ecb6d7587383c0673e8"><code>0d06ef5</code></a> Fix <code>SetCookie::fromString</code> MaxAge deprecation warning and skip invalid MaxAg...</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/733dd89533dd371a0987172727df15f500dab0ef"><code>733dd89</code></a> Release 7.6.0 (<a href="https://redirect.github.com/guzzle/guzzle/issues/3136">#3136</a>)</li>
+<li><a href="https://github.com/guzzle/guzzle/commit/ea2e08481f1de00972c841889f54de7e32df5695"><code>ea2e084</code></a> Apply on request the version set in options parameters (<a href="https://redirect.github.com/guzzle/guzzle/issues/3135">#3135</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/guzzle/guzzle/compare/6.5.8...7.7.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=guzzlehttp/guzzle&package-manager=composer&previous-version=6.5.8&new-version=7.7.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once it's up-to-date and CI passes on it, as requested by @dmolineus.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,12 @@
+feat(deps): bump src/go-tool from `9dffcb1` to `4d65068`
+
+Bumps [src/go-tool](https://github.com/octomation/go-tool) from `9dffcb1` to `4d65068`.
+- [Commits](https://github.com/octomation/go-tool/compare/9dffcb1f99f08a5b1d7c8684108d7d44018c8039...4d65068413708c6397a510ad7ebd38f28c6eea32)
+
+---
+updated-dependencies:
+- dependency-name: src/go-tool
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,47 @@
+Bumps [aes](https://github.com/RustCrypto/block-ciphers) from 0.8.2 to 0.8.3.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/dd2925376be33200b72ec50b08c6f42c68cf931e"><code>dd29253</code></a> aes v0.8.3 (<a href="https://redirect.github.com/RustCrypto/block-ciphers/issues/368">#368</a>)</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/eb309c63877558aaac0a61b00be3433e2c70117e"><code>eb309c6</code></a> aes: refactor ARMv8 <code>expand_key</code> (<a href="https://redirect.github.com/RustCrypto/block-ciphers/issues/367">#367</a>)</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/8d039008925953d056591ddab39d84b8a536936d"><code>8d03900</code></a> aes: support <code>aes_armv8</code> on Rust 1.61+ using <code>asm!</code> (<a href="https://redirect.github.com/RustCrypto/block-ciphers/issues/365">#365</a>)</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/e8970bea89cf9d5600db0215f59ebf83802ca7ee"><code>e8970be</code></a> Update Cargo.lock</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/e785196d66d9dc3677fd6dd873b6c7d3eba4f614"><code>e785196</code></a> threefish: fix release date</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/bcb937730e1ea607aaa2a59d51cca2d5282d0aed"><code>bcb9377</code></a> threefish: add u64-based methods and make cipher optional (<a href="https://redirect.github.com/RustCrypto/block-ciphers/issues/364">#364</a>)</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/efd9d8a3e406bc3cb2fb3a0032122319a3834a80"><code>efd9d8a</code></a> Update Cargo.lock</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/b875dbae9a63b970e3f349af15aa561a55faadc7"><code>b875dba</code></a> Belt-Wblock implementation (<a href="https://redirect.github.com/RustCrypto/block-ciphers/issues/362">#362</a>)</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/3a20cf5faa6a921dad99f27b879dfe44a8426559"><code>3a20cf5</code></a> build(deps): bump cpufeatures from 0.2.5 to 0.2.6 (<a href="https://redirect.github.com/RustCrypto/block-ciphers/issues/358">#358</a>)</li>
+<li><a href="https://github.com/RustCrypto/block-ciphers/commit/873f59878dee68e4665055a61685eec78bc24726"><code>873f598</code></a> build(deps): bump zeroize from 1.5.7 to 1.6.0 (<a href="https://redirect.github.com/RustCrypto/block-ciphers/issues/359">#359</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/RustCrypto/block-ciphers/compare/aes-v0.8.2...aes-v0.8.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=aes&package-manager=cargo&previous-version=0.8.2&new-version=0.8.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

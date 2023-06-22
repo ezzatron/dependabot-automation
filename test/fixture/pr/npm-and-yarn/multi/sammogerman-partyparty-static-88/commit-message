@@ -1,0 +1,30 @@
+Bump qs, browser-sync and express
+
+Bumps [qs](https://github.com/ljharb/qs) to 6.5.3 and updates ancestor dependencies [qs](https://github.com/ljharb/qs), [browser-sync](https://github.com/BrowserSync/browser-sync) and [express](https://github.com/expressjs/express). These dependencies need to be updated together.
+
+
+Updates `qs` from 6.5.2 to 6.5.3
+- [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ljharb/qs/compare/v6.5.2...v6.5.3)
+
+Updates `browser-sync` from 2.26.10 to 2.29.3
+- [Release notes](https://github.com/BrowserSync/browser-sync/releases)
+- [Changelog](https://github.com/BrowserSync/browser-sync/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/BrowserSync/browser-sync/compare/v2.26.10...v2.29.3)
+
+Updates `express` from 4.17.1 to 4.18.2
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/master/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.17.1...4.18.2)
+
+---
+updated-dependencies:
+- dependency-name: qs
+  dependency-type: indirect
+- dependency-name: browser-sync
+  dependency-type: direct:development
+- dependency-name: express
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,76 @@
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) and [localtunnel](https://github.com/localtunnel/localtunnel). These dependencies needed to be updated together.
+Updates `follow-redirects` from 1.12.1 to 1.15.2
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/96552371eeec58567850d0288ba793274d1ca50b"><code>9655237</code></a> Release version 1.15.2 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/6e2b86da90cde81f15a5ba1732a41fd1291f14d3"><code>6e2b86d</code></a> Default to localhost if no host given.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/449e895af819ff328329979b23ac644b026e467f"><code>449e895</code></a> Throw invalid URL error on relative URLs.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/e30137cd37f5671290172634572b9507fa525c9c"><code>e30137c</code></a> Use type functions.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/76ea31f06823d8c2d9edfb3387995d78ca4b5d40"><code>76ea31f</code></a> ternary operator syntax fix</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/84c00b081426d1c0d48947395048bd2fe2114e92"><code>84c00b0</code></a> HTTP header lines are separated by CRLF.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/d28bcbf7cfc6d7e7cf6c0322421345deb1c15d03"><code>d28bcbf</code></a> Create SECURITY.md (<a href="https://redirect.github.com/follow-redirects/follow-redirects/issues/202">#202</a>)</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/62a551cbf7d4d3917c532d0b87ca77ef983f44c1"><code>62a551c</code></a> Release version 1.15.1 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/7fe0779c23b80ed7417517075e9239bfc220e528"><code>7fe0779</code></a> Use for ... of.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/948c30c18b4495663cb8e9c39f83fafd369a089e"><code>948c30c</code></a> Fix redirecting to relative URL when using proxy</li>
+<li>Additional commits viewable in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.12.1...v1.15.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `localtunnel` from 2.0.0 to 2.0.2
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/localtunnel/localtunnel/blob/master/CHANGELOG.md">localtunnel's changelog</a>.</em></p>
+<blockquote>
+<h1>2.0.2 (2021-09-18)</h1>
+<ul>
+<li>Upgrade dependencies</li>
+</ul>
+<h1>2.0.1 (2021-01-09)</h1>
+<ul>
+<li>Upgrade dependencies</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/localtunnel/localtunnel/commit/c8e85f49624d606730779fc4295a38fd0e650af5"><code>c8e85f4</code></a> v2.0.2</li>
+<li><a href="https://github.com/localtunnel/localtunnel/commit/f3ea104a251d14e290b37cd3ec41ef5031fea0be"><code>f3ea104</code></a> Upgrade dependencies</li>
+<li><a href="https://github.com/localtunnel/localtunnel/commit/f5219f78f902d5aabb3a4945a884f033f35938ea"><code>f5219f7</code></a> Upgrade Axios dependency (<a href="https://redirect.github.com/localtunnel/localtunnel/issues/432">#432</a>)</li>
+<li><a href="https://github.com/localtunnel/localtunnel/commit/485b81619de7ea1196ea91a1d2c5f1993151be5f"><code>485b816</code></a> 2.0.1</li>
+<li><a href="https://github.com/localtunnel/localtunnel/commit/683e743cc8de531f9d3b9064fb664fd728b32a3b"><code>683e743</code></a> upgrade devDependencies: mocha</li>
+<li><a href="https://github.com/localtunnel/localtunnel/commit/67f4ddaed78adfffa1d5d66dd75daafaf1f5415e"><code>67f4dda</code></a> update dependencies: axios, debug, yargs</li>
+<li><a href="https://github.com/localtunnel/localtunnel/commit/adecb7761fd18f2eae37d2c8b48c01c040c2bb98"><code>adecb77</code></a> Add reference to .NET localtunnel-client (<a href="https://redirect.github.com/localtunnel/localtunnel/issues/384">#384</a>)</li>
+<li>See full diff in <a href="https://github.com/localtunnel/localtunnel/compare/v2.0.0...v2.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/sammogerman/partyparty-static/network/alerts).
+
+</details>

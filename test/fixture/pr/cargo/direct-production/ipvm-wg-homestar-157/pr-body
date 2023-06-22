@@ -1,0 +1,47 @@
+Bumps [wit-bindgen](https://github.com/bytecodealliance/wit-bindgen) from 0.6.0 to 0.7.0.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/a2935a4fa487a6e5136797a94a8bbd068e3be02e"><code>a2935a4</code></a> Update wit-bindgen for upcoming WIT changes (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/580">#580</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/0b5ed6390c95cc864bada1b11b46cbbe2a24542a"><code>0b5ed63</code></a> Give the C component-type object a valid encoding. (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/583">#583</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/dab3644b0ef6146416cf12502872ac2a7dd877e8"><code>dab3644</code></a> Update to Wasmtime 9.0.0 (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/582">#582</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/c1eb6ba2ffe303574219a3787aa1187d70d877ec"><code>c1eb6ba</code></a> bump dependencies on all wasm-tools crates (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/579">#579</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/7fad6bdbf20677bf099e2c6ea53e8fcf687a4671"><code>7fad6bd</code></a> TypeInfo.error detection: chase down definition typeid (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/576">#576</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/0d398ceee814f97ca9e1762cf0904d71ee41af3e"><code>0d398ce</code></a> Fix types used when interfaces are imported and exported (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/574">#574</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/35cb45f25eb113b54406f269778d46a37716a7c5"><code>35cb45f</code></a> Fix duplicate C types being generated  (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/571">#571</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/88fec248e4cf7dc84866fa682cc873b085c2985b"><code>88fec24</code></a> Add <code>__</code> around <code>__attribute__</code> attribute names in the C bindings. (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/570">#570</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/41f388eec6025e1afbaf613ec384700f8f827115"><code>41f388e</code></a> fix: 'core' module conflict in Bindgen::emit (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/568">#568</a>)</li>
+<li><a href="https://github.com/bytecodealliance/wit-bindgen/commit/8bd0fb32ed68a32e1661c630725d886470fdb632"><code>8bd0fb3</code></a> Add more docs to the C output (<a href="https://redirect.github.com/bytecodealliance/wit-bindgen/issues/566">#566</a>)</li>
+<li>See full diff in <a href="https://github.com/bytecodealliance/wit-bindgen/compare/wit-bindgen-0.6.0...wit-bindgen-0.7.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=wit-bindgen&package-manager=cargo&previous-version=0.6.0&new-version=0.7.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

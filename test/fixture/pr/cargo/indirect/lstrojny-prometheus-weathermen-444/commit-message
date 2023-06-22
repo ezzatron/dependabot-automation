@@ -1,0 +1,13 @@
+Bump anstyle-parse from 0.2.0 to 0.2.1
+
+Bumps [anstyle-parse](https://github.com/rust-cli/anstyle) from 0.2.0 to 0.2.1.
+- [Commits](https://github.com/rust-cli/anstyle/compare/anstyle-parse-v0.2.0...anstyle-parse-v0.2.1)
+
+---
+updated-dependencies:
+- dependency-name: anstyle-parse
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

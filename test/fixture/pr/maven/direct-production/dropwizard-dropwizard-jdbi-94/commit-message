@@ -1,0 +1,12 @@
+Bump dropwizard-parent from 2.1.6 to 3.0.1
+
+Bumps dropwizard-parent from 2.1.6 to 3.0.1.
+
+---
+updated-dependencies:
+- dependency-name: io.dropwizard:dropwizard-parent
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

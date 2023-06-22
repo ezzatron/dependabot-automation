@@ -1,0 +1,56 @@
+Bumps [puma](https://github.com/puma/puma) from 5.6.5 to 5.6.6.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/puma/puma/blob/master/History.md">puma's changelog</a>.</em></p>
+<blockquote>
+<h2>5.6.6 / 2023-06-21</h2>
+<ul>
+<li>Bugfix
+<ul>
+<li>Allow Puma to be loaded with Rack 3 (<a href="https://redirect.github.com/puma/puma/issues/3166">#3166</a>)</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/puma/puma/commit/f8c7b235f971ed6b290cc4733fe7bce840037ede"><code>f8c7b23</code></a> 5.6.6</li>
+<li><a href="https://github.com/puma/puma/commit/08af1b5d797ab49f9d594a71f0c1f88bbff7915a"><code>08af1b5</code></a> 5.6.6 release note</li>
+<li><a href="https://github.com/puma/puma/commit/6dac5d930d04e617b0fd8cd4e5947cd2586b7502"><code>6dac5d9</code></a> Prevent loading with rack 3 (<a href="https://redirect.github.com/puma/puma/issues/3166">#3166</a>)</li>
+<li><a href="https://github.com/puma/puma/commit/08925580e41734b4a8f063b9b401085476d5e9b9"><code>0892558</code></a> Fix and update 5-6-stable CI, two backports (<a href="https://redirect.github.com/puma/puma/issues/3167">#3167</a>)</li>
+<li><a href="https://github.com/puma/puma/commit/3a6ea4f4327dfe2e6e1cd16f2e093b3c43ad9951"><code>3a6ea4f</code></a> Release note fix for 5.6.5</li>
+<li>See full diff in <a href="https://github.com/puma/puma/compare/v5.6.5...v5.6.6">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=puma&package-manager=bundler&previous-version=5.6.5&new-version=5.6.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

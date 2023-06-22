@@ -1,0 +1,14 @@
+Update symfony/lock requirement from ^6.1 to ^6.3
+
+Updates the requirements on [symfony/lock](https://github.com/symfony/lock) to permit the latest version.
+- [Release notes](https://github.com/symfony/lock/releases)
+- [Changelog](https://github.com/symfony/lock/blob/6.3/CHANGELOG.md)
+- [Commits](https://github.com/symfony/lock/compare/v6.1.0...v6.3.0)
+
+---
+updated-dependencies:
+- dependency-name: symfony/lock
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

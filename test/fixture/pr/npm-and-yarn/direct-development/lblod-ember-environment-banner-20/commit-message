@@ -1,0 +1,15 @@
+Bump ember-cli from 4.12.1 to 5.0.0
+
+Bumps [ember-cli](https://github.com/ember-cli/ember-cli) from 4.12.1 to 5.0.0.
+- [Release notes](https://github.com/ember-cli/ember-cli/releases)
+- [Changelog](https://github.com/ember-cli/ember-cli/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/ember-cli/ember-cli/compare/v4.12.1...v5.0.0)
+
+---
+updated-dependencies:
+- dependency-name: ember-cli
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,15 @@
+Bump puma from 5.6.5 to 5.6.6
+
+Bumps [puma](https://github.com/puma/puma) from 5.6.5 to 5.6.6.
+- [Release notes](https://github.com/puma/puma/releases)
+- [Changelog](https://github.com/puma/puma/blob/master/History.md)
+- [Commits](https://github.com/puma/puma/compare/v5.6.5...v5.6.6)
+
+---
+updated-dependencies:
+- dependency-name: puma
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

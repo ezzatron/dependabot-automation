@@ -1,0 +1,15 @@
+Bump clap from 4.3.4 to 4.3.5
+
+Bumps [clap](https://github.com/clap-rs/clap) from 4.3.4 to 4.3.5.
+- [Release notes](https://github.com/clap-rs/clap/releases)
+- [Changelog](https://github.com/clap-rs/clap/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/clap-rs/clap/compare/v4.3.4...v4.3.5)
+
+---
+updated-dependencies:
+- dependency-name: clap
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

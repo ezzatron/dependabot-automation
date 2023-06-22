@@ -1,0 +1,14 @@
+build(deps): Bump siketyan/yarn-lock from 0.2.0 to 1.0.0
+
+Bumps [siketyan/yarn-lock](https://github.com/siketyan/php-yarn-lock) from 0.2.0 to 1.0.0.
+- [Release notes](https://github.com/siketyan/php-yarn-lock/releases)
+- [Commits](https://github.com/siketyan/php-yarn-lock/compare/v0.2.0...v1.0.0)
+
+---
+updated-dependencies:
+- dependency-name: siketyan/yarn-lock
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

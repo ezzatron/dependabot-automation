@@ -1,0 +1,179 @@
+Bumps [composer/semver](https://github.com/composer/semver) from 1.7.2 to 3.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/composer/semver/releases">composer/semver's releases</a>.</em></p>
+<blockquote>
+<h2>3.3.2</h2>
+<ul>
+<li>Fixed handling of non-string values (<a href="https://redirect.github.com/composer/semver/issues/134">#134</a>)</li>
+</ul>
+<h2>3.3.1</h2>
+<ul>
+<li>Fixed possible cache key clash in the CompilingMatcher memoization (<a href="https://redirect.github.com/composer/semver/issues/132">#132</a>)</li>
+</ul>
+<h2>3.3.0</h2>
+<ul>
+<li>Improved performance of CompilingMatcher by memoizing more (<a href="https://redirect.github.com/composer/semver/issues/131">#131</a>)</li>
+<li>Added CompilingMacher::clear to clear all memoization caches</li>
+</ul>
+<h2>3.2.9</h2>
+<ul>
+<li>Revert <a href="https://redirect.github.com/composer/semver/issues/129">#129</a> (Fixed MultiConstraint with MatchAllConstraint) which caused regressions</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/composer/semver/compare/3.2.8...3.2.9">https://github.com/composer/semver/compare/3.2.8...3.2.9</a></p>
+<h2>3.2.8</h2>
+<ul>
+<li>Updates to latest phpstan / CI by <a href="https://github.com/Seldaek"><code>@​Seldaek</code></a> in <a href="https://redirect.github.com/composer/semver/pull/130">composer/semver#130</a></li>
+<li>Fixed MultiConstraint with MatchAllConstraint by <a href="https://github.com/Toflar"><code>@​Toflar</code></a> in <a href="https://redirect.github.com/composer/semver/pull/129">composer/semver#129</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/composer/semver/compare/3.2.7...3.2.8">https://github.com/composer/semver/compare/3.2.7...3.2.8</a></p>
+<h2>3.2.7</h2>
+<ul>
+<li>Fixed: typo in type definition of Intervals class causing issues with Psalm scanning vendors</li>
+</ul>
+<h2>3.2.6</h2>
+<ul>
+<li>Fixed: type improvements to parseStability</li>
+</ul>
+<h2>3.2.5</h2>
+<ul>
+<li>Fixed: issue comparing disjunctive MultiConstraints to conjunctive ones (<a href="https://redirect.github.com/composer/semver/issues/127">#127</a>)</li>
+<li>Fixed: added complete type information using phpstan annotations</li>
+</ul>
+<h2>3.2.4</h2>
+<ul>
+<li>Fixed: code clean-up</li>
+</ul>
+<h2>3.2.3</h2>
+<ul>
+<li>Fixed: constraints in the form of X || Y, &gt;=Y.1 and other such complex constructs were in some cases being optimized into a more restrictive constraint</li>
+</ul>
+<h2>3.2.2</h2>
+<ul>
+<li>Fixed: internal code cleanups</li>
+</ul>
+<h2>3.2.1</h2>
+<ul>
+<li>Fixed: accidental validation of broken constraints combining ^/~ and wildcards, and -dev suffix allowing weird cases</li>
+<li>Fixed: normalization of beta0 and such which was dropping the 0</li>
+</ul>
+<h2>3.2.0</h2>
+<ul>
+<li>Added: support for <code>x || @dev</code>, not very useful but seen in the wild and failed to validate with 1.5.2/1.6.0</li>
+<li>Added: support for <code>foobar-dev</code> being equal to <code>dev-foobar</code>, dev-foobar is the official way to write it but we need to support the other for BC and convenience</li>
+</ul>
+<h2>3.1.0</h2>
+<ul>
+<li>Added: support for constraints like <code>^2.x-dev</code> and <code>~2.x-dev</code>, not very useful but seen in the wild and failed to validate with 3.0.1</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/composer/semver/blob/main/CHANGELOG.md">composer/semver's changelog</a>.</em></p>
+<blockquote>
+<h3>[3.3.2] 2022-04-01</h3>
+<ul>
+<li>Fixed handling of non-string values (<a href="https://redirect.github.com/composer/semver/issues/134">#134</a>)</li>
+</ul>
+<h3>[3.3.1] 2022-03-16</h3>
+<ul>
+<li>Fixed possible cache key clash in the CompilingMatcher memoization (<a href="https://redirect.github.com/composer/semver/issues/132">#132</a>)</li>
+</ul>
+<h3>[3.3.0] 2022-03-15</h3>
+<ul>
+<li>Improved performance of CompilingMatcher by memoizing more (<a href="https://redirect.github.com/composer/semver/issues/131">#131</a>)</li>
+<li>Added CompilingMatcher::clear to clear all memoization caches</li>
+</ul>
+<h3>[3.2.9] 2022-02-04</h3>
+<ul>
+<li>Revert <a href="https://redirect.github.com/composer/semver/issues/129">#129</a> (Fixed MultiConstraint with MatchAllConstraint) which caused regressions</li>
+</ul>
+<h3>[3.2.8] 2022-02-04</h3>
+<ul>
+<li>Updates to latest phpstan / CI by <a href="https://github.com/Seldaek"><code>@​Seldaek</code></a> in <a href="https://redirect.github.com/composer/semver/pull/130">composer/semver#130</a></li>
+<li>Fixed MultiConstraint with MatchAllConstraint by <a href="https://github.com/Toflar"><code>@​Toflar</code></a> in <a href="https://redirect.github.com/composer/semver/pull/129">composer/semver#129</a></li>
+</ul>
+<h3>[3.2.7] 2022-01-04</h3>
+<ul>
+<li>Fixed: typo in type definition of Intervals class causing issues with Psalm scanning vendors</li>
+</ul>
+<h3>[3.2.6] 2021-10-25</h3>
+<ul>
+<li>Fixed: type improvements to parseStability</li>
+</ul>
+<h3>[3.2.5] 2021-05-24</h3>
+<ul>
+<li>Fixed: issue comparing disjunctive MultiConstraints to conjunctive ones (<a href="https://redirect.github.com/composer/semver/issues/127">#127</a>)</li>
+<li>Fixed: added complete type information using phpstan annotations</li>
+</ul>
+<h3>[3.2.4] 2020-11-13</h3>
+<ul>
+<li>Fixed: code clean-up</li>
+</ul>
+<h3>[3.2.3] 2020-11-12</h3>
+<ul>
+<li>Fixed: constraints in the form of <code>X || Y, &gt;=Y.1</code> and other such complex constructs were in some cases being optimized into a more restrictive constraint</li>
+</ul>
+<h3>[3.2.2] 2020-10-14</h3>
+<ul>
+<li>Fixed: internal code cleanups</li>
+</ul>
+<h3>[3.2.1] 2020-09-27</h3>
+<ul>
+<li>Fixed: accidental validation of broken constraints combining ^/~ and wildcards, and -dev suffix allowing weird cases</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/composer/semver/commit/3953f23262f2bff1919fc82183ad9acb13ff62c9"><code>3953f23</code></a> Update CHANGELOG.md</li>
+<li><a href="https://github.com/composer/semver/commit/9b2d75f05f632c4628bd28774999308898dcc85d"><code>9b2d75f</code></a> Fix handling of non-string values, fixes <a href="https://redirect.github.com/composer/semver/issues/134">#134</a></li>
+<li><a href="https://github.com/composer/semver/commit/7b62ddcdfb1755b226c5b98bd5819ac381df151b"><code>7b62ddc</code></a> Merge pull request <a href="https://redirect.github.com/composer/semver/issues/133">#133</a> from SubhanSh/develop</li>
+<li><a href="https://github.com/composer/semver/commit/944b3e3fe649d43da92692410575be14bbe7b664"><code>944b3e3</code></a> docs: added fullname of an abbreviation</li>
+<li><a href="https://github.com/composer/semver/commit/5d8e574bb0e69188786b8ef77d43341222a41a71"><code>5d8e574</code></a> Update changelog</li>
+<li><a href="https://github.com/composer/semver/commit/f7ebdcb4de7d8b3d706aae0164d683d73737f58c"><code>f7ebdcb</code></a> Merge pull request <a href="https://redirect.github.com/composer/semver/issues/132">#132</a> from Toflar/fix-cache-key</li>
+<li><a href="https://github.com/composer/semver/commit/eca295aff9162e7924ecaba5a5f6404a59f1a3bd"><code>eca295a</code></a> Fix result cache key in CompilingMatcher</li>
+<li><a href="https://github.com/composer/semver/commit/f79c90ad4e9b41ac4dfc5d77bf398cf61fbd718b"><code>f79c90a</code></a> Update changelog</li>
+<li><a href="https://github.com/composer/semver/commit/e2000a228340e3c134786148e953a83abeb09b96"><code>e2000a2</code></a> Add method to clear memoization caches, refs <a href="https://redirect.github.com/composer/semver/issues/131">#131</a></li>
+<li><a href="https://github.com/composer/semver/commit/af3620d1ae999494d77fcbb772442f966f9a69e6"><code>af3620d</code></a> Merge pull request <a href="https://redirect.github.com/composer/semver/issues/131">#131</a> from Toflar/improve-compilingmatcher-performance</li>
+<li>Additional commits viewable in <a href="https://github.com/composer/semver/compare/1.7.2...3.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=composer/semver&package-manager=composer&previous-version=1.7.2&new-version=3.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once it's up-to-date and CI passes on it, as requested by @dmolineus.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

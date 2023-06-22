@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "src/go-module",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

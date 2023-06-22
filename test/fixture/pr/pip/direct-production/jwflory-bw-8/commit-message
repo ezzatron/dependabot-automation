@@ -1,0 +1,14 @@
+Bump requests from 2.23.0 to 2.31.0
+
+Bumps [requests](https://github.com/psf/requests) from 2.23.0 to 2.31.0.
+- [Release notes](https://github.com/psf/requests/releases)
+- [Changelog](https://github.com/psf/requests/blob/main/HISTORY.md)
+- [Commits](https://github.com/psf/requests/compare/v2.23.0...v2.31.0)
+
+---
+updated-dependencies:
+- dependency-name: requests
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

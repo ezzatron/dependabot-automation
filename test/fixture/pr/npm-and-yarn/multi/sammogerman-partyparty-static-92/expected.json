@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "json-schema",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "jsprim",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

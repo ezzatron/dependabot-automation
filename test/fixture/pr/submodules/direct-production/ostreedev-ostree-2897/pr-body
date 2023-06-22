@@ -1,0 +1,38 @@
+Bumps [composefs](https://github.com/containers/composefs) from `08bdb03` to `ca09734`.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/containers/composefs/commit/ca0973495fb0e4bf9f06f61386f5489e1223753e"><code>ca09734</code></a> Merge pull request <a href="https://redirect.github.com/containers/composefs/issues/153">#153</a> from cgwalters/more-cleanup-close</li>
+<li><a href="https://github.com/containers/composefs/commit/4e0fafa6cd9e7748711a33cf8ad52469ea679e8b"><code>4e0fafa</code></a> mkcomposefs: Add helper for unlink+free</li>
+<li><a href="https://github.com/containers/composefs/commit/49e07b1b0e1beddc943ab6c2ac3f07f1964b6b5a"><code>49e07b1</code></a> mkcomposefs: Use cleanup_fd</li>
+<li>See full diff in <a href="https://github.com/containers/composefs/compare/08bdb030fcff4f55ef63aa828b09b57a6cd4d234...ca0973495fb0e4bf9f06f61386f5489e1223753e">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

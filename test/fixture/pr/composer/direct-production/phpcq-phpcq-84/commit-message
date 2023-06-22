@@ -1,0 +1,15 @@
+composer(deps): bump composer/semver from 1.7.2 to 3.3.2
+
+Bumps [composer/semver](https://github.com/composer/semver) from 1.7.2 to 3.3.2.
+- [Release notes](https://github.com/composer/semver/releases)
+- [Changelog](https://github.com/composer/semver/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/composer/semver/compare/1.7.2...3.3.2)
+
+---
+updated-dependencies:
+- dependency-name: composer/semver
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

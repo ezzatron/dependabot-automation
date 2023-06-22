@@ -1,0 +1,64 @@
+Bumps [symfony/console](https://github.com/symfony/console) from 5.4.23 to 5.4.24.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/symfony/console/releases">symfony/console's releases</a>.</em></p>
+<blockquote>
+<h2>v5.4.24</h2>
+<p><strong>Changelog</strong> (<a href="https://github.com/symfony/console/compare/v5.4.23...v5.4.24">https://github.com/symfony/console/compare/v5.4.23...v5.4.24</a>)</p>
+<ul>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50429">symfony/symfony#50429</a> [Console] block input stream if needed (<a href="https://github.com/joelwurtz"><code>@​joelwurtz</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50315">symfony/symfony#50315</a> [Translation] Fix handling of null messages in <code>ArrayLoader</code> (<a href="https://github.com/rob006"><code>@​rob006</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50338">symfony/symfony#50338</a> [Console] Remove <code>exec</code> and replace it by <code>shell_exec</code> (<a href="https://github.com/maxbeckers"><code>@​maxbeckers</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/49063">symfony/symfony#49063</a> [Messenger] Respect <code>isRetryable</code> decision of the retry strategy for re-delivery (<a href="https://github.com/FlyingDR"><code>@​FlyingDR</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50214">symfony/symfony#50214</a> [WebProfilerBundle] Remove legacy filters remnants (<a href="https://github.com/MatTheCat"><code>@​MatTheCat</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50235">symfony/symfony#50235</a> [HttpClient] Fix getting through proxies via CONNECT (<a href="https://github.com/nicolas-grekas"><code>@​nicolas-grekas</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/49557">symfony/symfony#49557</a> [PropertyInfo] Fix phpDocExtractor nullable array value type (<a href="https://github.com/fabpot"><code>@​fabpot</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50213">symfony/symfony#50213</a> [ErrorHandler] Prevent conflicts with WebProfilerBundle’s JavaScript (<a href="https://github.com/MatTheCat"><code>@​MatTheCat</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50192">symfony/symfony#50192</a> [Serializer] backed enum throw notNormalizableValueException outside construct method (<a href="https://github.com/alli83"><code>@​alli83</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50238">symfony/symfony#50238</a> [HttpKernel] Don't use eval() to render ESI/SSI (<a href="https://github.com/nicolas-grekas"><code>@​nicolas-grekas</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/symfony/console/commit/560fc3ed7a43e6d30ea94a07d77f9a60b8ed0fb8"><code>560fc3e</code></a> minor <a href="https://redirect.github.com/symfony/console/issues/50418">#50418</a> [Console] Fix PHP Doc of InputArgument (lyrixx)</li>
+<li><a href="https://github.com/symfony/console/commit/47ec02ae2fb766ccebd3771f386b072a7a50f4d4"><code>47ec02a</code></a> [Console] block input stream if needed When the input stream used in the ques...</li>
+<li><a href="https://github.com/symfony/console/commit/875ffc84207b3683888b8a89351f32bc26dc7b94"><code>875ffc8</code></a> [Console] Fix PHP Doc of InputArgument</li>
+<li><a href="https://github.com/symfony/console/commit/a349882cfb8bd8a34c294d0dc2390efedbd77f4c"><code>a349882</code></a> [Console] Remove exec and replace it by shell_exec</li>
+<li><a href="https://github.com/symfony/console/commit/9a16a1cb519da4c7fc4333aad490149c229373cd"><code>9a16a1c</code></a> Remove usage of constant for better consistency across the codebase</li>
+<li>See full diff in <a href="https://github.com/symfony/console/compare/v5.4.23...v5.4.24">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=symfony/console&package-manager=composer&previous-version=5.4.23&new-version=5.4.24)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @dmolineus.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

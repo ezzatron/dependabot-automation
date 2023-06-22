@@ -1,0 +1,21 @@
+Bump tar and gulp-sass
+
+Removes [tar](https://github.com/isaacs/node-tar). It's no longer used after updating ancestor dependency [gulp-sass](https://github.com/dlmanning/gulp-sass). These dependencies need to be updated together.
+
+
+Removes `tar`
+
+Updates `gulp-sass` from 4.1.0 to 5.1.0
+- [Release notes](https://github.com/dlmanning/gulp-sass/releases)
+- [Changelog](https://github.com/dlmanning/gulp-sass/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/dlmanning/gulp-sass/compare/v4.1.0...v5.1.0)
+
+---
+updated-dependencies:
+- dependency-name: tar
+  dependency-type: indirect
+- dependency-name: gulp-sass
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

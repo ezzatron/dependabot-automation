@@ -1,0 +1,15 @@
+Bump gdal from 3.6.3 to 3.7.0
+
+Bumps [gdal](https://github.com/OSGeo/gdal) from 3.6.3 to 3.7.0.
+- [Release notes](https://github.com/OSGeo/gdal/releases)
+- [Changelog](https://github.com/OSGeo/gdal/blob/master/NEWS.md)
+- [Commits](https://github.com/OSGeo/gdal/compare/v3.6.3...v3.7.0)
+
+---
+updated-dependencies:
+- dependency-name: gdal
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

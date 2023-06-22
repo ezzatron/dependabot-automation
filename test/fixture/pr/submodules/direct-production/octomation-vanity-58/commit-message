@@ -1,0 +1,12 @@
+feat(deps): bump src/go-service from `81a3147` to `f90c7f2`
+
+Bumps [src/go-service](https://github.com/octomation/go-service) from `81a3147` to `f90c7f2`.
+- [Commits](https://github.com/octomation/go-service/compare/81a3147ad057c6d9121cf83379cda2233de12fa2...f90c7f24a9b522a637284f97a7de05b5283c6f1b)
+
+---
+updated-dependencies:
+- dependency-name: src/go-service
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

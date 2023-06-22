@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "deps/libtomcrypt",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

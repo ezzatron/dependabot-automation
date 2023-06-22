@@ -1,0 +1,9 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "symplify/easy-coding-standard",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

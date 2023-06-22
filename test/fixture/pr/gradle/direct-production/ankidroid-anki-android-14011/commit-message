@@ -1,0 +1,12 @@
+Bump androidx.activity:activity-ktx from 1.7.1 to 1.7.2
+
+Bumps androidx.activity:activity-ktx from 1.7.1 to 1.7.2.
+
+---
+updated-dependencies:
+- dependency-name: androidx.activity:activity-ktx
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

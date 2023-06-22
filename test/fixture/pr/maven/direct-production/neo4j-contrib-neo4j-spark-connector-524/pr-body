@@ -1,0 +1,110 @@
+Bumps [neo4j-cypher-dsl](https://github.com/neo4j-contrib/cypher-dsl) from 2022.8.5 to 2023.4.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/neo4j-contrib/cypher-dsl/releases">neo4j-cypher-dsl's releases</a>.</em></p>
+<blockquote>
+<p>2023.4.0 comes with a whole list of new features. As we deprecated two things (the <code>DEFAULT</code> dialect and <code>org.neo4j.cypherdsl.core.Cypher.use(org.neo4j.cypherdsl.core.SymbolicName, org.neo4j.cypherdsl.core.Statement)</code>), your project might break depending on your warning settings. The <code>DEFAULT</code> dialect is now <code>org.neo4j.cypherdsl.core.renderer.Dialect.NEO4J_4</code> (which keeps on being the default) and the <code>use</code> method has a new overload taking in an expression. You might need to explicitly cast here until we remove the deprecated method for good. This change was necessary to be able to put all functions in the <code>graph.*</code> namespace to use.</p>
+<p>Thanks to our reporters, contributors and supporters <a href="https://github.com/xdelox"><code>@​xdelox</code></a>, <a href="https://github.com/ikwattro"><code>@​ikwattro</code></a>, <a href="https://github.com/nmervaillie"><code>@​nmervaillie</code></a> and Rohan Kharwar.</p>
+<h2>🚀 Features</h2>
+<ul>
+<li>Introduce event to capture parsed literals. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/742">#742</a>)</li>
+<li>Allow retrieval of literals. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/741">#741</a>)</li>
+<li>Add builder methods for <code>FOREACH</code>. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/740">#740</a>)</li>
+<li>Provide all functions in the <code>graph.*</code> namespaces. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/734">#734</a>)</li>
+<li>Provide a way to fill parsed parameters with values. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/732">#732</a>)</li>
+</ul>
+<h2>🐛 Bug Fixes</h2>
+<ul>
+<li>Strip off octal prefix.</li>
+</ul>
+<h2>🔄️ Refactorings</h2>
+<ul>
+<li>Replace <code>DEFAULT</code> dialect with explicit <code>NEO4J_4</code> dialect. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/736">#736</a>)</li>
+<li>Use sorted sets everywhere to keep orders of identifiables in the catalog close to users expectations. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/733">#733</a>)</li>
+</ul>
+<h2>🧹 Housekeeping</h2>
+<ul>
+<li>Dependency upgrades:
+<ul>
+<li>Bump neo4j-cypher-javacc-parser from 5.8.0 to 5.9.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/743">#743</a>)</li>
+<li>Bump reactor-bom from 2022.0.7 to 2022.0.8 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/748">#748</a>)</li>
+<li>Bump mockito.version from 5.3.1 to 5.4.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/747">#747</a>)</li>
+<li>Bump spring-data-neo4j from 7.1.0 to 7.1.1 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/746">#746</a>)</li>
+<li>Bump native-maven-plugin from 0.9.22 to 0.9.23 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/745">#745</a>)</li>
+<li>Bump maven-shade-plugin from 3.4.1 to 3.5.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/744">#744</a>)</li>
+<li>Bump guava from 32.0.0-jre to 32.0.1-jre (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/726">#726</a>)</li>
+<li>Bump maven-surefire-plugin from 3.1.0 to 3.1.2 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/725">#725</a>)</li>
+<li>Bump maven-failsafe-plugin from 3.1.0 to 3.1.2 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/724">#724</a>)</li>
+<li>Bump asciidoctorj-diagram from 2.2.8 to 2.2.9 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/723">#723</a>)</li>
+<li>Bump jackson-bom from 2.15.1 to 2.15.2 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/722">#722</a>)</li>
+<li>Bump testcontainers.version from 1.18.1 to 1.18.3 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/721">#721</a>)</li>
+<li>Bump checker-qual from 3.34.0 to 3.35.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/720">#720</a>)</li>
+<li>Bump asciidoctorj from 2.5.8 to 2.5.10 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/719">#719</a>)</li>
+</ul>
+</li>
+</ul>
+<h2>2023.3.2</h2>
+<h2>🐛 Bug Fixes</h2>
+<ul>
+<li>Relationship chains didn't explicitly enter their elements. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/718">#718</a>, thanks <a href="https://github.com/xdelox"><code>@​xdelox</code></a> for your contribution)</li>
+</ul>
+<h2>🧹 Housekeeping</h2>
+<ul>
+<li>Dependency upgrades:
+<ul>
+<li>Bump spring-boot-starter-parent from 3.0.6 to 3.1.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/711">#711</a>)</li>
+<li>Bump neo4j-cypher-javacc-parser from 5.7.0 to 5.8.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/709">#709</a>)</li>
+<li>Bump guava from 31.1-jre to 32.0.0-jre (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/714">#714</a>)</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/18a71111c9dbf5005ba71be6afcde35623d0b61b"><code>18a7111</code></a> Prepare release.</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/b5d5f8bc133518d38108b30cca1e6f52c6624a1d"><code>b5d5f8b</code></a> docs: Update changelog.</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/dc973174469c59fa9262e45e1e112db9ab6c69df"><code>dc97317</code></a> refactor: Don't collect namespace literals.</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/572dddf524fa0052af1b4c8f8ec43be55eaa527b"><code>572dddf</code></a> build(deps): Bump neo4j-cypher-javacc-parser from 5.8.0 to 5.9.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/743">#743</a>)</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/74a62508e5f8e31895cff4dd4d612e1702d19959"><code>74a6250</code></a> build(deps): Bump reactor-bom from 2022.0.7 to 2022.0.8 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/748">#748</a>)</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/156fab0a288091d46ee5870046ac4672c6dd4883"><code>156fab0</code></a> build(deps): Bump mockito.version from 5.3.1 to 5.4.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/747">#747</a>)</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/3e0ee19068350ce7893882f6bcef46ab032f7075"><code>3e0ee19</code></a> build(deps): Bump spring-data-neo4j from 7.1.0 to 7.1.1 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/746">#746</a>)</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/e7243370c80cd2124de7a7ad13e2dfbd1dfcf469"><code>e724337</code></a> build(deps): Bump native-maven-plugin from 0.9.22 to 0.9.23 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/745">#745</a>)</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/f9f5140dda637599b8915c4986f0ab4654850309"><code>f9f5140</code></a> build(deps): Bump maven-shade-plugin from 3.4.1 to 3.5.0 (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/744">#744</a>)</li>
+<li><a href="https://github.com/neo4j-contrib/cypher-dsl/commit/85f4af0a06c75ff882244ddf0fed1ca4f87a47ee"><code>85f4af0</code></a> feat: Introduce event to capture parsed literals. (<a href="https://redirect.github.com/neo4j-contrib/cypher-dsl/issues/742">#742</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/neo4j-contrib/cypher-dsl/compare/2022.8.5...2023.4.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.neo4j:neo4j-cypher-dsl&package-manager=maven&previous-version=2022.8.5&new-version=2023.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

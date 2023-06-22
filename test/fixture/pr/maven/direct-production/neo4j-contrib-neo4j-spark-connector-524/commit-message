@@ -1,0 +1,14 @@
+Bump neo4j-cypher-dsl from 2022.8.5 to 2023.4.0
+
+Bumps [neo4j-cypher-dsl](https://github.com/neo4j-contrib/cypher-dsl) from 2022.8.5 to 2023.4.0.
+- [Release notes](https://github.com/neo4j-contrib/cypher-dsl/releases)
+- [Commits](https://github.com/neo4j-contrib/cypher-dsl/compare/2022.8.5...2023.4.0)
+
+---
+updated-dependencies:
+- dependency-name: org.neo4j:neo4j-cypher-dsl
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,12 @@
+chore(Dockerfile): bump ubi9/go-toolset from 1.19.9-3 to 1.19.9-7
+
+Bumps ubi9/go-toolset from 1.19.9-3 to 1.19.9-7.
+
+---
+updated-dependencies:
+- dependency-name: ubi9/go-toolset
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

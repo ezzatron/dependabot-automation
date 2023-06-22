@@ -1,0 +1,151 @@
+Bumps [github.com/pterm/pterm](https://github.com/pterm/pterm) from 0.12.58 to 0.12.62.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pterm/pterm/releases">github.com/pterm/pterm's releases</a>.</em></p>
+<blockquote>
+<h2>v0.12.62</h2>
+<!-- raw HTML omitted -->
+<h2>What's Changed</h2>
+<h3>Fixes 🔧</h3>
+<ul>
+<li>fix: root node of <code>TreePrinter</code> is not styled by <a href="https://github.com/dedefer"><code>@​dedefer</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/511">pterm/pterm#511</a></li>
+<li>fix: fixed not being able to add a custom graceful shutdown by <a href="https://github.com/MarvinJWendt"><code>@​MarvinJWendt</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/512">pterm/pterm#512</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/dedefer"><code>@​dedefer</code></a> made their first contribution in <a href="https://redirect.github.com/pterm/pterm/pull/511">pterm/pterm#511</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pterm/pterm/compare/v0.12.61...v0.12.62">https://github.com/pterm/pterm/compare/v0.12.61...v0.12.62</a></p>
+<h2>v0.12.61</h2>
+<!-- raw HTML omitted -->
+<h2>What's Changed</h2>
+<h3>Fixes 🔧</h3>
+<ul>
+<li>fix(table): fixed table when a column contained a whitespace at the start or end by <a href="https://github.com/MarvinJWendt"><code>@​MarvinJWendt</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/502">pterm/pterm#502</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pterm/pterm/compare/v0.12.60...v0.12.61">https://github.com/pterm/pterm/compare/v0.12.60...v0.12.61</a></p>
+<h2>v0.12.60</h2>
+<!-- raw HTML omitted -->
+<h2>What's Changed</h2>
+<h3>Exciting New Features 🎉</h3>
+<ul>
+<li>Added RGBStyle by <a href="https://github.com/floaust"><code>@​floaust</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/492">pterm/pterm#492</a></li>
+</ul>
+<h3>Fixes 🔧</h3>
+<ul>
+<li>add: progress bar filler from start by <a href="https://github.com/KarolosLykos"><code>@​KarolosLykos</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/499">pterm/pterm#499</a></li>
+<li>Various progressbar improvements by <a href="https://github.com/MarvinJWendt"><code>@​MarvinJWendt</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/500">pterm/pterm#500</a>
+<ul>
+<li>with input by <a href="https://github.com/KarolosLykos"><code>@​KarolosLykos</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/486">pterm/pterm#486</a></li>
+</ul>
+</li>
+</ul>
+<h3>Other Changes</h3>
+<ul>
+<li>chore(deps): bump github.com/lithammer/fuzzysearch from 1.1.5 to 1.1.7 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/496">pterm/pterm#496</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pterm/pterm/compare/v0.12.59...v0.12.60">https://github.com/pterm/pterm/compare/v0.12.59...v0.12.60</a></p>
+<h2>v0.12.59</h2>
+<!-- raw HTML omitted -->
+<h2>What's Changed</h2>
+<h3>Exciting New Features 🎉</h3>
+<ul>
+<li>feat(textinput): added optional mask for prompting for secrets/passwords/tokens by <a href="https://github.com/MarkusZoppelt"><code>@​MarkusZoppelt</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/458">pterm/pterm#458</a></li>
+</ul>
+<h3>Other Changes</h3>
+<ul>
+<li>example(table): fixed text that was too long to be displayed in the animation by <a href="https://github.com/floaust"><code>@​floaust</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/484">pterm/pterm#484</a></li>
+<li>ci(workflows): Bump actions version, fix Node 12 deprecation warnings by <a href="https://github.com/kbdharun"><code>@​kbdharun</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/488">pterm/pterm#488</a></li>
+<li>docs(security): added security policy by <a href="https://github.com/MarvinJWendt"><code>@​MarvinJWendt</code></a> in <a href="https://redirect.github.com/pterm/pterm/pull/490">pterm/pterm#490</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pterm/pterm/blob/master/CHANGELOG.md">github.com/pterm/pterm's changelog</a>.</em></p>
+<blockquote>
+<h2>[v0.12.62] - 2023-05-24</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>fixed not being able to add a custom graceful shutdown</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2>[v0.12.61] - 2023-05-14</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>table:</strong> fixed table when a column contained a whitespace at the start or end</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2>[v0.12.60] - 2023-05-11</h2>
+<h3>Features</h3>
+<ul>
+<li><strong>progressbar:</strong> various progressbar improvements</li>
+<li><strong>progressbar:</strong> various progressbar improvements</li>
+<li><strong>progressbar:</strong> various progressbar improvements</li>
+<li><strong>rgb:</strong> added RGBStyle</li>
+</ul>
+<h3>Test</h3>
+<ul>
+<li><strong>rgb:</strong> added RGBStyle tests</li>
+</ul>
+<h3>Code Refactoring</h3>
+<ul>
+<li><strong>rgb:</strong> removed 'GetValues' for 'RGBStyle'</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2>[v0.12.59] - 2023-04-15</h2>
+<h3>Features</h3>
+<ul>
+<li>add optional mask to InteractiveTextInputPrinter</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pterm/pterm/commit/30f188d0c1c8fe5b501d99824d31a8785a9fd35b"><code>30f188d</code></a> docs: autoupdate</li>
+<li><a href="https://github.com/pterm/pterm/commit/b19332aebe01c139b9df28ac4f24c51ef79be1b7"><code>b19332a</code></a> Merge pull request <a href="https://redirect.github.com/pterm/pterm/issues/512">#512</a> from pterm/509-graceful-shutdown-of-application-impos...</li>
+<li><a href="https://github.com/pterm/pterm/commit/3c3aa0688c677963f0bfbafae75a03943c13b5aa"><code>3c3aa06</code></a> Merge branch 'master' into 509-graceful-shutdown-of-application-impossible-wi...</li>
+<li><a href="https://github.com/pterm/pterm/commit/d45dd18361b0c8422e85937c7cf26f986245db0b"><code>d45dd18</code></a> fix: fixed not being able to add a custom graceful shutdown</li>
+<li><a href="https://github.com/pterm/pterm/commit/7cb5005fd56ee0117c9b702b30eab951f404f6df"><code>7cb5005</code></a> docs: autoupdate</li>
+<li><a href="https://github.com/pterm/pterm/commit/4c7b0f6b93ce5f4accfe7478feb2e5fb3fafac67"><code>4c7b0f6</code></a> Merge pull request <a href="https://redirect.github.com/pterm/pterm/issues/511">#511</a> from dedefer/issue-510-fix-TreePrinter-root-text-style</li>
+<li><a href="https://github.com/pterm/pterm/commit/b37e436cadd0e95486858028707fe99f8b5923a1"><code>b37e436</code></a> Issue 510: fix root text style in TreePrinter</li>
+<li><a href="https://github.com/pterm/pterm/commit/4586e84a00e7981d6912dae026a8dc446541b8bd"><code>4586e84</code></a> docs: autoupdate</li>
+<li><a href="https://github.com/pterm/pterm/commit/3c47c47b109f0cb864450700946ab2ed364b74ac"><code>3c47c47</code></a> Merge pull request <a href="https://redirect.github.com/pterm/pterm/issues/508">#508</a> from pterm/dependabot/go_modules/github.com/lithammer...</li>
+<li><a href="https://github.com/pterm/pterm/commit/763d6ca1c15dbba140d2611da08d43df0bee0419"><code>763d6ca</code></a> chore(deps): bump github.com/lithammer/fuzzysearch from 1.1.7 to 1.1.8</li>
+<li>Additional commits viewable in <a href="https://github.com/pterm/pterm/compare/v0.12.58...v0.12.62">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/pterm/pterm&package-manager=go_modules&previous-version=0.12.58&new-version=0.12.62)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

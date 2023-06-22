@@ -1,0 +1,134 @@
+Bumps [gdal](https://github.com/OSGeo/gdal) from 3.6.3 to 3.7.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/OSGeo/gdal/releases">gdal's releases</a>.</em></p>
+<blockquote>
+<h2>GDAL 3.7.0</h2>
+<p>The 3.7.0 release is a new feature release with the following highlights:</p>
+<ul>
+<li><a href="https://gdal.org/development/rfc/rfc87_signed_int8.html">RFC 87</a>: Add  GDT_Int8 support</li>
+<li><a href="https://gdal.org/development/rfc/rfc88_googletest.html">RFC 88</a>: switch to GoogleTest framework for C++ tests</li>
+<li><a href="https://gdal.org/development/rfc/rfc89_sql_logging_callback.html">RFC 89</a>: SQL query logging callback</li>
+<li><a href="https://gdal.org/development/rfc/rfc90_read_compressed_data.html">RFC 90</a>: Direct access to compressed raster data</li>
+<li><a href="https://gdal.org/development/rfc/rfc91_dataset_close.html">RFC 91</a>: GDALDataset::Close() method</li>
+<li><a href="https://gdal.org/development/rfc/rfc93_update_feature.html">RFC 93</a>: OGRLayer::UpdateFeature() method</li>
+<li><a href="https://gdal.org/development/rfc/rfc94_field_precision_width_metadata.html">RFC 94</a>: Numeric fields width/precision metadata</li>
+<li>ogrinfo: make it accessible through a new GDALVectorInfo() C API call, and a -json switch</li>
+<li>Add read-only raster driver <a href="https://gdal.org/drivers/raster/noaa_b.html">NOAA_B</a> to read NOAA GEOCON/NADCON5 .b grids</li>
+<li>Add read-only raster driver <a href="https://gdal.org/drivers/raster/nsidcbin.html">NSIDCbin</a> for Sea Ice Concentrations</li>
+<li>Add read-only vector <a href="https://gdal.org/drivers/vector/gtfs.html">GTFS</a> (General Transit Feed Specification) driver</li>
+<li><a href="https://gdal.org/drivers/vector/tiledb.html">TileDB</a>: add read/write vector side</li>
+<li>Add support for <a href="https://sozip.org">SOZip</a> (Seek Optimized ZIP) with enhanced /vsizip/ virtual file system and a new sozip utility</li>
+<li><a href="https://gdal.org/drivers/raster/openfilegdb.html">OpenFileGDB</a>: add read-only support for raster datasets (.gdb v10)</li>
+<li>PNG: 1.7-2.0x speed-up in whole image decompression with libdeflate on Intel/AMD CPUs. Benefits to GPKG, MRF drivers</li>
+<li><a href="https://gdal.org/development/rfc/rfc69_cplusplus_formatting.html">RFC 69</a>: C++ code reformatting</li>
+<li>Code linting and security fixes</li>
+<li>Remove any traces of Rasdaman driver, now moved to OSGeo/gdal-extra-drivers repository (<a href="https://redirect.github.com/OSGeo/gdal/issues/4808">#4808</a>)</li>
+<li>Bump of shared lib major version</li>
+</ul>
+<p>and many other enhancements and fixes as detailed in the <a href="https://github.com/OSGeo/gdal/blob/v3.7.0/NEWS.md">release notes</a></p>
+<h2>GDAL 3.6.4</h2>
+<p>Bug fix release. See release notes: <a href="https://github.com/OSGeo/gdal/blob/v3.6.4/NEWS.md">https://github.com/OSGeo/gdal/blob/v3.6.4/NEWS.md</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/OSGeo/gdal/blob/master/NEWS.md">gdal's changelog</a>.</em></p>
+<blockquote>
+<h1>GDAL/OGR 3.7.0 Releases Notes</h1>
+<p>GDAL/OGR 3.7.0 is a feature release.
+Those notes include changes since GDAL 3.6.0, but not already included in a
+GDAL 3.6.x bugfix release.</p>
+<h2>In a nutshell...</h2>
+<ul>
+<li><a href="https://gdal.org/development/rfc/rfc87_signed_int8.html">RFC 87</a>: Add
+GDT_Int8 support</li>
+<li><a href="https://gdal.org/development/rfc/rfc88_googletest.html">RFC 88</a>: switch
+to GoogleTest framework for C++ tests (<a href="https://redirect.github.com/OSGeo/gdal/issues/3525">#3525</a>)</li>
+<li><a href="https://gdal.org/development/rfc/rfc89_sql_logging_callback.html">RFC 89</a>:
+SQL query logging callback (<a href="https://redirect.github.com/OSGeo/gdal/issues/6967">#6967</a>)</li>
+<li><a href="https://gdal.org/development/rfc/rfc90_read_compressed_data.html">RFC 90</a>:
+Direct access to compressed raster data</li>
+<li><a href="https://gdal.org/development/rfc/rfc91_dataset_close.html">RFC 91</a>:
+GDALDataset::Close() method</li>
+<li><a href="https://gdal.org/development/rfc/rfc93_update_feature.html">RFC 93</a>:
+OGRLayer::UpdateFeature() method</li>
+<li><a href="https://gdal.org/development/rfc/rfc94_field_precision_width_metadata.html">RFC 94</a>:
+Numeric fields width/precision metadata</li>
+<li>ogrinfo: make it accessible through a new GDALVectorInfo() C API call, and
+a -json switch</li>
+<li>Add read-only raster driver NOAA_B to read NOAA GEOCON/NADCON5 .b grids</li>
+<li>Add read-only raster driver NSIDCbin for Sea Ice Concentrations (<a href="https://redirect.github.com/OSGeo/gdal/issues/7263">#7263</a>)</li>
+<li>Add read-only vector GTFS (General Transit Feed Specification) driver</li>
+<li>TileDB: add read/write vector side</li>
+<li>Add support for <a href="https://sozip.org">SOZip</a> (Seek Optimized ZIP) with enhanced
+/vsizip/ virtual file system and a new sozip utility</li>
+<li>OpenFileGDB: add read-only support for raster datasets (.gdb v10)</li>
+<li>PNG: 1.7-2.0x speed-up in whole image decompression with libdeflate on
+Intel/AMD CPUs. Benefits GPKG, MRF drivers</li>
+<li><a href="https://gdal.org/development/rfc/rfc69_cplusplus_formatting.html">RFC 69</a>:
+C++ code reformatting</li>
+<li>Code linting and security fixes</li>
+<li>Remove any traces of Rasdaman driver, now moved to OSGeo/gdal-extra-drivers
+repository (<a href="https://redirect.github.com/OSGeo/gdal/issues/4808">#4808</a>)</li>
+</ul>
+<h2>Backward compatibility issues</h2>
+<p>See <a href="https://github.com/OSGeo/gdal/blob/release/3.7/MIGRATION_GUIDE.TXT">MIGRATION_GUIDE.TXT</a></p>
+<h2>New installed files</h2>
+<ul>
+<li>data/gfs.xsd: XML schema for .gfs files (<a href="https://redirect.github.com/OSGeo/gdal/issues/6655">#6655</a>)</li>
+<li>data/gml_registry.xsd: new file with XML schema of gml_registry.xml (<a href="https://redirect.github.com/OSGeo/gdal/issues/6716">#6716</a>)</li>
+<li>data/ogrinfo_output.schema.json: to validate ogrinfo -json output</li>
+<li>data/gdalinfo_output.schema.json: to validate gdalinfo -json output (fixes <a href="https://redirect.github.com/OSGeo/gdal/issues/6850">#6850</a>)</li>
+<li>data/grib2_table_4_2_0_21.csv</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/OSGeo/gdal/commit/ab9cb1a1d4928cdcf2877d8e0c6ad9fc2c79fbc9"><code>ab9cb1a</code></a> Fix building without fuzzers/ and perftests/ directory</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/cc6de5765b20d0b237c68f7f7c580e96187aa388"><code>cc6de57</code></a> mkgdaldist.sh: update to take account python bindings generated files are no ...</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/397cc22229387d6dcfff84098e644f1b531a7537"><code>397cc22</code></a> Prepare for GDAL 3.7.0</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/be12e900c1d78b591cbabd0f4ac53719cdbb32be"><code>be12e90</code></a> Update gdal-bash-completion.sh</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/d45f5d6472ae5801e41f0ba0a3e6af44ca1b5481"><code>d45f5d6</code></a> NEWS.md: update to 3.7.0</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/25c85569540c9af571376411b2c34c28cabb3537"><code>25c8556</code></a> typo fixes</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/20da904e3e1cfca91666aae1f83e7a1cbf31c481"><code>20da904</code></a> Added fixes for the OGC API Tiles driver (<a href="https://redirect.github.com/OSGeo/gdal/issues/7656">#7656</a>)</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/bd5c1c7db982307618ec681d7f791025d60e243a"><code>bd5c1c7</code></a> Merge pull request <a href="https://redirect.github.com/OSGeo/gdal/issues/7675">#7675</a> from rouault/arrow_12_warning_fix</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/e2febf0da9bd7d5ff1f934c05c93b57bf5115e6e"><code>e2febf0</code></a> Merge pull request <a href="https://redirect.github.com/OSGeo/gdal/issues/7674">#7674</a> from rouault/fix_7649</li>
+<li><a href="https://github.com/OSGeo/gdal/commit/4e64fdf1165dcc4f0c444262c96c000a85a88d8e"><code>4e64fdf</code></a> Arrow: fix build warning against Arrow &gt;= 12</li>
+<li>Additional commits viewable in <a href="https://github.com/OSGeo/gdal/compare/v3.6.3...v3.7.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gdal&package-manager=pip&previous-version=3.6.3&new-version=3.7.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

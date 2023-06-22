@@ -1,0 +1,14 @@
+Bump colorama from 0.4.4 to 0.4.6
+
+Bumps [colorama](https://github.com/tartley/colorama) from 0.4.4 to 0.4.6.
+- [Changelog](https://github.com/tartley/colorama/blob/master/CHANGELOG.rst)
+- [Commits](https://github.com/tartley/colorama/compare/0.4.4...0.4.6)
+
+---
+updated-dependencies:
+- dependency-name: colorama
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

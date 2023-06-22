@@ -1,0 +1,19 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "qs",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "browser-sync",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "express",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

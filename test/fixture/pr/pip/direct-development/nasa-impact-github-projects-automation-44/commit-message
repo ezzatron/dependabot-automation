@@ -1,0 +1,15 @@
+Bump pytest from 7.1.2 to 7.3.2
+
+Bumps [pytest](https://github.com/pytest-dev/pytest) from 7.1.2 to 7.3.2.
+- [Release notes](https://github.com/pytest-dev/pytest/releases)
+- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
+- [Commits](https://github.com/pytest-dev/pytest/compare/7.1.2...7.3.2)
+
+---
+updated-dependencies:
+- dependency-name: pytest
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

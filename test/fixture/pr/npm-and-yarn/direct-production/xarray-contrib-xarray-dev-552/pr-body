@@ -1,0 +1,104 @@
+Bumps [@next/mdx](https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx) from 13.4.2 to 13.4.7.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/vercel/next.js/releases"><code>@​next/mdx</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v13.4.7</h2>
+<h3>Core Changes</h3>
+<ul>
+<li>Route Module Updates Redux: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51373">#51373</a></li>
+<li>Lock down server IPC address: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51378">#51378</a></li>
+<li>Revert &quot;Route Module Updates Redux&quot;: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51409">#51409</a></li>
+<li>Fix bundling of Server Actions: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51367">#51367</a></li>
+<li>Fix pnpm lock: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51503">#51503</a></li>
+<li>router: add layout and other file supports to parallel routes: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51413">#51413</a></li>
+<li>Next Build Turbo POC: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/49942">#49942</a></li>
+<li>add edge rendering for app dir for Turbopack: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/50830">#50830</a></li>
+<li>Fix shared action module in two layers: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51510">#51510</a></li>
+<li>Revert &quot;Next Build Turbo POC (<a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/49942">#49942</a>)&quot;: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51538">#51538</a></li>
+<li>Fix font styles on react dev overlay: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51518">#51518</a></li>
+<li>fix typo in x-next-revalidate-tag-token header: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51432">#51432</a></li>
+<li>Add docs links to RSC errors: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51557">#51557</a></li>
+<li>Moved new line to warnOnce call: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51552">#51552</a></li>
+<li>Update id env prefix: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51588">#51588</a></li>
+<li>router: support layout/special files as direct children of parallel routes: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51604">#51604</a></li>
+<li>use env var to switch next.js to turbopack mode: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51353">#51353</a></li>
+<li>Revert &quot;add edge rendering for app dir for Turbopack&quot;: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51617">#51617</a></li>
+<li>Ensure upgrade request has request meta: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51590">#51590</a></li>
+<li>Revert &quot;Fix standalone not found&quot;: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51506">#51506</a></li>
+</ul>
+<h3>Documentation Changes</h3>
+<ul>
+<li>docs: Add streaming AI example.: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51382">#51382</a></li>
+<li>docs: remove copy mentioning appDir as an experimental feature: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51403">#51403</a></li>
+<li>examples: update <code>with-supabase</code> example to App Router: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51335">#51335</a></li>
+<li>Fix typo in image alt: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51487">#51487</a></li>
+<li>docs: add better examples to <code>next/image</code> docs.: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51457">#51457</a></li>
+<li>Go directly to caching section: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51501">#51501</a></li>
+<li>fix(typo): add missing word: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51490">#51490</a></li>
+<li>fix(typo): add missing comma: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51489">#51489</a></li>
+<li>Remove duplicate bullet point in app router migration docs: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51440">#51440</a></li>
+<li>fix: missing come: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51437">#51437</a></li>
+<li>Linted MDX: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51530">#51530</a></li>
+<li>docs: Fix typo: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51517">#51517</a></li>
+<li>Migrate validate links script from next-site and setup GitHub action: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51365">#51365</a></li>
+<li>Remove extra word in env key error: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51512">#51512</a></li>
+<li>Remove duplicate word in 11-draft-mode.mdx: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51580">#51580</a></li>
+<li>Broken link at 01-static-and-dynamic-rendering.mdx: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51582">#51582</a></li>
+<li>refactor tests for readability: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/51051">#51051</a></li>
+</ul>
+<h3>Example Changes</h3>
+<ul>
+<li>Upgrade with-redux example to app router: <a href="https://github.com/vercel/next.js/tree/HEAD/packages/next-mdx/issues/49994">#49994</a></li>
+</ul>
+<h3>Misc Changes</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/vercel/next.js/commit/4e5fef4f36b27fb7d3ae2b06ce4c53347e96363f"><code>4e5fef4</code></a> v13.4.7</li>
+<li><a href="https://github.com/vercel/next.js/commit/6dd06dbe4dafdc4679d940b5b5d004acdbf113a6"><code>6dd06db</code></a> v13.4.7-canary.4</li>
+<li><a href="https://github.com/vercel/next.js/commit/c30f21fa7713015057d06067ee5c7f5270c98fff"><code>c30f21f</code></a> v13.4.7-canary.3</li>
+<li><a href="https://github.com/vercel/next.js/commit/3d23faa6cda08507ab96c2fe6576b9621372e17e"><code>3d23faa</code></a> v13.4.7-canary.2</li>
+<li><a href="https://github.com/vercel/next.js/commit/a3ef99acd9805dded24214c21ac9149952af73a7"><code>a3ef99a</code></a> v13.4.7-canary.1</li>
+<li><a href="https://github.com/vercel/next.js/commit/cbb69b2cfc19d95cf914250f7c20d4d9a42e8bc5"><code>cbb69b2</code></a> v13.4.7-canary.0</li>
+<li><a href="https://github.com/vercel/next.js/commit/ce4aa787e8fade5f8214817f8ad9db02ca807a95"><code>ce4aa78</code></a> v13.4.6</li>
+<li><a href="https://github.com/vercel/next.js/commit/019ed1c39b255e7ed0176e94add52b1e7685063e"><code>019ed1c</code></a> v13.4.6-canary.8</li>
+<li><a href="https://github.com/vercel/next.js/commit/c59c39a431c641aeef76f08d4048c1e039174f6f"><code>c59c39a</code></a> v13.4.6-canary.7</li>
+<li><a href="https://github.com/vercel/next.js/commit/dde67aec5aa8d9df499152d1194b826cf86e967d"><code>dde67ae</code></a> v13.4.6-canary.6</li>
+<li>Additional commits viewable in <a href="https://github.com/vercel/next.js/commits/v13.4.7/packages/next-mdx">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@next/mdx&package-manager=npm_and_yarn&previous-version=13.4.2&new-version=13.4.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

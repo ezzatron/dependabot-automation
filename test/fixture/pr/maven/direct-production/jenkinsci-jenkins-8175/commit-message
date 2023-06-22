@@ -1,0 +1,13 @@
+Bump core-annotation-processors
+
+Bumps [core-annotation-processors](https://github.com/jenkinsci/core-annotation-processors) from 9.v8d1b_e5888539 to 13.v2dcfc22a_a_b_29.
+- [Release notes](https://github.com/jenkinsci/core-annotation-processors/releases)
+- [Commits](https://github.com/jenkinsci/core-annotation-processors/commits)
+
+---
+updated-dependencies:
+- dependency-name: org.jenkins-ci:core-annotation-processors
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

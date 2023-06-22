@@ -1,0 +1,15 @@
+chore(deps): bump @metamask/key-tree from 7.0.0 to 7.1.1
+
+Bumps [@metamask/key-tree](https://github.com/MetaMask/key-tree) from 7.0.0 to 7.1.1.
+- [Release notes](https://github.com/MetaMask/key-tree/releases)
+- [Changelog](https://github.com/MetaMask/key-tree/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/MetaMask/key-tree/compare/v7.0.0...v7.1.1)
+
+---
+updated-dependencies:
+- dependency-name: "@metamask/key-tree"
+  dependency-type: indirect
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

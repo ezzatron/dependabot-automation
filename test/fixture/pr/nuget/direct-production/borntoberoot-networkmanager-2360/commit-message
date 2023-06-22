@@ -1,0 +1,13 @@
+Build(deps): Bump AWSSDK.Core from 3.7.107.7 to 3.7.107.9 in /Source
+
+Bumps [AWSSDK.Core](https://github.com/aws/aws-sdk-net) from 3.7.107.7 to 3.7.107.9.
+- [Commits](https://github.com/aws/aws-sdk-net/commits)
+
+---
+updated-dependencies:
+- dependency-name: AWSSDK.Core
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

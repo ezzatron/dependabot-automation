@@ -1,0 +1,190 @@
+Bumps [i18next](https://github.com/i18next/i18next) from 21.8.10 to 23.2.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/i18next/i18next/releases">i18next's releases</a>.</em></p>
+<blockquote>
+<h2>v23.2.2</h2>
+<ul>
+<li>types: try to fix fallbackNS type handling also for older TS version <a href="https://redirect.github.com/i18next/i18next/issues/1981">1981</a></li>
+</ul>
+<h2>v23.2.1</h2>
+<ul>
+<li>types: fix fallbackNS type handling <a href="https://redirect.github.com/i18next/i18next/pull/1979">1979</a></li>
+</ul>
+<h2>v23.2.0</h2>
+<ul>
+<li>types: add fallbackNS type handling <a href="https://redirect.github.com/i18next/i18next/pull/1975">1975</a></li>
+</ul>
+<h2>v23.1.0</h2>
+<ul>
+<li>cloneInstance: introduce <code>forkResourceStore</code> <a href="https://redirect.github.com/i18next/i18next/issues/1974">1974</a></li>
+<li>types: default argument values for ParseKeys type</li>
+</ul>
+<h2>v23.0.2</h2>
+<ul>
+<li>refactor: static createInstance for wider browser support <a href="https://redirect.github.com/i18next/i18next/pull/1973">1973</a></li>
+</ul>
+<h2>v23.0.1</h2>
+<ul>
+<li>types: export ParseKeys</li>
+</ul>
+<h2>v23.0.0</h2>
+<p><strong>This is a major breaking release:</strong></p>
+<ul>
+<li>
+<p>redesigned TypeScript types <a href="https://redirect.github.com/i18next/i18next/pull/1911">1911</a></p>
+</li>
+<li>
+<p>removed <code>setDebug</code> function in the logger: <a href="https://redirect.github.com/i18next/i18next/issues/1954#issuecomment-1537117407">1954</a></p>
+</li>
+<li>
+<p>changed <code>returnNull</code> default to <code>false</code> <a href="https://redirect.github.com/i18next/i18next/pull/1885">1885</a></p>
+</li>
+<li>
+<p>drop support for old browsers and Node.js &lt; v12 <a href="https://redirect.github.com/i18next/i18next/issues/1948">1948</a></p>
+</li>
+<li>
+<p>ordinal plural keys are now prefixed with <code>_ordinal</code> to help translators (non-breaking, bacause of fallback) <a href="https://redirect.github.com/i18next/i18next/pull/1945">1945</a></p>
+</li>
+</ul>
+<p>➡️ check out the <a href="https://www.i18next.com/misc/migration-guide#v22.x.x-to-v23.0.0">migration guide</a></p>
+<h2>v22.5.1</h2>
+<ul>
+<li>ResourceStore addResource: offer possibility to pass keySeparator via options <a href="https://redirect.github.com/i18next/i18next/issues/1968">1968</a></li>
+</ul>
+<h2>v22.5.0</h2>
+<ul>
+<li>extend hasLoadedNamespace function options to pass optional lng to optimize server side usage of react-i18next</li>
+</ul>
+<h2>v22.4.15</h2>
+<ul>
+<li>fix: function t() passed options alteration <a href="https://redirect.github.com/i18next/react-i18next/issues/1947">1947</a></li>
+</ul>
+<h2>v22.4.14</h2>
+<ul>
+<li>fix: pass lng to format function used in nesting <a href="https://redirect.github.com/i18next/react-i18next/issues/1938">1938</a></li>
+</ul>
+<h2>v22.4.13</h2>
+<ul>
+<li>fix: deepFind as fallback for interpolation <a href="https://redirect.github.com/i18next/react-i18next/issues/1930">1930</a></li>
+</ul>
+<h2>v22.4.12</h2>
+<ul>
+<li>fix: getBestMatchFromCodes when dev is a supported lng <a href="https://redirect.github.com/i18next/react-i18next/issues/1927">1927</a></li>
+</ul>
+<h2>v22.4.11</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/i18next/i18next/blob/master/CHANGELOG.md">i18next's changelog</a>.</em></p>
+<blockquote>
+<h2>23.2.2</h2>
+<ul>
+<li>types: try to fix fallbackNS type handling also for older TS version <a href="https://redirect.github.com/i18next/i18next/issues/1981">1981</a></li>
+</ul>
+<h2>23.2.1</h2>
+<ul>
+<li>types: fix fallbackNS type handling <a href="https://redirect.github.com/i18next/i18next/pull/1979">1979</a></li>
+</ul>
+<h2>23.2.0</h2>
+<ul>
+<li>types: add fallbackNS type handling <a href="https://redirect.github.com/i18next/i18next/pull/1975">1975</a></li>
+</ul>
+<h2>23.1.0</h2>
+<ul>
+<li>cloneInstance: introduce <code>forkResourceStore</code> <a href="https://redirect.github.com/i18next/i18next/issues/1974">1974</a></li>
+<li>types: default argument values for ParseKeys type</li>
+</ul>
+<h2>23.0.2</h2>
+<ul>
+<li>refactor: static createInstance for wider browser support <a href="https://redirect.github.com/i18next/i18next/pull/1973">1973</a></li>
+</ul>
+<h2>23.0.1</h2>
+<ul>
+<li>types: export ParseKeys</li>
+</ul>
+<h2>23.0.0</h2>
+<p><strong>This is a major breaking release:</strong></p>
+<ul>
+<li>
+<p>redesigned TypeScript types <a href="https://redirect.github.com/i18next/i18next/pull/1911">1911</a></p>
+</li>
+<li>
+<p>removed <code>setDebug</code> function in the logger: <a href="https://redirect.github.com/i18next/i18next/issues/1954#issuecomment-1537117407">1954</a></p>
+</li>
+<li>
+<p>changed <code>returnNull</code> default to <code>false</code> <a href="https://redirect.github.com/i18next/i18next/pull/1885">1885</a></p>
+</li>
+<li>
+<p>drop support for old browsers and Node.js &lt; v12 <a href="https://redirect.github.com/i18next/i18next/issues/1948">1948</a></p>
+</li>
+<li>
+<p>ordinal plural keys are now prefixed with <code>_ordinal</code> to help translators (non-breaking, bacause of fallback) <a href="https://redirect.github.com/i18next/i18next/pull/1945">1945</a></p>
+</li>
+</ul>
+<p>➡️ check out the <a href="https://www.i18next.com/misc/migration-guide#v22.x.x-to-v23.0.0">migration guide</a></p>
+<h2>22.5.1</h2>
+<ul>
+<li>ResourceStore addResource: offer possibility to pass keySeparator via options <a href="https://redirect.github.com/i18next/i18next/issues/1968">1968</a></li>
+</ul>
+<h2>22.5.0</h2>
+<ul>
+<li>extend hasLoadedNamespace function options to pass optional lng to optimize server side usage of react-i18next</li>
+</ul>
+<h2>22.4.15</h2>
+<ul>
+<li>fix: function t() passed options alteration <a href="https://redirect.github.com/i18next/i18next/issues/1947">1947</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/i18next/i18next/commit/81d76045eef27f6ad1c724ee223f6ecc8c34d3c6"><code>81d7604</code></a> 23.2.2</li>
+<li><a href="https://github.com/i18next/i18next/commit/f0c3b30c58a2909b53768c5679b85c4a8f403a59"><code>f0c3b30</code></a> try to fix fallbackNS type handling also for older TS version <a href="https://redirect.github.com/i18next/i18next/issues/1981">#1981</a></li>
+<li><a href="https://github.com/i18next/i18next/commit/057aa5eaf177365fa07f31a46b64f92ca6287fda"><code>057aa5e</code></a> update deps in example</li>
+<li><a href="https://github.com/i18next/i18next/commit/dd573c7ff6a678ba3901868bd4c67b0a8f44b0a5"><code>dd573c7</code></a> 23.2.1</li>
+<li><a href="https://github.com/i18next/i18next/commit/8483d337f71f9cb06358a136ae96cb620256900f"><code>8483d33</code></a> release</li>
+<li><a href="https://github.com/i18next/i18next/commit/dd8d53694672b192d572cbd453e380919354e382"><code>dd8d536</code></a> <a href="https://redirect.github.com/i18next/i18next/issues/1978">#1978</a>: fix type error (<a href="https://redirect.github.com/i18next/i18next/issues/1979">#1979</a>)</li>
+<li><a href="https://github.com/i18next/i18next/commit/80817865025ffab920b1ec150066f8dae711c4bb"><code>8081786</code></a> 23.2.0</li>
+<li><a href="https://github.com/i18next/i18next/commit/3a9ff670ceaac2f6979ae0fc9e823df7927ee2d5"><code>3a9ff67</code></a> release</li>
+<li><a href="https://github.com/i18next/i18next/commit/b2944996f9db21a04eaf4deabc1e4997c2db3102"><code>b294499</code></a> <a href="https://redirect.github.com/i18next/i18next/issues/1928">#1928</a>: add fallbackNS type handling (<a href="https://redirect.github.com/i18next/i18next/issues/1975">#1975</a>)</li>
+<li><a href="https://github.com/i18next/i18next/commit/d75c523bb250b2cf7b1b6876eb446168d0d453e6"><code>d75c523</code></a> ts-doc: default of returnDetails is false</li>
+<li>Additional commits viewable in <a href="https://github.com/i18next/i18next/compare/v21.8.10...v23.2.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=i18next&package-manager=npm_and_yarn&previous-version=21.8.10&new-version=23.2.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

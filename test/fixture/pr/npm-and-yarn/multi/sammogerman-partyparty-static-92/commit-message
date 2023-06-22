@@ -1,0 +1,20 @@
+Bump json-schema and jsprim
+
+Bumps [json-schema](https://github.com/kriszyp/json-schema) and [jsprim](https://github.com/joyent/node-jsprim). These dependencies needed to be updated together.
+
+Updates `json-schema` from 0.2.3 to 0.4.0
+- [Commits](https://github.com/kriszyp/json-schema/compare/v0.2.3...v0.4.0)
+
+Updates `jsprim` from 1.4.1 to 1.4.2
+- [Changelog](https://github.com/TritonDataCenter/node-jsprim/blob/v1.4.2/CHANGES.md)
+- [Commits](https://github.com/joyent/node-jsprim/compare/v1.4.1...v1.4.2)
+
+---
+updated-dependencies:
+- dependency-name: json-schema
+  dependency-type: indirect
+- dependency-name: jsprim
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

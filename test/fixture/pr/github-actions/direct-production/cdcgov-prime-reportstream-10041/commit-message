@@ -1,0 +1,14 @@
+Bump bridgecrewio/checkov-action from 12.2397.0 to 12.2398.0
+
+Bumps [bridgecrewio/checkov-action](https://github.com/bridgecrewio/checkov-action) from 12.2397.0 to 12.2398.0.
+- [Release notes](https://github.com/bridgecrewio/checkov-action/releases)
+- [Commits](https://github.com/bridgecrewio/checkov-action/compare/a5942d29ff19488edbe1738312d290eaeb54354c...a5d4b3df424a8166fd1b5c88d0415d3b9e109195)
+
+---
+updated-dependencies:
+- dependency-name: bridgecrewio/checkov-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,13 @@
+Bump junit from 1207.va_09d5100410f to 1214.va_2f9db_3e6de0
+
+Bumps [junit](https://github.com/jenkinsci/junit-plugin) from 1207.va_09d5100410f to 1214.va_2f9db_3e6de0.
+- [Release notes](https://github.com/jenkinsci/junit-plugin/releases)
+- [Commits](https://github.com/jenkinsci/junit-plugin/commits)
+
+---
+updated-dependencies:
+- dependency-name: org.jenkins-ci.plugins:junit
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

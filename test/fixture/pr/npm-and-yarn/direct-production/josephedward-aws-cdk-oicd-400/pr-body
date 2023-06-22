@@ -1,0 +1,118 @@
+Bumps [aws-cdk-lib](https://github.com/aws/aws-cdk/tree/HEAD/packages/aws-cdk-lib) from 2.84.0 to 2.85.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/aws/aws-cdk/releases">aws-cdk-lib's releases</a>.</em></p>
+<blockquote>
+<h2>v2.85.0</h2>
+<h3>Features</h3>
+<ul>
+<li><strong>cfnspec:</strong> cloudformation spec v126.0.0 (<a href="https://redirect.github.com/aws/aws-cdk/issues/25918">#25918</a>) (<a href="https://github.com/aws/aws-cdk/commit/757fba9b7c71ee500446ab118cabc37037613333">757fba9</a>)</li>
+<li><strong>cfnspec:</strong> cloudformation spec v127.0.0 (<a href="https://redirect.github.com/aws/aws-cdk/issues/26009">#26009</a>) (<a href="https://github.com/aws/aws-cdk/commit/4e57a8cbaa0bcd160976c4fa7d35485154109a7e">4e57a8c</a>)</li>
+<li><strong>core:</strong> add option to suppress indentation in templates (<a href="https://redirect.github.com/aws/aws-cdk/issues/25892">#25892</a>) (<a href="https://github.com/aws/aws-cdk/commit/b70595686e0742691bf64ce80bd18ea26694400d">b705956</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/18694">#18694</a> <a href="https://redirect.github.com/aws/aws-cdk/issues/8712">#8712</a> <a href="https://redirect.github.com/aws/aws-cdk/issues/19656">#19656</a></li>
+<li><strong>ec2:</strong> add addSecurityGroup method to launth template (<a href="https://redirect.github.com/aws/aws-cdk/issues/25697">#25697</a>) (<a href="https://github.com/aws/aws-cdk/commit/28df61866096829d2dd87e9174724764649f2524">28df618</a>), closes <a href="https://redirect.github.com/aws//redirect.github.com/aws/aws-cdk/issues/18712/issues/issuecomment-1026975615">aws/aws-cdk#18712</a> <a href="https://redirect.github.com/aws/aws-cdk/issues/18712">#18712</a></li>
+<li><strong>s3-deployment:</strong> create <code>DeployTimeSubstitutedFile</code> to allow substitutions in file (<a href="https://redirect.github.com/aws/aws-cdk/issues/25876">#25876</a>) (<a href="https://github.com/aws/aws-cdk/commit/ca2e6a255b20a54f93babc218abdc5102e95080a">ca2e6a2</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/1461">#1461</a></li>
+<li><strong>stepfunctions:</strong> support string and file definitions (<a href="https://redirect.github.com/aws/aws-cdk/issues/25932">#25932</a>) (<a href="https://github.com/aws/aws-cdk/commit/1cb935172a2a373992167aebf0aaa72f02405d86">1cb9351</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>cli:</strong> deployment continues if ECR asset fails to build or publish (<a href="https://redirect.github.com/aws/aws-cdk/issues/26060">#26060</a>) (<a href="https://github.com/aws/aws-cdk/commit/37caaabd9d28dd7bb7d0499cc8606e1a382b32fa">37caaab</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/26048">#26048</a> <a href="https://redirect.github.com/aws/aws-cdk/issues/25827">#25827</a></li>
+<li>remaining usage of node 14 (<a href="https://redirect.github.com/aws/aws-cdk/issues/25995">#25995</a>) (<a href="https://github.com/aws/aws-cdk/commit/67975edca519ead274a4fdd69d6b8c4e1e322dae">67975ed</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25940">#25940</a></li>
+<li><strong>app-mesh:</strong> Missing port property in gRPC routers matchers (<a href="https://redirect.github.com/aws/aws-cdk/issues/25868">#25868</a>) (<a href="https://github.com/aws/aws-cdk/commit/8ab920b03da870741991a57754262b2285a55da7">8ab920b</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25810">#25810</a></li>
+<li><strong>cloudfront:</strong> avoid to sort TTLs when using Tokens in CachePolicy (<a href="https://redirect.github.com/aws/aws-cdk/issues/25920">#25920</a>) (<a href="https://github.com/aws/aws-cdk/commit/bc803317468b0f414a397148baa9540c9aab35d5">bc80331</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25795">#25795</a></li>
+<li><strong>core:</strong> prevent the error when the condition is split into groups of 10 and 1 in <code>Fn.conditionOr()</code> (<a href="https://redirect.github.com/aws/aws-cdk/issues/25708">#25708</a>) (<a href="https://github.com/aws/aws-cdk/commit/c135656bb0b6de9cce639218a83acf958f9bca4e">c135656</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25696">#25696</a> <a href="https://redirect.github.com/aws//redirect.github.com/aws/aws-cdk/issues/25696/issues/issuecomment-1560136915">aws/aws-cdk#25696</a> <a href="https://redirect.github.com/aws//redirect.github.com/aws/aws-cdk/issues/25696/issues/issuecomment-1559887661">aws/aws-cdk#25696</a></li>
+<li><strong>ec2:</strong> securityGroups is mandatory in fromClusterAttributes (<a href="https://redirect.github.com/aws/aws-cdk/issues/25976">#25976</a>) (<a href="https://github.com/aws/aws-cdk/commit/d8f5e2ddce00a3a53d0ddabb7085c51638480b5e">d8f5e2d</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/11146">#11146</a></li>
+<li><strong>ecr:</strong> autoDeleteImages fails on multiple repositories (<a href="https://redirect.github.com/aws/aws-cdk/issues/25964">#25964</a>) (<a href="https://github.com/aws/aws-cdk/commit/c1211805b918f1b37168f88280d37190c4eb0f1d">c121180</a>)</li>
+<li><strong>lambda:</strong> corrected environment variable naming for params and secrets extension (<a href="https://redirect.github.com/aws/aws-cdk/issues/26016">#26016</a>) (<a href="https://github.com/aws/aws-cdk/commit/30596fe96bfba240a70e53ab64a9acbf39e92f77">30596fe</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/26011">#26011</a></li>
+<li><strong>s3:</strong> fail fast for s3 lifecycle configuration when ExpiredObjectDeleteMarker specified with ExpirationInDays, ExpirationDate, or TagFilters. (<a href="https://redirect.github.com/aws/aws-cdk/issues/25841">#25841</a>) (<a href="https://github.com/aws/aws-cdk/commit/1a82d858a7944f7df6f2eb575f17fa4be4ece4f6">1a82d85</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25824">#25824</a></li>
+<li><strong>vpc:</strong> detect subnet with TGW route as PRIVATE_WITH_EGRESS (<a href="https://redirect.github.com/aws/aws-cdk/issues/25958">#25958</a>) (<a href="https://github.com/aws/aws-cdk/commit/49643d6c13b601627fd72ba38d25eb4ee81ffa73">49643d6</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25626">#25626</a></li>
+</ul>
+<hr />
+<h2>Alpha modules (2.85.0-alpha.0)</h2>
+<h3>Features</h3>
+<ul>
+<li><strong>app-staging-synthesizer:</strong> clean up staging resources on deletion (<a href="https://redirect.github.com/aws/aws-cdk/issues/25906">#25906</a>) (<a href="https://github.com/aws/aws-cdk/commit/3b142136524db7c1e9bff1a082b87219ea9ee1ff">3b14213</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25722">#25722</a></li>
+<li><strong>batch:</strong> <code>ephemeralStorage</code> property on job definitions (<a href="https://redirect.github.com/aws/aws-cdk/issues/25399">#25399</a>) (<a href="https://github.com/aws/aws-cdk/commit/a8768f4da1bebbc4fd45b40e92ed82e868bb2a1b">a8768f4</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25393">#25393</a></li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>apprunner:</strong> incorrect serviceName  (<a href="https://redirect.github.com/aws/aws-cdk/issues/26015">#26015</a>) (<a href="https://github.com/aws/aws-cdk/commit/ad89f0182e218eee01b0aef84b055a96556dda59">ad89f01</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/26002">#26002</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/aws/aws-cdk/blob/main/CHANGELOG.v2.md">aws-cdk-lib's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/aws/aws-cdk/compare/v2.84.0...v2.85.0">2.85.0</a> (2023-06-21)</h2>
+<h3>Features</h3>
+<ul>
+<li><strong>cfnspec:</strong> cloudformation spec v126.0.0 (<a href="https://redirect.github.com/aws/aws-cdk/issues/25918">#25918</a>) (<a href="https://github.com/aws/aws-cdk/commit/757fba9b7c71ee500446ab118cabc37037613333">757fba9</a>)</li>
+<li><strong>cfnspec:</strong> cloudformation spec v127.0.0 (<a href="https://redirect.github.com/aws/aws-cdk/issues/26009">#26009</a>) (<a href="https://github.com/aws/aws-cdk/commit/4e57a8cbaa0bcd160976c4fa7d35485154109a7e">4e57a8c</a>)</li>
+<li><strong>core:</strong> add option to suppress indentation in templates (<a href="https://redirect.github.com/aws/aws-cdk/issues/25892">#25892</a>) (<a href="https://github.com/aws/aws-cdk/commit/b70595686e0742691bf64ce80bd18ea26694400d">b705956</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/18694">#18694</a> <a href="https://redirect.github.com/aws/aws-cdk/issues/8712">#8712</a> <a href="https://redirect.github.com/aws/aws-cdk/issues/19656">#19656</a></li>
+<li><strong>ec2:</strong> add addSecurityGroup method to launth template (<a href="https://redirect.github.com/aws/aws-cdk/issues/25697">#25697</a>) (<a href="https://github.com/aws/aws-cdk/commit/28df61866096829d2dd87e9174724764649f2524">28df618</a>), closes <a href="https://redirect.github.com/aws//redirect.github.com/aws/aws-cdk/issues/18712/issues/issuecomment-1026975615">aws/aws-cdk#18712</a> <a href="https://redirect.github.com/aws/aws-cdk/issues/18712">#18712</a></li>
+<li><strong>s3-deployment:</strong> create <code>DeployTimeSubstitutedFile</code> to allow substitutions in file (<a href="https://redirect.github.com/aws/aws-cdk/issues/25876">#25876</a>) (<a href="https://github.com/aws/aws-cdk/commit/ca2e6a255b20a54f93babc218abdc5102e95080a">ca2e6a2</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/1461">#1461</a></li>
+<li><strong>stepfunctions:</strong> support string and file definitions (<a href="https://redirect.github.com/aws/aws-cdk/issues/25932">#25932</a>) (<a href="https://github.com/aws/aws-cdk/commit/1cb935172a2a373992167aebf0aaa72f02405d86">1cb9351</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>cli:</strong> deployment continues if ECR asset fails to build or publish (<a href="https://redirect.github.com/aws/aws-cdk/issues/26060">#26060</a>) (<a href="https://github.com/aws/aws-cdk/commit/37caaabd9d28dd7bb7d0499cc8606e1a382b32fa">37caaab</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/26048">#26048</a> <a href="https://redirect.github.com/aws/aws-cdk/issues/25827">#25827</a></li>
+<li>remaining usage of node 14 (<a href="https://redirect.github.com/aws/aws-cdk/issues/25995">#25995</a>) (<a href="https://github.com/aws/aws-cdk/commit/67975edca519ead274a4fdd69d6b8c4e1e322dae">67975ed</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25940">#25940</a></li>
+<li><strong>app-mesh:</strong> Missing port property in gRPC routers matchers (<a href="https://redirect.github.com/aws/aws-cdk/issues/25868">#25868</a>) (<a href="https://github.com/aws/aws-cdk/commit/8ab920b03da870741991a57754262b2285a55da7">8ab920b</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25810">#25810</a></li>
+<li><strong>cloudfront:</strong> avoid to sort TTLs when using Tokens in CachePolicy (<a href="https://redirect.github.com/aws/aws-cdk/issues/25920">#25920</a>) (<a href="https://github.com/aws/aws-cdk/commit/bc803317468b0f414a397148baa9540c9aab35d5">bc80331</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25795">#25795</a></li>
+<li><strong>core:</strong> prevent the error when the condition is split into groups of 10 and 1 in <code>Fn.conditionOr()</code> (<a href="https://redirect.github.com/aws/aws-cdk/issues/25708">#25708</a>) (<a href="https://github.com/aws/aws-cdk/commit/c135656bb0b6de9cce639218a83acf958f9bca4e">c135656</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25696">#25696</a> <a href="https://redirect.github.com/aws//redirect.github.com/aws/aws-cdk/issues/25696/issues/issuecomment-1560136915">aws/aws-cdk#25696</a> <a href="https://redirect.github.com/aws//redirect.github.com/aws/aws-cdk/issues/25696/issues/issuecomment-1559887661">aws/aws-cdk#25696</a></li>
+<li><strong>ec2:</strong> securityGroups is mandatory in fromClusterAttributes (<a href="https://redirect.github.com/aws/aws-cdk/issues/25976">#25976</a>) (<a href="https://github.com/aws/aws-cdk/commit/d8f5e2ddce00a3a53d0ddabb7085c51638480b5e">d8f5e2d</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/11146">#11146</a></li>
+<li><strong>ecr:</strong> autoDeleteImages fails on multiple repositories (<a href="https://redirect.github.com/aws/aws-cdk/issues/25964">#25964</a>) (<a href="https://github.com/aws/aws-cdk/commit/c1211805b918f1b37168f88280d37190c4eb0f1d">c121180</a>)</li>
+<li><strong>lambda:</strong> corrected environment variable naming for params and secrets extension (<a href="https://redirect.github.com/aws/aws-cdk/issues/26016">#26016</a>) (<a href="https://github.com/aws/aws-cdk/commit/30596fe96bfba240a70e53ab64a9acbf39e92f77">30596fe</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/26011">#26011</a></li>
+<li><strong>s3:</strong> fail fast for s3 lifecycle configuration when ExpiredObjectDeleteMarker specified with ExpirationInDays, ExpirationDate, or TagFilters. (<a href="https://redirect.github.com/aws/aws-cdk/issues/25841">#25841</a>) (<a href="https://github.com/aws/aws-cdk/commit/1a82d858a7944f7df6f2eb575f17fa4be4ece4f6">1a82d85</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25824">#25824</a></li>
+<li><strong>vpc:</strong> detect subnet with TGW route as PRIVATE_WITH_EGRESS (<a href="https://redirect.github.com/aws/aws-cdk/issues/25958">#25958</a>) (<a href="https://github.com/aws/aws-cdk/commit/49643d6c13b601627fd72ba38d25eb4ee81ffa73">49643d6</a>), closes <a href="https://redirect.github.com/aws/aws-cdk/issues/25626">#25626</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/aws/aws-cdk/commit/3b142136524db7c1e9bff1a082b87219ea9ee1ff"><code>3b14213</code></a> feat(app-staging-synthesizer): clean up staging resources on deletion (<a href="https://github.com/aws/aws-cdk/tree/HEAD/packages/aws-cdk-lib/issues/25906">#25906</a>)</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/37e0c43b97cdfaf08701dc77ef4b0eef0376ce6d"><code>37e0c43</code></a> chore(region-info): remove regions that don't have CDK Metadata (<a href="https://github.com/aws/aws-cdk/tree/HEAD/packages/aws-cdk-lib/issues/26056">#26056</a>)</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/4e57a8cbaa0bcd160976c4fa7d35485154109a7e"><code>4e57a8c</code></a> feat(cfnspec): cloudformation spec v127.0.0 (<a href="https://github.com/aws/aws-cdk/tree/HEAD/packages/aws-cdk-lib/issues/26009">#26009</a>)</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/67975edca519ead274a4fdd69d6b8c4e1e322dae"><code>67975ed</code></a> fix: remaining usage of node 14 (<a href="https://github.com/aws/aws-cdk/tree/HEAD/packages/aws-cdk-lib/issues/25995">#25995</a>)</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/9af05d85acf95138a149c03b1e4dfbc48284921a"><code>9af05d8</code></a> chore(aws-cdk-lib): Add New ADOT Lambda Layer v0.30.0 ARNs (<a href="https://github.com/aws/aws-cdk/tree/HEAD/packages/aws-cdk-lib/issues/25909">#25909</a>)</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/0737b4ebc0ac6f10355db5d05ef24dcc925d80db"><code>0737b4e</code></a> chore(elasticloadbalancingv2): moved health check docstring over health check...</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/30596fe96bfba240a70e53ab64a9acbf39e92f77"><code>30596fe</code></a> fix(lambda): corrected environment variable naming for params and secrets ext...</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/ca2e6a255b20a54f93babc218abdc5102e95080a"><code>ca2e6a2</code></a> feat(s3-deployment): create <code>DeployTimeSubstitutedFile</code> to allow substitution...</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/83dc73ca98eee9953891416589487e565b295544"><code>83dc73c</code></a> chore(cx-api): feature flags are documented incorrectly (<a href="https://github.com/aws/aws-cdk/tree/HEAD/packages/aws-cdk-lib/issues/25994">#25994</a>)</li>
+<li><a href="https://github.com/aws/aws-cdk/commit/757fba9b7c71ee500446ab118cabc37037613333"><code>757fba9</code></a> feat(cfnspec): cloudformation spec v126.0.0 (<a href="https://github.com/aws/aws-cdk/tree/HEAD/packages/aws-cdk-lib/issues/25918">#25918</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/aws/aws-cdk/commits/v2.85.0/packages/aws-cdk-lib">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=aws-cdk-lib&package-manager=npm_and_yarn&previous-version=2.84.0&new-version=2.85.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @josephedward.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

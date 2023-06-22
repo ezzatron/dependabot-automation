@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "socket.io-parser",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-major"
+    },
+    {
+      "dependencyName": "browser-sync",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

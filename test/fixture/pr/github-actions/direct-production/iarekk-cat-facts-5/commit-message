@@ -1,0 +1,13 @@
+Bump erlef/setup-beam
+
+Bumps [erlef/setup-beam](https://github.com/erlef/setup-beam) from 53bf0a5069d1b52da421ab5ba60502856e613797 to 61e01a43a562a89bfc54c7f9a378ff67b03e4a21.
+- [Release notes](https://github.com/erlef/setup-beam/releases)
+- [Commits](https://github.com/erlef/setup-beam/compare/53bf0a5069d1b52da421ab5ba60502856e613797...61e01a43a562a89bfc54c7f9a378ff67b03e4a21)
+
+---
+updated-dependencies:
+- dependency-name: erlef/setup-beam
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

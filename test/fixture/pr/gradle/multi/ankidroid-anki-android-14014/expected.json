@@ -1,0 +1,19 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "com.android.tools.lint:lint-api",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    },
+    {
+      "dependencyName": "com.android.tools.lint:lint",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    },
+    {
+      "dependencyName": "com.android.tools.lint:lint-tests",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

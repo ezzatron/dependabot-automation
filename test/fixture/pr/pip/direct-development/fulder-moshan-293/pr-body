@@ -1,0 +1,79 @@
+[//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [pytest-cov](https://github.com/pytest-dev/pytest-cov) from 4.0.0 to 4.1.0.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest-cov/blob/master/CHANGELOG.rst">pytest-cov's changelog</a>.</em></p>
+<blockquote>
+<h2>4.1.0 (2023-05-24)</h2>
+<ul>
+<li>Updated CI with new Pythons and dependencies.</li>
+<li>Removed rsyncdir support. This makes pytest-cov compatible with xdist 3.0.
+Contributed by Sorin Sbarnea in <code>[#558](https://github.com/pytest-dev/pytest-cov/issues/558) &lt;https://github.com/pytest-dev/pytest-cov/pull/558&gt;</code>_.</li>
+<li>Optimized summary generation to not be performed if no reporting is active (for example,
+when <code>--cov-report=''</code> is used without <code>--cov-fail-under</code>).
+Contributed by Jonathan Stewmon in <code>[#589](https://github.com/pytest-dev/pytest-cov/issues/589) &lt;https://github.com/pytest-dev/pytest-cov/pull/589&gt;</code>_.</li>
+<li>Added support for JSON reporting.
+Contributed by Matthew Gamble in <code>[#582](https://github.com/pytest-dev/pytest-cov/issues/582) &lt;https://github.com/pytest-dev/pytest-cov/pull/582&gt;</code>_.</li>
+<li>Refactored code to use f-strings.
+Contributed by Mark Mayo in <code>[#572](https://github.com/pytest-dev/pytest-cov/issues/572) &lt;https://github.com/pytest-dev/pytest-cov/pull/572&gt;</code>_.</li>
+<li>Fixed a skip in the test suite for some old xdist.
+Contributed by a bunch of people in <code>[#565](https://github.com/pytest-dev/pytest-cov/issues/565) &lt;https://github.com/pytest-dev/pytest-cov/pull/565&gt;</code>_.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/2c9f2170d8575b21bafb6402eb30ca7de31e20b9"><code>2c9f217</code></a> Bump version: 4.0.0 → 4.1.0</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/4d245df8f75e434a9e1b162b51265d6a45017465"><code>4d245df</code></a> Update changelog and authors.</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/7b095c84ae521b14058d7d520ef36372849063a8"><code>7b095c8</code></a> Skip starting from xdist 3.0.2 (where boxed was removed).</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/605d6902b3b3d17aad0bf811b8c580fc895724ca"><code>605d690</code></a> disabling boxed test if version xdist newer than 2.5.0</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/76fb2a6cb2c4a4a788a5b62710848daf9c8fb7ce"><code>76fb2a6</code></a> introduced f-strings</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/0d63ede0d2ca9f4acc8329aa4261a7cec489ffdb"><code>0d63ede</code></a> Update test config. Reapply some of the changes from PR567 to the right file ...</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/f3d8d8380f6a4b265353fe7cd509b040702f1e64"><code>f3d8d83</code></a> Add support for JSON reporter</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/dec02abeb9fa8ee3547baa054bde6006bea530ee"><code>dec02ab</code></a> Update test deps.</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/88a7d348986bace58e26c88a713ef35f900ce2ef"><code>88a7d34</code></a> chore: update AUTHORS and CHANGELOG</li>
+<li><a href="https://github.com/pytest-dev/pytest-cov/commit/74eb4cc8b684269b89735e31b623f0f9795c5d5c"><code>74eb4cc</code></a> perf: only call summary when the report will be used</li>
+<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pytest-cov/compare/v4.0.0...v4.1.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest-cov&package-manager=pip&previous-version=4.0.0&new-version=4.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

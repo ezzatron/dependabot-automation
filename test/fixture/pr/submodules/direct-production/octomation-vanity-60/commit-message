@@ -1,0 +1,13 @@
+feat(deps): bump src/go-module from `ce523bd` to `d1780df`
+
+Bumps [src/go-module](https://github.com/octomation/go-module) from `ce523bd` to `d1780df`.
+- [Release notes](https://github.com/octomation/go-module/releases)
+- [Commits](https://github.com/octomation/go-module/compare/ce523bd57da26c199ba3d70223b40cee20c690a5...d1780dfa70c038c385e973235d8c1d4e8954d2de)
+
+---
+updated-dependencies:
+- dependency-name: src/go-module
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

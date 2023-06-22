@@ -1,0 +1,24 @@
+Bump ua-parser-js and karma
+
+Bumps [ua-parser-js](https://github.com/faisalman/ua-parser-js) to 0.7.35 and updates ancestor dependency [karma](https://github.com/karma-runner/karma). These dependencies need to be updated together.
+
+
+Updates `ua-parser-js` from 0.7.22 to 0.7.35
+- [Release notes](https://github.com/faisalman/ua-parser-js/releases)
+- [Changelog](https://github.com/faisalman/ua-parser-js/blob/master/changelog.md)
+- [Commits](https://github.com/faisalman/ua-parser-js/compare/0.7.22...0.7.35)
+
+Updates `karma` from 5.2.3 to 6.4.2
+- [Release notes](https://github.com/karma-runner/karma/releases)
+- [Changelog](https://github.com/karma-runner/karma/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/karma-runner/karma/compare/v5.2.3...v6.4.2)
+
+---
+updated-dependencies:
+- dependency-name: ua-parser-js
+  dependency-type: indirect
+- dependency-name: karma
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,21 @@
+Bump follow-redirects and localtunnel
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) and [localtunnel](https://github.com/localtunnel/localtunnel). These dependencies needed to be updated together.
+
+Updates `follow-redirects` from 1.12.1 to 1.15.2
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.12.1...v1.15.2)
+
+Updates `localtunnel` from 2.0.0 to 2.0.2
+- [Changelog](https://github.com/localtunnel/localtunnel/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/localtunnel/localtunnel/compare/v2.0.0...v2.0.2)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+- dependency-name: localtunnel
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

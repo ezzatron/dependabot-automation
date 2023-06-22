@@ -1,0 +1,85 @@
+Bumps [webpack](https://github.com/webpack/webpack) from 5.87.0 to 5.88.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+<blockquote>
+<h2>v5.88.0</h2>
+<h2>New Features</h2>
+<ul>
+<li>[CSS] - Use <code>css/auto</code> as the default css mode by <a href="https://github.com/burhanuday"><code>@​burhanuday</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17399">webpack/webpack#17399</a></li>
+</ul>
+<h2>Bug Fixes</h2>
+<ul>
+<li>Fix bugs related to require.context and layer by <a href="https://github.com/alexander-akait"><code>@​alexander-akait</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17388">webpack/webpack#17388</a></li>
+<li>Fix bug in runtime for CSS loading by <a href="https://github.com/alexander-akait"><code>@​alexander-akait</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17400">webpack/webpack#17400</a></li>
+<li>Correct indirect call for tagged template expressions using correct this context by <a href="https://github.com/alexander-akait"><code>@​alexander-akait</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17397">webpack/webpack#17397</a></li>
+<li>Update environment support for KaiOS browser by <a href="https://github.com/steverep"><code>@​steverep</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17395">webpack/webpack#17395</a></li>
+<li>Fix async module runtime code for running top-level-await by <a href="https://github.com/ahabhgk"><code>@​ahabhgk</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17393">webpack/webpack#17393</a></li>
+</ul>
+<h2>Developer Experience</h2>
+<ul>
+<li>Add example for stats minimal output by <a href="https://github.com/ersachin3112"><code>@​ersachin3112</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17406">webpack/webpack#17406</a></li>
+<li>Significantly improve type coverage for Dependency, Runtime, Template classes by <a href="https://github.com/alexander-akait"><code>@​alexander-akait</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17394">webpack/webpack#17394</a></li>
+</ul>
+<h2>Dependencies &amp; Maintenance</h2>
+<ul>
+<li>Bump browserslist from 4.21.8 to 4.21.9 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17389">webpack/webpack#17389</a></li>
+<li>Bump acorn from 8.8.2 to 8.9.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17402">webpack/webpack#17402</a></li>
+<li>Bump eslint from 8.42.0 to 8.43.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17401">webpack/webpack#17401</a></li>
+<li>Bump eslint-plugin-jest from 27.2.1 to 27.2.2 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/17407">webpack/webpack#17407</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/steverep"><code>@​steverep</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/17395">webpack/webpack#17395</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/webpack/webpack/compare/v5.87.0...v5.88.0">https://github.com/webpack/webpack/compare/v5.87.0...v5.88.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack/commit/1e18b1d1c74e26a84e9adee519c045e2d8ed40a4"><code>1e18b1d</code></a> 5.88.0</li>
+<li><a href="https://github.com/webpack/webpack/commit/d15c73469fd71cf98734685225250148b68ddc79"><code>d15c734</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/17394">#17394</a> from webpack/refactor-more-types</li>
+<li><a href="https://github.com/webpack/webpack/commit/cff406cc54822e61b13a3460c485f87ee3891d5e"><code>cff406c</code></a> refactor(types): more</li>
+<li><a href="https://github.com/webpack/webpack/commit/3f71468514ae2f179ff34c837ce82fcc8f97e24c"><code>3f71468</code></a> refactor(types): more</li>
+<li><a href="https://github.com/webpack/webpack/commit/d9d64b5198b7a2206809290cc9bcdb28c0095fc3"><code>d9d64b5</code></a> refactor(types): more</li>
+<li><a href="https://github.com/webpack/webpack/commit/d1f1433fd8b3f2d9494a92c3676df65487632760"><code>d1f1433</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/17406">#17406</a> from ersachin3112/stats-minimal</li>
+<li><a href="https://github.com/webpack/webpack/commit/e226101c5568726715d1069af4b7adf2bd3f62ff"><code>e226101</code></a> refactor(types): more</li>
+<li><a href="https://github.com/webpack/webpack/commit/a911bd9fa1c5778b32284e229c3df727afa3f5f0"><code>a911bd9</code></a> refactor(types): more</li>
+<li><a href="https://github.com/webpack/webpack/commit/e381884115df2e7b8acd651d3bc2ee6fc35b188e"><code>e381884</code></a> refactor(types): more</li>
+<li><a href="https://github.com/webpack/webpack/commit/4809421990a20dfefa06e6445191e65001e75f88"><code>4809421</code></a> refactor(types): more</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v5.87.0...v5.88.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=5.87.0&new-version=5.88.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @swagger-bot.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

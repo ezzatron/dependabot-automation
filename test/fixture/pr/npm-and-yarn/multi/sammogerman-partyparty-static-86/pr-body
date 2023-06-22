@@ -1,0 +1,201 @@
+Bumps [socket.io-parser](https://github.com/socketio/socket.io-parser) to 4.2.4 and updates ancestor dependency [browser-sync](https://github.com/BrowserSync/browser-sync). These dependencies need to be updated together.
+
+Updates `socket.io-parser` from 3.2.0 to 4.2.4
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/socketio/socket.io-parser/releases">socket.io-parser's releases</a>.</em></p>
+<blockquote>
+<h2>4.2.4</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>ensure reserved events cannot be used as event names (<a href="https://github.com/socketio/socket.io-parser/commit/d9db4737a3c8ce5f1f49ecc8d928a74f3da591f7">d9db473</a>)</li>
+<li>properly detect plain objects (<a href="https://github.com/socketio/socket.io-parser/commit/b0e6400c93b5c4aa25e6a629d6448b8627275213">b0e6400</a>)</li>
+</ul>
+<h4>Links</h4>
+<ul>
+<li>Diff: <a href="https://github.com/socketio/socket.io-parser/compare/4.2.3...4.2.4">https://github.com/socketio/socket.io-parser/compare/4.2.3...4.2.4</a></li>
+</ul>
+<h2>4.2.3</h2>
+<p>:warning: This release contains an important security fix :warning:</p>
+<p>A malicious client could send a specially crafted HTTP request, triggering an uncaught exception and killing the Node.js process:</p>
+<pre><code>TypeError: Cannot convert object to primitive value
+       at Socket.emit (node:events:507:25)
+       at .../node_modules/socket.io/lib/socket.js:531:14
+</code></pre>
+<p>Please upgrade as soon as possible.</p>
+<h3>Bug Fixes</h3>
+<ul>
+<li>check the format of the event name (<a href="https://github.com/socketio/socket.io-parser/commit/3b78117bf6ba7e99d7a5cfc1ba54d0477554a7f3">3b78117</a>)</li>
+</ul>
+<h4>Links</h4>
+<ul>
+<li>Diff: <a href="https://github.com/socketio/socket.io-parser/compare/4.2.2...4.2.3">https://github.com/socketio/socket.io-parser/compare/4.2.2...4.2.3</a></li>
+</ul>
+<h2>4.2.2</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>calling destroy() should clear all internal state (<a href="https://github.com/socketio/socket.io-parser/commit/22c42e3545e4adbc5931276c378f5d62c8b3854a">22c42e3</a>)</li>
+<li>do not modify the input packet upon encoding (<a href="https://github.com/socketio/socket.io-parser/commit/ae8dd88995dbd7f89c97e5cc15e5b489fa0efece">ae8dd88</a>)</li>
+</ul>
+<h4>Links</h4>
+<ul>
+<li>Diff: <a href="https://github.com/socketio/socket.io-parser/compare/4.2.1...4.2.2">https://github.com/socketio/socket.io-parser/compare/4.2.1...4.2.2</a></li>
+</ul>
+<h2>4.2.1</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>check the format of the index of each attachment (<a href="https://github.com/socketio/socket.io-parser/commit/b5d0cb7dc56a0601a09b056beaeeb0e43b160050">b5d0cb7</a>)</li>
+</ul>
+<h4>Links</h4>
+<ul>
+<li>Diff: <a href="https://github.com/socketio/socket.io-parser/compare/4.2.0...4.2.1">https://github.com/socketio/socket.io-parser/compare/4.2.0...4.2.1</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/socketio/socket.io-parser/blob/main/CHANGELOG.md">socket.io-parser's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/socketio/socket.io-parser/compare/4.2.3...4.2.4">4.2.4</a> (2023-05-31)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>ensure reserved events cannot be used as event names (<a href="https://github.com/socketio/socket.io-parser/commit/d9db4737a3c8ce5f1f49ecc8d928a74f3da591f7">d9db473</a>)</li>
+<li>properly detect plain objects (<a href="https://github.com/socketio/socket.io-parser/commit/b0e6400c93b5c4aa25e6a629d6448b8627275213">b0e6400</a>)</li>
+</ul>
+<h2><a href="https://github.com/socketio/socket.io-parser/compare/3.4.2...3.4.3">3.4.3</a> (2023-05-22)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>check the format of the event name (<a href="https://github.com/socketio/socket.io-parser/commit/2dc3c92622dad113b8676be06f23b1ed46b02ced">2dc3c92</a>)</li>
+</ul>
+<h2><a href="https://github.com/socketio/socket.io-parser/compare/4.2.2...4.2.3">4.2.3</a> (2023-05-22)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>check the format of the event name (<a href="https://github.com/socketio/socket.io-parser/commit/3b78117bf6ba7e99d7a5cfc1ba54d0477554a7f3">3b78117</a>)</li>
+</ul>
+<h2><a href="https://github.com/socketio/socket.io-parser/compare/4.2.1...4.2.2">4.2.2</a> (2023-01-19)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>calling destroy() should clear all internal state (<a href="https://github.com/socketio/socket.io-parser/commit/22c42e3545e4adbc5931276c378f5d62c8b3854a">22c42e3</a>)</li>
+<li>do not modify the input packet upon encoding (<a href="https://github.com/socketio/socket.io-parser/commit/ae8dd88995dbd7f89c97e5cc15e5b489fa0efece">ae8dd88</a>)</li>
+</ul>
+<h2><a href="https://github.com/Automattic/socket.io-parser/compare/3.3.2...3.3.3">3.3.3</a> (2022-11-09)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>check the format of the index of each attachment (<a href="https://github.com/Automattic/socket.io-parser/commit/fb21e422fc193b34347395a33e0f625bebc09983">fb21e42</a>)</li>
+</ul>
+<h2><a href="https://github.com/socketio/socket.io-parser/compare/3.4.1...3.4.2">3.4.2</a> (2022-11-09)</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/164ba2a11edc34c2f363401e9768f9a8541a8b89"><code>164ba2a</code></a> chore(release): 4.2.4</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/b0e6400c93b5c4aa25e6a629d6448b8627275213"><code>b0e6400</code></a> fix: properly detect plain objects</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/d9db4737a3c8ce5f1f49ecc8d928a74f3da591f7"><code>d9db473</code></a> fix: ensure reserved events cannot be used as event names</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/6a5a004d1e1fd7b7250fdc6fb148e0d9015f8368"><code>6a5a004</code></a> docs(changelog): include changelog for release 3.4.3</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/b6c824f82421aa44dfd5ef395f5132866543de59"><code>b6c824f</code></a> chore(release): 4.2.3</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/dcc70d9678ac896de08294d6e8d668be6a68680a"><code>dcc70d9</code></a> refactor: export typescript declarations for the commonjs build</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/3b78117bf6ba7e99d7a5cfc1ba54d0477554a7f3"><code>3b78117</code></a> fix: check the format of the event name</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/0841bd562351c3d45a5288e2adf9707cc8a3131d"><code>0841bd5</code></a> chore: bump ua-parser-js from 1.0.32 to 1.0.33 (<a href="https://redirect.github.com/socketio/socket.io-parser/issues/121">#121</a>)</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/28dd6685021353b26a4b022e25b453c627d0a7e8"><code>28dd668</code></a> chore(release): 4.2.2</li>
+<li><a href="https://github.com/socketio/socket.io-parser/commit/22c42e3545e4adbc5931276c378f5d62c8b3854a"><code>22c42e3</code></a> fix: calling destroy() should clear all internal state</li>
+<li>Additional commits viewable in <a href="https://github.com/socketio/socket.io-parser/compare/3.2.0...4.2.4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `browser-sync` from 2.26.10 to 2.29.3
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/BrowserSync/browser-sync/releases">browser-sync's releases</a>.</em></p>
+<blockquote>
+<h2>The one that fixes snippetOptions</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix: append to head if body not present yet - fixes <a href="https://redirect.github.com/BrowserSync/browser-sync/issues/2031">#2031</a> by <a href="https://github.com/shakyShane"><code>@​shakyShane</code></a> in <a href="https://redirect.github.com/BrowserSync/browser-sync/pull/2041">BrowserSync/browser-sync#2041</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/BrowserSync/browser-sync/compare/v2.29.2...v2.29.3">https://github.com/BrowserSync/browser-sync/compare/v2.29.2...v2.29.3</a></p>
+<h2>v2.29.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>trim-deps by <a href="https://github.com/shakyShane"><code>@​shakyShane</code></a> in <a href="https://redirect.github.com/BrowserSync/browser-sync/pull/2028">BrowserSync/browser-sync#2028</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/BrowserSync/browser-sync/compare/v2.29.0...v2.29.1">https://github.com/BrowserSync/browser-sync/compare/v2.29.0...v2.29.1</a></p>
+<h2>The one that restores IE11 support 💪</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix ie11 by <a href="https://github.com/shakyShane"><code>@​shakyShane</code></a> in <a href="https://redirect.github.com/BrowserSync/browser-sync/pull/2024">BrowserSync/browser-sync#2024</a></li>
+</ul>
+<p><a href="https://esbuild.github.io/">esbuild</a> does not support down-level transpiling as far as IE11 - so when I switched to it, it accidentally broke <code>IE11</code> support 😢</p>
+<p>This is an important issue for me - many devs that support old browsers like IE11 are doing so because their projects are used in public services, or internal applications. Not every developer out there has the luxury of supporting evergreen-only browsers.</p>
+<p>So, IE11 will work once again 🎉. Please use the <a href="https://github.com/BrowserSync/browser-sync/issues">issues</a> thread to make me aware of any problem that's preventing you from using Browsersync in your day job 💪 (and be sure to thumbs-up the issues you want to see resolved)</p>
+<pre lang="shell"><code># IE11 works, again
+npm install browser-sync@latest
+</code></pre>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/BrowserSync/browser-sync/compare/v2.28.3...v2.29.0">https://github.com/BrowserSync/browser-sync/compare/v2.28.3...v2.29.0</a></p>
+<h2>the one that finally removes <code>document.write</code></h2>
+<h2>What's Changed</h2>
+<ul>
+<li>browser-sync-2017 use chalk everywhere by <a href="https://github.com/shakyShane"><code>@​shakyShane</code></a> in <a href="https://redirect.github.com/BrowserSync/browser-sync/pull/2018">BrowserSync/browser-sync#2018</a></li>
+<li>fix: remove document.write by <a href="https://github.com/shakyShane"><code>@​shakyShane</code></a> in <a href="https://redirect.github.com/BrowserSync/browser-sync/pull/2019">BrowserSync/browser-sync#2019</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/BrowserSync/browser-sync/compare/v2.27.12...v2.28.0">https://github.com/BrowserSync/browser-sync/compare/v2.27.12...v2.28.0</a></p>
+<h2>2.27.9</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix(cli): Where's the command help? fixes <a href="https://redirect.github.com/BrowserSync/browser-sync/issues/1929">#1929</a> by <a href="https://github.com/shakyShane"><code>@​shakyShane</code></a> in <a href="https://redirect.github.com/BrowserSync/browser-sync/pull/1945">BrowserSync/browser-sync#1945</a></li>
+</ul>
+<p>A bug prevented the help output from displaying - it was introduced when the CLI parser <code>yargs</code> was updated, and is now fixed :)</p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/BrowserSync/browser-sync/compare/v2.27.8...v2.27.9">https://github.com/BrowserSync/browser-sync/compare/v2.27.8...v2.27.9</a></p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/02efdff2f6cf2991b87f8e8eaf7bbd21559fa612"><code>02efdff</code></a> v2.29.3</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/62d906e6abde0c251550a598e159c67d53e287a4"><code>62d906e</code></a> fix: append to head if body not present yet - fixes <a href="https://redirect.github.com/BrowserSync/browser-sync/issues/2031">#2031</a> (<a href="https://redirect.github.com/BrowserSync/browser-sync/issues/2041">#2041</a>)</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/f91440e11f3357beb3ce86cd8fd2fd992b00acea"><code>f91440e</code></a> v2.29.2</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/d0c50e07c1e0329a631443734ac68743f129c8e7"><code>d0c50e0</code></a> deps: drop qs (<a href="https://redirect.github.com/BrowserSync/browser-sync/issues/2040">#2040</a>)</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/6ffc212cdb50da972e4ed434244a23a6bee56e50"><code>6ffc212</code></a> v2.29.1</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/7b077987ef887994b6d59054d28dfe8639358599"><code>7b07798</code></a> v2.29.1-alpha.0</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/497f2162df92ce4bd15a9d5af3e82325dd3cee21"><code>497f216</code></a> remove client deps</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/bed04d4f07d4d16b05af02fa86babc362b8531a2"><code>bed04d4</code></a> v2.29.0</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/87421b53df52a22b69f9d32306494f1e0d8c4011"><code>87421b5</code></a> fix: ie11 support (<a href="https://redirect.github.com/BrowserSync/browser-sync/issues/2024">#2024</a>)</li>
+<li><a href="https://github.com/BrowserSync/browser-sync/commit/59eb01ad5f5937d60832c97c40f97c31a8d4200d"><code>59eb01a</code></a> v2.28.3</li>
+<li>Additional commits viewable in <a href="https://github.com/BrowserSync/browser-sync/compare/v2.26.10...v2.29.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/sammogerman/partyparty-static/network/alerts).
+
+</details>

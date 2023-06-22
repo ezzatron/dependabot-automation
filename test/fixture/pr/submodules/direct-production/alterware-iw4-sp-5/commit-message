@@ -1,0 +1,13 @@
+build(deps): bump deps/libtomcrypt from `fae62af` to `93f5348`
+
+Bumps [deps/libtomcrypt](https://github.com/libtom/libtomcrypt) from `fae62af` to `93f5348`.
+- [Release notes](https://github.com/libtom/libtomcrypt/releases)
+- [Commits](https://github.com/libtom/libtomcrypt/compare/fae62af0ab16f469c2512ec04575dd60ca018657...93f5348c47d3578091a4ee5b90f4add216b46d1b)
+
+---
+updated-dependencies:
+- dependency-name: deps/libtomcrypt
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

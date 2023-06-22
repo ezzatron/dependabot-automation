@@ -1,0 +1,15 @@
+composer(deps): bump composer/xdebug-handler from 1.4.6 to 3.0.3
+
+Bumps [composer/xdebug-handler](https://github.com/composer/xdebug-handler) from 1.4.6 to 3.0.3.
+- [Release notes](https://github.com/composer/xdebug-handler/releases)
+- [Changelog](https://github.com/composer/xdebug-handler/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/composer/xdebug-handler/compare/1.4.6...3.0.3)
+
+---
+updated-dependencies:
+- dependency-name: composer/xdebug-handler
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

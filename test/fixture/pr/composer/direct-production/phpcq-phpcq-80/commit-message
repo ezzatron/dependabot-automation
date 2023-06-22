@@ -1,0 +1,15 @@
+composer(deps): bump guzzlehttp/guzzle from 6.5.8 to 7.7.0
+
+Bumps [guzzlehttp/guzzle](https://github.com/guzzle/guzzle) from 6.5.8 to 7.7.0.
+- [Release notes](https://github.com/guzzle/guzzle/releases)
+- [Changelog](https://github.com/guzzle/guzzle/blob/7.7/CHANGELOG.md)
+- [Commits](https://github.com/guzzle/guzzle/compare/6.5.8...7.7.0)
+
+---
+updated-dependencies:
+- dependency-name: guzzlehttp/guzzle
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

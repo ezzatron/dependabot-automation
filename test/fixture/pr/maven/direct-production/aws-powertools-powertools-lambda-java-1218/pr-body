@@ -1,0 +1,103 @@
+Bumps [aws-embedded-metrics](https://github.com/awslabs/aws-embedded-metrics-java) from 1.0.6 to 4.1.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/awslabs/aws-embedded-metrics-java/releases">aws-embedded-metrics's releases</a>.</em></p>
+<blockquote>
+<h2>v4.1.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Update vulnerable dependencies in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/pull/137">awslabs/aws-embedded-metrics-java#137</a></li>
+<li>Add documentation for EMF auto-detection in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/pull/133">awslabs/aws-embedded-metrics-java#133</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.1.0...v4.1.1">https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.1.0...v4.1.1</a></p>
+<h2>v4.1.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>High Resolution Metrics Support <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/129">#129</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.0.3...v4.1.0">https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.0.3...v4.1.0</a></p>
+<h2>v4.0.3</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Fix for context copying is disabling default dimensions in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/128">#128</a></li>
+<li>Fixes for Java downgrade to 1.8 in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/128">#128</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.0.2...v4.0.3">https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.0.2...v4.0.3</a></p>
+<h2>v4.0.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Fix: InvalidDimensionException when running on ECS Fargate with fluent-bit in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/126">#126</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.0.1...v4.0.2">https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.0.1...v4.0.2</a></p>
+<h2>v4.0.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Change compatibility to java 1.8 in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/124">#124</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.0.0...v4.0.1">https://github.com/awslabs/aws-embedded-metrics-java/compare/v4.0.0...v4.0.1</a></p>
+<h2>v4.0.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Introduced thread-safety changes, concurrency tests, benchmarking in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/111">#111</a></li>
+<li>Add validation for dimensions, metrics, namespace and timestamp in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/119">#119</a></li>
+<li>Add support to clear custom dimensions in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/105">#105</a></li>
+<li>Prevent duplicate dimensions in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/88">#88</a>. Thank you <a href="https://github.com/aaronlna"><code>@​aaronlna</code></a>!</li>
+<li>Fix: add logic for replacing colon in log group name in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/110">#110</a></li>
+<li>Change DimensionSetExceededException to a checked exception in <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/122">#122</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/awslabs/aws-embedded-metrics-java/compare/v3.1.0...v4.0.0">https://github.com/awslabs/aws-embedded-metrics-java/compare/v3.1.0...v4.0.0</a></p>
+<h2>v2.0.0</h2>
+<ul>
+<li>Support for 30 dimensions per dimension set. If more than 30 dimensions are given then <code>DimensionSetExceededException</code> will be thrown <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/pull/106">awslabs/aws-embedded-metrics-java#106</a></li>
+<li>Updates to README <a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/pull/97">awslabs/aws-embedded-metrics-java#97</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/ecbccd7e55e2ece08f8cb4f6512cef8bdfc12a7e"><code>ecbccd7</code></a> bump to v4.1.1 (<a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/138">#138</a>)</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/da958c693161e19a8a78dec272d87c40ec684c42"><code>da958c6</code></a> Add documentation for EMF auto-detection (<a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/133">#133</a>)</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/91f61dab82754553dd24c4e3696cbde01ab40f4c"><code>91f61da</code></a> update dependencies (<a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/137">#137</a>)</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/63e4b59dc63e663a62875f7859432f12cefb54d8"><code>63e4b59</code></a> Bump to v4.1.0 (<a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/132">#132</a>)</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/c404b630a025a1bd128563c2fb6919b88f78d1d0"><code>c404b63</code></a> High Resolution Metrics Support (<a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/129">#129</a>)</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/a8a9765360cf51b9a2e240404006ff24c472c1b1"><code>a8a9765</code></a> bump to v4.0.3</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/be29384b15362c4bc119a07d4e2fc4f2c9f078b3"><code>be29384</code></a> Fix: Context copying is disabling default dimensions (<a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/128">#128</a>)</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/ac3e84c5aea0743a7454310b5b8630f1f097d354"><code>ac3e84c</code></a> bump to 4.0.2</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/e7de62773c364a7057193673f49c2997de2d099f"><code>e7de627</code></a> Skip adding dimensions with empty dimension value into default dimension (<a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/126">#126</a>)</li>
+<li><a href="https://github.com/awslabs/aws-embedded-metrics-java/commit/19ef5ca3b888ab3469be7860d0d339fe682473f6"><code>19ef5ca</code></a> Change compatibility to java 1.8 (<a href="https://redirect.github.com/awslabs/aws-embedded-metrics-java/issues/124">#124</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/awslabs/aws-embedded-metrics-java/compare/v1.0.6...v4.1.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=software.amazon.cloudwatchlogs:aws-embedded-metrics&package-manager=maven&previous-version=1.0.6&new-version=4.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

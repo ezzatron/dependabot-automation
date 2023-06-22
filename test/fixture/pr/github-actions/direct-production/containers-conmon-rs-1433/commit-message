@@ -1,0 +1,15 @@
+build(deps): bump crate-ci/typos from 1.15.0 to 1.15.2
+
+Bumps [crate-ci/typos](https://github.com/crate-ci/typos) from 1.15.0 to 1.15.2.
+- [Release notes](https://github.com/crate-ci/typos/releases)
+- [Changelog](https://github.com/crate-ci/typos/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/crate-ci/typos/compare/v1.15.0...v1.15.2)
+
+---
+updated-dependencies:
+- dependency-name: crate-ci/typos
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

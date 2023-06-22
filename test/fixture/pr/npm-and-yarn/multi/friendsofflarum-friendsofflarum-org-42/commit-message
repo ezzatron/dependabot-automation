@@ -1,0 +1,21 @@
+Bump ejs and @vue/cli-service
+
+Removes [ejs](https://github.com/mde/ejs). It's no longer used after updating ancestor dependency [@vue/cli-service](https://github.com/vuejs/vue-cli/tree/HEAD/packages/@vue/cli-service). These dependencies need to be updated together.
+
+
+Removes `ejs`
+
+Updates `@vue/cli-service` from 3.12.1 to 5.0.8
+- [Release notes](https://github.com/vuejs/vue-cli/releases)
+- [Changelog](https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md)
+- [Commits](https://github.com/vuejs/vue-cli/commits/v5.0.8/packages/@vue/cli-service)
+
+---
+updated-dependencies:
+- dependency-name: ejs
+  dependency-type: indirect
+- dependency-name: "@vue/cli-service"
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

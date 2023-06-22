@@ -1,0 +1,13 @@
+chore(deps): bump yaml from 2.2.1 to 2.3.1
+
+Bumps [yaml](https://github.com/eemeli/yaml) from 2.2.1 to 2.3.1.
+- [Release notes](https://github.com/eemeli/yaml/releases)
+- [Commits](https://github.com/eemeli/yaml/compare/v2.2.1...v2.3.1)
+
+---
+updated-dependencies:
+- dependency-name: yaml
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

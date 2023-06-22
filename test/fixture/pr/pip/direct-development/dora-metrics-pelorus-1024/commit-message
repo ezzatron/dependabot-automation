@@ -1,0 +1,14 @@
+⬆ Bump pyright from 1.1.306 to 1.1.315
+
+Bumps [pyright](https://github.com/RobertCraigie/pyright-python) from 1.1.306 to 1.1.315.
+- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)
+- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.306...v1.1.315)
+
+---
+updated-dependencies:
+- dependency-name: pyright
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

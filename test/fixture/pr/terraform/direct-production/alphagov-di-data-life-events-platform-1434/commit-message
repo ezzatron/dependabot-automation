@@ -1,0 +1,15 @@
+GPC-NONE: Bump terraform-aws-modules/lambda/aws
+
+Bumps [terraform-aws-modules/lambda/aws](https://github.com/terraform-aws-modules/terraform-aws-lambda) from 4.16.0 to 5.0.0.
+- [Release notes](https://github.com/terraform-aws-modules/terraform-aws-lambda/releases)
+- [Changelog](https://github.com/terraform-aws-modules/terraform-aws-lambda/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/terraform-aws-modules/terraform-aws-lambda/compare/v4.16.0...v5.0.0)
+
+---
+updated-dependencies:
+- dependency-name: terraform-aws-modules/lambda/aws
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

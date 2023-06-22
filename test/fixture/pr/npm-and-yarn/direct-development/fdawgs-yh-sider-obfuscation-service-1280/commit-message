@@ -1,0 +1,15 @@
+build(deps-dev): bump eslint-plugin-jest from 27.2.1 to 27.2.2
+
+Bumps [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) from 27.2.1 to 27.2.2.
+- [Release notes](https://github.com/jest-community/eslint-plugin-jest/releases)
+- [Changelog](https://github.com/jest-community/eslint-plugin-jest/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/jest-community/eslint-plugin-jest/compare/v27.2.1...v27.2.2)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-jest
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

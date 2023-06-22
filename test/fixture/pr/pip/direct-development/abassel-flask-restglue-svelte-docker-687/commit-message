@@ -1,0 +1,15 @@
+:arrow_up: Bump pymongo from 4.3.3 to 4.4.0 in /backend
+
+Bumps [pymongo](https://github.com/mongodb/mongo-python-driver) from 4.3.3 to 4.4.0.
+- [Release notes](https://github.com/mongodb/mongo-python-driver/releases)
+- [Changelog](https://github.com/mongodb/mongo-python-driver/blob/master/doc/changelog.rst)
+- [Commits](https://github.com/mongodb/mongo-python-driver/compare/4.3.3...4.4.0)
+
+---
+updated-dependencies:
+- dependency-name: pymongo
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

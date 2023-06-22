@@ -1,0 +1,219 @@
+Bumps `acra_version` from 5.9.7 to 5.10.1.
+Updates `ch.acra:acra-http` from 5.9.7 to 5.10.1
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/ACRA/acra/releases">ch.acra:acra-http's releases</a>.</em></p>
+<blockquote>
+<h2>ACRA 5.10.1</h2>
+<ul>
+<li>fixed mail sending with attachments on modern android versions when there are multiple mail apps with no default selected</li>
+</ul>
+<h2>ACRA 5.10.0</h2>
+<ul>
+<li>target Android 34</li>
+<li>Fix multipart/form-data format compliance (<a href="https://redirect.github.com/ACRA/acra/issues/1212">#1212</a>)</li>
+</ul>
+<h2>ACRA 5.10.0-beta03</h2>
+<ul>
+<li>deprecate notification inline comment. Disable on API 29+ (<a href="https://redirect.github.com/ACRA/acra/issues/1190">#1190</a>)</li>
+<li>workaround for notification+email sender (<a href="https://redirect.github.com/ACRA/acra/issues/1191">#1191</a>)</li>
+</ul>
+<h2>ACRA 5.9.8-beta02</h2>
+<ul>
+<li>restore java 11 compatibility</li>
+<li>add notification color configuration (<a href="https://redirect.github.com/ACRA/acra/issues/1183">#1183</a>)</li>
+</ul>
+<h2>ACRA 5.9.8-beta01</h2>
+<ul>
+<li>try fix more gmail issues by not using intent selectors on android tiramisu (<a href="https://redirect.github.com/ACRA/acra/issues/1146">#1146</a>, <a href="https://redirect.github.com/ACRA/acra/issues/1179">#1179</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ACRA/acra/commit/1489cd689b1a28eb11d3d27e2445b262a7819b86"><code>1489cd6</code></a> fall back to resolving by class name if resolving by package name fails. Fixe...</li>
+<li><a href="https://github.com/ACRA/acra/commit/2c27c844e7edd8228f3dd7c088221f4b9cb9a91d"><code>2c27c84</code></a> chore(deps): update dependency com.google.auto.service:auto-service-annotatio...</li>
+<li><a href="https://github.com/ACRA/acra/commit/0aa9bcdc83939262479c9b939560671a4de9a141"><code>0aa9bcd</code></a> chore(deps): update dependency ch.acra:acra-http to v5.10.0 (<a href="https://redirect.github.com/ACRA/acra/issues/1214">#1214</a>)</li>
+<li><a href="https://github.com/ACRA/acra/commit/72753a8f8c254e4fe62297dd8551fe07a787d3d7"><code>72753a8</code></a> chore(deps): update dependency com.google.auto.service:auto-service to v1.1.1</li>
+<li><a href="https://github.com/ACRA/acra/commit/8ace24d0f5636337864933061a25cc7151c3e6fc"><code>8ace24d</code></a> Add javadoc for version 5.10.0</li>
+<li><a href="https://github.com/ACRA/acra/commit/179efb3a71d4ca9f7a17d92d4c249bafe668459f"><code>179efb3</code></a> pin retry version earlier</li>
+<li><a href="https://github.com/ACRA/acra/commit/a2794099e2ed7ac095b897e33fbdbb1e5a9938f8"><code>a279409</code></a> pin retry version</li>
+<li><a href="https://github.com/ACRA/acra/commit/3c48f3f3ed40a5d6bec3fdd9d92ca162811a1688"><code>3c48f3f</code></a> Don't start multipart form data with a line break. Closes <a href="https://redirect.github.com/ACRA/acra/issues/1212">#1212</a></li>
+<li><a href="https://github.com/ACRA/acra/commit/2088e60457b5c57c701b899dfe9f837853e17350"><code>2088e60</code></a> chore(deps): update dependency <code>@​types/react</code> to v18.2.12</li>
+<li><a href="https://github.com/ACRA/acra/commit/8b885bce612e05b8549335f99d758e67faf69ec1"><code>8b885bc</code></a> chore(deps): update dependency com.google.auto.service:auto-service to v1.1.1</li>
+<li>Additional commits viewable in <a href="https://github.com/ACRA/acra/compare/acra-5.9.7...acra-5.10.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `ch.acra:acra-dialog` from 5.9.7 to 5.10.1
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/ACRA/acra/releases">ch.acra:acra-dialog's releases</a>.</em></p>
+<blockquote>
+<h2>ACRA 5.10.1</h2>
+<ul>
+<li>fixed mail sending with attachments on modern android versions when there are multiple mail apps with no default selected</li>
+</ul>
+<h2>ACRA 5.10.0</h2>
+<ul>
+<li>target Android 34</li>
+<li>Fix multipart/form-data format compliance (<a href="https://redirect.github.com/ACRA/acra/issues/1212">#1212</a>)</li>
+</ul>
+<h2>ACRA 5.10.0-beta03</h2>
+<ul>
+<li>deprecate notification inline comment. Disable on API 29+ (<a href="https://redirect.github.com/ACRA/acra/issues/1190">#1190</a>)</li>
+<li>workaround for notification+email sender (<a href="https://redirect.github.com/ACRA/acra/issues/1191">#1191</a>)</li>
+</ul>
+<h2>ACRA 5.9.8-beta02</h2>
+<ul>
+<li>restore java 11 compatibility</li>
+<li>add notification color configuration (<a href="https://redirect.github.com/ACRA/acra/issues/1183">#1183</a>)</li>
+</ul>
+<h2>ACRA 5.9.8-beta01</h2>
+<ul>
+<li>try fix more gmail issues by not using intent selectors on android tiramisu (<a href="https://redirect.github.com/ACRA/acra/issues/1146">#1146</a>, <a href="https://redirect.github.com/ACRA/acra/issues/1179">#1179</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ACRA/acra/commit/1489cd689b1a28eb11d3d27e2445b262a7819b86"><code>1489cd6</code></a> fall back to resolving by class name if resolving by package name fails. Fixe...</li>
+<li><a href="https://github.com/ACRA/acra/commit/2c27c844e7edd8228f3dd7c088221f4b9cb9a91d"><code>2c27c84</code></a> chore(deps): update dependency com.google.auto.service:auto-service-annotatio...</li>
+<li><a href="https://github.com/ACRA/acra/commit/0aa9bcdc83939262479c9b939560671a4de9a141"><code>0aa9bcd</code></a> chore(deps): update dependency ch.acra:acra-http to v5.10.0 (<a href="https://redirect.github.com/ACRA/acra/issues/1214">#1214</a>)</li>
+<li><a href="https://github.com/ACRA/acra/commit/72753a8f8c254e4fe62297dd8551fe07a787d3d7"><code>72753a8</code></a> chore(deps): update dependency com.google.auto.service:auto-service to v1.1.1</li>
+<li><a href="https://github.com/ACRA/acra/commit/8ace24d0f5636337864933061a25cc7151c3e6fc"><code>8ace24d</code></a> Add javadoc for version 5.10.0</li>
+<li><a href="https://github.com/ACRA/acra/commit/179efb3a71d4ca9f7a17d92d4c249bafe668459f"><code>179efb3</code></a> pin retry version earlier</li>
+<li><a href="https://github.com/ACRA/acra/commit/a2794099e2ed7ac095b897e33fbdbb1e5a9938f8"><code>a279409</code></a> pin retry version</li>
+<li><a href="https://github.com/ACRA/acra/commit/3c48f3f3ed40a5d6bec3fdd9d92ca162811a1688"><code>3c48f3f</code></a> Don't start multipart form data with a line break. Closes <a href="https://redirect.github.com/ACRA/acra/issues/1212">#1212</a></li>
+<li><a href="https://github.com/ACRA/acra/commit/2088e60457b5c57c701b899dfe9f837853e17350"><code>2088e60</code></a> chore(deps): update dependency <code>@​types/react</code> to v18.2.12</li>
+<li><a href="https://github.com/ACRA/acra/commit/8b885bce612e05b8549335f99d758e67faf69ec1"><code>8b885bc</code></a> chore(deps): update dependency com.google.auto.service:auto-service to v1.1.1</li>
+<li>Additional commits viewable in <a href="https://github.com/ACRA/acra/compare/acra-5.9.7...acra-5.10.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `ch.acra:acra-toast` from 5.9.7 to 5.10.1
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/ACRA/acra/releases">ch.acra:acra-toast's releases</a>.</em></p>
+<blockquote>
+<h2>ACRA 5.10.1</h2>
+<ul>
+<li>fixed mail sending with attachments on modern android versions when there are multiple mail apps with no default selected</li>
+</ul>
+<h2>ACRA 5.10.0</h2>
+<ul>
+<li>target Android 34</li>
+<li>Fix multipart/form-data format compliance (<a href="https://redirect.github.com/ACRA/acra/issues/1212">#1212</a>)</li>
+</ul>
+<h2>ACRA 5.10.0-beta03</h2>
+<ul>
+<li>deprecate notification inline comment. Disable on API 29+ (<a href="https://redirect.github.com/ACRA/acra/issues/1190">#1190</a>)</li>
+<li>workaround for notification+email sender (<a href="https://redirect.github.com/ACRA/acra/issues/1191">#1191</a>)</li>
+</ul>
+<h2>ACRA 5.9.8-beta02</h2>
+<ul>
+<li>restore java 11 compatibility</li>
+<li>add notification color configuration (<a href="https://redirect.github.com/ACRA/acra/issues/1183">#1183</a>)</li>
+</ul>
+<h2>ACRA 5.9.8-beta01</h2>
+<ul>
+<li>try fix more gmail issues by not using intent selectors on android tiramisu (<a href="https://redirect.github.com/ACRA/acra/issues/1146">#1146</a>, <a href="https://redirect.github.com/ACRA/acra/issues/1179">#1179</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ACRA/acra/commit/1489cd689b1a28eb11d3d27e2445b262a7819b86"><code>1489cd6</code></a> fall back to resolving by class name if resolving by package name fails. Fixe...</li>
+<li><a href="https://github.com/ACRA/acra/commit/2c27c844e7edd8228f3dd7c088221f4b9cb9a91d"><code>2c27c84</code></a> chore(deps): update dependency com.google.auto.service:auto-service-annotatio...</li>
+<li><a href="https://github.com/ACRA/acra/commit/0aa9bcdc83939262479c9b939560671a4de9a141"><code>0aa9bcd</code></a> chore(deps): update dependency ch.acra:acra-http to v5.10.0 (<a href="https://redirect.github.com/ACRA/acra/issues/1214">#1214</a>)</li>
+<li><a href="https://github.com/ACRA/acra/commit/72753a8f8c254e4fe62297dd8551fe07a787d3d7"><code>72753a8</code></a> chore(deps): update dependency com.google.auto.service:auto-service to v1.1.1</li>
+<li><a href="https://github.com/ACRA/acra/commit/8ace24d0f5636337864933061a25cc7151c3e6fc"><code>8ace24d</code></a> Add javadoc for version 5.10.0</li>
+<li><a href="https://github.com/ACRA/acra/commit/179efb3a71d4ca9f7a17d92d4c249bafe668459f"><code>179efb3</code></a> pin retry version earlier</li>
+<li><a href="https://github.com/ACRA/acra/commit/a2794099e2ed7ac095b897e33fbdbb1e5a9938f8"><code>a279409</code></a> pin retry version</li>
+<li><a href="https://github.com/ACRA/acra/commit/3c48f3f3ed40a5d6bec3fdd9d92ca162811a1688"><code>3c48f3f</code></a> Don't start multipart form data with a line break. Closes <a href="https://redirect.github.com/ACRA/acra/issues/1212">#1212</a></li>
+<li><a href="https://github.com/ACRA/acra/commit/2088e60457b5c57c701b899dfe9f837853e17350"><code>2088e60</code></a> chore(deps): update dependency <code>@​types/react</code> to v18.2.12</li>
+<li><a href="https://github.com/ACRA/acra/commit/8b885bce612e05b8549335f99d758e67faf69ec1"><code>8b885bc</code></a> chore(deps): update dependency com.google.auto.service:auto-service to v1.1.1</li>
+<li>Additional commits viewable in <a href="https://github.com/ACRA/acra/compare/acra-5.9.7...acra-5.10.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `ch.acra:acra-limiter` from 5.9.7 to 5.10.1
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/ACRA/acra/releases">ch.acra:acra-limiter's releases</a>.</em></p>
+<blockquote>
+<h2>ACRA 5.10.1</h2>
+<ul>
+<li>fixed mail sending with attachments on modern android versions when there are multiple mail apps with no default selected</li>
+</ul>
+<h2>ACRA 5.10.0</h2>
+<ul>
+<li>target Android 34</li>
+<li>Fix multipart/form-data format compliance (<a href="https://redirect.github.com/ACRA/acra/issues/1212">#1212</a>)</li>
+</ul>
+<h2>ACRA 5.10.0-beta03</h2>
+<ul>
+<li>deprecate notification inline comment. Disable on API 29+ (<a href="https://redirect.github.com/ACRA/acra/issues/1190">#1190</a>)</li>
+<li>workaround for notification+email sender (<a href="https://redirect.github.com/ACRA/acra/issues/1191">#1191</a>)</li>
+</ul>
+<h2>ACRA 5.9.8-beta02</h2>
+<ul>
+<li>restore java 11 compatibility</li>
+<li>add notification color configuration (<a href="https://redirect.github.com/ACRA/acra/issues/1183">#1183</a>)</li>
+</ul>
+<h2>ACRA 5.9.8-beta01</h2>
+<ul>
+<li>try fix more gmail issues by not using intent selectors on android tiramisu (<a href="https://redirect.github.com/ACRA/acra/issues/1146">#1146</a>, <a href="https://redirect.github.com/ACRA/acra/issues/1179">#1179</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ACRA/acra/commit/1489cd689b1a28eb11d3d27e2445b262a7819b86"><code>1489cd6</code></a> fall back to resolving by class name if resolving by package name fails. Fixe...</li>
+<li><a href="https://github.com/ACRA/acra/commit/2c27c844e7edd8228f3dd7c088221f4b9cb9a91d"><code>2c27c84</code></a> chore(deps): update dependency com.google.auto.service:auto-service-annotatio...</li>
+<li><a href="https://github.com/ACRA/acra/commit/0aa9bcdc83939262479c9b939560671a4de9a141"><code>0aa9bcd</code></a> chore(deps): update dependency ch.acra:acra-http to v5.10.0 (<a href="https://redirect.github.com/ACRA/acra/issues/1214">#1214</a>)</li>
+<li><a href="https://github.com/ACRA/acra/commit/72753a8f8c254e4fe62297dd8551fe07a787d3d7"><code>72753a8</code></a> chore(deps): update dependency com.google.auto.service:auto-service to v1.1.1</li>
+<li><a href="https://github.com/ACRA/acra/commit/8ace24d0f5636337864933061a25cc7151c3e6fc"><code>8ace24d</code></a> Add javadoc for version 5.10.0</li>
+<li><a href="https://github.com/ACRA/acra/commit/179efb3a71d4ca9f7a17d92d4c249bafe668459f"><code>179efb3</code></a> pin retry version earlier</li>
+<li><a href="https://github.com/ACRA/acra/commit/a2794099e2ed7ac095b897e33fbdbb1e5a9938f8"><code>a279409</code></a> pin retry version</li>
+<li><a href="https://github.com/ACRA/acra/commit/3c48f3f3ed40a5d6bec3fdd9d92ca162811a1688"><code>3c48f3f</code></a> Don't start multipart form data with a line break. Closes <a href="https://redirect.github.com/ACRA/acra/issues/1212">#1212</a></li>
+<li><a href="https://github.com/ACRA/acra/commit/2088e60457b5c57c701b899dfe9f837853e17350"><code>2088e60</code></a> chore(deps): update dependency <code>@​types/react</code> to v18.2.12</li>
+<li><a href="https://github.com/ACRA/acra/commit/8b885bce612e05b8549335f99d758e67faf69ec1"><code>8b885bc</code></a> chore(deps): update dependency com.google.auto.service:auto-service to v1.1.1</li>
+<li>Additional commits viewable in <a href="https://github.com/ACRA/acra/compare/acra-5.9.7...acra-5.10.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

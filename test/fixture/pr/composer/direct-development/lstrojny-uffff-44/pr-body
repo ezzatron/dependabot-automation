@@ -1,0 +1,47 @@
+Bumps [symplify/easy-coding-standard](https://github.com/easy-coding-standard/easy-coding-standard) from 11.4.5 to 11.5.0.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/1d2400f7bfe92e3754ce71f0782f2c0521bade3d"><code>1d2400f</code></a> release PHP 7.2 downgraded</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/e3b4328440c20b681fb6106fef1062154c6236aa"><code>e3b4328</code></a> clear unused TEST_SUFFIX env</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/18992a15300eb4a26e904f8ebed4b1a704a63bb9"><code>18992a1</code></a> api</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/3dee7ac1977254d2b1641586daca82610e2b9fee"><code>3dee7ac</code></a> fix change config test</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/885298765b73da99d15a37edd211e4b39e01cb1b"><code>8852987</code></a> used in factory</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/fb353fc1eb6e335f30093f4c4dbd782e1f82d46c"><code>fb353fc</code></a> add config option</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/2a92ce14adbba04e1c22624a15af866c0052fc9e"><code>2a92ce1</code></a> use command directly</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/16d5b1c415a5bb6be851ade226738b1a6ef19361"><code>16d5b1c</code></a> misc</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/6ca5b68d4b85bb297f84fe8bae31415230f18cc2"><code>6ca5b68</code></a> misc</li>
+<li><a href="https://github.com/easy-coding-standard/easy-coding-standard/commit/5eb47ada707e63bf1f6002374df33770478e8d76"><code>5eb47ad</code></a> use local SymfonyStyleFactory</li>
+<li>Additional commits viewable in <a href="https://github.com/easy-coding-standard/easy-coding-standard/compare/11.4.5...11.5.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=symplify/easy-coding-standard&package-manager=composer&previous-version=11.4.5&new-version=11.5.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

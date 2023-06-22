@@ -1,0 +1,217 @@
+Bumps [ua-parser-js](https://github.com/faisalman/ua-parser-js) to 0.7.35 and updates ancestor dependency [karma](https://github.com/karma-runner/karma). These dependencies need to be updated together.
+
+Updates `ua-parser-js` from 0.7.22 to 0.7.35
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/faisalman/ua-parser-js/blob/master/changelog.md">ua-parser-js's changelog</a>.</em></p>
+<blockquote>
+<h2>Version 0.7.35 / 1.0.35</h2>
+<ul>
+<li>Fix result from user-supplied user-agent being altered</li>
+<li>Add new browser: Heytap, TikTok</li>
+<li>Add new engine: LibWeb</li>
+<li>Add new OS: SerenityOS</li>
+<li>Improve browser detection: Yandex</li>
+<li>Improve device detection: iPhone, Amazon Echo</li>
+<li>Improve OS detection: iOS</li>
+</ul>
+<h2>Version 0.7.34 / 1.0.34</h2>
+<ul>
+<li>Fix Sharp Mobile detected as Huawei Tablet</li>
+<li>Fix IE8 bug</li>
+<li>Add new devices : Kobo e-Reader, Apple Watch, and some new SmartTV devices</li>
+<li>Add new OS : watchOS</li>
+<li>Improve browser detection : Kakao, Naver, Brave</li>
+<li>Improve device detection : Oculus, iPad</li>
+<li>Improve OS detection : Chrome OS</li>
+<li>Using navigator.userAgentData as fallback for device.type &amp; os.name</li>
+</ul>
+<h2>Version 0.7.33 / 1.0.33</h2>
+<ul>
+<li>Add new browser : Cobalt</li>
+<li>Identify Macintosh as an Apple device</li>
+<li>Fix ReDoS vulnerability</li>
+</ul>
+<h2>Version 0.7.32 / 1.0.32</h2>
+<ul>
+<li>Add new browser : DuckDuckGo, Huawei Browser, LinkedIn</li>
+<li>Add new OS : HarmonyOS</li>
+<li>Add some Huawei models</li>
+<li>Add Sharp Aquos TV</li>
+<li>Improve detection Xiaomi Mi CC9</li>
+<li>Fix Sony Xperia 1 III misidentified as Acer tablet</li>
+<li>Fix Detect Sony BRAVIA as SmartTV</li>
+<li>Fix Detect Xiaomi Mi TV as SmartTV</li>
+<li>Fix Detect Galaxy Tab S8 as tablet</li>
+<li>Fix WeGame mistakenly identified as WeChat</li>
+<li>Fix included commas in Safari / Mobile Safari version</li>
+<li>Increase UA_MAX_LENGTH to 350</li>
+</ul>
+<h2>Version 0.7.31 / 1.0.2</h2>
+<ul>
+<li>Fix OPPO Reno A5 incorrect detection</li>
+<li>Fix TypeError Bug</li>
+<li>Use AST to extract regexes and verify them with safe-regex</li>
+</ul>
+<h2>Version 0.7.30 / 1.0.1</h2>
+<ul>
+<li>Add new browser : Obigo, UP.Browser, Klar</li>
+<li>Add new device : Oculus, Roku</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/32d326b35b9bdd5c64633a5b05b3573faa6a8dc3"><code>32d326b</code></a> Update readme</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/786d502b0140d94be0b2f47e77df6c19fc8fb4d6"><code>786d502</code></a> Bump version 0.7.35</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/5b8adfef7b77494ae73199b7ee3e5dafba46e0a8"><code>5b8adfe</code></a> Backport - Prevent altering the result when supplied user-agent is different ...</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/2e06a34062c196322df7ad3c63fcc66e51c72420"><code>2e06a34</code></a> Backport - Add new browser: TikTok</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/bf9ac43328f1d5235cd6e029ac505824a39fc796"><code>bf9ac43</code></a> Backport - Add new engine: LibWeb + Add new OS: SerenityOS</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/3f8b5ba9cf03c2e82dcf96fd91a89c1b314dee3c"><code>3f8b5ba</code></a> Backport - Add new browser: Heytap</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/1747707be680c70073bc0cb496ffaacda3314f2b"><code>1747707</code></a> Backport - Fix <a href="https://redirect.github.com/faisalman/ua-parser-js/issues/678">#678</a> - Improve Yandex detection</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/d41404551f1a6d2ae789f2a2c26b89b3f1f71610"><code>d414045</code></a> Backport - Fix <a href="https://redirect.github.com/faisalman/ua-parser-js/issues/519">#519</a> <a href="https://redirect.github.com/faisalman/ua-parser-js/issues/521">#521</a> <a href="https://redirect.github.com/faisalman/ua-parser-js/issues/616">#616</a> - Improve iPhone &amp; iOS detection</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/ba067bd351040a57957a4f0965816897e0e3ddef"><code>ba067bd</code></a> Backport - Fix <a href="https://redirect.github.com/faisalman/ua-parser-js/issues/624">#624</a> - Detect Amazon Echo</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/3218051f0739a4a7990b06210983917a11da7904"><code>3218051</code></a> Bump version 0.7.34</li>
+<li>Additional commits viewable in <a href="https://github.com/faisalman/ua-parser-js/compare/0.7.22...0.7.35">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `karma` from 5.2.3 to 6.4.2
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/karma-runner/karma/releases">karma's releases</a>.</em></p>
+<blockquote>
+<h2>v6.4.2</h2>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.4.1...v6.4.2">6.4.2</a> (2023-04-21)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>few typos (<a href="https://github.com/karma-runner/karma/commit/c6a42710b40e81269f1e6c5d5bb55d01188a8872">c6a4271</a>)</li>
+</ul>
+<h2>v6.4.1</h2>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.4.0...v6.4.1">6.4.1</a> (2022-09-19)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>pass integrity value (<a href="https://github.com/karma-runner/karma/commit/63d86befd3431fe8e1500e22f4f115a3762d000a">63d86be</a>)</li>
+</ul>
+<h2>v6.4.0</h2>
+<h1><a href="https://github.com/karma-runner/karma/compare/v6.3.20...v6.4.0">6.4.0</a> (2022-06-14)</h1>
+<h3>Features</h3>
+<ul>
+<li>support SRI verification of link tags (<a href="https://github.com/karma-runner/karma/commit/dc51a2e0e9b9805f7740f52fde01bcd20adc2dfc">dc51a2e</a>)</li>
+<li>support SRI verification of script tags (<a href="https://github.com/karma-runner/karma/commit/6a54b1c2a1df8214c470b8a5cc8036912874637e">6a54b1c</a>)</li>
+</ul>
+<h2>v6.3.20</h2>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.3.19...v6.3.20">6.3.20</a> (2022-05-13)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>prefer IPv4 addresses when resolving domains (<a href="https://github.com/karma-runner/karma/commit/e17698f950af83bf2b3edc540d2a3e1fb73cba59">e17698f</a>), closes <a href="https://redirect.github.com/karma-runner/karma/issues/3730">#3730</a></li>
+</ul>
+<h2>v6.3.19</h2>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.3.18...v6.3.19">6.3.19</a> (2022-04-19)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>client:</strong> error out when opening a new tab fails (<a href="https://github.com/karma-runner/karma/commit/099b85ed0a46e37dd7cb14fc1596cbb1b3eabce9">099b85e</a>)</li>
+</ul>
+<h2>v6.3.18</h2>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.3.17...v6.3.18">6.3.18</a> (2022-04-13)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>deps:</strong> upgrade socket.io to v4.4.1 (<a href="https://github.com/karma-runner/karma/commit/52a30bbc6e168333a8592c26c9f40678d6ab74ea">52a30bb</a>)</li>
+</ul>
+<h2>v6.3.17</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/karma-runner/karma/blob/master/CHANGELOG.md">karma's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.4.1...v6.4.2">6.4.2</a> (2023-04-21)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>few typos (<a href="https://github.com/karma-runner/karma/commit/c6a42710b40e81269f1e6c5d5bb55d01188a8872">c6a4271</a>)</li>
+</ul>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.4.0...v6.4.1">6.4.1</a> (2022-09-19)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>pass integrity value (<a href="https://github.com/karma-runner/karma/commit/63d86befd3431fe8e1500e22f4f115a3762d000a">63d86be</a>)</li>
+</ul>
+<h1><a href="https://github.com/karma-runner/karma/compare/v6.3.20...v6.4.0">6.4.0</a> (2022-06-14)</h1>
+<h3>Features</h3>
+<ul>
+<li>support SRI verification of link tags (<a href="https://github.com/karma-runner/karma/commit/dc51a2e0e9b9805f7740f52fde01bcd20adc2dfc">dc51a2e</a>)</li>
+<li>support SRI verification of script tags (<a href="https://github.com/karma-runner/karma/commit/6a54b1c2a1df8214c470b8a5cc8036912874637e">6a54b1c</a>)</li>
+</ul>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.3.19...v6.3.20">6.3.20</a> (2022-05-13)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>prefer IPv4 addresses when resolving domains (<a href="https://github.com/karma-runner/karma/commit/e17698f950af83bf2b3edc540d2a3e1fb73cba59">e17698f</a>), closes <a href="https://redirect.github.com/karma-runner/karma/issues/3730">#3730</a></li>
+</ul>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.3.18...v6.3.19">6.3.19</a> (2022-04-19)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>client:</strong> error out when opening a new tab fails (<a href="https://github.com/karma-runner/karma/commit/099b85ed0a46e37dd7cb14fc1596cbb1b3eabce9">099b85e</a>)</li>
+</ul>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.3.17...v6.3.18">6.3.18</a> (2022-04-13)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>deps:</strong> upgrade socket.io to v4.4.1 (<a href="https://github.com/karma-runner/karma/commit/52a30bbc6e168333a8592c26c9f40678d6ab74ea">52a30bb</a>)</li>
+</ul>
+<h2><a href="https://github.com/karma-runner/karma/compare/v6.3.16...v6.3.17">6.3.17</a> (2022-02-28)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>deps:</strong> update colors to maintained version (<a href="https://redirect.github.com/karma-runner/karma/issues/3763">#3763</a>) (<a href="https://github.com/karma-runner/karma/commit/fca18843e7a04eeb67b86cb3cfc3db794d66f445">fca1884</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/karma-runner/karma/commit/9de3c00988884335775de746eb8571697a86410b"><code>9de3c00</code></a> chore(release): 6.4.2 [skip ci]</li>
+<li><a href="https://github.com/karma-runner/karma/commit/c6a42710b40e81269f1e6c5d5bb55d01188a8872"><code>c6a4271</code></a> fix: few typos</li>
+<li><a href="https://github.com/karma-runner/karma/commit/50f963551fbccf669c8d42499d0406ded2ec6176"><code>50f9635</code></a> docs: update codeclimate badge in readme.md</li>
+<li><a href="https://github.com/karma-runner/karma/commit/00131213bf337e563126611b06b79218a560dc9a"><code>0013121</code></a> chore(release): 6.4.1 [skip ci]</li>
+<li><a href="https://github.com/karma-runner/karma/commit/63d86befd3431fe8e1500e22f4f115a3762d000a"><code>63d86be</code></a> fix: pass integrity value</li>
+<li><a href="https://github.com/karma-runner/karma/commit/84f7cc3d4a0770337140776e86d9740e0aad82f8"><code>84f7cc3</code></a> chore(release): 6.4.0 [skip ci]</li>
+<li><a href="https://github.com/karma-runner/karma/commit/f2d0663105eba0b9ea7f281230546282a46015ad"><code>f2d0663</code></a> docs: add integrity parameter</li>
+<li><a href="https://github.com/karma-runner/karma/commit/dc51a2e0e9b9805f7740f52fde01bcd20adc2dfc"><code>dc51a2e</code></a> feat: support SRI verification of link tags</li>
+<li><a href="https://github.com/karma-runner/karma/commit/6a54b1c2a1df8214c470b8a5cc8036912874637e"><code>6a54b1c</code></a> feat: support SRI verification of script tags</li>
+<li><a href="https://github.com/karma-runner/karma/commit/5e71cf591e9006ad2621dd88d09739bfbffd463c"><code>5e71cf5</code></a> chore(release): 6.3.20 [skip ci]</li>
+<li>Additional commits viewable in <a href="https://github.com/karma-runner/karma/compare/v5.2.3...v6.4.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/markcellus/cookie-store/network/alerts).
+
+</details>

@@ -1,0 +1,54 @@
+Bumps [Dapper](https://github.com/DapperLib/Dapper) from 2.0.138 to 2.0.143.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/DapperLib/Dapper/releases">Dapper's releases</a>.</em></p>
+<blockquote>
+<h2>2.0.143</h2>
+<ul>
+<li>add missing non-generic <code>AsyncEnumerable&lt;dynamic&gt; QueryUnbufferedAsync(...)</code> API (<a href="https://redirect.github.com/DapperLib/Dapper/issues/1925">#1925</a> via mgravell, fixes <a href="https://redirect.github.com/DapperLib/Dapper/issues/1922">#1922</a>)</li>
+<li>formally mark all <code>struct</code> types as <code>readonly</code> (<a href="https://redirect.github.com/DapperLib/Dapper/issues/1925">#1925</a> via mgravell)</li>
+<li>reinstate fallback support for <code>IDataReader</code>, and implement missing <code>DbDataReader</code> async APIs (<a href="https://redirect.github.com/DapperLib/Dapper/issues/1913">#1913</a> via mgravell)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/DapperLib/Dapper/commit/20d81380cac6452ad56d7635f578e3912d577080"><code>20d8138</code></a> mark all structs as <code>readonly</code>; fix some compiler noise (no functional change...</li>
+<li><a href="https://github.com/DapperLib/Dapper/commit/d91d90465db3dd9087f2635ee17a1010363c56da"><code>d91d904</code></a> reinstate support for <code>IDataReader</code> (<a href="https://redirect.github.com/DapperLib/Dapper/issues/1913">#1913</a>)</li>
+<li><a href="https://github.com/DapperLib/Dapper/commit/677fee27c6f471babf00b0830822736af1bebee4"><code>677fee2</code></a> Enable the <code>Issue552_SignedUnsignedBooleans</code> test (<a href="https://redirect.github.com/DapperLib/Dapper/issues/1919">#1919</a>)</li>
+<li><a href="https://github.com/DapperLib/Dapper/commit/da6509a22440250ecb91e1a93bc7074dad3b720d"><code>da6509a</code></a> Document how to run docker for db tests (Firebird + MySQL + PostgreSQL) (<a href="https://redirect.github.com/DapperLib/Dapper/issues/1918">#1918</a>)</li>
+<li><a href="https://github.com/DapperLib/Dapper/commit/a9ef55fae10c0e4eb378d2dc348bc29f36750698"><code>a9ef55f</code></a> update release number in docs</li>
+<li>See full diff in <a href="https://github.com/DapperLib/Dapper/compare/2.0.138...2.0.143">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=Dapper&package-manager=nuget&previous-version=2.0.138&new-version=2.0.143)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

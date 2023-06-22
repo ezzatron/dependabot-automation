@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "ejs",
+      "dependencyType": "indirect",
+      "updateType": "removal"
+    },
+    {
+      "dependencyName": "@vue/cli-service",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

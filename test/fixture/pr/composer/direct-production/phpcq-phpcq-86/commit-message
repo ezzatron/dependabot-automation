@@ -1,0 +1,15 @@
+composer(deps): bump symfony/console from 5.4.23 to 5.4.24
+
+Bumps [symfony/console](https://github.com/symfony/console) from 5.4.23 to 5.4.24.
+- [Release notes](https://github.com/symfony/console/releases)
+- [Changelog](https://github.com/symfony/console/blob/6.3/CHANGELOG.md)
+- [Commits](https://github.com/symfony/console/compare/v5.4.23...v5.4.24)
+
+---
+updated-dependencies:
+- dependency-name: symfony/console
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,15 @@
+Bump platformdirs from 3.6.0 to 3.7.0
+
+Bumps [platformdirs](https://github.com/platformdirs/platformdirs) from 3.6.0 to 3.7.0.
+- [Release notes](https://github.com/platformdirs/platformdirs/releases)
+- [Changelog](https://github.com/platformdirs/platformdirs/blob/main/CHANGES.rst)
+- [Commits](https://github.com/platformdirs/platformdirs/compare/3.6.0...3.7.0)
+
+---
+updated-dependencies:
+- dependency-name: platformdirs
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

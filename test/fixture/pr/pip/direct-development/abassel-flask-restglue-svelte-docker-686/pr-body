@@ -1,0 +1,90 @@
+Bumps [pluggy](https://github.com/pytest-dev/pluggy) from 1.0.0 to 1.2.0.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pluggy/blob/main/CHANGELOG.rst">pluggy's changelog</a>.</em></p>
+<blockquote>
+<h1>pluggy 1.2.0 (2023-06-21)</h1>
+<h2>Features</h2>
+<ul>
+<li><code>[#405](https://github.com/pytest-dev/pluggy/issues/405) &lt;https://github.com/pytest-dev/pluggy/issues/405&gt;</code>_: The new-style hook wrappers, added in the yanked 1.1.0 release, now require an explicit <code>wrapper=True</code> designation in the <code>@hookimpl()</code> decorator.</li>
+</ul>
+<h1>pluggy 1.1.0 (YANKED)</h1>
+<p>.. note::</p>
+<p>This release was yanked because unfortunately the implicit new-style hook wrappers broke some downstream projects.
+See <code>[#403](https://github.com/pytest-dev/pluggy/issues/403) &lt;https://github.com/pytest-dev/pluggy/issues/403&gt;</code>__ for more information.
+This was rectified in the 1.2.0 release.</p>
+<h2>Deprecations and Removals</h2>
+<ul>
+<li><code>[#364](https://github.com/pytest-dev/pluggy/issues/364) &lt;https://github.com/pytest-dev/pluggy/issues/364&gt;</code>_: Python 3.6 is no longer supported.</li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li>
+<p><code>[#260](https://github.com/pytest-dev/pluggy/issues/260) &lt;https://github.com/pytest-dev/pluggy/issues/260&gt;</code>_: Added &quot;new-style&quot; hook wrappers, a simpler but equally powerful alternative to the existing <code>hookwrapper=True</code> wrappers.</p>
+<p>New-style wrappers are generator functions, similarly to <code>hookwrapper</code>, but do away with the :class:<code>result &lt;pluggy._callers._Result&gt;</code> object.
+Instead, the return value is sent directly to the <code>yield</code> statement, or, if inner calls raised an exception, it is raised from the <code>yield</code>.
+The wrapper is expected to return a value or raise an exception, which will become the result of the hook call.</p>
+<p>New-style wrappers are fully interoperable with old-style wrappers.
+We encourage users to use the new style, however we do not intend to deprecate the old style any time soon.</p>
+<p>See :ref:<code>hookwrappers</code> for the full documentation.</p>
+</li>
+<li>
+<p><code>[#364](https://github.com/pytest-dev/pluggy/issues/364) &lt;https://github.com/pytest-dev/pluggy/issues/364&gt;</code>_: Python 3.11 and 3.12 are now officially supported.</p>
+</li>
+<li>
+<p><code>[#394](https://github.com/pytest-dev/pluggy/issues/394) &lt;https://github.com/pytest-dev/pluggy/issues/394&gt;</code>_: Added the :meth:<code>~pluggy._callers._Result.force_exception</code> method to <code>_Result</code>.</p>
+<p><code>force_exception</code> allows (old-style) hookwrappers to force an exception or override/adjust an existing exception of a hook invocation,
+in a properly behaving manner. Using <code>force_exception</code> is preferred over raising an exception from the hookwrapper,
+because raising an exception causes other hookwrappers to be skipped.</p>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/9060a4e466a8ef08bd737dd75acf1e976b76dc07"><code>9060a4e</code></a> Preparing release 1.2.0</li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/926084e262441a3d2ab30ae7aefa463377f4c119"><code>926084e</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pluggy/issues/379">#379</a> from vitek/spec-conflict</li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/8103269dac8773bf7702d1494127383bbbe4cfc4"><code>8103269</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pluggy/issues/411">#411</a> from bluetech/new-style-v2</li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/3f9f62275d39679638aa2c9b3b9cc02665e9cdfb"><code>3f9f622</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pluggy/issues/408">#408</a> from bluetech/releasing-pre-test</li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/e241aed3efdde28e6862386a06d4faf840165650"><code>e241aed</code></a> Make new-style wrappers use explicit <code>wrapper=True</code></li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/165c4a71a2d528596d055d82cd1e5a78389dd1c6"><code>165c4a7</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pluggy/issues/410">#410</a> from bluetech/rm-subset-slots</li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/fea9daa582c1855c74ef7d4cd5fd923ed2ed8e25"><code>fea9daa</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pluggy/issues/409">#409</a> from bluetech/pm-no-slots</li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/b56b4c3a7e9cdcd8b94709f805a2865a08cc6218"><code>b56b4c3</code></a> hooks: remove a couple of unnecessary slots from <code>_SubsetHookCaller</code></li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/2e2a0408cb32563ee0bd610fe414045a39043873"><code>2e2a040</code></a> Add scripts for downstream testing</li>
+<li><a href="https://github.com/pytest-dev/pluggy/commit/4cfc67669a17b9c94abad2e035526ef2c1a1f4db"><code>4cfc676</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pluggy/issues/407">#407</a> from pytest-dev/pre-commit-ci-update-config</li>
+<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pluggy/compare/1.0.0...1.2.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pluggy&package-manager=pip&previous-version=1.0.0&new-version=1.2.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @abassel.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,108 @@
+Bumps [firebase/php-jwt](https://github.com/firebase/php-jwt) from 6.5.0 to 6.8.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/firebase/php-jwt/releases">firebase/php-jwt's releases</a>.</em></p>
+<blockquote>
+<h2>v6.8.0</h2>
+<h2><a href="https://github.com/firebase/php-jwt/compare/v6.7.0...v6.8.0">6.8.0</a> (2023-06-14)</h2>
+<h3>Features</h3>
+<ul>
+<li>add support for P-384 curve (<a href="https://redirect.github.com/firebase/php-jwt/issues/515">#515</a>) (<a href="https://github.com/firebase/php-jwt/commit/5de4323f4baf4d70bca8663bd87682a69c656c3d">5de4323</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>handle invalid http responses (<a href="https://redirect.github.com/firebase/php-jwt/issues/508">#508</a>) (<a href="https://github.com/firebase/php-jwt/commit/91c39c72b22fc3e1191e574089552c1f2041c718">91c39c7</a>)</li>
+</ul>
+<h2>v6.7.0</h2>
+<h2><a href="https://github.com/firebase/php-jwt/compare/v6.6.0...v6.7.0">6.7.0</a> (2023-06-14)</h2>
+<h3>Features</h3>
+<ul>
+<li>add ed25519 support to JWK (public keys) (<a href="https://redirect.github.com/firebase/php-jwt/issues/452">#452</a>) (<a href="https://github.com/firebase/php-jwt/commit/e53979abae927de916a75b9d239cfda8ce32be2a">e53979a</a>)</li>
+</ul>
+<h2>v6.6.0</h2>
+<h2><a href="https://github.com/firebase/php-jwt/compare/v6.5.0...v6.6.0">6.6.0</a> (2023-06-13)</h2>
+<h3>Features</h3>
+<ul>
+<li>allow get headers when decoding token (<a href="https://redirect.github.com/firebase/php-jwt/issues/442">#442</a>) (<a href="https://github.com/firebase/php-jwt/commit/fb85f47cfaeffdd94faf8defdf07164abcdad6c3">fb85f47</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>only check iat if nbf is not used (<a href="https://redirect.github.com/firebase/php-jwt/issues/493">#493</a>) (<a href="https://github.com/firebase/php-jwt/commit/398ccd25ea12fa84b9e4f1085d5ff448c21ec797">398ccd2</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/firebase/php-jwt/blob/main/CHANGELOG.md">firebase/php-jwt's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/firebase/php-jwt/compare/v6.7.0...v6.8.0">6.8.0</a> (2023-06-14)</h2>
+<h3>Features</h3>
+<ul>
+<li>add support for P-384 curve (<a href="https://redirect.github.com/firebase/php-jwt/issues/515">#515</a>) (<a href="https://github.com/firebase/php-jwt/commit/5de4323f4baf4d70bca8663bd87682a69c656c3d">5de4323</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>handle invalid http responses (<a href="https://redirect.github.com/firebase/php-jwt/issues/508">#508</a>) (<a href="https://github.com/firebase/php-jwt/commit/91c39c72b22fc3e1191e574089552c1f2041c718">91c39c7</a>)</li>
+</ul>
+<h2><a href="https://github.com/firebase/php-jwt/compare/v6.6.0...v6.7.0">6.7.0</a> (2023-06-14)</h2>
+<h3>Features</h3>
+<ul>
+<li>add ed25519 support to JWK (public keys) (<a href="https://redirect.github.com/firebase/php-jwt/issues/452">#452</a>) (<a href="https://github.com/firebase/php-jwt/commit/e53979abae927de916a75b9d239cfda8ce32be2a">e53979a</a>)</li>
+</ul>
+<h2><a href="https://github.com/firebase/php-jwt/compare/v6.5.0...v6.6.0">6.6.0</a> (2023-06-13)</h2>
+<h3>Features</h3>
+<ul>
+<li>allow get headers when decoding token (<a href="https://redirect.github.com/firebase/php-jwt/issues/442">#442</a>) (<a href="https://github.com/firebase/php-jwt/commit/fb85f47cfaeffdd94faf8defdf07164abcdad6c3">fb85f47</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>only check iat if nbf is not used (<a href="https://redirect.github.com/firebase/php-jwt/issues/493">#493</a>) (<a href="https://github.com/firebase/php-jwt/commit/398ccd25ea12fa84b9e4f1085d5ff448c21ec797">398ccd2</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/firebase/php-jwt/commit/48b0210c51718d682e53210c24d25c5a10a2299b"><code>48b0210</code></a> chore(main): release 6.8.0 (<a href="https://redirect.github.com/firebase/php-jwt/issues/519">#519</a>)</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/5de4323f4baf4d70bca8663bd87682a69c656c3d"><code>5de4323</code></a> feat: add support for P-384 curve (<a href="https://redirect.github.com/firebase/php-jwt/issues/515">#515</a>)</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/15d579a76bf2bef1f043c18c9eabbaec0e6989b6"><code>15d579a</code></a> chore(tests): remove unused variable</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/91c39c72b22fc3e1191e574089552c1f2041c718"><code>91c39c7</code></a> fix: handle invalid http responses (<a href="https://redirect.github.com/firebase/php-jwt/issues/508">#508</a>)</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/71278f20b0a623389beefe87a641d03948a38870"><code>71278f2</code></a> chore(main): release 6.7.0 (<a href="https://redirect.github.com/firebase/php-jwt/issues/518">#518</a>)</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/e53979abae927de916a75b9d239cfda8ce32be2a"><code>e53979a</code></a> feat: add ed25519 support to JWK (public keys) (<a href="https://redirect.github.com/firebase/php-jwt/issues/452">#452</a>)</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/5a9cf79b4a2eb347230384648cc7b0d68cd97faa"><code>5a9cf79</code></a> chore(main): release 6.6.0 (<a href="https://redirect.github.com/firebase/php-jwt/issues/511">#511</a>)</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/dacbbfcb979ff545ba262eb8c4d9e95ff0ff2d20"><code>dacbbfc</code></a> chore: update README</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/fb85f47cfaeffdd94faf8defdf07164abcdad6c3"><code>fb85f47</code></a> feat: allow get headers when decoding token (<a href="https://redirect.github.com/firebase/php-jwt/issues/442">#442</a>)</li>
+<li><a href="https://github.com/firebase/php-jwt/commit/398ccd25ea12fa84b9e4f1085d5ff448c21ec797"><code>398ccd2</code></a> fix: only check iat if nbf is not used (<a href="https://redirect.github.com/firebase/php-jwt/issues/493">#493</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/firebase/php-jwt/compare/v6.5.0...v6.8.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=firebase/php-jwt&package-manager=composer&previous-version=6.5.0&new-version=6.8.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

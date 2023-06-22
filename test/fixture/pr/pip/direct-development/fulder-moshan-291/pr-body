@@ -1,0 +1,114 @@
+[//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [pydantic](https://github.com/pydantic/pydantic) from 1.10.7 to 1.10.9.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pydantic/pydantic/releases">pydantic's releases</a>.</em></p>
+<blockquote>
+<h2>V1.10.9</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add Pydantic classifier by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5847">pydantic/pydantic#5847</a></li>
+<li>📌 Use Cython &lt; v3 by <a href="https://github.com/lig"><code>@​lig</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5845">pydantic/pydantic#5845</a></li>
+<li>[cherry-pick] Fix mypy plugin for 1.4.0 (<a href="https://redirect.github.com/pydantic/pydantic/issues/5927">#5927</a>) by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5928">pydantic/pydantic#5928</a></li>
+<li>Add future and past date hypothesis strategies by <a href="https://github.com/bschoenmaeckers"><code>@​bschoenmaeckers</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5850">pydantic/pydantic#5850</a></li>
+<li>[Backport] Fix Decimal trailing zero handling by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5968">pydantic/pydantic#5968</a></li>
+<li>Prepare for 1.10.9 by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6034">pydantic/pydantic#6034</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/bschoenmaeckers"><code>@​bschoenmaeckers</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/5850">pydantic/pydantic#5850</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.8...v1.10.9">https://github.com/pydantic/pydantic/compare/v1.10.8...v1.10.9</a></p>
+<h2>v1.10.8 2023-05-23</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Fix a bug in <code>Literal</code> usage with <code>typing-extension==4.6.0</code>, <a href="https://redirect.github.com/pydantic/pydantic/issues/5826">#5826</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>This solves the (closed) issue <a href="https://redirect.github.com/pydantic/pydantic/issues/3849">#3849</a> where aliased fields that use discriminated union fail to validate when the data contains the non-aliased field name, <a href="https://redirect.github.com/pydantic/pydantic/issues/5736">#5736</a> by <a href="https://github.com/benwah"><code>@​benwah</code></a></li>
+<li>Update email-validator dependency to &gt;=2.0.0post2, <a href="https://redirect.github.com/pydantic/pydantic/issues/5627">#5627</a> by <a href="https://github.com/adriangb"><code>@​adriangb</code></a></li>
+<li>update <code>AnyClassMethod</code> for changes in <a href="https://redirect.github.com/python/typeshed/issues/9771">python/typeshed#9771</a>, <a href="https://redirect.github.com/pydantic/pydantic/issues/5505">#5505</a> by <a href="https://github.com/ITProKyle"><code>@​ITProKyle</code></a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/DimitriPapadopoulos"><code>@​DimitriPapadopoulos</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/5375">pydantic/pydantic#5375</a></li>
+<li><a href="https://github.com/ITProKyle"><code>@​ITProKyle</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/5505">pydantic/pydantic#5505</a></li>
+<li><a href="https://github.com/benwah"><code>@​benwah</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/5736">pydantic/pydantic#5736</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.7...v1.10.8">https://github.com/pydantic/pydantic/compare/v1.10.7...v1.10.8</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pydantic/pydantic/blob/main/HISTORY.md">pydantic's changelog</a>.</em></p>
+<blockquote>
+<h2>v1.10.9 (2023-06-07)</h2>
+<ul>
+<li>Fix trailing zeros not ignored in Decimal validation, <a href="https://redirect.github.com/pydantic/pydantic/issues/5968">#5968</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>Fix mypy plugin for v1.4.0, <a href="https://redirect.github.com/pydantic/pydantic/issues/5928">#5928</a> by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a></li>
+<li>Add future and past date hypothesis strategies, <a href="https://redirect.github.com/pydantic/pydantic/issues/5850">#5850</a> by <a href="https://github.com/bschoenmaeckers"><code>@​bschoenmaeckers</code></a></li>
+<li>Discourage usage of Cython 3 with Pydantic 1.x, <a href="https://redirect.github.com/pydantic/pydantic/issues/5845">#5845</a> by <a href="https://github.com/lig"><code>@​lig</code></a></li>
+</ul>
+<h2>v1.10.8 (2023-05-23)</h2>
+<ul>
+<li>Fix a bug in <code>Literal</code> usage with <code>typing-extension==4.6.0</code>, <a href="https://redirect.github.com/pydantic/pydantic/issues/5826">#5826</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>This solves the (closed) issue <a href="https://redirect.github.com/pydantic/pydantic/issues/3849">#3849</a> where aliased fields that use discriminated union fail to validate when the data contains the non-aliased field name, <a href="https://redirect.github.com/pydantic/pydantic/issues/5736">#5736</a> by <a href="https://github.com/benwah"><code>@​benwah</code></a></li>
+<li>Update email-validator dependency to &gt;=2.0.0post2, <a href="https://redirect.github.com/pydantic/pydantic/issues/5627">#5627</a> by <a href="https://github.com/adriangb"><code>@​adriangb</code></a></li>
+<li>update <code>AnyClassMethod</code> for changes in <a href="https://redirect.github.com/python/typeshed/issues/9771">python/typeshed#9771</a>, <a href="https://redirect.github.com/pydantic/pydantic/issues/5505">#5505</a> by <a href="https://github.com/ITProKyle"><code>@​ITProKyle</code></a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pydantic/pydantic/commit/90326480ff1061f690aa193bd112cd17a6d90a70"><code>9032648</code></a> Prepare for 1.10.9 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6034">#6034</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/a350460ab97bf6bb5148e6d9a94b3f2c53f9584f"><code>a350460</code></a> [Backport] Fix Decimal trailing zero handling (<a href="https://redirect.github.com/pydantic/pydantic/issues/5968">#5968</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/0813a03893f7a976f021a2571e7897d4df7d5630"><code>0813a03</code></a> Add future and past date hypothesis strategies (<a href="https://redirect.github.com/pydantic/pydantic/issues/5850">#5850</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/ca103024735ed174cc9894331fb3a06fdffaf2e1"><code>ca10302</code></a> [cherry-pick] Fix mypy plugin for 1.4.0 (<a href="https://redirect.github.com/pydantic/pydantic/issues/5927">#5927</a>) (<a href="https://redirect.github.com/pydantic/pydantic/issues/5928">#5928</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/b9a316ed7583f78ceae1f4c53f9993aac1c37601"><code>b9a316e</code></a> 📌 Use Cython &lt; v3 (<a href="https://redirect.github.com/pydantic/pydantic/issues/5845">#5845</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/25c99b5a645d398694476fcc9c46200ecd391b6c"><code>25c99b5</code></a> Add Pydantic classifier (<a href="https://redirect.github.com/pydantic/pydantic/issues/5847">#5847</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/77e3ac776c3dc71f09ce7a1f734d9cad035a8c0f"><code>77e3ac7</code></a> remove sponsors from docs (<a href="https://redirect.github.com/pydantic/pydantic/issues/5833">#5833</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/afadf00a653b222e6e1bd70d2a7921e57aeb3ac3"><code>afadf00</code></a> Prepare for 1.10.8 (<a href="https://redirect.github.com/pydantic/pydantic/issues/5830">#5830</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/c6e4d211fdbe9bfbb3dd850fde507e3ece7c76a2"><code>c6e4d21</code></a> V1 add <code>build-docs.sh</code> (<a href="https://redirect.github.com/pydantic/pydantic/issues/5832">#5832</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/c4d3dee621884670eabbeb9b57b973508193c664"><code>c4d3dee</code></a> Fix Literal bug with typing-extension==4.6.0 (<a href="https://redirect.github.com/pydantic/pydantic/issues/5826">#5826</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/pydantic/pydantic/compare/v1.10.7...v1.10.9">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pydantic&package-manager=pip&previous-version=1.10.7&new-version=1.10.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

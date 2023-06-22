@@ -1,0 +1,44 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.bouncycastle:bcprov-jdk18on",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "org.bouncycastle:bcprov-ext-jdk18on",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "org.bouncycastle:bcpkix-jdk18on",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "org.bouncycastle:bcmail-jdk18on",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "org.bouncycastle:bcutil-jdk18on",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "org.bouncycastle:bcpg-jdk18on",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "org.bouncycastle:bcjmail-jdk18on",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "org.bouncycastle:bctls-jdk18on",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

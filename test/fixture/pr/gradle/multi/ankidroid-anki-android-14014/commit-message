@@ -1,0 +1,24 @@
+Bump lint_version from 30.4.2 to 31.0.2
+
+Bumps `lint_version` from 30.4.2 to 31.0.2.
+
+Updates `com.android.tools.lint:lint-api` from 30.4.2 to 31.0.2
+
+Updates `com.android.tools.lint:lint` from 30.4.2 to 31.0.2
+
+Updates `com.android.tools.lint:lint-tests` from 30.4.2 to 31.0.2
+
+---
+updated-dependencies:
+- dependency-name: com.android.tools.lint:lint-api
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+- dependency-name: com.android.tools.lint:lint
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+- dependency-name: com.android.tools.lint:lint-tests
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

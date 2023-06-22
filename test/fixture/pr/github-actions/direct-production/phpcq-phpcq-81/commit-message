@@ -1,0 +1,15 @@
+github-actions(deps): bump actions/cache from 1 to 3
+
+Bumps [actions/cache](https://github.com/actions/cache) from 1 to 3.
+- [Release notes](https://github.com/actions/cache/releases)
+- [Changelog](https://github.com/actions/cache/blob/main/RELEASES.md)
+- [Commits](https://github.com/actions/cache/compare/v1...v3)
+
+---
+updated-dependencies:
+- dependency-name: actions/cache
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

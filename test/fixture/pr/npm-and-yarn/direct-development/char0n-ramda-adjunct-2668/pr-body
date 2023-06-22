@@ -1,0 +1,101 @@
+Bumps [glob](https://github.com/isaacs/node-glob) from 10.2.7 to 10.3.0.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/isaacs/node-glob/blob/main/changelog.md">glob's changelog</a>.</em></p>
+<blockquote>
+<h2>10.3.0</h2>
+<ul>
+<li>Add <code>--default -p</code> flag to provide a default pattern</li>
+</ul>
+<h2>10.2.0</h2>
+<ul>
+<li>Add glob cli</li>
+</ul>
+<h2>10.1.0</h2>
+<ul>
+<li>Return <code>'.'</code> instead of the empty string <code>''</code> when the current
+working directory is returned as a match.</li>
+<li>Add <code>posix: true</code> option to return <code>/</code> delimited paths, even on
+Windows.</li>
+</ul>
+<h2>10.0.0</h2>
+<ul>
+<li>No default exports, only named exports</li>
+</ul>
+<h2>9.3.3</h2>
+<ul>
+<li>Upgraded minimatch to v8, adding support for any degree of
+nested extglob patterns.</li>
+</ul>
+<h2>9.3</h2>
+<ul>
+<li>Add aliases for methods. <code>glob.sync</code>, <code>glob.stream</code>,
+<code>glob.stream.sync</code>, etc.</li>
+</ul>
+<h2>9.2</h2>
+<ul>
+<li>Support using a custom fs object, which is passed to PathScurry</li>
+<li>add maxDepth option</li>
+<li>add stat option</li>
+<li>add custom Ignore support</li>
+</ul>
+<h2>9.1</h2>
+<ul>
+<li>Bring back the <code>root</code> option, albeit with slightly different
+semantics than in v8 and before.</li>
+<li>Support <code>{ absolute:false }</code> option to explicitly always return
+relative paths. An unset <code>absolute</code> setting will still return
+absolute or relative paths based on whether the pattern is
+absolute.</li>
+<li>Add <code>magicalBraces</code> option to treat brace expansion as &quot;magic&quot;
+in the <code>hasMagic</code> function.</li>
+<li>Add <code>dotRelative</code> option</li>
+<li>Add <code>escape()</code> and <code>unescape()</code> methods</li>
+</ul>
+<h2>9.0</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/isaacs/node-glob/commit/157373b836ed9c48e204252951c2470117917606"><code>157373b</code></a> 10.3.0</li>
+<li><a href="https://github.com/isaacs/node-glob/commit/b358bd920b117bc3ca0964ce2237bacb1f6876b4"><code>b358bd9</code></a> changelog 10.3</li>
+<li><a href="https://github.com/isaacs/node-glob/commit/1b2bc07fdc48ec6038f0f732fb903fb713fac954"><code>1b2bc07</code></a> feat: add default cli flag</li>
+<li><a href="https://github.com/isaacs/node-glob/commit/2a4c3eaad57df1125605a7a9f9acb7163f86e39f"><code>2a4c3ea</code></a> add tests for bin</li>
+<li>See full diff in <a href="https://github.com/isaacs/node-glob/compare/v10.2.7...v10.3.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=glob&package-manager=npm_and_yarn&previous-version=10.2.7&new-version=10.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @char0n.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

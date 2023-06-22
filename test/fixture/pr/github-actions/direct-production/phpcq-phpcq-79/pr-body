@@ -1,0 +1,180 @@
+Bumps [actions/checkout](https://github.com/actions/checkout) from 2 to 3.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/actions/checkout/releases">actions/checkout's releases</a>.</em></p>
+<blockquote>
+<h2>v3.0.0</h2>
+<ul>
+<li>Updated to the node16 runtime by default
+<ul>
+<li>This requires a minimum <a href="https://github.com/actions/runner/releases/tag/v2.285.0">Actions Runner</a> version of v2.285.0 to run, which is by default available in GHES 3.4 or later.</li>
+</ul>
+</li>
+</ul>
+<h2>v2.7.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add new public key for known_hosts (<a href="https://redirect.github.com/actions/checkout/issues/1237">#1237</a>) by <a href="https://github.com/TingluoHuang"><code>@​TingluoHuang</code></a> in <a href="https://redirect.github.com/actions/checkout/pull/1238">actions/checkout#1238</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/checkout/compare/v2.6.0...v2.7.0">https://github.com/actions/checkout/compare/v2.6.0...v2.7.0</a></p>
+<h2>v2.6.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add backports to v2 branch by <a href="https://github.com/cory-miller"><code>@​cory-miller</code></a> in <a href="https://redirect.github.com/actions/checkout/pull/1040">actions/checkout#1040</a>
+<ul>
+<li>Includes backports from the following changes: <a href="https://redirect.github.com/actions/checkout/pull/964">actions/checkout#964</a>, <a href="https://redirect.github.com/actions/checkout/pull/1002">actions/checkout#1002</a>, <a href="https://redirect.github.com/actions/checkout/pull/1029">actions/checkout#1029</a></li>
+<li>Upgraded the licensed version to match what is used in v3.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/checkout/compare/v2.5.0...v2.6.0">https://github.com/actions/checkout/compare/v2.5.0...v2.6.0</a></p>
+<h2>v2.5.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Update <code>@​actions/core</code> to 1.10.0 by <a href="https://github.com/rentziass"><code>@​rentziass</code></a> in <a href="https://redirect.github.com/actions/checkout/pull/962">actions/checkout#962</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/checkout/compare/v2...v2.5.0">https://github.com/actions/checkout/compare/v2...v2.5.0</a></p>
+<h2>v2.4.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add set-safe-directory input to allow customers to take control. (<a href="https://redirect.github.com/actions/checkout/issues/770">#770</a>) by <a href="https://github.com/TingluoHuang"><code>@​TingluoHuang</code></a> in <a href="https://redirect.github.com/actions/checkout/pull/776">actions/checkout#776</a></li>
+<li>Prepare changelog for v2.4.2. by <a href="https://github.com/TingluoHuang"><code>@​TingluoHuang</code></a> in <a href="https://redirect.github.com/actions/checkout/pull/778">actions/checkout#778</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/checkout/compare/v2...v2.4.2">https://github.com/actions/checkout/compare/v2...v2.4.2</a></p>
+<h2>v2.4.1</h2>
+<ul>
+<li>Fixed an issue where checkout failed to run in container jobs due to the new git setting <code>safe.directory</code></li>
+</ul>
+<h2>v2.4.0</h2>
+<ul>
+<li>Convert SSH URLs like <code>org-&lt;ORG_ID&gt;@github.com:</code> to <code>https://github.com/</code> - <a href="https://redirect.github.com/actions/checkout/pull/621">pr</a></li>
+</ul>
+<h2>v2.3.5</h2>
+<p>Update dependencies</p>
+<h2>v2.3.4</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/379">Add missing <code>await</code>s</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/360">Swap to Environment Files</a></li>
+</ul>
+<h2>v2.3.3</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/345">Remove Unneeded commit information from build logs</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/326">Add Licensed to verify third party dependencies</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/actions/checkout/blob/main/CHANGELOG.md">actions/checkout's changelog</a>.</em></p>
+<blockquote>
+<h1>Changelog</h1>
+<h2>v3.5.3</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1196">Fix: Checkout fail in self-hosted runners when faulty submodule are checked-in</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1287">Fix typos found by codespell</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1369">Add support for sparse checkouts</a></li>
+</ul>
+<h2>v3.5.2</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1289">Fix api endpoint for GHES</a></li>
+</ul>
+<h2>v3.5.1</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1246">Fix slow checkout on Windows</a></li>
+</ul>
+<h2>v3.5.0</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1237">Add new public key for known_hosts</a></li>
+</ul>
+<h2>v3.4.0</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1209">Upgrade codeql actions to v2</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1210">Upgrade dependencies</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1225">Upgrade <code>@​actions/io</code></a></li>
+</ul>
+<h2>v3.3.0</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1045">Implement branch list using callbacks from exec function</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1050">Add in explicit reference to private checkout options</a></li>
+<li>[Fix comment typos (that got added in <a href="https://redirect.github.com/actions/checkout/issues/770">#770</a>)](<a href="https://redirect.github.com/actions/checkout/pull/1057">actions/checkout#1057</a>)</li>
+</ul>
+<h2>v3.2.0</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/942">Add GitHub Action to perform release</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/967">Fix status badge</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1002">Replace datadog/squid with ubuntu/squid Docker image</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/964">Wrap pipeline commands for submoduleForeach in quotes</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1029">Update <code>@​actions/io</code> to 1.1.2</a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/1039">Upgrading version to 3.2.0</a></li>
+</ul>
+<h2>v3.1.0</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/939">Use <code>@​actions/core</code> <code>saveState</code> and <code>getState</code></a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/922">Add <code>github-server-url</code> input</a></li>
+</ul>
+<h2>v3.0.2</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/770">Add input <code>set-safe-directory</code></a></li>
+</ul>
+<h2>v3.0.1</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/762">Fixed an issue where checkout failed to run in container jobs due to the new git setting <code>safe.directory</code></a></li>
+<li><a href="https://redirect.github.com/actions/checkout/pull/744">Bumped various npm package versions</a></li>
+</ul>
+<h2>v3.0.0</h2>
+<ul>
+<li><a href="https://redirect.github.com/actions/checkout/pull/689">Update to node 16</a></li>
+</ul>
+<h2>v2.3.1</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/actions/checkout/commit/c85c95e3d7251135ab7dc9ce3241c5835cc595a9"><code>c85c95e</code></a> Release v3.5.3 (<a href="https://redirect.github.com/actions/checkout/issues/1376">#1376</a>)</li>
+<li><a href="https://github.com/actions/checkout/commit/d106d4669b3bfcb17f11f83f98e1cab478e9f635"><code>d106d46</code></a> Add support for sparse checkouts (<a href="https://redirect.github.com/actions/checkout/issues/1369">#1369</a>)</li>
+<li><a href="https://github.com/actions/checkout/commit/f095bcc56b7c2baf48f3ac70d6d6782f4f553222"><code>f095bcc</code></a> Fix typos found by codespell (<a href="https://redirect.github.com/actions/checkout/issues/1287">#1287</a>)</li>
+<li><a href="https://github.com/actions/checkout/commit/47fbe2df0ad0e27efb67a70beac3555f192b062f"><code>47fbe2d</code></a> Fix: Checkout fail in self-hosted runners when faulty submodule are checked-i...</li>
+<li><a href="https://github.com/actions/checkout/commit/8e5e7e5ab8b370d6c329ec480221332ada57f0ab"><code>8e5e7e5</code></a> Release v3.5.2 (<a href="https://redirect.github.com/actions/checkout/issues/1291">#1291</a>)</li>
+<li><a href="https://github.com/actions/checkout/commit/eb35239ec22e9029a5be28f8c41e67452f615f0f"><code>eb35239</code></a> Fix: convert baseUrl to serverApiUrl 'formatted' (<a href="https://redirect.github.com/actions/checkout/issues/1289">#1289</a>)</li>
+<li><a href="https://github.com/actions/checkout/commit/83b7061638ee4956cf7545a6f7efe594e5ad0247"><code>83b7061</code></a> Release v3.5.1 (<a href="https://redirect.github.com/actions/checkout/issues/1284">#1284</a>)</li>
+<li><a href="https://github.com/actions/checkout/commit/40a16ebeed7da831425b665e600750cb36b38d06"><code>40a16eb</code></a> Improve checkout performance on Windows runners by upgrading <code>@​actions/github</code> ...</li>
+<li><a href="https://github.com/actions/checkout/commit/8f4b7f84864484a7bf31766abe9204da3cbe65b3"><code>8f4b7f8</code></a> Add new public key for known_hosts (<a href="https://redirect.github.com/actions/checkout/issues/1237">#1237</a>)</li>
+<li><a href="https://github.com/actions/checkout/commit/cd6a9fd49371476d813e892956e2e920fcc3fb7e"><code>cd6a9fd</code></a> Update update-main-version.yml</li>
+<li>Additional commits viewable in <a href="https://github.com/actions/checkout/compare/v2...v3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/checkout&package-manager=github_actions&previous-version=2&new-version=3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

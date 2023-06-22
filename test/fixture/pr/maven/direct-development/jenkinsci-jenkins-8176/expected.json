@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "org.jenkins-ci.plugins:junit",
+      "dependencyType": "direct:development"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "node-sass",
+      "dependencyType": "indirect",
+      "updateType": "removal"
+    },
+    {
+      "dependencyName": "gulp-sass",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

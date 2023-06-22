@@ -1,0 +1,13 @@
+Bump openssl from 0.10.48 to 0.10.55
+
+Bumps [openssl](https://github.com/sfackler/rust-openssl) from 0.10.48 to 0.10.55.
+- [Release notes](https://github.com/sfackler/rust-openssl/releases)
+- [Commits](https://github.com/sfackler/rust-openssl/compare/openssl-v0.10.48...openssl-v0.10.55)
+
+---
+updated-dependencies:
+- dependency-name: openssl
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

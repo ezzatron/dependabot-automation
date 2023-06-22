@@ -1,0 +1,37 @@
+Bump acra_version from 5.9.7 to 5.10.1
+
+Bumps `acra_version` from 5.9.7 to 5.10.1.
+
+Updates `ch.acra:acra-http` from 5.9.7 to 5.10.1
+- [Release notes](https://github.com/ACRA/acra/releases)
+- [Commits](https://github.com/ACRA/acra/compare/acra-5.9.7...acra-5.10.1)
+
+Updates `ch.acra:acra-dialog` from 5.9.7 to 5.10.1
+- [Release notes](https://github.com/ACRA/acra/releases)
+- [Commits](https://github.com/ACRA/acra/compare/acra-5.9.7...acra-5.10.1)
+
+Updates `ch.acra:acra-toast` from 5.9.7 to 5.10.1
+- [Release notes](https://github.com/ACRA/acra/releases)
+- [Commits](https://github.com/ACRA/acra/compare/acra-5.9.7...acra-5.10.1)
+
+Updates `ch.acra:acra-limiter` from 5.9.7 to 5.10.1
+- [Release notes](https://github.com/ACRA/acra/releases)
+- [Commits](https://github.com/ACRA/acra/compare/acra-5.9.7...acra-5.10.1)
+
+---
+updated-dependencies:
+- dependency-name: ch.acra:acra-http
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: ch.acra:acra-dialog
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: ch.acra:acra-toast
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: ch.acra:acra-limiter
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

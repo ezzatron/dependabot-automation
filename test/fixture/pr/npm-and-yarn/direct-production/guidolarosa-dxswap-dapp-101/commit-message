@@ -1,0 +1,15 @@
+Bump i18next from 21.8.10 to 23.2.2
+
+Bumps [i18next](https://github.com/i18next/i18next) from 21.8.10 to 23.2.2.
+- [Release notes](https://github.com/i18next/i18next/releases)
+- [Changelog](https://github.com/i18next/i18next/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/i18next/i18next/compare/v21.8.10...v23.2.2)
+
+---
+updated-dependencies:
+- dependency-name: i18next
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

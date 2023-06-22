@@ -1,0 +1,12 @@
+GPC-NONE: Bump amazoncorretto in /platform
+
+Bumps amazoncorretto from 17.0.7-alpine3.17 to 20.0.1-alpine3.17.
+
+---
+updated-dependencies:
+- dependency-name: amazoncorretto
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

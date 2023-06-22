@@ -1,0 +1,24 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "ch.acra:acra-http",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "ch.acra:acra-dialog",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "ch.acra:acra-toast",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "ch.acra:acra-limiter",
+      "dependencyType": "direct:production",
+      "updateType": "version-update:semver-minor"
+    }
+  ]
+}

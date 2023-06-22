@@ -1,0 +1,15 @@
+build(deps): bump github.com/pterm/pterm from 0.12.58 to 0.12.62
+
+Bumps [github.com/pterm/pterm](https://github.com/pterm/pterm) from 0.12.58 to 0.12.62.
+- [Release notes](https://github.com/pterm/pterm/releases)
+- [Changelog](https://github.com/pterm/pterm/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/pterm/pterm/compare/v0.12.58...v0.12.62)
+
+---
+updated-dependencies:
+- dependency-name: github.com/pterm/pterm
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

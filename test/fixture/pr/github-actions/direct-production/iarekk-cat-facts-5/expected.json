@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "erlef/setup-beam",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

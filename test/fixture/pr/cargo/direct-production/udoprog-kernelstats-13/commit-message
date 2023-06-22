@@ -1,0 +1,13 @@
+Bump tokio from 0.2.22 to 1.18.5
+
+Bumps [tokio](https://github.com/tokio-rs/tokio) from 0.2.22 to 1.18.5.
+- [Release notes](https://github.com/tokio-rs/tokio/releases)
+- [Commits](https://github.com/tokio-rs/tokio/compare/tokio-0.2.22...tokio-1.18.5)
+
+---
+updated-dependencies:
+- dependency-name: tokio
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

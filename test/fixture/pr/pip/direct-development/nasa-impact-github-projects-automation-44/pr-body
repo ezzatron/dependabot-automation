@@ -1,0 +1,95 @@
+Bumps [pytest](https://github.com/pytest-dev/pytest) from 7.1.2 to 7.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest/releases">pytest's releases</a>.</em></p>
+<blockquote>
+<h2>7.3.2</h2>
+<h1>pytest 7.3.2 (2023-06-10)</h1>
+<h2>Bug Fixes</h2>
+<ul>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10169">#10169</a>: Fix bug where very long option names could cause pytest to break with <code>OSError: [Errno 36] File name too long</code> on some systems.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10894">#10894</a>: Support for Python 3.12 (beta at the time of writing).</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10987">#10987</a>: <code>testpaths</code>{.interpreted-text role=&quot;confval&quot;} is now honored to load root <code>conftests</code>.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10999">#10999</a>: The [monkeypatch]{.title-ref} [setitem]{.title-ref}/[delitem]{.title-ref} type annotations now allow [TypedDict]{.title-ref} arguments.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/11028">#11028</a>: Fixed bug in assertion rewriting where a variable assigned with the walrus operator could not be used later in a function call.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/11054">#11054</a>: Fixed <code>--last-failed</code>'s &quot;(skipped N files)&quot; functionality for files inside of packages (directories with [__init__.py]{.title-ref} files).</li>
+</ul>
+<h2>7.3.1</h2>
+<h1>pytest 7.3.1 (2023-04-14)</h1>
+<h2>Improvements</h2>
+<ul>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10875">#10875</a>: Python 3.12 support: fixed <code>RuntimeError: TestResult has no addDuration method</code> when running <code>unittest</code> tests.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10890">#10890</a>: Python 3.12 support: fixed <code>shutil.rmtree(onerror=...)</code> deprecation warning when using <code>tmp_path</code>{.interpreted-text role=&quot;fixture&quot;}.</li>
+</ul>
+<h2>Bug Fixes</h2>
+<ul>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10896">#10896</a>: Fixed performance regression related to <code>tmp_path</code>{.interpreted-text role=&quot;fixture&quot;} and the new <code>tmp_path_retention_policy</code>{.interpreted-text role=&quot;confval&quot;} option.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10903">#10903</a>: Fix crash <code>INTERNALERROR IndexError: list index out of range</code> which happens when displaying an exception where all entries are hidden.
+This reverts the change &quot;Correctly handle <code>__tracebackhide__</code> for chained exceptions.&quot; introduced in version 7.3.0.</li>
+</ul>
+<h2>7.3.0</h2>
+<h1>pytest 7.3.0 (2023-04-08)</h1>
+<h2>Features</h2>
+<ul>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10525">#10525</a>: Test methods decorated with <code>@classmethod</code> can now be discovered as tests, following the same rules as normal methods. This fills the gap that static methods were discoverable as tests but not class methods.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10755">#10755</a>: <code>console_output_style</code>{.interpreted-text role=&quot;confval&quot;} now supports <code>progress-even-when-capture-no</code> to force the use of the progress output even when capture is disabled. This is useful in large test suites where capture may have significant performance impact.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/7431">#7431</a>: <code>--log-disable</code> CLI option added to disable individual loggers.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/8141">#8141</a>: Added <code>tmp_path_retention_count</code>{.interpreted-text role=&quot;confval&quot;} and <code>tmp_path_retention_policy</code>{.interpreted-text role=&quot;confval&quot;} configuration options to control how directories created by the <code>tmp_path</code>{.interpreted-text role=&quot;fixture&quot;} fixture are kept.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10226">#10226</a>: If multiple errors are raised in teardown, we now re-raise an <code>ExceptionGroup</code> of them instead of discarding all but the last.</li>
+<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/10658">#10658</a>: Allow <code>-p</code> arguments to include spaces (eg: <code>-p no:logging</code> instead of
+<code>-pno:logging</code>). Mostly useful in the <code>addopts</code> section of the configuration
+file.</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pytest-dev/pytest/commit/9d47a39bdd85e6bef40a5674e5f0eded54e54d7e"><code>9d47a39</code></a> Prepare release version 7.3.2</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/d66697ed9a34200f120a36378dbebfb18f81957d"><code>d66697e</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/11094">#11094</a> from pytest-dev/backport-10894-to-7.3.x</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/8e1bbe1a943ea103957728053ec4764a00364331"><code>8e1bbe1</code></a> [7.3.x] Python 3.12 support</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/d054a689316dbab4fabd02140f0bca42ac7447bc"><code>d054a68</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/11058">#11058</a> from pytest-dev/backport-11055-to-7.3.x</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/30a112583e27c7c2c06ccde5afd952a0306837ce"><code>30a1125</code></a> [7.3.x] cacheprovider: fix file-skipping feature for files in packages</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/682fc81781400b8e1591d77ff41cb75b4b594fe8"><code>682fc81</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/11057">#11057</a> from pytest-dev/backport-11041-to-7.3.x</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/331bc1be4634cf95fdb33021d4355c35723b73fe"><code>331bc1b</code></a> [7.3.x] 11028 - Fix warlus operator behavior when called by a function</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/69689c6eb55188980d055e280ceca060a9be634b"><code>69689c6</code></a> [7.3.x] nonpython example now repr all exceptions (<a href="https://redirect.github.com/pytest-dev/pytest/issues/11034">#11034</a>)</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/6c95cb607d87f493d308b98ad21a28ac9821105e"><code>6c95cb6</code></a> [7.3.x] Spelling and grammar fixes (<a href="https://redirect.github.com/pytest-dev/pytest/issues/11015">#11015</a>)</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/efcb81c4927573ef624c0fb723643f10b69cbff9"><code>efcb81c</code></a> [7.3.x] Reference &quot;Status of Python Versions&quot; in backwards-compatibility poli...</li>
+<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pytest/compare/7.1.2...7.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest&package-manager=pip&previous-version=7.1.2&new-version=7.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

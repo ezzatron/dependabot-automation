@@ -1,0 +1,14 @@
+Bump JetBrains/qodana-action from 2023.1.4 to 2023.1.5
+
+Bumps [JetBrains/qodana-action](https://github.com/JetBrains/qodana-action) from 2023.1.4 to 2023.1.5.
+- [Release notes](https://github.com/JetBrains/qodana-action/releases)
+- [Commits](https://github.com/JetBrains/qodana-action/compare/v2023.1.4...v2023.1.5)
+
+---
+updated-dependencies:
+- dependency-name: JetBrains/qodana-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

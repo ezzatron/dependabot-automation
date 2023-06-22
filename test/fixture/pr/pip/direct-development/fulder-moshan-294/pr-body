@@ -1,0 +1,117 @@
+[//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [fastapi](https://github.com/tiangolo/fastapi) from 0.95.2 to 0.97.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/tiangolo/fastapi/releases">fastapi's releases</a>.</em></p>
+<blockquote>
+<h2>0.97.0</h2>
+<h3>Features</h3>
+<ul>
+<li>✨ Add support for <code>dependencies</code> in WebSocket routes. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/4534">#4534</a> by <a href="https://github.com/paulo-raca"><code>@​paulo-raca</code></a>.</li>
+<li>✨ Add exception handler for <code>WebSocketRequestValidationError</code> (which also allows to override it). PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/6030">#6030</a> by <a href="https://github.com/kristjanvalur"><code>@​kristjanvalur</code></a>.</li>
+</ul>
+<h3>Refactors</h3>
+<ul>
+<li>⬆️ Upgrade and fully migrate to Ruff, remove isort, includes a couple of tweaks suggested by the new version of Ruff. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9660">#9660</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>♻️ Update internal type annotations and upgrade mypy. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9658">#9658</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>♻️ Simplify <code>AsyncExitStackMiddleware</code> as without Python 3.6 <code>AsyncExitStack</code> is always available. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9657">#9657</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+</ul>
+<h3>Upgrades</h3>
+<ul>
+<li>⬆️ Upgrade Black. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9661">#9661</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+</ul>
+<h3>Internal</h3>
+<ul>
+<li>💚 Update CI cache to fix installs when dependencies change. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9659">#9659</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>⬇️ Separate requirements for development into their own requirements.txt files, they shouldn't be extras. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9655">#9655</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+</ul>
+<h2>0.96.1</h2>
+<h3>Fixes</h3>
+<ul>
+<li>🐛 Fix <code>HTTPException</code> header type annotations. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9648">#9648</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>🐛 Fix OpenAPI model fields int validations, <code>gte</code> to <code>ge</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9635">#9635</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+</ul>
+<h3>Upgrades</h3>
+<ul>
+<li>📌 Update minimum version of Pydantic to &gt;=1.7.4. This fixes an issue when trying to use an old version of Pydantic. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9567">#9567</a> by <a href="https://github.com/Kludex"><code>@​Kludex</code></a>.</li>
+</ul>
+<h3>Refactors</h3>
+<ul>
+<li>♻ Remove <code>media_type</code> from <code>ORJSONResponse</code> as it's inherited from the parent class. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5805">#5805</a> by <a href="https://github.com/Kludex"><code>@​Kludex</code></a>.</li>
+<li>♻ Instantiate <code>HTTPException</code> only when needed, optimization refactor. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5356">#5356</a> by <a href="https://github.com/pawamoy"><code>@​pawamoy</code></a>.</li>
+</ul>
+<h3>Docs</h3>
+<ul>
+<li>🔥 Remove link to Pydantic's benchmark, as it was removed there. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5811">#5811</a> by <a href="https://github.com/Kludex"><code>@​Kludex</code></a>.</li>
+</ul>
+<h3>Translations</h3>
+<ul>
+<li>🌐 Fix spelling in Indonesian translation of <code>docs/id/docs/tutorial/index.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5635">#5635</a> by <a href="https://github.com/purwowd"><code>@​purwowd</code></a>.</li>
+<li>🌐 Add Russian translation for <code>docs/ru/docs/tutorial/index.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5896">#5896</a> by <a href="https://github.com/Wilidon"><code>@​Wilidon</code></a>.</li>
+<li>🌐 Add Chinese translations for <code>docs/zh/docs/advanced/response-change-status-code.md</code> and <code>docs/zh/docs/advanced/response-headers.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9544">#9544</a> by <a href="https://github.com/ChoyeonChern"><code>@​ChoyeonChern</code></a>.</li>
+<li>🌐 Add Russian translation for <code>docs/ru/docs/tutorial/schema-extra-example.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9621">#9621</a> by <a href="https://github.com/Alexandrhub"><code>@​Alexandrhub</code></a>.</li>
+</ul>
+<h3>Internal</h3>
+<ul>
+<li>🔧 Add sponsor Platform.sh. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9650">#9650</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/tiangolo/fastapi/commit/32935103b12b1548117abef0b4af9dd883898308"><code>3293510</code></a> 🔖 Release version 0.97.0</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/395ece75aad0ee46eb39b9786bb52ceb89627837"><code>395ece7</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/e958d30d1ddd82d5deadd613f3b9887865427522"><code>e958d30</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/34fca99b284665c60d49ebac925ddeecf58eaca3"><code>34fca99</code></a> ⬆️ Upgrade Black (<a href="https://redirect.github.com/tiangolo/fastapi/issues/9661">#9661</a>)</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/32897962860ad4c5045748c7955562922f659d08"><code>3289796</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/7167c77a18627c69fae2063cb987048ffc0a5633"><code>7167c77</code></a> ⬆️ Upgrade and fully migrate to Ruff, remove isort, includes a couple of twea...</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/ba882c10feb34f8056d6d6819261d94d8820b3a5"><code>ba882c1</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/4ac55af283457d7279711224c5f9a3810d4d6534"><code>4ac55af</code></a> ♻️ Update internal type annotations and upgrade mypy (<a href="https://redirect.github.com/tiangolo/fastapi/issues/9658">#9658</a>)</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/3390a82832df2e5b6f0348ba71c570bd6f3a7f82"><code>3390a82</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/f5844e76b5e710ae8d42654927c1202f00f79526"><code>f5844e7</code></a> 💚 Update CI cache to fix installs when dependencies change (<a href="https://redirect.github.com/tiangolo/fastapi/issues/9659">#9659</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/tiangolo/fastapi/compare/0.95.2...0.97.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=fastapi&package-manager=pip&previous-version=0.95.2&new-version=0.97.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

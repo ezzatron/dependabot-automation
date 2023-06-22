@@ -1,0 +1,56 @@
+Bumps [timkrase/phpunit-coverage-badge](https://github.com/timkrase/phpunit-coverage-badge) from 1.2.0 to 1.2.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/timkrase/phpunit-coverage-badge/releases">timkrase/phpunit-coverage-badge's releases</a>.</em></p>
+<blockquote>
+<h2>PHPUnit Coverage Badge, v1.2.1</h2>
+<p>Adds a new badge style, adopted from shields.io.</p>
+<p>Thanks to <a href="https://github.com/acelot"><code>@​acelot</code></a> (<a href="https://redirect.github.com/timkrase/phpunit-coverage-badge/issues/14">#14</a>)</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/b2cec23f5564ebf1030a6aa5b1e0fcadc5674d79"><code>b2cec23</code></a> Update code coverage badge</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/401bb6e8810b4b518e809772437ef0c22c4ec1ac"><code>401bb6e</code></a> Merge pull request <a href="https://redirect.github.com/timkrase/phpunit-coverage-badge/issues/16">#16</a> from timkrase/release/v1.2.1</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/155cd64cfb2356c9e31a907299fe0195ae422c81"><code>155cd64</code></a> Update code coverage badge</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/9a13a9a51ae5ca3228a80992912fabb0ef3ccbe2"><code>9a13a9a</code></a> chore: push version of docker image</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/cf8c5874502e3c311d7dbf4dd816f43e31c4b3eb"><code>cf8c587</code></a> Update code coverage badge</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/70db6f95a8be8fcf40be77cf229910a6fba3ae61"><code>70db6f9</code></a> Merge pull request <a href="https://redirect.github.com/timkrase/phpunit-coverage-badge/issues/15">#15</a> from timkrase/fix/unit-tests-new-badge</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/b532e4db40a3776e3ac278a016115d67b017215a"><code>b532e4d</code></a> Update code coverage badge</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/661df5abde37235398a9c606259c450d0aacc43c"><code>661df5a</code></a> fix: remove empty new line in badge template</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/099f0d5edd5c8c662e7a684d70348e61baefabb8"><code>099f0d5</code></a> fix: update result badges for tests after changing badge template</li>
+<li><a href="https://github.com/timkrase/phpunit-coverage-badge/commit/2fe2f8691af82210b5c17018d5228c2d094d1f63"><code>2fe2f86</code></a> Update test after changing svg template</li>
+<li>Additional commits viewable in <a href="https://github.com/timkrase/phpunit-coverage-badge/compare/v1.2.0...v1.2.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=timkrase/phpunit-coverage-badge&package-manager=github_actions&previous-version=1.2.0&new-version=1.2.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

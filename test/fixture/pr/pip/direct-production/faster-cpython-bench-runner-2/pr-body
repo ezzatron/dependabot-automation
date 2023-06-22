@@ -1,0 +1,123 @@
+Bumps [matplotlib](https://github.com/matplotlib/matplotlib) from 3.6.3 to 3.7.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/matplotlib/matplotlib/releases">matplotlib's releases</a>.</em></p>
+<blockquote>
+<h2>REL: v3.7.1</h2>
+<p>This is the first bugfix release of the 3.7.x series.</p>
+<p>This release contains several bug-fixes and adjustments:</p>
+<ul>
+<li>Ensure Qhull license is included in binary wheels</li>
+<li>Fix application of rcParams on Axes labels</li>
+<li>Fix compatibility with Pandas datetime unit converter</li>
+<li>Fix compatibility with latest GTK4</li>
+<li>Fix import of styles with relative path</li>
+<li>Fix Lasso unresponsiveness when clicking and immediately releasing</li>
+<li>Fix pickling of draggable legends</li>
+<li>Fix RangeSlider.set_val when new value is outside existing value</li>
+<li>Fix size of Tk spacers when changing display DPI</li>
+<li>Fix wrapped text in constrained layout</li>
+<li>Improve compatibility with third-party backends</li>
+<li>Improve error if animation save path does not exist</li>
+</ul>
+<h2>REL: v3.7.0</h2>
+<p>Highlights of this release include:</p>
+<ul>
+<li>Plotting and Annotation improvements
+<ul>
+<li><code>hatch</code> parameter for pie</li>
+<li>Polar plot errors drawn in polar coordinates</li>
+<li>Additional format string options in <code>~matplotlib.axes.Axes.bar_label</code></li>
+<li><code>ellipse</code> boxstyle option for annotations</li>
+<li>The <em>extent</em> of <code>imshow</code> can now be expressed with units</li>
+<li>Reversed order of legend entries</li>
+<li><code>pcolormesh</code> accepts RGB(A) colors</li>
+<li>View current appearance settings for ticks, tick labels, and gridlines</li>
+<li>Style files can be imported from third-party packages</li>
+</ul>
+</li>
+<li>Improvements to 3D Plotting
+<ul>
+<li>3D plot pan and zoom buttons</li>
+<li><em>adjustable</em> keyword argument for setting equal aspect ratios in 3D</li>
+<li><code>Poly3DCollection</code> supports shading</li>
+<li>rcParam for 3D pane color</li>
+</ul>
+</li>
+<li>Figure and Axes Layout
+<ul>
+<li><code>colorbar</code> now has a <em>location</em> keyword argument</li>
+<li>Figure legends can be placed outside figures using constrained_layout</li>
+<li>Per-subplot keyword arguments  in <code>subplot_mosaic</code></li>
+<li><code>subplot_mosaic</code> no longer provisional</li>
+</ul>
+</li>
+<li>Widget Improvements
+<ul>
+<li>Custom styling of button widgets</li>
+<li>Blitting in Button widgets</li>
+</ul>
+</li>
+<li>Other Improvements
+<ul>
+<li>Source links can be shown or hidden for each Sphinx plot directive</li>
+<li>Figure hooks</li>
+</ul>
+</li>
+<li>New &amp; Improved Narrative Documentation
+<ul>
+<li>Brand new :doc:<code>Animations &lt;/tutorials/introductory/animation_tutorial&gt;</code> tutorial.</li>
+<li>New grouped and stacked <code>bar chart &lt;../../gallery/index.html#lines_bars_and_markers&gt;</code>_ examples.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/b3bd929cf07ea35479fded8f739126ccc39edd6d"><code>b3bd929</code></a> REL: 3.7.1</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/7411f656d29faadf610842d9b5dd7d6936903ccb"><code>7411f65</code></a> DOC: Update release notes for 3.7.1</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/250cca95accc664be8a3fa051c7f4694b4fddf1b"><code>250cca9</code></a> Merge branch 'v3.7.0-doc' into v3.7.x</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/66232bce51dc2dd8020bec2f2730fdc807d275f6"><code>66232bc</code></a> Merge pull request <a href="https://redirect.github.com/matplotlib/matplotlib/issues/25377">#25377</a> from meeseeksmachine/auto-backport-of-pr-25372-on-v...</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/5908554819d2614b1e73ff05d93ba89885eb87f8"><code>5908554</code></a> Merge pull request <a href="https://redirect.github.com/matplotlib/matplotlib/issues/25376">#25376</a> from meeseeksmachine/auto-backport-of-pr-25371-on-v...</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/6e77a71ed8788c69e6efd38c3338afbf53780b4f"><code>6e77a71</code></a> Merge pull request <a href="https://redirect.github.com/matplotlib/matplotlib/issues/25375">#25375</a> from meeseeksmachine/auto-backport-of-pr-25364-on-v...</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/11c6af260751e205a90065a624025c635db6dc7f"><code>11c6af2</code></a> Backport PR <a href="https://redirect.github.com/matplotlib/matplotlib/issues/25372">#25372</a>: Clean up Curve ArrowStyle docs</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/cdc7bde6856fe16b64d430ea95a6a7ffed9e9946"><code>cdc7bde</code></a> Backport PR <a href="https://redirect.github.com/matplotlib/matplotlib/issues/25371">#25371</a>: Tk: Fix size of spacers when changing display DPI</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/feff33d0b5fc8c966e6af158733f18690d33ad88"><code>feff33d</code></a> Backport PR <a href="https://redirect.github.com/matplotlib/matplotlib/issues/25364">#25364</a>: BLD: Pre-download Qhull license to put in wheels</li>
+<li><a href="https://github.com/matplotlib/matplotlib/commit/4fcd0a0f3eca4c28ab5d4a756e96befa47e371b3"><code>4fcd0a0</code></a> Merge pull request <a href="https://redirect.github.com/matplotlib/matplotlib/issues/25370">#25370</a> from QuLogic/backport-25369</li>
+<li>Additional commits viewable in <a href="https://github.com/matplotlib/matplotlib/compare/v3.6.3...v3.7.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=matplotlib&package-manager=pip&previous-version=3.6.3&new-version=3.7.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

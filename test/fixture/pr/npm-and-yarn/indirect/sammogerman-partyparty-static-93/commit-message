@@ -1,0 +1,13 @@
+Bump qs from 6.5.2 to 6.5.3
+
+Bumps [qs](https://github.com/ljharb/qs) from 6.5.2 to 6.5.3.
+- [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ljharb/qs/compare/v6.5.2...v6.5.3)
+
+---
+updated-dependencies:
+- dependency-name: qs
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

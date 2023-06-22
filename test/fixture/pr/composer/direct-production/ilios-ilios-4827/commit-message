@@ -1,0 +1,15 @@
+Bump firebase/php-jwt from 6.5.0 to 6.8.0
+
+Bumps [firebase/php-jwt](https://github.com/firebase/php-jwt) from 6.5.0 to 6.8.0.
+- [Release notes](https://github.com/firebase/php-jwt/releases)
+- [Changelog](https://github.com/firebase/php-jwt/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/firebase/php-jwt/compare/v6.5.0...v6.8.0)
+
+---
+updated-dependencies:
+- dependency-name: firebase/php-jwt
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

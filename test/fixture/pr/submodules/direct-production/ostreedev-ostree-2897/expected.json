@@ -1,0 +1,8 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "composefs",
+      "dependencyType": "direct:production"
+    }
+  ]
+}

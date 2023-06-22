@@ -1,0 +1,14 @@
+Bump github.com/opencontainers/runc in /dependency/retrieval
+
+Bumps [github.com/opencontainers/runc](https://github.com/opencontainers/runc) from 1.1.4 to 1.1.5.
+- [Release notes](https://github.com/opencontainers/runc/releases)
+- [Changelog](https://github.com/opencontainers/runc/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/opencontainers/runc/compare/v1.1.4...v1.1.5)
+
+---
+updated-dependencies:
+- dependency-name: github.com/opencontainers/runc
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

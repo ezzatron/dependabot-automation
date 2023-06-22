@@ -1,0 +1,65 @@
+deps: bump bouncyCastleSubsitutionVersion from 1.74 to 1.75
+
+Bumps `bouncyCastleSubsitutionVersion` from 1.74 to 1.75.
+
+Updates `org.bouncycastle:bcprov-jdk18on` from 1.74 to 1.75
+- [Changelog](https://github.com/bcgit/bc-java/blob/main/docs/releasenotes.html)
+- [Commits](https://github.com/bcgit/bc-java/commits)
+
+Updates `org.bouncycastle:bcprov-ext-jdk18on` from 1.74 to 1.75
+- [Changelog](https://github.com/bcgit/bc-java/blob/main/docs/releasenotes.html)
+- [Commits](https://github.com/bcgit/bc-java/commits)
+
+Updates `org.bouncycastle:bcpkix-jdk18on` from 1.74 to 1.75
+- [Changelog](https://github.com/bcgit/bc-java/blob/main/docs/releasenotes.html)
+- [Commits](https://github.com/bcgit/bc-java/commits)
+
+Updates `org.bouncycastle:bcmail-jdk18on` from 1.74 to 1.75
+- [Changelog](https://github.com/bcgit/bc-java/blob/main/docs/releasenotes.html)
+- [Commits](https://github.com/bcgit/bc-java/commits)
+
+Updates `org.bouncycastle:bcutil-jdk18on` from 1.74 to 1.75
+- [Changelog](https://github.com/bcgit/bc-java/blob/main/docs/releasenotes.html)
+- [Commits](https://github.com/bcgit/bc-java/commits)
+
+Updates `org.bouncycastle:bcpg-jdk18on` from 1.74 to 1.75
+- [Changelog](https://github.com/bcgit/bc-java/blob/main/docs/releasenotes.html)
+- [Commits](https://github.com/bcgit/bc-java/commits)
+
+Updates `org.bouncycastle:bcjmail-jdk18on` from 1.74 to 1.75
+- [Changelog](https://github.com/bcgit/bc-java/blob/main/docs/releasenotes.html)
+- [Commits](https://github.com/bcgit/bc-java/commits)
+
+Updates `org.bouncycastle:bctls-jdk18on` from 1.74 to 1.75
+- [Changelog](https://github.com/bcgit/bc-java/blob/main/docs/releasenotes.html)
+- [Commits](https://github.com/bcgit/bc-java/commits)
+
+---
+updated-dependencies:
+- dependency-name: org.bouncycastle:bcprov-jdk18on
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: org.bouncycastle:bcprov-ext-jdk18on
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: org.bouncycastle:bcpkix-jdk18on
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: org.bouncycastle:bcmail-jdk18on
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: org.bouncycastle:bcutil-jdk18on
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: org.bouncycastle:bcpg-jdk18on
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: org.bouncycastle:bcjmail-jdk18on
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+- dependency-name: org.bouncycastle:bctls-jdk18on
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

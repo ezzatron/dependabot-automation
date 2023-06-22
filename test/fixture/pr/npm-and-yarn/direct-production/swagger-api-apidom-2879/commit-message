@@ -1,0 +1,15 @@
+chore(deps): bump react-redux from 8.1.0 to 8.1.1
+
+Bumps [react-redux](https://github.com/reduxjs/react-redux) from 8.1.0 to 8.1.1.
+- [Release notes](https://github.com/reduxjs/react-redux/releases)
+- [Changelog](https://github.com/reduxjs/react-redux/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/reduxjs/react-redux/compare/v8.1.0...v8.1.1)
+
+---
+updated-dependencies:
+- dependency-name: react-redux
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

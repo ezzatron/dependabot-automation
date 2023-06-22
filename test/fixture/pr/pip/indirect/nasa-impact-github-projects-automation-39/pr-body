@@ -1,0 +1,83 @@
+Bumps [colorama](https://github.com/tartley/colorama) from 0.4.4 to 0.4.6.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/tartley/colorama/blob/master/CHANGELOG.rst">colorama's changelog</a>.</em></p>
+<blockquote>
+<p>0.4.6 Current release</p>
+<ul>
+<li><a href="https://redirect.github.com/tartley/colorama/pull/139">tartley/colorama#139</a> Add alternative to 'init()',
+called 'just_fix_windows_console'. This fixes many longstanding problems
+with 'init', such as working incorrectly on modern Windows terminals, and
+wonkiness when init gets called multiple times. The intention is that it
+just makes all Windows terminals treat ANSI the same way as other terminals
+do. Many thanks the njsmith for fixing our messes.</li>
+<li><a href="https://redirect.github.com/tartley/colorama/pull/352">tartley/colorama#352</a> Support Windows 10's ANSI/VT
+console. This didn't exist when Colorama was created, and avoiding us
+causing havok there is long overdue. Thanks to segeviner for the initial
+approach, and to njsmith for getting it merged.</li>
+<li><a href="https://redirect.github.com/tartley/colorama/pull/338">tartley/colorama#338</a> Internal overhaul of package
+metadata declaration, which abolishes our use of the now heavily
+discouraged setuptools (and hence setup.py, setup.cfg and MANIFEST.in), in
+favor of hatchling (and hence pyproject.toml), generously contributed by
+ofek (author of hatchling). This includes dropping support Python3.5 and
+3.6, which are EOL, and were already dropped from setuptools, so this
+should not affect our users.</li>
+<li><a href="https://redirect.github.com/tartley/colorama/pull/353">tartley/colorama#353</a> Attention to detail award to
+LqdBcnAtWork for a spelling fix in demo06
+0.4.5</li>
+<li>Catch a racy ValueError that could occur on exit.</li>
+<li>Create README-hacking.md, for Colorama contributors.</li>
+<li>Tweak some README unicode characters that don't render correctly on PyPI.</li>
+<li>Fix some tests that were failing on some operating systems.</li>
+<li>Add support for Python 3.9.</li>
+<li>Add support for PyPy3.</li>
+<li>Add support for pickling with the <code>dill</code> module.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/tartley/colorama/commit/3de9f013df4b470069d03d250224062e8cf15c49"><code>3de9f01</code></a> bump version 0.4.6</li>
+<li><a href="https://github.com/tartley/colorama/commit/a45949b3252633060261c9666b6aada4b2f2f020"><code>a45949b</code></a> Format the CHANGELOG bullet list, no content change</li>
+<li><a href="https://github.com/tartley/colorama/commit/f55f72e9d3950276679da91ba6dc713cefc603db"><code>f55f72e</code></a> comment need for a fix after recent MP broke it</li>
+<li><a href="https://github.com/tartley/colorama/commit/cb83041b25a6962d8124647e8741cfa0ab139994"><code>cb83041</code></a> fix test-release after recent MPs broke it</li>
+<li><a href="https://github.com/tartley/colorama/commit/832f14ce9a4d00c2dfb88e8cb02e2defadb76ba9"><code>832f14c</code></a> README tweaks</li>
+<li><a href="https://github.com/tartley/colorama/commit/54b89c33b2448a1a0fab67ab020a902622b9a932"><code>54b89c3</code></a> Bump version to 0.4.6rc1</li>
+<li><a href="https://github.com/tartley/colorama/commit/7991d34773c72db791eb09d9ec349212d080fbc0"><code>7991d34</code></a> 'make bootstrap' uses system python3, not pinned v3.8</li>
+<li><a href="https://github.com/tartley/colorama/commit/0ae5ef2f9ab89335fb5b50933b75323178cb38bc"><code>0ae5ef2</code></a> CHANGELOG updates for upcoming 0.4.6 release</li>
+<li><a href="https://github.com/tartley/colorama/commit/52f4cfd7af3a779b0ba8a7ee320d99c0bfec9ce8"><code>52f4cfd</code></a> Tweak ordering of release checklist</li>
+<li><a href="https://github.com/tartley/colorama/commit/ab64cfac23fd70b9bf2944acd985e3673a1f09e1"><code>ab64cfa</code></a> Merge pull request <a href="https://redirect.github.com/tartley/colorama/issues/353">#353</a> from LqdBcnAtWork/patch-1</li>
+<li>Additional commits viewable in <a href="https://github.com/tartley/colorama/compare/0.4.4...0.4.6">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=colorama&package-manager=pip&previous-version=0.4.4&new-version=0.4.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

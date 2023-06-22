@@ -1,0 +1,106 @@
+Bumps [yaml](https://github.com/eemeli/yaml) from 2.2.1 to 2.3.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/eemeli/yaml/releases">yaml's releases</a>.</em></p>
+<blockquote>
+<h2>v2.3.1</h2>
+<ul>
+<li>Drop npm from package.json <code>&quot;engines&quot;</code> config (<a href="https://redirect.github.com/eemeli/yaml/issues/476">#476</a>)</li>
+</ul>
+<h2>v2.3.0</h2>
+<p>This release corresponds with the release of <a href="https://github.com/eemeli/yaml-types"><code>yaml-types</code></a> v0.2.0, an expanding library of custom tags or types for use with <code>yaml</code>.</p>
+<p>This release contains no changes from <a href="https://github.com/eemeli/yaml/releases/tag/v2.3.0-5">v2.3.0-5</a>, and the notes below include all changes from the v2.3.0-x prereleases.</p>
+<h3>Custom Tag Improvements</h3>
+<ul>
+<li>Add export of <code>createNode()</code> &amp; <code>createPair()</code> to <code>'yaml/util'</code> (<a href="https://redirect.github.com/eemeli/yaml/issues/457">#457</a>)</li>
+<li>Add static <code>from()</code> methods to simplify tag development, and otherwise make extending custom collections easier (<a href="https://redirect.github.com/eemeli/yaml/issues/467">#467</a>)</li>
+</ul>
+<h3>TypeScript Improvements</h3>
+<ul>
+<li>Add a second optional generic type argument <code>Strict</code> to <code>Document</code> instances. (<a href="https://redirect.github.com/eemeli/yaml/issues/441">#441</a>)</li>
+<li>Add types exports for TypeScript (<a href="https://redirect.github.com/eemeli/yaml/issues/463">#463</a>)</li>
+<li>Export <code>StringifyContext</code> type from <code>'yaml/util'</code> (<a href="https://redirect.github.com/eemeli/yaml/issues/464">#464</a>)</li>
+</ul>
+<h3>Other New Features</h3>
+<ul>
+<li>Add a <code>toJS(doc, options?)</code> method to nodes (<a href="https://redirect.github.com/eemeli/yaml/issues/451">#451</a>, <a href="https://redirect.github.com/eemeli/yaml/issues/458">#458</a>)</li>
+<li>Set explicit tag during <code>createNode()</code> for non-default tags (<a href="https://redirect.github.com/eemeli/yaml/issues/464">#464</a>)</li>
+</ul>
+<h3>Bugfixes</h3>
+<ul>
+<li>Use correct argument order when stringifying flow collection comments (<a href="https://redirect.github.com/eemeli/yaml/issues/443">#443</a>)</li>
+<li>Improve first-line folding for block scalars (<a href="https://redirect.github.com/eemeli/yaml/issues/422">#422</a>)</li>
+</ul>
+<h2>v2.3.0-5</h2>
+<ul>
+<li>Make extending custom collections easier (<a href="https://redirect.github.com/eemeli/yaml/issues/467">#467</a>)</li>
+<li>Fix corner case failure in error pretty-printer (<a href="https://github.com/advisories/GHSA-f9xv-q969-pqx4">CVE-2023-2251</a>)</li>
+</ul>
+<h2>v2.3.0-4</h2>
+<h3>New Features</h3>
+<ul>
+<li>Set explicit tag during <code>createNode()</code> for non-default tags (<a href="https://redirect.github.com/eemeli/yaml/issues/464">#464</a>)</li>
+<li>Export <code>StringifyContext</code> type from <code>'yaml/util'</code> (<a href="https://redirect.github.com/eemeli/yaml/issues/464">#464</a>)</li>
+</ul>
+<h2>v2.3.0-3</h2>
+<h3>Bugfixes</h3>
+<ul>
+<li>Improve missing-argument error on node <code>.toJS()</code> method (<a href="https://redirect.github.com/eemeli/yaml/issues/458">#458</a>)</li>
+<li>Add types exports for TypeScript (<a href="https://redirect.github.com/eemeli/yaml/issues/463">#463</a>)</li>
+<li>Drop incompatible/unnecessary <code>typesVersions</code> from package.json (<a href="https://redirect.github.com/eemeli/yaml/issues/463">#463</a>)</li>
+</ul>
+<h2>v2.3.0-1</h2>
+<h3>New Features</h3>
+<ul>
+<li>Add a <code>toJS(doc, options?)</code> method to nodes (<a href="https://redirect.github.com/eemeli/yaml/issues/451">#451</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/eemeli/yaml/commit/a442e95ad6bb05615755aa2015c790e3600b3ab5"><code>a442e95</code></a> 2.3.1</li>
+<li><a href="https://github.com/eemeli/yaml/commit/1f7fb2f316648a23c29a8485f779234b34a67931"><code>1f7fb2f</code></a> fix: Drop npm from package.json engines config (fixes <a href="https://redirect.github.com/eemeli/yaml/issues/476">#476</a>)</li>
+<li><a href="https://github.com/eemeli/yaml/commit/431ce2231600485505673b76fc1709fb66213b97"><code>431ce22</code></a> 2.3.0</li>
+<li><a href="https://github.com/eemeli/yaml/commit/0d2b3d35dd2c906e82f9818aff454bcc51c71a14"><code>0d2b3d3</code></a> chore: Refresh lockfile</li>
+<li><a href="https://github.com/eemeli/yaml/commit/96daea578b9432a8293c1f1e52f461e1ca90f453"><code>96daea5</code></a> 2.3.0-5</li>
+<li><a href="https://github.com/eemeli/yaml/commit/57f7bf5664b49b917a331d69a925c667ca998d03"><code>57f7bf5</code></a> docs: Expand visit() documentation</li>
+<li><a href="https://github.com/eemeli/yaml/commit/b741332a9cbcca1d3547127e6e2d5489a3ce8c5a"><code>b741332</code></a> feat: Make extending custom collections easier (<a href="https://redirect.github.com/eemeli/yaml/issues/467">#467</a>)</li>
+<li><a href="https://github.com/eemeli/yaml/commit/a67a019afe9c8f785fdfd6255b6b69d97a8bd385"><code>a67a019</code></a> fix: Corner case failure in error pretty-printer</li>
+<li><a href="https://github.com/eemeli/yaml/commit/ffdd2fbf0df059ea3af5929533d316783f339fa2"><code>ffdd2fb</code></a> 2.3.0-4</li>
+<li><a href="https://github.com/eemeli/yaml/commit/f16930413af1e922ce5951595c20d67048f01c4c"><code>f169304</code></a> feat: Set explicit tag during createNode() for non-default tags (<a href="https://redirect.github.com/eemeli/yaml/issues/464">#464</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/eemeli/yaml/compare/v2.2.1...v2.3.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=yaml&package-manager=npm_and_yarn&previous-version=2.2.1&new-version=2.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hackariens/strapi/network/alerts).
+
+</details>

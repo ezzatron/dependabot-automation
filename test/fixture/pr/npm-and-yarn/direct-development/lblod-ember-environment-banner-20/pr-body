@@ -1,0 +1,155 @@
+Bumps [ember-cli](https://github.com/ember-cli/ember-cli) from 4.12.1 to 5.0.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/ember-cli/ember-cli/releases">ember-cli's releases</a>.</em></p>
+<blockquote>
+<h2>Release 5.0.0</h2>
+<h4>Blueprint Changes</h4>
+<ul>
+<li><a href="https://github.com/ember-cli/ember-new-output/compare/v4.12.1...v5.0.0"><code>ember new</code> diff</a></li>
+<li><a href="https://github.com/ember-cli/ember-addon-output/compare/v4.12.1...v5.0.0"><code>ember addon</code> diff</a></li>
+</ul>
+<h4>Changelog</h4>
+<ul>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10244">#10244</a> Update ember-cli-preprocess-registry and add ember-cli-clean-css to the blueprints <a href="https://github.com/kategengler"><code>@​kategengler</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10276">#10276</a> Widen peer dependency range for ember-source <a href="https://github.com/jrjohnson"><code>@​jrjohnson</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10019">#10019</a> [CLEANUP] Drop support for the <code>baseURL</code> environment option <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10106">#10106</a> [CLEANUP] Remove deprecated <code>PACKAGER</code> experiment <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10175">#10175</a> [CLEANUP] Clean up <code>blacklist-whitelist-build-options</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10176">#10176</a> [CLEANUP] Clean up <code>vendor-shim-blueprint</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10177">#10177</a> [CLEANUP] Clean up <code>ember-cli-jshint-support</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10178">#10178</a> [CLEANUP] Remove all Bower entries from ignore files in <code>app</code> and <code>addon</code> blueprints <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10182">#10182</a> [CLEANUP] Clean up <code>project.bower-dependencies</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10183">#10183</a> [CLEANUP] Clean up <code>project.bower-directory</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10184">#10184</a> [CLEANUP] Clean up <code>blueprint.add-bower-package-to-project</code> and <code>blueprint.add-bower-packages-to-project</code> deprecations <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10185">#10185</a> [CLEANUP] Drop support for the <code>EMBER_CLI_ERROR_ON_INVALID_ADDON</code> env flag <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10186">#10186</a> [CLEANUP] Drop support for installing Bower packages <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10193">#10193</a> [CLEANUP] Drop support for <code>ember-cli-babel</code> v5 and v6 <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10194">#10194</a> [CLEANUP] Drop support for <code>ember-cli-shims</code> <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10195">#10195</a> [CLEANUP] Remove automatic inclusion of jQuery in legacy Ember versions <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10196">#10196</a> [INTERNAL] Remove unused private <code>_legacyAddonCompile</code> method on <code>EmberApp</code> class <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10197">#10197</a> [CLEANUP] Remove default <code>minifyJS</code> options <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10211">#10211</a> Automate output repos <a href="https://github.com/NullVoxPopuli"><code>@​NullVoxPopuli</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10217">#10217</a> [CLEANUP] Remove <code>ember-resolver</code> fallback <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10218">#10218</a> [CLEANUP] Drop support for including <code>handlebars.js</code> via Bower <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10219">#10219</a> [CLEANUP] Drop support for npm versions below v5.7.1 <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10220">#10220</a> [CLEANUP] Drop support for including Ember builds via Bower <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10221">#10221</a> [CLEANUP] Clean up <code>building-bower-packages</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10222">#10222</a> [CLEANUP] Drop support for Node v14 <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10223">#10223</a> [CLEANUP] Drop support for finding addons by their <code>index.js</code> name <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10224">#10224</a> [CLEANUP] Drop support for checking if Bower components are installed <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10225">#10225</a> [CLEANUP] Drop support for the <code>EMBER_CLI_IGNORE_ADDON_NAME_MISMATCH</code> env flag <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10226">#10226</a> [INTERNAL] Remove all remaining Bower references <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10227">#10227</a> [INTERNAL] Remove JSHint reference <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10229">#10229</a> Update blueprint ignore files <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10231">#10231</a> [INTERNAL] Remove npm version check in <code>ember new</code> test <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10232">#10232</a> [CLEANUP] Remove Babel fallback for addons <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10245">#10245</a> change guarding condition for output repos <a href="https://github.com/NullVoxPopuli"><code>@​NullVoxPopuli</code></a></li>
+</ul>
+<p>Thank you to all who took the time to contribute!</p>
+<h2>Release 5.0.0-beta.0</h2>
+<h4>Blueprint Changes</h4>
+<ul>
+<li><a href="https://github.com/ember-cli/ember-new-output/compare/v4.12.0...v5.0.0-beta.0"><code>ember new</code> diff</a></li>
+<li><a href="https://github.com/ember-cli/ember-addon-output/compare/v4.12.0...v5.0.0-beta.0"><code>ember addon</code> diff</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/ember-cli/ember-cli/blob/master/CHANGELOG.md">ember-cli's changelog</a>.</em></p>
+<blockquote>
+<h2>v5.0.0</h2>
+<h4>Blueprint Changes</h4>
+<ul>
+<li><a href="https://github.com/ember-cli/ember-new-output/compare/v4.12.1...v5.0.0"><code>ember new</code> diff</a></li>
+<li><a href="https://github.com/ember-cli/ember-addon-output/compare/v4.12.1...v5.0.0"><code>ember addon</code> diff</a></li>
+</ul>
+<h4>Changelog</h4>
+<ul>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10244">#10244</a> Update ember-cli-preprocess-registry and add ember-cli-clean-css to the blueprints <a href="https://github.com/kategengler"><code>@​kategengler</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10276">#10276</a> Widen peer dependency range for ember-source <a href="https://github.com/jrjohnson"><code>@​jrjohnson</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10019">#10019</a> [CLEANUP] Drop support for the <code>baseURL</code> environment option <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10106">#10106</a> [CLEANUP] Remove deprecated <code>PACKAGER</code> experiment <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10175">#10175</a> [CLEANUP] Clean up <code>blacklist-whitelist-build-options</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10176">#10176</a> [CLEANUP] Clean up <code>vendor-shim-blueprint</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10177">#10177</a> [CLEANUP] Clean up <code>ember-cli-jshint-support</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10178">#10178</a> [CLEANUP] Remove all Bower entries from ignore files in <code>app</code> and <code>addon</code> blueprints <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10182">#10182</a> [CLEANUP] Clean up <code>project.bower-dependencies</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10183">#10183</a> [CLEANUP] Clean up <code>project.bower-directory</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10184">#10184</a> [CLEANUP] Clean up <code>blueprint.add-bower-package-to-project</code> and <code>blueprint.add-bower-packages-to-project</code> deprecations <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10185">#10185</a> [CLEANUP] Drop support for the <code>EMBER_CLI_ERROR_ON_INVALID_ADDON</code> env flag <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10186">#10186</a> [CLEANUP] Drop support for installing Bower packages <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10193">#10193</a> [CLEANUP] Drop support for <code>ember-cli-babel</code> v5 and v6 <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10194">#10194</a> [CLEANUP] Drop support for <code>ember-cli-shims</code> <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10195">#10195</a> [CLEANUP] Remove automatic inclusion of jQuery in legacy Ember versions <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10196">#10196</a> [INTERNAL] Remove unused private <code>_legacyAddonCompile</code> method on <code>EmberApp</code> class <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10197">#10197</a> [CLEANUP] Remove default <code>minifyJS</code> options <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10211">#10211</a> Automate output repos <a href="https://github.com/NullVoxPopuli"><code>@​NullVoxPopuli</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10217">#10217</a> [CLEANUP] Remove <code>ember-resolver</code> fallback <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10218">#10218</a> [CLEANUP] Drop support for including <code>handlebars.js</code> via Bower <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10219">#10219</a> [CLEANUP] Drop support for npm versions below v5.7.1 <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10220">#10220</a> [CLEANUP] Drop support for including Ember builds via Bower <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10221">#10221</a> [CLEANUP] Clean up <code>building-bower-packages</code> deprecation <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10222">#10222</a> [CLEANUP] Drop support for Node v14 <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10223">#10223</a> [CLEANUP] Drop support for finding addons by their <code>index.js</code> name <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10224">#10224</a> [CLEANUP] Drop support for checking if Bower components are installed <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10225">#10225</a> [CLEANUP] Drop support for the <code>EMBER_CLI_IGNORE_ADDON_NAME_MISMATCH</code> env flag <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10226">#10226</a> [INTERNAL] Remove all remaining Bower references <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10227">#10227</a> [INTERNAL] Remove JSHint reference <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10229">#10229</a> Update blueprint ignore files <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10231">#10231</a> [INTERNAL] Remove npm version check in <code>ember new</code> test <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10232">#10232</a> [CLEANUP] Remove Babel fallback for addons <a href="https://github.com/bertdeblock"><code>@​bertdeblock</code></a></li>
+<li><a href="https://redirect.github.com/ember-cli/ember-cli/pull/10245">#10245</a> change guarding condition for output repos <a href="https://github.com/NullVoxPopuli"><code>@​NullVoxPopuli</code></a></li>
+</ul>
+<p>Thank you to all who took the time to contribute!</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/9ce14cb4549eb6c9b86029cc35d8f3b0f92fdc96"><code>9ce14cb</code></a> Release 5.0.0</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/023da4aaef8be71d132b81bc2e1ebcb61c14a40f"><code>023da4a</code></a> update changelog</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/019f35fa057c0dc0feb09425d3d98df5d8f5da50"><code>019f35f</code></a> Merge branch 'beta' into release</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/2ea72890da8143406efc92521eb95e17ddeabae9"><code>2ea7289</code></a> Merge pull request <a href="https://redirect.github.com/ember-cli/ember-cli/issues/10293">#10293</a> from kellyselden/update_stable_deps</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/2e9404b0cee59f8a283973f10d871dad3beb9086"><code>2e9404b</code></a> update stable deps</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/becf618f8185235605259734772acb88fa1939db"><code>becf618</code></a> Widen peer dependency range for ember-source</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/680711f41208bf15a67e9f52f1afd6118e0fcc63"><code>680711f</code></a> Merge pull request <a href="https://redirect.github.com/ember-cli/ember-cli/issues/10244">#10244</a> from kategengler/kg-update-preprocess-reg</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/67a98733f44440173992080c1d2ff88ac953caa4"><code>67a9873</code></a> Update ember-cli-preprocess-registry to a version that restores the</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/4ab28377ac2230c9cbab23b159d5a0e3350ac808"><code>4ab2837</code></a> Delete unit tests that no longer make sense</li>
+<li><a href="https://github.com/ember-cli/ember-cli/commit/942e69b88f52e06f4cbdc1136bc13c61d78ccd2c"><code>942e69b</code></a> Update ember-cli-preprocess-registry and add ember-cli-clean-css to the</li>
+<li>Additional commits viewable in <a href="https://github.com/ember-cli/ember-cli/compare/v4.12.1...v5.0.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ember-cli&package-manager=npm_and_yarn&previous-version=4.12.1&new-version=5.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

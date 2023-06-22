@@ -1,0 +1,14 @@
+Bump openssl-sys from 0.9.88 to 0.9.90
+
+Bumps [openssl-sys](https://github.com/sfackler/rust-openssl) from 0.9.88 to 0.9.90.
+- [Release notes](https://github.com/sfackler/rust-openssl/releases)
+- [Commits](https://github.com/sfackler/rust-openssl/compare/openssl-sys-v0.9.88...openssl-sys-v0.9.90)
+
+---
+updated-dependencies:
+- dependency-name: openssl-sys
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,14 @@
+chore(deps): bump amplify_core in /packages/api/amplify_api_dart
+
+Bumps [amplify_core](https://github.com/aws-amplify/amplify-flutter/tree/main/packages) from 1.1.1 to 1.2.0.
+- [Release notes](https://github.com/aws-amplify/amplify-flutter/releases)
+- [Commits](https://github.com/aws-amplify/amplify-flutter/commits/HEAD/packages)
+
+---
+updated-dependencies:
+- dependency-name: amplify_core
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

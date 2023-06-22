@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "follow-redirects",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-minor"
+    },
+    {
+      "dependencyName": "localtunnel",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-patch"
+    }
+  ]
+}

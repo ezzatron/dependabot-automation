@@ -1,0 +1,14 @@
+{
+  "updatedDependencies": [
+    {
+      "dependencyName": "ua-parser-js",
+      "dependencyType": "indirect",
+      "updateType": "version-update:semver-patch"
+    },
+    {
+      "dependencyName": "karma",
+      "dependencyType": "direct:development",
+      "updateType": "version-update:semver-major"
+    }
+  ]
+}

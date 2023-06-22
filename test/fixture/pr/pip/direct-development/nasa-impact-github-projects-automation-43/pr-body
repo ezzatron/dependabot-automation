@@ -1,0 +1,47 @@
+Bumps [flake8](https://github.com/pycqa/flake8) from 4.0.1 to 5.0.4.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/PyCQA/flake8/commit/6027577d325b0dd8bf1e465ebd29b71b5f0d005b"><code>6027577</code></a> Release 5.0.4</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/213e006ce61b3c155445235b3f0d9453391f1f13"><code>213e006</code></a> Merge pull request <a href="https://redirect.github.com/pycqa/flake8/issues/1653">#1653</a> from asottile/lower-bound-importlib-metadata</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/e94ee2b5f1801354b940cfe830b9160852915aec"><code>e94ee2b</code></a> require sufficiently new importlib-metadata</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/318a86a4a12d28cdfc41030ead547332d3461f45"><code>318a86a</code></a> Merge pull request <a href="https://redirect.github.com/pycqa/flake8/issues/1646">#1646</a> from televi/main</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/7b8b374c9bc1a141ca7cf6670c8cee6708398490"><code>7b8b374</code></a> Clarify entry point naming</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/7160561028ee5db09ea58b8555db08c66ee092b3"><code>7160561</code></a> Merge pull request <a href="https://redirect.github.com/pycqa/flake8/issues/1649">#1649</a> from PyCQA/pre-commit-ci-update-config</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/84d56a8c25106b5e0a41cdf63b5de261f8da5c99"><code>84d56a8</code></a> [pre-commit.ci] pre-commit autoupdate</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/ff6569b87db8ae28c41b548071454de620ad14d5"><code>ff6569b</code></a> Release 5.0.3</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/e76b59ae44f46f7958d13b28bd2d7d9bdc0f5962"><code>e76b59a</code></a> Merge pull request <a href="https://redirect.github.com/pycqa/flake8/issues/1648">#1648</a> from PyCQA/invalid-syntax-partial-parse</li>
+<li><a href="https://github.com/PyCQA/flake8/commit/25e8ff18b30b58f1dabc1d20546ebc20fd775560"><code>25e8ff1</code></a> ignore config files that partially parse as flake8 configs</li>
+<li>Additional commits viewable in <a href="https://github.com/pycqa/flake8/compare/4.0.1...5.0.4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=flake8&package-manager=pip&previous-version=4.0.1&new-version=5.0.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,13 @@
+Bump caniuse-lite from 1.0.30001505 to 1.0.30001506
+
+Bumps [caniuse-lite](https://github.com/browserslist/caniuse-lite) from 1.0.30001505 to 1.0.30001506.
+- [Commits](https://github.com/browserslist/caniuse-lite/compare/1.0.30001505...1.0.30001506)
+
+---
+updated-dependencies:
+- dependency-name: caniuse-lite
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

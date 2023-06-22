@@ -1,0 +1,15 @@
+build(deps): bump sigs.k8s.io/aws-iam-authenticator from 0.6.9 to 0.6.10
+
+Bumps [sigs.k8s.io/aws-iam-authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator) from 0.6.9 to 0.6.10.
+- [Release notes](https://github.com/kubernetes-sigs/aws-iam-authenticator/releases)
+- [Changelog](https://github.com/kubernetes-sigs/aws-iam-authenticator/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/kubernetes-sigs/aws-iam-authenticator/compare/v0.6.9...v0.6.10)
+
+---
+updated-dependencies:
+- dependency-name: sigs.k8s.io/aws-iam-authenticator
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

@@ -1,0 +1,103 @@
+Bumps [mongoose](https://github.com/Automattic/mongoose) from 7.2.4 to 7.3.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/Automattic/mongoose/releases">mongoose's releases</a>.</em></p>
+<blockquote>
+<h1>7.3.1 / 2023-06-21</h1>
+<ul>
+<li>fix(query): respect query-level strict option on findOneAndReplace() <a href="https://redirect.github.com/Automattic/mongoose/issues/13516">#13516</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/13507">#13507</a></li>
+<li>docs(connections): expand docs on serverSelectionTimeoutMS <a href="https://redirect.github.com/Automattic/mongoose/issues/13533">#13533</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/12967">#12967</a></li>
+<li>docs: add example of accessing save options in pre save <a href="https://redirect.github.com/Automattic/mongoose/issues/13498">#13498</a></li>
+<li>docs(connections+faq): add info on localhost vs 127.0.0.1</li>
+<li>docs(SchemaType): validate members are validator &amp; message (not msg) <a href="https://redirect.github.com/Automattic/mongoose/issues/13521">#13521</a> <a href="https://github.com/lorand-horvath">lorand-horvath</a></li>
+</ul>
+<h1>7.3.0 / 2023-06-14</h1>
+<ul>
+<li>feat: upgrade mongodb -&gt; 5.6.0 <a href="https://redirect.github.com/Automattic/mongoose/issues/13455">#13455</a> <a href="https://github.com/lorand-horvath">lorand-horvath</a></li>
+<li>feat(aggregate): add Aggregate.prototype.finally() to be consistent with Promise API for TypeScript <a href="https://redirect.github.com/Automattic/mongoose/issues/13509">#13509</a></li>
+<li>feat(schema): support selecting subset of fields to apply optimistic concurrency to <a href="https://redirect.github.com/Automattic/mongoose/issues/13506">#13506</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/10591">#10591</a></li>
+<li>feat(model): add <code>ordered</code> option to <code>Model.create()</code> <a href="https://redirect.github.com/Automattic/mongoose/issues/13472">#13472</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/4038">#4038</a></li>
+<li>feat(schema): consistently add .get() function to all SchemaType classes</li>
+<li>feat(populate): pass virtual to match function to allow merging match options <a href="https://redirect.github.com/Automattic/mongoose/issues/13477">#13477</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/12443">#12443</a></li>
+<li>types: allow overwriting Paths in select() to tell TypeScript which fields are projected <a href="https://redirect.github.com/Automattic/mongoose/issues/13478">#13478</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/13224">#13224</a></li>
+<li>types(schema): add validateModifiedOnly as schema option <a href="https://redirect.github.com/Automattic/mongoose/issues/13503">#13503</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/10153">#10153</a></li>
+<li>docs: add note about validateModifiedOnly as a schema option <a href="https://redirect.github.com/Automattic/mongoose/issues/13503">#13503</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/10153">#10153</a></li>
+<li>docs(migrating_to_7): update migrating_to_7.md to include Model.countDocuments <a href="https://redirect.github.com/Automattic/mongoose/issues/13508">#13508</a> <a href="https://github.com/Climax777">Climax777</a></li>
+<li>docs(further_reading): remove style for &quot;img&quot; <a href="https://github.com/hasezoey">hasezoey</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/Automattic/mongoose/blob/master/CHANGELOG.md">mongoose's changelog</a>.</em></p>
+<blockquote>
+<h1>7.3.1 / 2023-06-21</h1>
+<ul>
+<li>fix(query): respect query-level strict option on findOneAndReplace() <a href="https://redirect.github.com/Automattic/mongoose/issues/13516">#13516</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/13507">#13507</a></li>
+<li>docs(connections): expand docs on serverSelectionTimeoutMS <a href="https://redirect.github.com/Automattic/mongoose/issues/13533">#13533</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/12967">#12967</a></li>
+<li>docs: add example of accessing save options in pre save <a href="https://redirect.github.com/Automattic/mongoose/issues/13498">#13498</a></li>
+<li>docs(connections+faq): add info on localhost vs 127.0.0.1</li>
+<li>docs(SchemaType): validate members are validator &amp; message (not msg) <a href="https://redirect.github.com/Automattic/mongoose/issues/13521">#13521</a> <a href="https://github.com/lorand-horvath">lorand-horvath</a></li>
+</ul>
+<h1>7.3.0 / 2023-06-14</h1>
+<ul>
+<li>feat: upgrade mongodb -&gt; 5.6.0 <a href="https://redirect.github.com/Automattic/mongoose/issues/13455">#13455</a> <a href="https://github.com/lorand-horvath">lorand-horvath</a></li>
+<li>feat(aggregate): add Aggregate.prototype.finally() to be consistent with Promise API for TypeScript <a href="https://redirect.github.com/Automattic/mongoose/issues/13509">#13509</a></li>
+<li>feat(schema): support selecting subset of fields to apply optimistic concurrency to <a href="https://redirect.github.com/Automattic/mongoose/issues/13506">#13506</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/10591">#10591</a></li>
+<li>feat(model): add <code>ordered</code> option to <code>Model.create()</code> <a href="https://redirect.github.com/Automattic/mongoose/issues/13472">#13472</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/4038">#4038</a></li>
+<li>feat(schema): consistently add .get() function to all SchemaType classes</li>
+<li>feat(populate): pass virtual to match function to allow merging match options <a href="https://redirect.github.com/Automattic/mongoose/issues/13477">#13477</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/12443">#12443</a></li>
+<li>types: allow overwriting Paths in select() to tell TypeScript which fields are projected <a href="https://redirect.github.com/Automattic/mongoose/issues/13478">#13478</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/13224">#13224</a></li>
+<li>types(schema): add validateModifiedOnly as schema option <a href="https://redirect.github.com/Automattic/mongoose/issues/13503">#13503</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/10153">#10153</a></li>
+<li>docs: add note about validateModifiedOnly as a schema option <a href="https://redirect.github.com/Automattic/mongoose/issues/13503">#13503</a> <a href="https://redirect.github.com/Automattic/mongoose/issues/10153">#10153</a></li>
+<li>docs(migrating_to_7): update migrating_to_7.md to include Model.countDocuments <a href="https://redirect.github.com/Automattic/mongoose/issues/13508">#13508</a> <a href="https://github.com/Climax777">Climax777</a></li>
+<li>docs(further_reading): remove style for &quot;img&quot; <a href="https://github.com/hasezoey">hasezoey</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/Automattic/mongoose/commit/95f1ec9f3c0a15c8834f1ba63912f63cc774324c"><code>95f1ec9</code></a> chore: release 7.3.1</li>
+<li><a href="https://github.com/Automattic/mongoose/commit/49dd7e4c5d6c9cea4df24216d8927475d26deb6b"><code>49dd7e4</code></a> Merge pull request <a href="https://redirect.github.com/Automattic/mongoose/issues/13532">#13532</a> from Automattic/vkarpov15/<a href="https://redirect.github.com/Automattic/mongoose/issues/13498">gh-13498</a></li>
+<li><a href="https://github.com/Automattic/mongoose/commit/de6250dd8baa3b6150e662cb7ee896c3e89e1062"><code>de6250d</code></a> Merge pull request <a href="https://redirect.github.com/Automattic/mongoose/issues/13533">#13533</a> from Automattic/vkarpov15/<a href="https://redirect.github.com/Automattic/mongoose/issues/12967">gh-12967</a></li>
+<li><a href="https://github.com/Automattic/mongoose/commit/e6ac182753136b33b23dc8782a92c07e3a42695e"><code>e6ac182</code></a> docs(connections): expand docs on serverSelectionTimeoutMS</li>
+<li><a href="https://github.com/Automattic/mongoose/commit/56563ec8d300437b0dcd487695f49eadd5eefcaf"><code>56563ec</code></a> docs(middleware): explain how to access query and save() parameters in middle...</li>
+<li><a href="https://github.com/Automattic/mongoose/commit/94b78c0b931d8c25b469e7e729468a703883ec20"><code>94b78c0</code></a> Merge pull request <a href="https://redirect.github.com/Automattic/mongoose/issues/13524">#13524</a> from Automattic/vkarpov15/<a href="https://redirect.github.com/Automattic/mongoose/issues/13483">gh-13483</a></li>
+<li><a href="https://github.com/Automattic/mongoose/commit/936c95d3f76a511c07e87b38f19035f2a5447cee"><code>936c95d</code></a> Update docs/connections.md</li>
+<li><a href="https://github.com/Automattic/mongoose/commit/ad9aa0d2e2de5e03ca3d458c91c1c0063e7ff2ca"><code>ad9aa0d</code></a> Merge pull request <a href="https://redirect.github.com/Automattic/mongoose/issues/13526">#13526</a> from Automattic/revert-13513-vkarpov15/schema-colle...</li>
+<li><a href="https://github.com/Automattic/mongoose/commit/96d8df1af0db667a81e0f85daa775f1ddc83887c"><code>96d8df1</code></a> Revert &quot;feat(schema): add collectionOptions option to schemas&quot;</li>
+<li><a href="https://github.com/Automattic/mongoose/commit/643d55ac5f21db8cc1736ff9b4c8363422fec0c1"><code>643d55a</code></a> Merge pull request <a href="https://redirect.github.com/Automattic/mongoose/issues/13513">#13513</a> from Automattic/vkarpov15/schema-collection-options</li>
+<li>Additional commits viewable in <a href="https://github.com/Automattic/mongoose/compare/7.2.4...7.3.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mongoose&package-manager=npm_and_yarn&previous-version=7.2.4&new-version=7.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

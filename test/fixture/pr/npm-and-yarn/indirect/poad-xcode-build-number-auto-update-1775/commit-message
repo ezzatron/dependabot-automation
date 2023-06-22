@@ -1,0 +1,14 @@
+Bump electron-to-chromium from 1.4.434 to 1.4.435
+
+Bumps [electron-to-chromium](https://github.com/kilian/electron-to-chromium) from 1.4.434 to 1.4.435.
+- [Changelog](https://github.com/Kilian/electron-to-chromium/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/kilian/electron-to-chromium/compare/v1.4.434...v1.4.435)
+
+---
+updated-dependencies:
+- dependency-name: electron-to-chromium
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

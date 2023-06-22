@@ -1,0 +1,55 @@
+Bumps [symfony/process](https://github.com/symfony/process) from 5.4.23 to 5.4.24.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/symfony/process/releases">symfony/process's releases</a>.</em></p>
+<blockquote>
+<h2>v5.4.24</h2>
+<p><strong>Changelog</strong> (<a href="https://github.com/symfony/process/compare/v5.4.23...v5.4.24">https://github.com/symfony/process/compare/v5.4.23...v5.4.24</a>)</p>
+<ul>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50315">symfony/symfony#50315</a> [Translation] Fix handling of null messages in <code>ArrayLoader</code> (<a href="https://github.com/rob006"><code>@​rob006</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50338">symfony/symfony#50338</a> [Console] Remove <code>exec</code> and replace it by <code>shell_exec</code> (<a href="https://github.com/maxbeckers"><code>@​maxbeckers</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50309">symfony/symfony#50309</a> [HttpFoundation] UrlHelper is now aware of RequestContext changes (<a href="https://github.com/giosh94mhz"><code>@​giosh94mhz</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50309">symfony/symfony#50309</a> [HttpFoundation] UrlHelper is now aware of RequestContext changes (<a href="https://github.com/giosh94mhz"><code>@​giosh94mhz</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/50354">symfony/symfony#50354</a> [Process] Stop the process correctly even if underlying input stream is not closed (<a href="https://github.com/joelwurtz"><code>@​joelwurtz</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/49063">symfony/symfony#49063</a> [Messenger] Respect <code>isRetryable</code> decision of the retry strategy for re-delivery (<a href="https://github.com/FlyingDR"><code>@​FlyingDR</code></a>)</li>
+<li>bug <a href="https://redirect.github.com/symfony/symfony/issues/49557">symfony/symfony#49557</a> [PropertyInfo] Fix phpDocExtractor nullable array value type (<a href="https://github.com/fabpot"><code>@​fabpot</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/symfony/process/commit/e3c46cc5689c8782944274bb30702106ecbe3b64"><code>e3c46cc</code></a> [Process] Stop the process correctly even if underlying input stream is not c...</li>
+<li>See full diff in <a href="https://github.com/symfony/process/compare/v5.4.23...v5.4.24">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=symfony/process&package-manager=composer&previous-version=5.4.23&new-version=5.4.24)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

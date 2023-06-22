@@ -1,0 +1,14 @@
+Bump Dapper from 2.0.138 to 2.0.143 in /SamSmithNZ/SamSmithNZ.Service
+
+Bumps [Dapper](https://github.com/DapperLib/Dapper) from 2.0.138 to 2.0.143.
+- [Release notes](https://github.com/DapperLib/Dapper/releases)
+- [Commits](https://github.com/DapperLib/Dapper/compare/2.0.138...2.0.143)
+
+---
+updated-dependencies:
+- dependency-name: Dapper
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

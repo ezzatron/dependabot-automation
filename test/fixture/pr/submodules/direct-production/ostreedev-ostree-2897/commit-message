@@ -1,0 +1,13 @@
+build(deps): bump composefs from `08bdb03` to `ca09734`
+
+Bumps [composefs](https://github.com/containers/composefs) from `08bdb03` to `ca09734`.
+- [Release notes](https://github.com/containers/composefs/releases)
+- [Commits](https://github.com/containers/composefs/compare/08bdb030fcff4f55ef63aa828b09b57a6cd4d234...ca0973495fb0e4bf9f06f61386f5489e1223753e)
+
+---
+updated-dependencies:
+- dependency-name: composefs
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

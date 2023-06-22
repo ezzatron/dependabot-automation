@@ -1,0 +1,67 @@
+Bumps [react-redux](https://github.com/reduxjs/react-redux) from 8.1.0 to 8.1.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/reduxjs/react-redux/releases">react-redux's releases</a>.</em></p>
+<blockquote>
+<h2>v8.1.1</h2>
+<p>This bugfix release tweaks the recent lazy context setup logic to ensure a single React context instance per React version, and removes the recently added RTK peerdep to fix an issue with Yarn workspaces.</p>
+<h2>Changelog</h2>
+<h3>React Context Singletons</h3>
+<p>React Context has always relied on reference identity.  If you have two different copies of React or a library in a page, that can cause multiple versions of a context instance to be created, leading to problems like the infamous &quot;Could not find react-redux context&quot; error.</p>
+<p>In <a href="https://github.com/reduxjs/react-redux/releases/tag/v8.1.0">v8.1.0</a>, we reworked the internals to lazily create our single <code>ReactReduxContext</code> instance to avoid issues in a React Server Components environment.</p>
+<p>This release further tweaks that to stash a single context instance per React version found in the page, thus hopefully avoiding the &quot;multiple copies of the same context&quot; error in the future.</p>
+<h2>What's Changed</h2>
+<ul>
+<li>fix: fix typescript error on non exported type by <a href="https://github.com/luzzif"><code>@​luzzif</code></a> in <a href="https://redirect.github.com/reduxjs/react-redux/pull/2034">reduxjs/react-redux#2034</a></li>
+<li>create singleton context by React version by <a href="https://github.com/phryneas"><code>@​phryneas</code></a> in <a href="https://redirect.github.com/reduxjs/react-redux/pull/2039">reduxjs/react-redux#2039</a></li>
+<li>remove RTK peerDep by <a href="https://github.com/markerikson"><code>@​markerikson</code></a> in 44fc725</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/reduxjs/react-redux/compare/v8.1.0...v8.1.1">https://github.com/reduxjs/react-redux/compare/v8.1.0...v8.1.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/reduxjs/react-redux/commit/e04515a82c980748d442d535c1ef85d0d9d5fe9f"><code>e04515a</code></a> Release 8.1.1</li>
+<li><a href="https://github.com/reduxjs/react-redux/commit/44fc725cd67de84adf1698cf0587d19930482de0"><code>44fc725</code></a> Remove RTK peerDep</li>
+<li><a href="https://github.com/reduxjs/react-redux/commit/5c764144b10d7d96a0f0a0c8b09fe319817e392f"><code>5c76414</code></a> Merge pull request <a href="https://redirect.github.com/reduxjs/react-redux/issues/2039">#2039</a> from reduxjs/singletonContext-by-ReactVersion</li>
+<li><a href="https://github.com/reduxjs/react-redux/commit/fafce9cbd3b91cb8b61482bc167f024f39843c22"><code>fafce9c</code></a> create singleton context by React version</li>
+<li><a href="https://github.com/reduxjs/react-redux/commit/28f0aa2eb00238c2c850d331b8bad042164d4c36"><code>28f0aa2</code></a> fix: fix typescript error on non exported type (<a href="https://redirect.github.com/reduxjs/react-redux/issues/2034">#2034</a>)</li>
+<li><a href="https://github.com/reduxjs/react-redux/commit/a222ceb678a485b84772fa17a7f59dce4423a25e"><code>a222ceb</code></a> Merge pull request <a href="https://redirect.github.com/reduxjs/react-redux/issues/2037">#2037</a> from reduxjs/docs/switch-umami</li>
+<li><a href="https://github.com/reduxjs/react-redux/commit/3794848cab71c25d6d67f75b31af72d0db0895ef"><code>3794848</code></a> Switch to Railway Umami instance</li>
+<li><a href="https://github.com/reduxjs/react-redux/commit/1e97aac6d878d1a64a017aed17421c435ca6dc47"><code>1e97aac</code></a> Update action versions</li>
+<li>See full diff in <a href="https://github.com/reduxjs/react-redux/compare/v8.1.0...v8.1.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-redux&package-manager=npm_and_yarn&previous-version=8.1.0&new-version=8.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @swagger-bot.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

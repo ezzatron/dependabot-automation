@@ -1,0 +1,61 @@
+Bumps [formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin) from 2.22.0 to 2.23.0.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/revelc/formatter-maven-plugin/blob/formatter-maven-plugin-2.23.0/CHANGELOG.md">formatter-maven-plugin's changelog</a>.</em></p>
+<blockquote>
+<h1>ver 2.22.0</h1>
+<ul>
+<li>Support Eclipse 2022-12 (4.26, JDT 3.32) - requires jdk 11</li>
+</ul>
+<h1>ver 2.23.0</h1>
+<ul>
+<li>Support Eclipse 2023-03 (4.27, JDT 3.33) - requires jdk 11</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/e651fa14bda929fb138a406ef96ea16ed35a880f"><code>e651fa1</code></a> [maven-release-plugin] prepare release formatter-maven-plugin-2.23.0</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/245bf9e34b41f8aece11e48f68eaff4787723160"><code>245bf9e</code></a> Bump plugins for 2.23.0 release</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/6e5b8bd39ff61a6687ac6f03ca065ae522401e9b"><code>6e5b8bd</code></a> Merge pull request <a href="https://redirect.github.com/revelc/formatter-maven-plugin/issues/752">#752</a> from revelc/dependabot/maven/org.apache.maven.plugin-...</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/d6be4ccb75cc5db05bff5a4742e664ffefb5cc97"><code>d6be4cc</code></a> Merge pull request <a href="https://redirect.github.com/revelc/formatter-maven-plugin/issues/753">#753</a> from revelc/dependabot/maven/com.fasterxml.jackson-ja...</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/3972c901790670f2a4b290eac87a9ffe4e1ebd0c"><code>3972c90</code></a> Merge pull request <a href="https://redirect.github.com/revelc/formatter-maven-plugin/issues/751">#751</a> from revelc/dependabot/maven/org.apache.maven-maven-p...</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/a62ea4e5290f3bc5fc694ca46639d129cffc39b4"><code>a62ea4e</code></a> Merge pull request <a href="https://redirect.github.com/revelc/formatter-maven-plugin/issues/750">#750</a> from revelc/dependabot/maven/org.apache.maven.plugins...</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/b5c8706a25e9c589338d24628b9facfebe4bffd8"><code>b5c8706</code></a> Merge pull request <a href="https://redirect.github.com/revelc/formatter-maven-plugin/issues/749">#749</a> from revelc/dependabot/maven/com.google.guava-guava-3...</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/e26b4a678c62cb8c16277c1a75fddc77ca8e7605"><code>e26b4a6</code></a> Merge pull request <a href="https://redirect.github.com/revelc/formatter-maven-plugin/issues/748">#748</a> from revelc/dependabot/maven/org.codehaus.plexus-plex...</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/09eabf7b9461aad5f5ae3c23907755289d83fa84"><code>09eabf7</code></a> Merge pull request <a href="https://redirect.github.com/revelc/formatter-maven-plugin/issues/746">#746</a> from revelc/dependabot/maven/org.apache.maven.plugins...</li>
+<li><a href="https://github.com/revelc/formatter-maven-plugin/commit/6fe1a706eaa812bf48f9220105f3d42c56662ce0"><code>6fe1a70</code></a> Merge pull request <a href="https://redirect.github.com/revelc/formatter-maven-plugin/issues/747">#747</a> from revelc/dependabot/maven/org.apache.maven-maven-c...</li>
+<li>Additional commits viewable in <a href="https://github.com/revelc/formatter-maven-plugin/compare/formatter-maven-plugin-2.22.0...formatter-maven-plugin-2.23.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=net.revelc.code.formatter:formatter-maven-plugin&package-manager=maven&previous-version=2.22.0&new-version=2.23.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

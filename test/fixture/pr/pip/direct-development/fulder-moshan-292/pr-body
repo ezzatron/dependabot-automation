@@ -1,0 +1,124 @@
+[//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [httpx](https://github.com/encode/httpx) from 0.23.3 to 0.24.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/encode/httpx/releases">httpx's releases</a>.</em></p>
+<blockquote>
+<h2>Version 0.24.1</h2>
+<h2>0.24.1 (17th May, 2023)</h2>
+<h3>Added</h3>
+<ul>
+<li>Provide additional context in some <code>InvalidURL</code> exceptions. (<a href="https://redirect.github.com/encode/httpx/issues/2675">#2675</a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fix optional percent-encoding behaviour. (<a href="https://redirect.github.com/encode/httpx/issues/2671">#2671</a>)</li>
+<li>More robust checking for opening upload files in binary mode. (<a href="https://redirect.github.com/encode/httpx/issues/2630">#2630</a>)</li>
+<li>Properly support IP addresses in <code>NO_PROXY</code> environment variable. (<a href="https://redirect.github.com/encode/httpx/issues/2659">#2659</a>)</li>
+<li>Set default file for <code>NetRCAuth()</code> to <code>None</code> to use the stdlib default. (<a href="https://redirect.github.com/encode/httpx/issues/2667">#2667</a>)</li>
+<li>Set logging request lines to INFO level for async requests, in line with sync requests. (<a href="https://redirect.github.com/encode/httpx/issues/2656">#2656</a>)</li>
+<li>Fix which gen-delims need to be escaped for path/query/fragment components in URL. (<a href="https://redirect.github.com/encode/httpx/issues/2701">#2701</a>)</li>
+</ul>
+<h2>Version 0.24.0</h2>
+<h2>0.24.0 (6th April, 2023)</h2>
+<h3>Changed</h3>
+<ul>
+<li>The logging behaviour has been change to be more in-line with other standard Python logging usages. We no longer have a custom <code>TRACE</code> log level, and we no longer use the <code>HTTPX_LOG_LEVEL</code> environment variable to auto-configure logging. We now have a significant amount of <code>DEBUG</code> logging available at the network level. Full documentation is available at <a href="https://www.python-httpx.org/logging/">https://www.python-httpx.org/logging/</a> (<a href="https://redirect.github.com/encode/httpx/issues/2547">#2547</a>, <a href="https://redirect.github.com/encode/httpcore/issues/648">encode/httpcore#648</a>)</li>
+<li>The <code>Response.iter_lines()</code> method now matches the stdlib behaviour and does not include the newline characters. It also resolves a performance issue. (<a href="https://redirect.github.com/encode/httpx/issues/2423">#2423</a>)</li>
+<li>Query parameter encoding switches from using + for spaces and %2F for forward slash, to instead using %20 for spaces and treating forward slash as a safe, unescaped character. This differs from <code>requests</code>, but is in line with browser behavior in Chrome, Safari, and Firefox. Both options are RFC valid. (<a href="https://redirect.github.com/encode/httpx/issues/2543">#2543</a>)</li>
+<li>NetRC authentication is no longer automatically handled, but is instead supported by an explicit <code>httpx.NetRCAuth()</code> authentication class. See the documentation at <a href="https://www.python-httpx.org/advanced/#netrc-support">https://www.python-httpx.org/advanced/#netrc-support</a> (<a href="https://redirect.github.com/encode/httpx/issues/2525">#2525</a>)</li>
+</ul>
+<h3>Removed</h3>
+<ul>
+<li>The <code>rfc3986</code> dependancy has been removed. (<a href="https://redirect.github.com/encode/httpx/issues/2252">#2252</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/encode/httpx/blob/master/CHANGELOG.md">httpx's changelog</a>.</em></p>
+<blockquote>
+<h2>0.24.1 (17th May, 2023)</h2>
+<h3>Added</h3>
+<ul>
+<li>Provide additional context in some <code>InvalidURL</code> exceptions. (<a href="https://redirect.github.com/encode/httpx/issues/2675">#2675</a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fix optional percent-encoding behaviour. (<a href="https://redirect.github.com/encode/httpx/issues/2671">#2671</a>)</li>
+<li>More robust checking for opening upload files in binary mode. (<a href="https://redirect.github.com/encode/httpx/issues/2630">#2630</a>)</li>
+<li>Properly support IP addresses in <code>NO_PROXY</code> environment variable. (<a href="https://redirect.github.com/encode/httpx/issues/2659">#2659</a>)</li>
+<li>Set default file for <code>NetRCAuth()</code> to <code>None</code> to use the stdlib default. (<a href="https://redirect.github.com/encode/httpx/issues/2667">#2667</a>)</li>
+<li>Set logging request lines to INFO level for async requests, in line with sync requests. (<a href="https://redirect.github.com/encode/httpx/issues/2656">#2656</a>)</li>
+<li>Fix which gen-delims need to be escaped for path/query/fragment components in URL. (<a href="https://redirect.github.com/encode/httpx/issues/2701">#2701</a>)</li>
+</ul>
+<h2>0.24.0 (6th April, 2023)</h2>
+<h3>Changed</h3>
+<ul>
+<li>The logging behaviour has been changed to be more in-line with other standard Python logging usages. We no longer have a custom <code>TRACE</code> log level, and we no longer use the <code>HTTPX_LOG_LEVEL</code> environment variable to auto-configure logging. We now have a significant amount of <code>DEBUG</code> logging available at the network level. Full documentation is available at <a href="https://www.python-httpx.org/logging/">https://www.python-httpx.org/logging/</a> (<a href="https://redirect.github.com/encode/httpx/issues/2547">#2547</a>, <a href="https://redirect.github.com/encode/httpcore/issues/648">encode/httpcore#648</a>)</li>
+<li>The <code>Response.iter_lines()</code> method now matches the stdlib behaviour and does not include the newline characters. It also resolves a performance issue. (<a href="https://redirect.github.com/encode/httpx/issues/2423">#2423</a>)</li>
+<li>Query parameter encoding switches from using + for spaces and %2F for forward slash, to instead using %20 for spaces and treating forward slash as a safe, unescaped character. This differs from <code>requests</code>, but is in line with browser behavior in Chrome, Safari, and Firefox. Both options are RFC valid. (<a href="https://redirect.github.com/encode/httpx/issues/2543">#2543</a>)</li>
+<li>NetRC authentication is no longer automatically handled, but is instead supported by an explicit <code>httpx.NetRCAuth()</code> authentication class. See the documentation at <a href="https://www.python-httpx.org/advanced/#netrc-support">https://www.python-httpx.org/advanced/#netrc-support</a> (<a href="https://redirect.github.com/encode/httpx/issues/2525">#2525</a>)</li>
+</ul>
+<h3>Removed</h3>
+<ul>
+<li>The <code>rfc3986</code> dependancy has been removed. (<a href="https://redirect.github.com/encode/httpx/issues/2252">#2252</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/encode/httpx/commit/fcf1bc73dbe13bc61d18a6e998237a5021d3341c"><code>fcf1bc7</code></a> Version 0.24.1 (<a href="https://redirect.github.com/encode/httpx/issues/2702">#2702</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/ee432c0d3098375df258b6d5844e7569080b2369"><code>ee432c0</code></a> Fix for gen-delims escaping behaviour in path/query/fragment (<a href="https://redirect.github.com/encode/httpx/issues/2701">#2701</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/df5dbc05580a4c3225e70153729e2a306d67a472"><code>df5dbc0</code></a> Move configuration of tools to pyproject.toml (<a href="https://redirect.github.com/encode/httpx/issues/2686">#2686</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/746eaef3b4511c5117a362d1265f78ee028656bb"><code>746eaef</code></a> Bump trio-typing from 0.7.0 to 0.8.0 (<a href="https://redirect.github.com/encode/httpx/issues/2688">#2688</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/919da41dc30c11b7dc2e462317788d558376a75e"><code>919da41</code></a> Bump types-chardet from 5.0.4.2 to 5.0.4.5 (<a href="https://redirect.github.com/encode/httpx/issues/2689">#2689</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/028b9aa201752eecf4ec12bcc55bd520e6352a32"><code>028b9aa</code></a> Bump trustme from 0.9.0 to 1.0.0 (<a href="https://redirect.github.com/encode/httpx/issues/2690">#2690</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/f98268a334016cd5c4dc9130822804e0d50a3a10"><code>f98268a</code></a> Bump cryptography from 39.0.1 to 40.0.2 (<a href="https://redirect.github.com/encode/httpx/issues/2692">#2692</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/1250a6fd68649f012db3c806e9e5e461baf87944"><code>1250a6f</code></a> Bump uvicorn from 0.20.0 to 0.22.0 (<a href="https://redirect.github.com/encode/httpx/issues/2691">#2691</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/859038a9e6cd3fa3dfb86a9d8e8d799e7d0a16f2"><code>859038a</code></a> Add httpx-sse to Third Party Packages (<a href="https://redirect.github.com/encode/httpx/issues/2683">#2683</a>)</li>
+<li><a href="https://github.com/encode/httpx/commit/32e25497a36e6222cc64a758c98275b450dac28d"><code>32e2549</code></a> Fix ruff error and script (<a href="https://redirect.github.com/encode/httpx/issues/2680">#2680</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/encode/httpx/compare/0.23.3...0.24.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=httpx&package-manager=pip&previous-version=0.23.3&new-version=0.24.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

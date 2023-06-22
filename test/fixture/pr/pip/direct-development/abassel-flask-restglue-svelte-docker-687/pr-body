@@ -1,0 +1,98 @@
+Bumps [pymongo](https://github.com/mongodb/mongo-python-driver) from 4.3.3 to 4.4.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/mongodb/mongo-python-driver/releases">pymongo's releases</a>.</em></p>
+<blockquote>
+<h2>PyMongo 4.4.0b0</h2>
+<p>Release notes: <a href="https://www.mongodb.com/community/forums/t/pymongo-4-4-0b0-release/210471">https://www.mongodb.com/community/forums/t/pymongo-4-4-0b0-release/210471</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/mongodb/mongo-python-driver/blob/master/doc/changelog.rst">pymongo's changelog</a>.</em></p>
+<blockquote>
+<h1>Changelog</h1>
+<h2>Changes in Version 4.4</h2>
+<ul>
+<li>Added support for MongoDB 7.0.</li>
+<li>Added support for Python 3.11.</li>
+<li>Added support for passing a list containing (key, direction) pairs
+or keys to :meth:<code>~pymongo.collection.Collection.create_index</code>.</li>
+<li>Improved bson encoding performance (<code>PYTHON-3717</code>_ and <code>PYTHON-3718</code>_).</li>
+<li>Improved support for Pyright to improve typing support for IDEs like Visual Studio Code
+or Visual Studio.</li>
+<li>Improved support for type-checking with MyPy &quot;strict&quot; mode (<code>--strict</code>).</li>
+<li>Added :meth:<code>~pymongo.encryption.ClientEncryption.create_encrypted_collection</code>,
+:class:<code>~pymongo.errors.EncryptedCollectionError</code>,
+:meth:<code>~pymongo.encryption.ClientEncryption.encrypt_expression</code>,
+:class:<code>~pymongo.encryption_options.RangeOpts</code>,
+and :attr:<code>~pymongo.encryption.Algorithm.RANGEPREVIEW</code> as part of the experimental
+Queryable Encryption beta.</li>
+<li>pymongocrypt 1.6.0 or later is now required for :ref:<code>In-Use Encryption</code> support. MongoDB
+Server 7.0 introduced a backwards breaking change to the QE protocol. Users taking
+advantage of the Queryable Encryption beta must now upgrade to MongoDB 7.0+ and
+PyMongo 4.4+.</li>
+<li>Previously, PyMongo's docs recommended using :meth:<code>datetime.datetime.utcnow</code> and
+:meth:<code>datetime.datetime.utcfromtimestamp</code>. utcnow and utcfromtimestamp are deprecated
+in Python 3.12, for reasons explained <code>in this Github issue</code>_. Instead, users should
+use :meth:<code>datetime.datetime.now(tz=timezone.utc)</code> and
+:meth:<code>datetime.datetime.fromtimestamp(tz=timezone.utc)</code> instead.</li>
+</ul>
+<p>.. _in this Github issue: <a href="https://redirect.github.com/python/cpython/issues/103857">python/cpython#103857</a></p>
+<p>Issues Resolved
+...............</p>
+<p>See the <code>PyMongo 4.4 release notes in JIRA</code>_ for the list of resolved issues
+in this release.</p>
+<p>.. _PyMongo 4.4 release notes in JIRA: <a href="https://jira.mongodb.org/secure/ReleaseNote.jspa?projectId=10004&amp;version=34354">https://jira.mongodb.org/secure/ReleaseNote.jspa?projectId=10004&amp;version=34354</a></p>
+<p>.. _PYTHON-3717: <a href="https://jira.mongodb.org/browse/PYTHON-3717">https://jira.mongodb.org/browse/PYTHON-3717</a>
+.. _PYTHON-3718: <a href="https://jira.mongodb.org/browse/PYTHON-3718">https://jira.mongodb.org/browse/PYTHON-3718</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/55a9bee81012057e90c47d08f396377c112e47bb"><code>55a9bee</code></a> BUMP 4.4 (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1251">#1251</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/bc66d83efc5e57c5685cdd621aa3bf74ba44f2a7"><code>bc66d83</code></a> PYTHON-3738 Use tox for sphinx doc instead of setup.py (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1245">#1245</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/82d87dc173d0095faa7aef8622387debaca52b2c"><code>82d87dc</code></a> PYTHON-3744 Fix utcnow deprecation build regressions (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1244">#1244</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/374250d5494ad8221a28f9b2c62f83b1ef16f451"><code>374250d</code></a> PYTHON-2963 Add tox config in preparation for migration from setup.py (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1240">#1240</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/37202c0db1e8c282b62852f10f63e0c127fd88f7"><code>37202c0</code></a> PYTHON-3726 Migrate off of Ubuntu in EG Builds (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1227">#1227</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/601d1ec3a13434761bfd9997cc8ee6633c3d9f93"><code>601d1ec</code></a> PYTHON-3737 Use <strong>future</strong> annotations for forward reference type hints (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1234">#1234</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/2cfebf52cdd7d35cc2502aef90d262c28b684817"><code>2cfebf5</code></a> PYTHON-3706 Skip flaky test on Windows/macOS (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1241">#1241</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/ada1280ad30ad5cd771b9a3c537ec3b4f83e3ba8"><code>ada1280</code></a> PYTHON-3011 Skip test_connections_are_only_returned_once on PyPy for now (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1239">#1239</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/d86fb9496a6418d42c13d9caa0946dfb4e42df5f"><code>d86fb94</code></a> PYTHON-3519 Skip test_pool_paused_error_is_retryable on PyPy for now (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1238">#1238</a>)</li>
+<li><a href="https://github.com/mongodb/mongo-python-driver/commit/f7874fb110851b16a70ac611a5a016467988becd"><code>f7874fb</code></a> PYTHON-2287 Improve error message for invalid boolean option (<a href="https://redirect.github.com/mongodb/mongo-python-driver/issues/1236">#1236</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/mongodb/mongo-python-driver/compare/4.3.3...4.4.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pymongo&package-manager=pip&previous-version=4.3.3&new-version=4.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once it's up-to-date and CI passes on it, as requested by @abassel.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

@@ -1,0 +1,117 @@
+Removes [tar](https://github.com/isaacs/node-tar). It's no longer used after updating ancestor dependency [gulp-sass](https://github.com/dlmanning/gulp-sass). These dependencies need to be updated together.
+
+Removes `tar`
+
+Updates `gulp-sass` from 4.1.0 to 5.1.0
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dlmanning/gulp-sass/releases">gulp-sass's releases</a>.</em></p>
+<blockquote>
+<h2>v5.1.0</h2>
+<p>Huge shout out to <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> for putting a ton of effort into this release 🎉</p>
+<h2>What's Changed</h2>
+<ul>
+<li>Document usage in ESM modules by <a href="https://github.com/mxmason"><code>@​mxmason</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/805">dlmanning/gulp-sass#805</a></li>
+<li>Typo @ README.md by <a href="https://github.com/radimvaculik"><code>@​radimvaculik</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/807">dlmanning/gulp-sass#807</a></li>
+<li>package.json: specify the files to include by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/817">dlmanning/gulp-sass#817</a></li>
+<li>Enforce LF by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/814">dlmanning/gulp-sass#814</a></li>
+<li>Update dependencies by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/816">dlmanning/gulp-sass#816</a></li>
+<li>Switch to GitHub Actions CI by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/813">dlmanning/gulp-sass#813</a></li>
+<li>Replace lodash with the lodash.clonedeep package by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/818">dlmanning/gulp-sass#818</a></li>
+<li>Tweak README.md by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/821">dlmanning/gulp-sass#821</a></li>
+<li>Move eslint to npm scripts by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/819">dlmanning/gulp-sass#819</a></li>
+<li>Minor lint tweaks by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/820">dlmanning/gulp-sass#820</a></li>
+<li>Fix <code>fix</code> script by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/823">dlmanning/gulp-sass#823</a></li>
+<li>Minor tweaks and cleanup by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/822">dlmanning/gulp-sass#822</a></li>
+<li>Update devDependencies and switch to Node.js 16/npm 7+ by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/829">dlmanning/gulp-sass#829</a></li>
+<li>Update devDependencies by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/835">dlmanning/gulp-sass#835</a></li>
+<li>Update README.md by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/832">dlmanning/gulp-sass#832</a></li>
+<li>Clean up return statements by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/836">dlmanning/gulp-sass#836</a></li>
+<li>CI: use <code>lts/*</code> for the lint job by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/839">dlmanning/gulp-sass#839</a></li>
+<li>Replace chalk with picocolors by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/833">dlmanning/gulp-sass#833</a></li>
+<li>Reword missing compiler message by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/834">dlmanning/gulp-sass#834</a></li>
+<li>Remove should by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/841">dlmanning/gulp-sass#841</a></li>
+<li>Remove transfob package by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/840">dlmanning/gulp-sass#840</a></li>
+<li>Update CHANGELOG.md by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/831">dlmanning/gulp-sass#831</a></li>
+<li>Add sass tests too by <a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/842">dlmanning/gulp-sass#842</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/radimvaculik"><code>@​radimvaculik</code></a> made their first contribution in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/807">dlmanning/gulp-sass#807</a></li>
+<li><a href="https://github.com/XhmikosR"><code>@​XhmikosR</code></a> made their first contribution in <a href="https://redirect.github.com/dlmanning/gulp-sass/pull/817">dlmanning/gulp-sass#817</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/dlmanning/gulp-sass/compare/v5.0.0...v5.1.0">https://github.com/dlmanning/gulp-sass/compare/v5.0.0...v5.1.0</a></p>
+<h2>v5.0.0</h2>
+<p>First and foremost a huge shout out to <a href="https://github.com/mxmason"><code>@​mxmason</code></a> for making this long awaited release possible &lt;3</p>
+<h1>Breaking changes</h1>
+<ul>
+<li>Require Node &gt;= 12</li>
+<li>Require Gulp 4</li>
+<li>Drop dependency on the deprecate node-sass</li>
+<li>Remove hardcoded default Sass compiler</li>
+</ul>
+<h1>Upgrading to v5</h1>
+<p>It is now required to explicitly install a Sass compiler.</p>
+<pre lang="sh"><code>npm install gulp-sass sass
+&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/dlmanning/gulp-sass/blob/master/CHANGELOG.md">gulp-sass's changelog</a>.</em></p>
+<blockquote>
+<h1>gulp-sass Changelog</h1>
+<h2>v5.0.0</h2>
+<p><strong>June 25, 2021</strong></p>
+<p><a href="https://github.com/dlmanning/gulp-sass/releases/tag/v5.0.0">https://github.com/dlmanning/gulp-sass/releases/tag/v5.0.0</a></p>
+<h2>v4.1.1</h2>
+<p><strong>June 24, 2021</strong></p>
+<p><a href="https://github.com/dlmanning/gulp-sass/releases/tag/v4.1.1">https://github.com/dlmanning/gulp-sass/releases/tag/v4.1.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/c04bb67043fdbcb930152232ee9ba4caff0b2599"><code>c04bb67</code></a> 5.1.0</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/835d6f36f5a89999c0a64268347cb25c35213ced"><code>835d6f3</code></a> Add sass tests too (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/842">#842</a>)</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/4e8c5dea5f69c5ce6c91481a819cb5407e865e58"><code>4e8c5de</code></a> Update CHANGELOG.md (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/831">#831</a>)</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/d68d15b89bdad253c2e80beb1ce944106b4858de"><code>d68d15b</code></a> Remove transfob package (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/840">#840</a>)</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/0011378392cd0cb83daec60bef70327de8a9b47e"><code>0011378</code></a> Remove should (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/841">#841</a>)</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/9ac63f012f9c9461a042fde8adaa6f6b91041cfc"><code>9ac63f0</code></a> Reword missing compiler message (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/834">#834</a>)</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/c65a478b17e0301e914b9ad76c1d713e43466b65"><code>c65a478</code></a> Replace chalk with picocolors (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/833">#833</a>)</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/45becae18aa5172318089c18bf09547abadbb665"><code>45becae</code></a> CI: use <code>lts/*</code> for the lint job (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/839">#839</a>)</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/18f57f0cc791d4ffa609a258510cc006645d0308"><code>18f57f0</code></a> Clean up return statements (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/836">#836</a>)</li>
+<li><a href="https://github.com/dlmanning/gulp-sass/commit/57428f955175ab5467e51864afd90a7c4266235b"><code>57428f9</code></a> Update README.md (<a href="https://redirect.github.com/dlmanning/gulp-sass/issues/832">#832</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/dlmanning/gulp-sass/compare/v4.1.0...v5.1.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/sammogerman/partyparty-static/network/alerts).
+
+</details>

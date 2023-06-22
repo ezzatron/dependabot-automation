@@ -1,0 +1,14 @@
+Bump symplify/easy-coding-standard from 11.4.5 to 11.5.0
+
+Bumps [symplify/easy-coding-standard](https://github.com/easy-coding-standard/easy-coding-standard) from 11.4.5 to 11.5.0.
+- [Release notes](https://github.com/easy-coding-standard/easy-coding-standard/releases)
+- [Commits](https://github.com/easy-coding-standard/easy-coding-standard/compare/11.4.5...11.5.0)
+
+---
+updated-dependencies:
+- dependency-name: symplify/easy-coding-standard
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

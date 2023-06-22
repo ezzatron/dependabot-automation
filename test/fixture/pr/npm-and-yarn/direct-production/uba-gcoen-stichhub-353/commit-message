@@ -1,0 +1,15 @@
+Bump mongoose from 7.2.4 to 7.3.1 in /server
+
+Bumps [mongoose](https://github.com/Automattic/mongoose) from 7.2.4 to 7.3.1.
+- [Release notes](https://github.com/Automattic/mongoose/releases)
+- [Changelog](https://github.com/Automattic/mongoose/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/Automattic/mongoose/compare/7.2.4...7.3.1)
+
+---
+updated-dependencies:
+- dependency-name: mongoose
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

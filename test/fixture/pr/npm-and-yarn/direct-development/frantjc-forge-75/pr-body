@@ -1,0 +1,70 @@
+Bumps [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from 5.59.9 to 5.60.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslint/parser</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v5.60.0</h2>
+<h1><a href="https://github.com/typescript-eslint/typescript-eslint/compare/v5.59.11...v5.60.0">5.60.0</a> (2023-06-19)</h1>
+<h3>Features</h3>
+<ul>
+<li><strong>eslint-plugin:</strong> [restrict-plus-operands] add allow* options (<a href="https://redirect.github.com/typescript-eslint/typescript-eslint/issues/6161">#6161</a>) (<a href="https://github.com/typescript-eslint/typescript-eslint/commit/def09f88cdb4a85cebb8619b45931f7e2c88dfc0">def09f8</a>)</li>
+</ul>
+<h2>v5.59.11</h2>
+<h2><a href="https://github.com/typescript-eslint/typescript-eslint/compare/v5.59.10...v5.59.11">5.59.11</a> (2023-06-12)</h2>
+<p><strong>Note:</strong> Version bump only for package <code>@​typescript-eslint/typescript-eslint</code></p>
+<h2>v5.59.10</h2>
+<h2><a href="https://github.com/typescript-eslint/typescript-eslint/compare/v5.59.9...v5.59.10">5.59.10</a> (2023-06-12)</h2>
+<p><strong>Note:</strong> Version bump only for package <code>@​typescript-eslint/typescript-eslint</code></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/CHANGELOG.md"><code>@​typescript-eslint/parser</code>'s changelog</a>.</em></p>
+<blockquote>
+<h1><a href="https://github.com/typescript-eslint/typescript-eslint/compare/v5.59.11...v5.60.0">5.60.0</a> (2023-06-19)</h1>
+<p><strong>Note:</strong> Version bump only for package <code>@​typescript-eslint/parser</code></p>
+<h2><a href="https://github.com/typescript-eslint/typescript-eslint/compare/v5.59.10...v5.59.11">5.59.11</a> (2023-06-12)</h2>
+<p><strong>Note:</strong> Version bump only for package <code>@​typescript-eslint/parser</code></p>
+<h2><a href="https://github.com/typescript-eslint/typescript-eslint/compare/v5.59.9...v5.59.10">5.59.10</a> (2023-06-12)</h2>
+<p><strong>Note:</strong> Version bump only for package <code>@​typescript-eslint/parser</code></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/typescript-eslint/typescript-eslint/commit/c09b1c0252cbbf58e94ca5d671b6e05f29511144"><code>c09b1c0</code></a> chore: publish v5.60.0</li>
+<li><a href="https://github.com/typescript-eslint/typescript-eslint/commit/a91bb9e264544fc635a44468c2543b94fa83ac1c"><code>a91bb9e</code></a> chore: publish v5.59.11</li>
+<li><a href="https://github.com/typescript-eslint/typescript-eslint/commit/9768e989d332fb11c9cb6c72f8d1d707a0b59b95"><code>9768e98</code></a> chore: publish v5.59.10</li>
+<li>See full diff in <a href="https://github.com/typescript-eslint/typescript-eslint/commits/v5.60.0/packages/parser">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@typescript-eslint/parser&package-manager=npm_and_yarn&previous-version=5.59.9&new-version=5.60.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

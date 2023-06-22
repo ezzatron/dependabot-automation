@@ -1,0 +1,49 @@
+Bumps [anstyle-parse](https://github.com/rust-cli/anstyle) from 0.2.0 to 0.2.1.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/rust-cli/anstyle/commit/1ea194b616adeb117792d02cb4e0bffa7f884345"><code>1ea194b</code></a> chore: Release</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/9428794e1ba8c7f61f906f414351f27453038efb"><code>9428794</code></a> docs: Update changelog</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/83458ce039f210d6c9f9434e0ad8b5cba2adc5c2"><code>83458ce</code></a> Merge pull request <a href="https://redirect.github.com/rust-cli/anstyle/issues/102">#102</a> from rust-cli/colorchoice_clap</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/7f3624d4a6108acf2134e12d936c8b7884e9d1fe"><code>7f3624d</code></a> refactor: Re-use clap's colorchoice in colorchoice_clap</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/ea3bb47f592490728afd0ead4f60afb4ec9cc05b"><code>ea3bb47</code></a> chore: Update owners</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/79c607fed7200b9e3b2053420303214bc80b0807"><code>79c607f</code></a> chore: Add rust-cli as owners</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/643a294147f32003c1a6ea0724b6e304f443171d"><code>643a294</code></a> Merge pull request <a href="https://redirect.github.com/rust-cli/anstyle/issues/104">#104</a> from epage/update</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/77189b77a714fc2592936869bd439b2719264e28"><code>77189b7</code></a> chore: Update from '_rust/main' template</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/2b6bb28cd18916a6244a2632a6abcba9362b9fd0"><code>2b6bb28</code></a> chore(ci): Catch clippy config failures</li>
+<li><a href="https://github.com/rust-cli/anstyle/commit/80d4cdd688e88b897f384b770f9c13268ecb3793"><code>80d4cdd</code></a> chore: Remove clippy lint past MSRV (needs 1.67)</li>
+<li>Additional commits viewable in <a href="https://github.com/rust-cli/anstyle/compare/anstyle-parse-v0.2.0...anstyle-parse-v0.2.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=anstyle-parse&package-manager=cargo&previous-version=0.2.0&new-version=0.2.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @lstrojny.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>

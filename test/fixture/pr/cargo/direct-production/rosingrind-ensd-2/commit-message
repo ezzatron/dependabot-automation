@@ -1,0 +1,13 @@
+Bump sha2 from 0.10.6 to 0.10.7
+
+Bumps [sha2](https://github.com/RustCrypto/hashes) from 0.10.6 to 0.10.7.
+- [Commits](https://github.com/RustCrypto/hashes/compare/sha2-v0.10.6...sha2-v0.10.7)
+
+---
+updated-dependencies:
+- dependency-name: sha2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>

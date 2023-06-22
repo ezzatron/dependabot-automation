@@ -1,0 +1,47 @@
+Bumps [logback-classic](https://github.com/qos-ch/logback) from 1.3.8 to 1.4.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/qos-ch/logback/commit/60f4910f045e5adca5bcaa1a3990a757ceac5f88"><code>60f4910</code></a> prepare release 1.4.8</li>
+<li><a href="https://github.com/qos-ch/logback/commit/ca7fbc7f4c1b1883092037ee4a662034586df07a"><code>ca7fbc7</code></a> link logbackMDCAdapter in LoggerContext, fixes LOGBACK-1742</li>
+<li><a href="https://github.com/qos-ch/logback/commit/9e833ec858953a2296afdc3292f8542fc08f2a45"><code>9e833ec</code></a> ongoing work on JsonEncoder LOGBACK-1734</li>
+<li><a href="https://github.com/qos-ch/logback/commit/97e517511e52e9c96357384e751d38050134dd8f"><code>97e5175</code></a> ongoing work on JsonEnconder</li>
+<li><a href="https://github.com/qos-ch/logback/commit/f7ae802550f257a83edb5cebef04be28bff34d6e"><code>f7ae802</code></a> fix LOGBACK-1737</li>
+<li><a href="https://github.com/qos-ch/logback/commit/f93f3bbe643d3859cc18cb4ee8829d9c26e8d357"><code>f93f3bb</code></a> remove older JsonEncoder</li>
+<li><a href="https://github.com/qos-ch/logback/commit/22da15697005bbd2d3e8bd690d9fd6c06e7b25e5"><code>22da156</code></a> ongoing work on JsonEscapeUtil</li>
+<li><a href="https://github.com/qos-ch/logback/commit/b8e09365f75f4ff6351d1bfadc284f0ca63411d8"><code>b8e0936</code></a> add constant to restore text attributes</li>
+<li><a href="https://github.com/qos-ch/logback/commit/ec508c48b2e33662be69349ac9b784ab7d292df1"><code>ec508c4</code></a> [LOGBACK-1736] Make OSGi S.L.M. requirement for Configurator optional</li>
+<li><a href="https://github.com/qos-ch/logback/commit/a61d8c49eb05541ba6f10914c94c6e489a65fdc1"><code>a61d8c4</code></a> Update README.md</li>
+<li>Additional commits viewable in <a href="https://github.com/qos-ch/logback/compare/v_1.3.8...v_1.4.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ch.qos.logback:logback-classic&package-manager=maven&previous-version=1.3.8&new-version=1.4.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
