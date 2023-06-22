@@ -1,7 +1,7 @@
 PR_FIXTURE_EXPECTED_FILES := $(addsuffix /expected.json,$(wildcard test/fixture/pr/*/*/*))
 
 CI_VERIFY_GENERATED_FILES := true
-GENERATED_FILES += dist/main.js $(PR_FIXTURE_EXPECTED_FILES)
+GENERATED_FILES += dist/main.js
 JS_TSC_TYPECHECK_SKIP_LIB := true
 
 -include .makefiles/Makefile
@@ -16,6 +16,9 @@ JS_TSC_TYPECHECK_SKIP_LIB := true
 
 .PHONY: precommit
 precommit:: verify-generated
+
+.PHONY: generate-fixtures
+generate-fixtures: $(PR_FIXTURE_EXPECTED_FILES)
 
 ################################################################################
 
