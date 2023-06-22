@@ -81,8 +81,8 @@ describe("parseCommitMessage()", () => {
   });
 
   when`
-      the message contains a single updated dependency
-    `(() => {
+    the message contains a single updated dependency
+  `(() => {
     beforeEach(() => {
       message = indented`
         <commit subject line>
@@ -116,8 +116,8 @@ describe("parseCommitMessage()", () => {
   });
 
   when`
-      the message contains multiple updated dependencies
-    `(() => {
+    the message contains multiple updated dependencies
+  `(() => {
     beforeEach(() => {
       message = indented`
         <commit subject line>
