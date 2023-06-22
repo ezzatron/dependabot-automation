@@ -84,14 +84,6 @@ async function main() {
 
       const submitter = prSummary.user.login;
 
-      // double-check that the PR is from Dependabot
-      if (submitter !== "dependabot[bot]") {
-        console.warn(
-          `WARNING: Skipping PR ${prSlug} submitted by ${submitter}...`
-        );
-        continue;
-      }
-
       // we don't get the owner or repo from the search results, so we have to
       // parse them from the prSummary.pull_request.url URL, which looks like
       // https://api.github.com/repos/<owner>/<repo>/pulls/<number>
@@ -100,6 +92,14 @@ async function main() {
         .split("/")
         .map((s) => decodeURIComponent(s));
       const prSlug = `${owner}/${repo}#${prSummary.number}`;
+
+      // double-check that the PR is from Dependabot
+      if (submitter !== "dependabot[bot]") {
+        console.warn(
+          `WARNING: Skipping PR ${prSlug} submitted by ${submitter}...`
+        );
+        continue;
+      }
 
       // get the full PR data
       const { data: pr } = await octokit.rest.pulls.get({
