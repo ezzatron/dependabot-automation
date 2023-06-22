@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pub",
+  "directory": "/packages/notifications/push/amplify_push_notifications",
   "updatedDependencies": [
     {
       "dependencyName": "amplify_core",

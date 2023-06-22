@@ -1,4 +1,6 @@
 {
+  "ecosystem": "docker",
+  "directory": "/development/gcp/cloud-run/slack-message-sender",
   "updatedDependencies": [
     {
       "dependencyName": "python",

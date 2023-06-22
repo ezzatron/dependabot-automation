@@ -1,4 +1,6 @@
 {
+  "ecosystem": "hex",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "phoenix_live_view",

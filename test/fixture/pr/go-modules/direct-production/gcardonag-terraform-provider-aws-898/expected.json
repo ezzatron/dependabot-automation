@@ -1,4 +1,6 @@
 {
+  "ecosystem": "go_modules",
+  "directory": "/dot-ci/providerlint",
   "updatedDependencies": [
     {
       "dependencyName": "github.com/aws/aws-sdk-go",

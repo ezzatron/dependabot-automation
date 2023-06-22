@@ -1,4 +1,6 @@
 {
+  "ecosystem": "go_modules",
+  "directory": "/dependency/retrieval",
   "updatedDependencies": [
     {
       "dependencyName": "github.com/opencontainers/runc",

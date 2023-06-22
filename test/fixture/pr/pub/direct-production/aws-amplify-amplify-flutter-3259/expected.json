@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pub",
+  "directory": "/packages/amplify_datastore_plugin_interface",
   "updatedDependencies": [
     {
       "dependencyName": "amplify_core",

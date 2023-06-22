@@ -1,4 +1,6 @@
 {
+  "ecosystem": "npm_and_yarn",
+  "directory": "/dot-github/action",
   "updatedDependencies": [
     {
       "dependencyName": "@typescript-eslint/parser",

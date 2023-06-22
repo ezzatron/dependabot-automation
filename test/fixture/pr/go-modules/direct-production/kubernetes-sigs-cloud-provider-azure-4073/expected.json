@@ -1,4 +1,6 @@
 {
+  "ecosystem": "go_modules",
+  "directory": "/pkg/azclient",
   "updatedDependencies": [
     {
       "dependencyName": "github.com/onsi/ginkgo/v2",

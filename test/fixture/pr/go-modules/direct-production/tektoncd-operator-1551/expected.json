@@ -1,4 +1,6 @@
 {
+  "ecosystem": "go_modules",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "github.com/openshift-pipelines/pipelines-as-code",

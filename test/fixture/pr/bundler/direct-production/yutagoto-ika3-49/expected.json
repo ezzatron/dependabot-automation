@@ -1,4 +1,6 @@
 {
+  "ecosystem": "bundler",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "faraday",

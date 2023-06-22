@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pip",
+  "directory": "/backend",
   "updatedDependencies": [
     {
       "dependencyName": "pymongo",

@@ -1,4 +1,6 @@
 {
+  "ecosystem": "cargo",
+  "directory": "/src-tauri",
   "updatedDependencies": [
     {
       "dependencyName": "tauri",

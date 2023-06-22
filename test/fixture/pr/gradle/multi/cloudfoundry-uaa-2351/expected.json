@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "org.seleniumhq.selenium:selenium-java",

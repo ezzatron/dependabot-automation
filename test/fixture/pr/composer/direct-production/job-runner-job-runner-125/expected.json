@@ -1,4 +1,6 @@
 {
+  "ecosystem": "composer",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "symfony/lock",

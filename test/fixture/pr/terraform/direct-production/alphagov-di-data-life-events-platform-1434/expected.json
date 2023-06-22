@@ -1,4 +1,6 @@
 {
+  "ecosystem": "terraform",
+  "directory": "/terraform/modules/security",
   "updatedDependencies": [
     {
       "dependencyName": "terraform-aws-modules/lambda/aws",

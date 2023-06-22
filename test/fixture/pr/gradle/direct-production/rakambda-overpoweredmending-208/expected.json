@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/com.modrinth.minotaur",
   "updatedDependencies": [
     {
       "dependencyName": "com.modrinth.minotaur",

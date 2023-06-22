@@ -1,4 +1,6 @@
 {
+  "ecosystem": "nuget",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "Microsoft.Identity.Web",

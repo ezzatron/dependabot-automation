@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "androidx.navigation:navigation-fragment-ktx",

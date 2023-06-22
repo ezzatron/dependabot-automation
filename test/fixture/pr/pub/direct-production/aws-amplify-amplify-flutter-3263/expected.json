@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pub",
+  "directory": "/packages/common/amplify_db_common_dart",
   "updatedDependencies": [
     {
       "dependencyName": "amplify_core",

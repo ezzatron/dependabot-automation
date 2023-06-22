@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/main",
   "updatedDependencies": [
     {
       "dependencyName": "au.com.dius.pact.provider:junit5spring",

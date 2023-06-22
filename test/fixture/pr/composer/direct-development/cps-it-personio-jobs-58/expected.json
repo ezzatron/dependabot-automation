@@ -1,4 +1,6 @@
 {
+  "ecosystem": "composer",
+  "directory": "/develop",
   "updatedDependencies": [
     {
       "dependencyName": "brotkrueml/schema",

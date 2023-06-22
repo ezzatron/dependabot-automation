@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pip",
+  "directory": "/{{-cookiecutter.__project_name-}}",
   "updatedDependencies": [
     {
       "dependencyName": "ruff",

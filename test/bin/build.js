@@ -10,7 +10,7 @@ const require = await (async () => {
 })();`;
 
 await build({
-  entryPoints: ["src/parse-commit-message.ts"],
+  entryPoints: ["src/parse-pull-request.ts"],
   bundle: true,
   sourcemap: true,
   platform: "node",

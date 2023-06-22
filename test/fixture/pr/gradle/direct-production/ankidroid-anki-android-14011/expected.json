@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/dependency-updates",
   "updatedDependencies": [
     {
       "dependencyName": "androidx.activity:activity-ktx",

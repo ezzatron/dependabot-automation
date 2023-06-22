@@ -3,7 +3,7 @@
 import { readFile, writeFile } from "fs/promises";
 import { basename, dirname, resolve } from "path";
 import { fileURLToPath } from "url";
-import { parseCommitMessage } from "../src/main.js";
+import { parsePullRequest } from "../src/main.js";
 
 const bin = basename(process.argv[1]);
 const [, , fixtureName] = process.argv;
@@ -16,10 +16,12 @@ if (!fixtureName) {
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const fixturePath = resolve(__dirname, "../fixture/pr", fixtureName);
+const branchNamePath = resolve(fixturePath, "branch-name");
 const commitMessagePath = resolve(fixturePath, "commit-message");
 const expectedPath = resolve(fixturePath, "expected.json");
 
+const branch = (await readFile(branchNamePath)).toString().trim();
 const commitMessage = (await readFile(commitMessagePath)).toString();
-const result = parseCommitMessage(commitMessage);
+const result = parsePullRequest(branch, commitMessage);
 
 await writeFile(expectedPath, JSON.stringify(result, null, 2) + "\n");

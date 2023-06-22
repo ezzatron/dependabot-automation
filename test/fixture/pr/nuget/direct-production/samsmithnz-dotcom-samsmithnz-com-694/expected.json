@@ -1,4 +1,6 @@
 {
+  "ecosystem": "nuget",
+  "directory": "/SamSmithNZ/SamSmithNZ.Service",
   "updatedDependencies": [
     {
       "dependencyName": "Dapper",

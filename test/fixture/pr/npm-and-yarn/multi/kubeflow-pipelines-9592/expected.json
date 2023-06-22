@@ -1,4 +1,6 @@
 {
+  "ecosystem": "npm_and_yarn",
+  "directory": "/frontend/server",
   "updatedDependencies": [
     {
       "dependencyName": "fast-xml-parser",

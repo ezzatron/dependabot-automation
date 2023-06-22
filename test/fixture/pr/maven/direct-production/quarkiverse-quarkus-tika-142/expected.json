@@ -1,4 +1,6 @@
 {
+  "ecosystem": "maven",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "io.quarkiverse:quarkiverse-parent",

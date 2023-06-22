@@ -1,4 +1,6 @@
 {
+  "ecosystem": "composer",
+  "directory": "/main",
   "updatedDependencies": [
     {
       "dependencyName": "wpackagist-plugin/facebook-for-woocommerce",

@@ -1,9 +1,9 @@
 import { readdirSync, readFileSync } from "fs";
 import { resolve } from "path";
 import {
-  parseCommitMessage,
-  ParsedCommitMessage,
-} from "../../../src/parse-commit-message.js";
+  ParsedPullRequest,
+  parsePullRequest,
+} from "../../../src/parse-pull-request.js";
 
 type Fixture = [
   string,
@@ -48,17 +48,21 @@ for (const entry of readdirSync(fixturesPath, { withFileTypes: true })) {
   }
 }
 
-describe("parseCommitMessage() — fixtures", () => {
+describe("parsePullRequest() — fixtures", () => {
   it.each(fixtures)(
     "should parse an update-type for each dependency (%s)",
     (_, { ecosystem, path }) => {
       const expectedJSON = readFileSync(resolve(path, "expected.json"));
-      const expected = JSON.parse(
-        expectedJSON.toString()
-      ) as ParsedCommitMessage;
+      const expected = JSON.parse(expectedJSON.toString()) as ParsedPullRequest;
 
-      const message = readFileSync(resolve(path, "commit-message"));
-      const actual = parseCommitMessage(message.toString());
+      const branch = readFileSync(resolve(path, "branch-name"))
+        .toString()
+        .trim();
+      const commitMessage = readFileSync(
+        resolve(path, "commit-message")
+      ).toString();
+
+      const actual = parsePullRequest(branch, commitMessage);
 
       expect(actual).toEqual(expected);
     }

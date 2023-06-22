@@ -1,4 +1,6 @@
 {
+  "ecosystem": "docker",
+  "directory": "/platform",
   "updatedDependencies": [
     {
       "dependencyName": "amazoncorretto",

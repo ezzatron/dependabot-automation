@@ -1,4 +1,6 @@
 {
+  "ecosystem": "docker",
+  "directory": "/release-1.27",
   "updatedDependencies": [
     {
       "dependencyName": "golang",

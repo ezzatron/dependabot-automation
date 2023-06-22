@@ -1,4 +1,6 @@
 {
+  "ecosystem": "terraform",
+  "directory": "/terraform/backbone",
   "updatedDependencies": [
     {
       "dependencyName": "oracle/oci",

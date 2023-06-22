@@ -1,4 +1,6 @@
 {
+  "ecosystem": "submodules",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "mods/worldedit",

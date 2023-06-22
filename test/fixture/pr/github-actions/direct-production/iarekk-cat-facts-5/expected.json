@@ -1,4 +1,6 @@
 {
+  "ecosystem": "github_actions",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "erlef/setup-beam",

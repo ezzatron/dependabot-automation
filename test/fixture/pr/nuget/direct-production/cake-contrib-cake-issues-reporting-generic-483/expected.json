@@ -1,4 +1,6 @@
 {
+  "ecosystem": "nuget",
+  "directory": "/src",
   "updatedDependencies": [
     {
       "dependencyName": "Microsoft.NET.Test.Sdk",

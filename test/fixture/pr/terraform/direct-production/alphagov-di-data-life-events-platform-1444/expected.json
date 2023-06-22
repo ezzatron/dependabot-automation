@@ -1,4 +1,6 @@
 {
+  "ecosystem": "terraform",
+  "directory": "/terraform/shared",
   "updatedDependencies": [
     {
       "dependencyName": "terraform-aws-modules/lambda/aws",

@@ -1,4 +1,6 @@
 {
+  "ecosystem": "npm_and_yarn",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "@babel/preset-env",

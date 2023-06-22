@@ -1,4 +1,6 @@
 {
+  "ecosystem": "go_modules",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "github.com/kubernetes-csi/csi-lib-utils",

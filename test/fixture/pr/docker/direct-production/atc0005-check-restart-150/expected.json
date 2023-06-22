@@ -1,4 +1,6 @@
 {
+  "ecosystem": "docker",
+  "directory": "/dependabot/docker/builds/master",
   "updatedDependencies": [
     {
       "dependencyName": "atc0005/go-ci",

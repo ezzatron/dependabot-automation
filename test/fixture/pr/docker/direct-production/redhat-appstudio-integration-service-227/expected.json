@@ -1,4 +1,6 @@
 {
+  "ecosystem": "docker",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "ubi9/go-toolset",

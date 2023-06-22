@@ -1,4 +1,6 @@
 {
+  "ecosystem": "nuget",
+  "directory": "/converter",
   "updatedDependencies": [
     {
       "dependencyName": "Microsoft.IdentityModel.Tokens",

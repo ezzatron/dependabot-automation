@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pip",
+  "directory": "/dev",
   "updatedDependencies": [
     {
       "dependencyName": "ruff",

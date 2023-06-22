@@ -1,4 +1,6 @@
 {
+  "ecosystem": "npm_and_yarn",
+  "directory": "/server/src/main/webapp/WEB-INF",
   "updatedDependencies": [
     {
       "dependencyName": "jasmine-core",

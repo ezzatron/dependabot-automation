@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "org.jetbrains.kotlin:kotlin-gradle-plugin",

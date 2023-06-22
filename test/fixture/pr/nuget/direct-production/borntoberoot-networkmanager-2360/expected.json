@@ -1,4 +1,6 @@
 {
+  "ecosystem": "nuget",
+  "directory": "/Source/main",
   "updatedDependencies": [
     {
       "dependencyName": "AWSSDK.Core",

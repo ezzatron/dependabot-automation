@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/dependency-updates",
   "updatedDependencies": [
     {
       "dependencyName": "org.jlleitschuh.gradle:ktlint-gradle",

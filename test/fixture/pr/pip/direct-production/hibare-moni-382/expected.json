@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pip",
+  "directory": "/backend/dev",
   "updatedDependencies": [
     {
       "dependencyName": "urllib3",

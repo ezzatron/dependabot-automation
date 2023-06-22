@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pip",
+  "directory": "/api",
   "updatedDependencies": [
     {
       "dependencyName": "urllib3",

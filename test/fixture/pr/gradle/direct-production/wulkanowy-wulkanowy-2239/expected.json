@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/develop",
   "updatedDependencies": [
     {
       "dependencyName": "androidx.fragment:fragment-ktx",

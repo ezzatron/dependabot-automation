@@ -1,4 +1,6 @@
 {
+  "ecosystem": "composer",
+  "directory": "/main",
   "updatedDependencies": [
     {
       "dependencyName": "wpackagist-plugin/myworks-woo-sync-for-quickbooks-online",

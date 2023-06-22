@@ -1,4 +1,6 @@
 {
+  "ecosystem": "npm_and_yarn",
+  "directory": "/iam",
   "updatedDependencies": [
     {
       "dependencyName": "@sinonjs/fake-timers",

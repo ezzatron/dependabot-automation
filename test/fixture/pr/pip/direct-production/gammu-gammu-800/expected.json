@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pip",
+  "directory": "/docs/manual",
   "updatedDependencies": [
     {
       "dependencyName": "sphinx-rtd-theme",

@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pub",
+  "directory": "/packages/amplify/amplify_flutter",
   "updatedDependencies": [
     {
       "dependencyName": "amplify_core",

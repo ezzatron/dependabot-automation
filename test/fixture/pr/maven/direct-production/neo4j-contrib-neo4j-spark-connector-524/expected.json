@@ -1,4 +1,6 @@
 {
+  "ecosystem": "maven",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "org.neo4j:neo4j-cypher-dsl",

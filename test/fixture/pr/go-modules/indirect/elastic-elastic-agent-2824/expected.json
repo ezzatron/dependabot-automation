@@ -1,4 +1,6 @@
 {
+  "ecosystem": "go_modules",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "github.com/elastic/elastic-transport-go/v8",

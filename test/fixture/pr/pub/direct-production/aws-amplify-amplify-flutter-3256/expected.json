@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pub",
+  "directory": "/packages/storage/amplify_storage_s3",
   "updatedDependencies": [
     {
       "dependencyName": "amplify_core",

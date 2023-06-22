@@ -1,4 +1,6 @@
 {
+  "ecosystem": "cargo",
+  "directory": "/main",
   "updatedDependencies": [
     {
       "dependencyName": "wasmtime",

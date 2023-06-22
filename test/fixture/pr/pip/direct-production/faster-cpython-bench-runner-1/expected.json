@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pip",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "pyright",

@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "org.bouncycastle:bcprov-jdk18on",

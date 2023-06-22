@@ -1,4 +1,6 @@
 {
+  "ecosystem": "docker",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "amazon/aws-cli",

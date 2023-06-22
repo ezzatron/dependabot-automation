@@ -1,4 +1,6 @@
 {
+  "ecosystem": "pip",
+  "directory": "/lambda/lambda-examples/lambda/python",
   "updatedDependencies": [
     {
       "dependencyName": "botocore",

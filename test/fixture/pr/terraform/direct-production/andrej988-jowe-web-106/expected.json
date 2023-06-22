@@ -1,4 +1,6 @@
 {
+  "ecosystem": "terraform",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "hashicorp/archive",

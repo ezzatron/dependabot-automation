@@ -1,4 +1,6 @@
 {
+  "ecosystem": "gradle",
+  "directory": "/dev.emi/trinkets",
   "updatedDependencies": [
     {
       "dependencyName": "dev.emi:trinkets",

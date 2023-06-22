@@ -1,4 +1,6 @@
 {
+  "ecosystem": "go_modules",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "k8s.io/cli-runtime",

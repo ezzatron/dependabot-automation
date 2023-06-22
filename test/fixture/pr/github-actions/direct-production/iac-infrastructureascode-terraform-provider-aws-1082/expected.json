@@ -1,4 +1,6 @@
 {
+  "ecosystem": "github_actions",
+  "directory": "/",
   "updatedDependencies": [
     {
       "dependencyName": "peter-evans/create-or-update-comment",

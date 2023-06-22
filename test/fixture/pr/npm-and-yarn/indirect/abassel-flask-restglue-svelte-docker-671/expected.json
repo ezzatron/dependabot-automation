@@ -1,4 +1,6 @@
 {
+  "ecosystem": "npm_and_yarn",
+  "directory": "/frontend",
   "updatedDependencies": [
     {
       "dependencyName": "@babel/helper-validator-identifier",
