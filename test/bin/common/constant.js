@@ -21,3 +21,9 @@ export const ecosystems = [
   "submodules",
   "terraform",
 ];
+
+export const updateTypes = [
+  "version-update:semver-major",
+  "version-update:semver-minor",
+  "version-update:semver-patch",
+];
