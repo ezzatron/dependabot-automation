@@ -34,11 +34,11 @@ async function main() {
         const expectedPath = resolve(
           dependencyTypeDir,
           entry.name,
-          "expected.json"
+          "expected.json",
         );
         const expectedJSON = await readFile(expectedPath);
         const { directory, updatedDependencies } = JSON.parse(
-          expectedJSON.toString()
+          expectedJSON.toString(),
         );
 
         const notableReasons = [];
@@ -51,7 +51,7 @@ async function main() {
         for (const { dependencyType, updateType } of updatedDependencies) {
           if (!dependencyTypes.includes(dependencyType)) {
             notableReasons.push(
-              `dependency type ${JSON.stringify(dependencyType)}`
+              `dependency type ${JSON.stringify(dependencyType)}`,
             );
           }
 

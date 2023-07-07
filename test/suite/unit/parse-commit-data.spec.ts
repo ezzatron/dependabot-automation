@@ -167,7 +167,7 @@ describe("parseCommitData()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitData(yaml)).toThrow(
-          "Invalid commit data: Unable to parse YAML:"
+          "Invalid commit data: Unable to parse YAML:",
         );
       });
     });
@@ -180,10 +180,10 @@ describe("parseCommitData()", () => {
             indented`
               Invalid commit data:
               ${expectedErrors}
-              `
+              `,
           );
         });
-      }
+      },
     );
   });
 

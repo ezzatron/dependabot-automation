@@ -29,7 +29,7 @@ async function main() {
       octokit,
       owner,
       repo,
-      parseInt(pullNumber, 10)
+      parseInt(pullNumber, 10),
     );
   } catch (error) {
     if (error instanceof SkipError) {

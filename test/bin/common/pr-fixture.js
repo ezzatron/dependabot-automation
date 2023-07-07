@@ -12,7 +12,7 @@ export async function writePullRequestFixture(
   octokit,
   owner,
   repo,
-  pullNumber
+  pullNumber,
 ) {
   const { data: pr } = await octokit.rest.pulls.get({
     owner,
@@ -57,9 +57,9 @@ export async function writePullRequestFixture(
       resolve(
         fixtureDir,
         "failure",
-        `${slugify(owner)}-${slugify(repo)}-${pr.number}`
+        `${slugify(owner)}-${slugify(repo)}-${pr.number}`,
       ),
-      commitMessage
+      commitMessage,
     );
 
     throw new SkipError("Bad data");
@@ -125,7 +125,7 @@ async function writeFixture(
   owner,
   repo,
   pr,
-  commitMessage
+  commitMessage,
 ) {
   const name = [
     slugify(ecosystem),

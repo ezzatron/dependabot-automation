@@ -5,7 +5,7 @@ import { UpdateType } from "./type/update-type.js";
 
 export function parsePullRequest(
   branch: string,
-  commitMessage: string
+  commitMessage: string,
 ): ParsedPullRequest {
   const { updatedDependencies } = parseCommitMessage(commitMessage);
   const dependencyNames = updatedDependencies.map(({ dependencyName: n }) => n);

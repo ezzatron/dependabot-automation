@@ -45,7 +45,7 @@ async function main() {
     octokit.rest.search.issuesAndPullRequests,
     {
       q: "is:pr involves:dependabot",
-    }
+    },
   );
 
   // loop through each PR and determine the ecosystem and dependency type(s)
@@ -71,7 +71,7 @@ async function main() {
       // double-check that the PR is from Dependabot
       if (submitter !== "dependabot[bot]") {
         console.warn(
-          `WARNING: Skipping PR ${prSlug} submitted by ${submitter}...`
+          `WARNING: Skipping PR ${prSlug} submitted by ${submitter}...`,
         );
         continue;
       }
@@ -84,7 +84,7 @@ async function main() {
           octokit,
           owner,
           repo,
-          prSummary.number
+          prSummary.number,
         );
       } catch (error) {
         if (error instanceof SkipError) {
@@ -101,14 +101,14 @@ async function main() {
       // but warn so that the script can be updated
       if (!ecosystems.includes(ecosystem)) {
         console.warn(
-          `WARNING: PR ${prSlug} has unexpected ecosystem ${ecosystem}`
+          `WARNING: PR ${prSlug} has unexpected ecosystem ${ecosystem}`,
         );
 
         if (!counts[ecosystem]) counts[ecosystem] = {};
       }
       if (!isMultiDependency && !dependencyTypes.includes(dependencyType)) {
         console.warn(
-          `WARNING: PR ${prSlug} has unexpected dependency-type ${dependencyType}`
+          `WARNING: PR ${prSlug} has unexpected dependency-type ${dependencyType}`,
         );
 
         if (!counts[ecosystem][dependencyType]) {
@@ -130,7 +130,7 @@ async function main() {
       // done
       if (
         Object.values(counts).every((counts) =>
-          Object.values(counts).every((count) => count >= 10)
+          Object.values(counts).every((count) => count >= 10),
         )
       ) {
         console.log("All quotas met, done.");

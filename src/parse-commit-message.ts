@@ -26,7 +26,7 @@ export function parseCommitMessage(message: string): ParsedCommitMessage {
 
   if (!commitDataMatch) {
     throw new Error(
-      "Unable to parse Dependabot commit message: Commit data not found."
+      "Unable to parse Dependabot commit message: Commit data not found.",
     );
   }
 
@@ -70,7 +70,7 @@ export function parseCommitMessage(message: string): ParsedCommitMessage {
       } else if (requirementFrom && requirementTo) {
         updateType = determineUpdateType(
           decodeURIComponent(requirementFrom),
-          decodeURIComponent(requirementTo)
+          decodeURIComponent(requirementTo),
         );
       }
     }

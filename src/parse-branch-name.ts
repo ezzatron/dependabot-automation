@@ -3,12 +3,12 @@
  */
 export function parseBranchName(
   dependencies: string[],
-  branch: string
+  branch: string,
 ): ParsedBranchName {
   if (dependencies.length < 1) {
     throw new Error(
       "Unable to parse Dependabot branch name: " +
-        "Dependency list must not be empty."
+        "Dependency list must not be empty.",
     );
   }
 
@@ -17,7 +17,7 @@ export function parseBranchName(
 
     throw new Error(
       "Unable to parse Dependabot branch name: " +
-        `Branch name ${quotedBranch} must start with "dependabot".`
+        `Branch name ${quotedBranch} must start with "dependabot".`,
     );
   }
 

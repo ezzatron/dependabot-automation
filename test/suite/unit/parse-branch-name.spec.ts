@@ -15,9 +15,9 @@ describe("parseBranchName()", () => {
 
     it("should throw", () => {
       expect(() =>
-        parseBranchName(dependencies, "dependabot/nuget/coffee-rails")
+        parseBranchName(dependencies, "dependabot/nuget/coffee-rails"),
       ).toThrow(
-        "Unable to parse Dependabot branch name: Dependency list must not be empty."
+        "Unable to parse Dependabot branch name: Dependency list must not be empty.",
       );
     });
   });
@@ -34,7 +34,7 @@ describe("parseBranchName()", () => {
         wrapped`
           Unable to parse Dependabot branch name: Branch name
           "non/dependabot/branch/name" must start with "dependabot".
-          `
+          `,
       );
     });
   });

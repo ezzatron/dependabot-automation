@@ -11,7 +11,7 @@ type Fixture = [
     dependencyType: string;
     ecosystem: string;
     path: string;
-  }
+  },
 ];
 
 const fixturesPath = resolve(__dirname, "../../fixture/pr");
@@ -59,12 +59,12 @@ describe("parsePullRequest() — fixtures", () => {
         .toString()
         .trim();
       const commitMessage = readFileSync(
-        resolve(path, "commit-message")
+        resolve(path, "commit-message"),
       ).toString();
 
       const actual = parsePullRequest(branch, commitMessage);
 
       expect(actual).toEqual(expected);
-    }
+    },
   );
 });

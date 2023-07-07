@@ -15,7 +15,7 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: Commit data not found."
+          "Unable to parse Dependabot commit message: Commit data not found.",
         );
       });
     });
@@ -42,7 +42,7 @@ describe("parseCommitMessage()", () => {
 
       it("should throw", () => {
         expect(() => parseCommitMessage(message)).toThrow(
-          "Unable to parse Dependabot commit message: Invalid commit data: Unable to parse YAML:"
+          "Unable to parse Dependabot commit message: Invalid commit data: Unable to parse YAML:",
         );
       });
     });
@@ -74,7 +74,7 @@ describe("parseCommitMessage()", () => {
           indented`
             Unable to parse Dependabot commit message: Invalid commit data:
               - must be string (/updated-dependencies/0/dependency-name)
-            `
+            `,
         );
       });
     });

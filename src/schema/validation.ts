@@ -11,7 +11,7 @@ const ajv = ajvErrors(
     schemas: [commitDataSchema],
     allErrors: true,
     useDefaults: true,
-  })
+  }),
 );
 
 class ValidateError extends Error {
@@ -26,7 +26,7 @@ class ValidateError extends Error {
 
 export function createValidate<T>(
   schemaId: string,
-  label: string
+  label: string,
 ): (value: unknown) => T {
   return function validate(value) {
     const validator = ajv.getSchema(schemaId);
@@ -38,7 +38,7 @@ export function createValidate<T>(
 
     const error = new ValidateError(
       `Invalid ${label}:\n${renderErrors(errors)}`,
-      errors
+      errors,
     );
 
     throw error;

@@ -1,5 +1,5 @@
 export function when([description]: TemplateStringsArray): (
-  fn: () => void
+  fn: () => void,
 ) => void {
   description = description.replaceAll(/\s+/g, " ").trim();
 

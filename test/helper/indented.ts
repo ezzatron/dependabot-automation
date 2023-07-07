@@ -22,7 +22,7 @@ export function indented(
 
   if (lastLine.trim() !== "") {
     throw new Error(
-      "The last line of an indented string may only contain whitespace."
+      "The last line of an indented string may only contain whitespace.",
     );
   }
 
@@ -39,7 +39,7 @@ export function indented(
     if (!indentPattern.test(line)) {
       throw new Error(
         `Line ${i + 1} of indented string has incorrect indentation. ` +
-          `Line content: ${JSON.stringify(line)}}`
+          `Line content: ${JSON.stringify(line)}}`,
       );
     }
   }
