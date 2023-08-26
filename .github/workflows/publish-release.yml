@@ -11,5 +11,8 @@ jobs:
     name: Ghalactic
     uses: ghalactic/repos/.github/workflows/shared-publish-release.yml@main
     secrets: inherit
+    permissions:
+      contents: write
+      discussions: write
     with:
       tag: ${{ github.ref_name }}
