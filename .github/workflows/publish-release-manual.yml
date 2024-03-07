@@ -18,4 +18,4 @@ jobs:
       contents: write
       discussions: write
     with:
-      tag: ${{ github.event.inputs.tag }}
+      tag: ${{ inputs.tag }}
